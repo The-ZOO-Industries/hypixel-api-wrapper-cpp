@@ -9,3 +9,5 @@ cmake-build-*/
 *.dll
 *.lib
 *.a
+__pycache__/
+*.pyc
