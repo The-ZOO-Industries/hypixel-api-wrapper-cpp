@@ -28,6 +28,12 @@ double xp = skywars.skywars_experience().value_or(0.0);
 - `parse_guild_permissions_response`
 - `parse_pets_response`
 - `parse_quests_response`
+- `parse_skyblock_profile_v2_response`
+- `parse_skyblock_garden_response`
+- `parse_skyblock_bazaar_products_response`
+- `parse_skyblock_collections_response`
+- `parse_skyblock_skills_response`
+- `parse_skyblock_items_response`
 
 ## Notes
 
