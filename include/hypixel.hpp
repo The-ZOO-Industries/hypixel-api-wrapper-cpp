@@ -657,6 +657,15 @@ class PlayerResponsePlayerQuestsArenaMadness;
 class PlayerResponsePlayerQuestsArenaTeamPlayerActiveObjectives;
 class PlayerResponsePlayerQuestsArenaTeamPlayerActive;
 class PlayerResponsePlayerQuestsArenaTeamPlayer;
+class PlayerResponsePlayerQuestsArcadeDailyPlayActiveObjectives;
+class PlayerResponsePlayerQuestsArcadeDailyPlayActive;
+class PlayerResponsePlayerQuestsArcadeDailyPlay;
+class PlayerResponsePlayerQuestsArcadeWeeklyPlayActiveObjectives;
+class PlayerResponsePlayerQuestsArcadeWeeklyPlayActive;
+class PlayerResponsePlayerQuestsArcadeWeeklyPlay;
+class PlayerResponsePlayerQuestsArcadeWeeklyArtistActiveObjectives;
+class PlayerResponsePlayerQuestsArcadeWeeklyArtistActive;
+class PlayerResponsePlayerQuestsArcadeWeeklyArtist;
 class PlayerResponsePlayerQuests;
 class PlayerResponsePlayerSettingsCompass;
 class PlayerResponsePlayerSettings;
@@ -1038,6 +1047,7 @@ class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloSlothInventory;
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloDefaultInventory;
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloFallenAngelInventory;
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaDefaultInventory;
+class PlayerResponsePlayerStatsSkyWarsKitMiningTeamDefaultInventory;
 class PlayerResponsePlayerStatsSkyWars;
 class PlayerResponsePlayerStatsTrueCombat;
 class PlayerResponsePlayerStatsSuperSmashClassStatsBOTMUNBatarang;
@@ -2349,12 +2359,36 @@ class PlayerResponsePlayerStatsDuelsMwDuelLayoutShamanNew;
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutAthlete2;
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloAthlete;
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman4;
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutSpeleologist5;
+class PlayerResponsePlayerStatsDuelsLayoutSwDuelSalmon;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutPirate4;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman1;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman4;
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutBlacksmith4;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutZombieNew;
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman1;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeletonNew;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutWerewolf1;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman5;
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman2;
+class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutCreepertamer5;
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutPyromancer2;
+class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutMeatmaster5;
+class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutSlimeyslime5;
+class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutTim5;
+class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger;
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1;
 class PlayerResponsePlayerStatsDuels;
 class PlayerResponsePlayerStatsBuildBattleLeaderboardSettings;
 class PlayerResponsePlayerStatsBuildBattleLastWon;
 class PlayerResponsePlayerStatsBuildBattleEmblemColorUnlocked;
 class PlayerResponsePlayerStatsBuildBattleEmblem;
 class PlayerResponsePlayerStatsBuildBattleVotesMrs;
+class PlayerResponsePlayerStatsBuildBattleVotesReceived;
+class PlayerResponsePlayerStatsBuildBattleBackdropWins;
+class PlayerResponsePlayerStatsBuildBattleFavorites;
 class PlayerResponsePlayerStatsBuildBattle;
 class PlayerResponsePlayerStatsPitProfileKingQuest;
 class PlayerResponsePlayerStatsPitProfileInvEnderchest;
@@ -2476,6 +2510,7 @@ class PlayerResponsePlayerStatsMainLobbyFishingStats2025ChristmasLava;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2025Christmas;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2025;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterWater;
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterLava;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026Easter;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026;
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanentWater;
@@ -2519,6 +2554,7 @@ class PlayerResponsePlayerStatsMainLobbyBecomeSheepEaten;
 class PlayerResponsePlayerStatsMainLobbyBecomeSheepSettings;
 class PlayerResponsePlayerStatsMainLobbyBecomeSheep;
 class PlayerResponsePlayerStatsMainLobbyBecomeRabbitEaten;
+class PlayerResponsePlayerStatsMainLobbyBecomeRabbitSettings;
 class PlayerResponsePlayerStatsMainLobbyBecomeRabbit;
 class PlayerResponsePlayerStatsMainLobby;
 class PlayerResponsePlayerStats;
@@ -3164,6 +3200,11 @@ class PlayerResponsePlayerPetStatsWITHERSKELETONEXERCISE;
 class PlayerResponsePlayerPetStatsWITHERSKELETONHUNGER;
 class PlayerResponsePlayerPetStatsWITHERSKELETONTHIRST;
 class PlayerResponsePlayerPetStatsWITHERSKELETON;
+class PlayerResponsePlayerPetStatsTURKEY;
+class PlayerResponsePlayerPetStatsENDERMANCAKEHUNGER;
+class PlayerResponsePlayerPetStatsENDERMANCAKETHIRST;
+class PlayerResponsePlayerPetStatsENDERMANCAKEEXERCISE;
+class PlayerResponsePlayerPetStatsENDERMANCAKE;
 class PlayerResponsePlayerPetStats;
 class PlayerResponsePlayerHousingMetaPlayerSettings;
 class PlayerResponsePlayerHousingMeta;
@@ -3554,6 +3595,9 @@ class PlayerResponsePlayerSeasonalEaster2026BingoCasualHardObjectives;
 class PlayerResponsePlayerSeasonalEaster2026BingoCasualHard;
 class PlayerResponsePlayerSeasonalEaster2026BingoPvpHardObjectives;
 class PlayerResponsePlayerSeasonalEaster2026BingoPvpHard;
+class PlayerResponsePlayerSeasonalEaster2026BingoRewards;
+class PlayerResponsePlayerSeasonalEaster2026BingoClassicHardObjectives;
+class PlayerResponsePlayerSeasonalEaster2026BingoClassicHard;
 class PlayerResponsePlayerSeasonalEaster2026Bingo;
 class PlayerResponsePlayerSeasonalEaster2026;
 class PlayerResponsePlayerSeasonalEaster;
@@ -3708,6 +3752,7 @@ class PlayerResponsePlayerUpcomingLanguageReleaseFilipino;
 class PlayerResponsePlayerUpcomingLanguageReleaseRomanian;
 class PlayerResponsePlayerSkin;
 class PlayerResponsePlayerUpcomingLanguageReleaseMalay;
+class PlayerResponsePlayerUpcomingLanguageReleaseThai;
 class PlayerResponsePlayer;
 class PlayerResponse;
 class AchievementsResponseAchievementsArcadeOneTimeCREEPERATTACKSURVIVAL;
@@ -8016,6 +8061,9 @@ public:
   [[nodiscard]] JsonView skull6() const { return at("skull6"); }
   [[nodiscard]] JsonView skull7() const { return at("skull7"); }
   [[nodiscard]] JsonView skull9() const { return at("skull9"); }
+  [[nodiscard]] JsonView skull16() const { return at("skull16"); }
+  [[nodiscard]] JsonView skull29() const { return at("skull29"); }
+  [[nodiscard]] JsonView skull21() const { return at("skull21"); }
 };
 
 class PlayerResponsePlayerQuestsHalloween2014Active : public JsonView {
@@ -13074,6 +13122,72 @@ public:
   [[nodiscard]] JsonView completions() const { return at("completions"); }
 };
 
+class PlayerResponsePlayerQuestsArcadeDailyPlayActiveObjectives : public JsonView {
+public:
+  using JsonView::JsonView;
+
+};
+
+class PlayerResponsePlayerQuestsArcadeDailyPlayActive : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeDailyPlayActiveObjectives objectives() const { return object_at<PlayerResponsePlayerQuestsArcadeDailyPlayActiveObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView started() const { return at("started"); }
+};
+
+class PlayerResponsePlayerQuestsArcadeDailyPlay : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeDailyPlayActive active() const { return object_at<PlayerResponsePlayerQuestsArcadeDailyPlayActive>("active"); }
+};
+
+class PlayerResponsePlayerQuestsArcadeWeeklyPlayActiveObjectives : public JsonView {
+public:
+  using JsonView::JsonView;
+
+};
+
+class PlayerResponsePlayerQuestsArcadeWeeklyPlayActive : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyPlayActiveObjectives objectives() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyPlayActiveObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView started() const { return at("started"); }
+};
+
+class PlayerResponsePlayerQuestsArcadeWeeklyPlay : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyPlayActive active() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyPlayActive>("active"); }
+};
+
+class PlayerResponsePlayerQuestsArcadeWeeklyArtistActiveObjectives : public JsonView {
+public:
+  using JsonView::JsonView;
+
+};
+
+class PlayerResponsePlayerQuestsArcadeWeeklyArtistActive : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyArtistActiveObjectives objectives() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyArtistActiveObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView started() const { return at("started"); }
+};
+
+class PlayerResponsePlayerQuestsArcadeWeeklyArtist : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyArtistActive active() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyArtistActive>("active"); }
+};
+
 class PlayerResponsePlayerQuests : public JsonView {
 public:
   using JsonView::JsonView;
@@ -13282,6 +13396,9 @@ public:
   [[nodiscard]] PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2025 mm_special_weekly_killer_instinct_2025() const { return object_at<PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2025>("mm_special_weekly_killer_instinct_2025"); }
   [[nodiscard]] PlayerResponsePlayerQuestsArenaMadness arena_madness() const { return object_at<PlayerResponsePlayerQuestsArenaMadness>("arena_madness"); }
   [[nodiscard]] PlayerResponsePlayerQuestsArenaTeamPlayer arena_team_player() const { return object_at<PlayerResponsePlayerQuestsArenaTeamPlayer>("arena_team_player"); }
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeDailyPlay arcade_daily_play() const { return object_at<PlayerResponsePlayerQuestsArcadeDailyPlay>("arcade_daily_play"); }
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyPlay arcade_weekly_play() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyPlay>("arcade_weekly_play"); }
+  [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyArtist arcade_weekly_artist() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyArtist>("arcade_weekly_artist"); }
 };
 
 class PlayerResponsePlayerSettingsCompass : public JsonView {
@@ -14051,6 +14168,11 @@ public:
   [[nodiscard]] JsonView maps_for_easy() const { return at("maps_for_easy"); }
   [[nodiscard]] JsonView maps_for_hard() const { return at("maps_for_hard"); }
   [[nodiscard]] JsonView maps_for_medium() const { return at("maps_for_medium"); }
+  [[nodiscard]] JsonView health_buff() const { return at("health_buff"); }
+  [[nodiscard]] JsonView natural_regeneration() const { return at("natural_regeneration"); }
+  [[nodiscard]] JsonView no_fall_damage() const { return at("no_fall_damage"); }
+  [[nodiscard]] JsonView permanent_pvp() const { return at("permanent_pvp"); }
+  [[nodiscard]] JsonView power_up_abundance() const { return at("power_up_abundance"); }
 };
 
 class PlayerResponsePlayerStatsArcadeDisastersStatsDeaths : public JsonView {
@@ -14657,6 +14779,11 @@ public:
   [[nodiscard]] JsonView fb_powerkicks() const { return at("fb_powerkicks"); }
   [[nodiscard]] JsonView fb_goals() const { return at("fb_goals"); }
   [[nodiscard]] JsonView fb_wins() const { return at("fb_wins"); }
+  [[nodiscard]] JsonView witch_wins_witch_hunt() const { return at("witch_wins_witch_hunt"); }
+  [[nodiscard]] JsonView necro_kills_witch_hunt() const { return at("necro_kills_witch_hunt"); }
+  [[nodiscard]] JsonView necro_wins_witch_hunt() const { return at("necro_wins_witch_hunt"); }
+  [[nodiscard]] JsonView town_wins_witch_hunt() const { return at("town_wins_witch_hunt"); }
+  [[nodiscard]] JsonView twin_wins_witch_hunt() const { return at("twin_wins_witch_hunt"); }
 };
 
 class PlayerResponsePlayerStatsArena : public JsonView {
@@ -14912,6 +15039,20 @@ public:
   [[nodiscard]] JsonView combatTracker() const { return at("combatTracker"); }
   [[nodiscard]] JsonView deaths() const { return at("deaths"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView Arena_arena_rating_10_25_position() const { return at("Arena_arena_rating_10_25_position"); }
+  [[nodiscard]] JsonView Arena_arena_rating_10_25_rating() const { return at("Arena_arena_rating_10_25_rating"); }
+  [[nodiscard]] JsonView Arena_arena_rating_4_26_position() const { return at("Arena_arena_rating_4_26_position"); }
+  [[nodiscard]] JsonView Arena_arena_rating_4_26_rating() const { return at("Arena_arena_rating_4_26_rating"); }
+  [[nodiscard]] JsonView Arena_arena_rating_2_26_position() const { return at("Arena_arena_rating_2_26_position"); }
+  [[nodiscard]] JsonView Arena_arena_rating_2_26_rating() const { return at("Arena_arena_rating_2_26_rating"); }
+  [[nodiscard]] JsonView Arena_arena_rating_3_26_position() const { return at("Arena_arena_rating_3_26_position"); }
+  [[nodiscard]] JsonView Arena_arena_rating_3_26_rating() const { return at("Arena_arena_rating_3_26_rating"); }
+  [[nodiscard]] JsonView Arena_arena_rating_1_26_position() const { return at("Arena_arena_rating_1_26_position"); }
+  [[nodiscard]] JsonView Arena_arena_rating_1_26_rating() const { return at("Arena_arena_rating_1_26_rating"); }
+  [[nodiscard]] JsonView Arena_arena_rating_12_25_position() const { return at("Arena_arena_rating_12_25_position"); }
+  [[nodiscard]] JsonView Arena_arena_rating_12_25_rating() const { return at("Arena_arena_rating_12_25_rating"); }
+  [[nodiscard]] JsonView Arena_arena_rating_11_25_position() const { return at("Arena_arena_rating_11_25_position"); }
+  [[nodiscard]] JsonView Arena_arena_rating_11_25_rating() const { return at("Arena_arena_rating_11_25_rating"); }
 };
 
 class PlayerResponsePlayerStatsBattlegroundBoundWeaponPaladin : public JsonView {
@@ -15359,6 +15500,8 @@ public:
   [[nodiscard]] JsonView reckless_ascent() const { return at("reckless_ascent"); }
   [[nodiscard]] JsonView weekly_wins_capturetheflag_a() const { return at("weekly_wins_capturetheflag_a"); }
   [[nodiscard]] JsonView life_leeched_aquamancer() const { return at("life_leeched_aquamancer"); }
+  [[nodiscard]] JsonView life_leeched_crusader() const { return at("life_leeched_crusader"); }
+  [[nodiscard]] JsonView damage_delayed_defender() const { return at("damage_delayed_defender"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesRogueInventory : public JsonView {
@@ -15420,6 +15563,8 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
+  [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
@@ -15543,8 +15688,11 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
+  [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
@@ -15750,6 +15898,7 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
@@ -15834,9 +15983,11 @@ public:
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
@@ -15910,6 +16061,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
@@ -15957,6 +16109,7 @@ public:
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
@@ -15993,6 +16146,7 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
@@ -16075,6 +16229,7 @@ public:
   [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
@@ -16111,8 +16266,12 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
@@ -16129,6 +16288,7 @@ public:
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
@@ -16152,6 +16312,7 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
@@ -16192,6 +16353,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
@@ -16319,6 +16481,7 @@ public:
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
@@ -16326,6 +16489,7 @@ public:
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
@@ -16600,6 +16764,7 @@ public:
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _14() const { return at("14"); }
+  [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
@@ -16638,9 +16803,12 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _15() const { return at("15"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
@@ -16652,6 +16820,7 @@ public:
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -16684,6 +16853,9 @@ public:
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
@@ -16793,9 +16965,11 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
@@ -16832,6 +17006,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
@@ -16871,6 +17046,7 @@ public:
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
@@ -16914,11 +17090,13 @@ public:
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
@@ -16946,10 +17124,12 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
@@ -16998,6 +17178,7 @@ public:
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
@@ -17049,6 +17230,7 @@ public:
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
@@ -20219,6 +20401,77 @@ public:
   [[nodiscard]] JsonView inGamePresentsCap_2025_7() const { return at("inGamePresentsCap_2025_7"); }
   [[nodiscard]] JsonView inGamePresentsCap_2025_9() const { return at("inGamePresentsCap_2025_9"); }
   [[nodiscard]] JsonView inGamePresentsCap_2025_20() const { return at("inGamePresentsCap_2025_20"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_17() const { return at("inGamePresentsCap_2025_17"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_13() const { return at("inGamePresentsCap_2025_13"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_19() const { return at("inGamePresentsCap_2025_19"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_12() const { return at("inGamePresentsCap_2025_12"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_14() const { return at("inGamePresentsCap_2025_14"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_25() const { return at("inGamePresentsCap_2025_25"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_16() const { return at("inGamePresentsCap_2025_16"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_26() const { return at("inGamePresentsCap_2025_26"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_3() const { return at("inGamePresentsCap_2026_3"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_4() const { return at("inGamePresentsCap_2026_4"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_28() const { return at("inGamePresentsCap_2025_28"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_8() const { return at("inGamePresentsCap_2025_8"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_10() const { return at("inGamePresentsCap_2025_10"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_22() const { return at("inGamePresentsCap_2025_22"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_27() const { return at("inGamePresentsCap_2025_27"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_29() const { return at("inGamePresentsCap_2025_29"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_18() const { return at("inGamePresentsCap_2025_18"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_21() const { return at("inGamePresentsCap_2025_21"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_23() const { return at("inGamePresentsCap_2025_23"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_5() const { return at("inGamePresentsCap_2025_5"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_24() const { return at("inGamePresentsCap_2025_24"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_11() const { return at("inGamePresentsCap_2025_11"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_15() const { return at("inGamePresentsCap_2025_15"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_30() const { return at("inGamePresentsCap_2025_30"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_31() const { return at("inGamePresentsCap_2025_31"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_2() const { return at("inGamePresentsCap_2026_2"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_arrows_hit_troll() const { return at("tourney_blitz_duo_1_arrows_hit_troll"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_kills_troll() const { return at("tourney_blitz_duo_1_kills_troll"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_5() const { return at("inGamePresentsCap_2026_5"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_1() const { return at("inGamePresentsCap_2026_1"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_wins_teams_rogue() const { return at("tourney_blitz_duo_0_wins_teams_rogue"); }
+  [[nodiscard]] JsonView votes_Team_Deathmatch() const { return at("votes_Team Deathmatch"); }
+  [[nodiscard]] JsonView kit_item_rename_Troll_stick() const { return at("kit_item_rename_Troll_stick"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_taunt_kills_blaze() const { return at("tourney_blitz_duo_0_taunt_kills_blaze"); }
+  [[nodiscard]] JsonView kit_item_rename_Astronaut_wood_axe() const { return at("kit_item_rename_Astronaut_wood_axe"); }
+  [[nodiscard]] JsonView kit_item_rename_Toxicologist_wood_axe() const { return at("kit_item_rename_Toxicologist_wood_axe"); }
+  [[nodiscard]] JsonView kit_item_rename_Golem_stone_axe() const { return at("kit_item_rename_Golem_stone_axe"); }
+  [[nodiscard]] JsonView kit_item_rename_Tim_wood_sword() const { return at("kit_item_rename_Tim_wood_sword"); }
+  [[nodiscard]] JsonView kit_item_rename_Donkeytamer_stone_axe() const { return at("kit_item_rename_Donkeytamer_stone_axe"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_wins_teams_toxicologist() const { return at("tourney_blitz_duo_0_wins_teams_toxicologist"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_taunt_kills_guardian() const { return at("tourney_blitz_duo_1_taunt_kills_guardian"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_taunt_kills_baker() const { return at("tourney_blitz_duo_1_taunt_kills_baker"); }
+  [[nodiscard]] JsonView kit_item_rename_Knight_gold_sword_dust() const { return at("kit_item_rename_Knight_gold_sword_dust"); }
+  [[nodiscard]] JsonView kit_item_rename_Knight_gold_leggings_dust() const { return at("kit_item_rename_Knight_gold_leggings_dust"); }
+  [[nodiscard]] JsonView kit_item_rename_Pigman_gold_chestplate() const { return at("kit_item_rename_Pigman_gold_chestplate"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_taunt_kills_jockey() const { return at("tourney_blitz_duo_0_taunt_kills_jockey"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_2_taunt_kills_baker() const { return at("tourney_blitz_duo_2_taunt_kills_baker"); }
+  [[nodiscard]] JsonView kit_item_rename_Guardian_chainmail_chestplate() const { return at("kit_item_rename_Guardian_chainmail_chestplate"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_taunt_kills_reaper() const { return at("tourney_blitz_duo_0_taunt_kills_reaper"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_taunt_kills_arachnologist() const { return at("tourney_blitz_duo_0_taunt_kills_arachnologist"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_taunt_kills_snowman() const { return at("tourney_blitz_duo_0_taunt_kills_snowman"); }
+  [[nodiscard]] JsonView kit_item_rename_RedDragon_diamond_boots() const { return at("kit_item_rename_RedDragon_diamond_boots"); }
+  [[nodiscard]] JsonView kit_item_rename_RedDragon_iron_sword() const { return at("kit_item_rename_RedDragon_iron_sword"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_2_arrows_fired_troll() const { return at("tourney_blitz_duo_2_arrows_fired_troll"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_2_taunt_kills_guardian() const { return at("tourney_blitz_duo_2_taunt_kills_guardian"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_arrows_hit_reddragon() const { return at("tourney_blitz_duo_0_arrows_hit_reddragon"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_wins_teams_reddragon() const { return at("tourney_blitz_duo_0_wins_teams_reddragon"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_arrows_fired_reddragon() const { return at("tourney_blitz_duo_0_arrows_fired_reddragon"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_taunt_kills_reddragon() const { return at("tourney_blitz_duo_0_taunt_kills_reddragon"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_2_mobs_spawned_shark() const { return at("tourney_blitz_duo_2_mobs_spawned_shark"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_arrows_fired_hype_train() const { return at("tourney_blitz_duo_1_arrows_fired_hype train"); }
+  [[nodiscard]] JsonView kit_item_rename_Baker_stone_axe() const { return at("kit_item_rename_Baker_stone_axe"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_mobs_spawned_toxicologist() const { return at("tourney_blitz_duo_0_mobs_spawned_toxicologist"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_0_taunt_kills_toxicologist() const { return at("tourney_blitz_duo_0_taunt_kills_toxicologist"); }
+  [[nodiscard]] JsonView kit_item_rename_Ranger_iron_boots() const { return at("kit_item_rename_Ranger_iron_boots"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_taunt_kills_golem() const { return at("tourney_blitz_duo_1_taunt_kills_golem"); }
+  [[nodiscard]] JsonView kit_item_rename_MeatMaster_iron_sword() const { return at("kit_item_rename_MeatMaster_iron_sword"); }
+  [[nodiscard]] JsonView kit_item_rename_MeatMaster_monster_egg() const { return at("kit_item_rename_MeatMaster_monster_egg"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_taunt_kills_fisherman() const { return at("tourney_blitz_duo_1_taunt_kills_fisherman"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_2_taunt_kills_fisherman() const { return at("tourney_blitz_duo_2_taunt_kills_fisherman"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_2_taunt_kills_golem() const { return at("tourney_blitz_duo_2_taunt_kills_golem"); }
 };
 
 class PlayerResponsePlayerStatsMCGOMcgo : public JsonView {
@@ -20551,6 +20804,7 @@ public:
   [[nodiscard]] JsonView votes_Gladiator() const { return at("votes_Gladiator"); }
   [[nodiscard]] JsonView votes_Juice() const { return at("votes_Juice"); }
   [[nodiscard]] JsonView votes_Tide() const { return at("votes_Tide"); }
+  [[nodiscard]] JsonView votes_LaMente() const { return at("votes_LaMente"); }
 };
 
 class PlayerResponsePlayerStatsQuake : public JsonView {
@@ -20741,6 +20995,7 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
 };
@@ -20771,7 +21026,9 @@ public:
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
 };
@@ -20799,6 +21056,8 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -21086,6 +21345,12 @@ public:
   [[nodiscard]] JsonView votes_TNT_Run__D_() const { return at("votes_TNT Run (D)"); }
   [[nodiscard]] JsonView votes_Wizards__C_() const { return at("votes_Wizards (C)"); }
   [[nodiscard]] JsonView votes_Bow_Spleef__B_() const { return at("votes_Bow Spleef (B)"); }
+  [[nodiscard]] JsonView votes_TNT_Tag__A_() const { return at("votes_TNT Tag (A)"); }
+  [[nodiscard]] JsonView combatTracker() const { return at("combatTracker"); }
+  [[nodiscard]] JsonView votes_Bow_Spleef__C_() const { return at("votes_Bow Spleef (C)"); }
+  [[nodiscard]] JsonView votes_Wizards__B_() const { return at("votes_Wizards (B)"); }
+  [[nodiscard]] JsonView new_stormwizard_alternate_effects() const { return at("new_stormwizard_alternate_effects"); }
+  [[nodiscard]] JsonView votes_TNT_Tag__C_() const { return at("votes_TNT Tag (C)"); }
 };
 
 class PlayerResponsePlayerStatsUHCPrivategames : public JsonView {
@@ -21642,12 +21907,14 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
@@ -21834,6 +22101,7 @@ public:
   [[nodiscard]] JsonView enderchest_rows() const { return at("enderchest_rows"); }
   [[nodiscard]] JsonView skill_level_d() const { return at("skill_level_d"); }
   [[nodiscard]] JsonView unlocked() const { return at("unlocked"); }
+  [[nodiscard]] JsonView golden_tag() const { return at("golden_tag"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ClassesGolemPrestigeTag : public JsonView {
@@ -22028,6 +22296,7 @@ public:
   [[nodiscard]] JsonView skill_level_b() const { return at("skill_level_b"); }
   [[nodiscard]] JsonView unlocked() const { return at("unlocked"); }
   [[nodiscard]] JsonView enderchest_rows() const { return at("enderchest_rows"); }
+  [[nodiscard]] JsonView golden_tag() const { return at("golden_tag"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ClassesHunterPrestigeTag : public JsonView {
@@ -22126,6 +22395,7 @@ public:
   [[nodiscard]] JsonView skill_level_g() const { return at("skill_level_g"); }
   [[nodiscard]] JsonView prestige() const { return at("prestige"); }
   [[nodiscard]] JsonView enderchest_rows() const { return at("enderchest_rows"); }
+  [[nodiscard]] JsonView golden_tag() const { return at("golden_tag"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ClassesCowPrestigeTag : public JsonView {
@@ -22198,6 +22468,7 @@ public:
   [[nodiscard]] JsonView skill_level_g() const { return at("skill_level_g"); }
   [[nodiscard]] JsonView enderchest_rows() const { return at("enderchest_rows"); }
   [[nodiscard]] JsonView prestige() const { return at("prestige"); }
+  [[nodiscard]] JsonView golden_tag() const { return at("golden_tag"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ClassesPhoenixPrestigeTag : public JsonView {
@@ -22279,6 +22550,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView class_points_showcase() const { return at("class_points_showcase"); }
+  [[nodiscard]] JsonView type() const { return at("type"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ClassesAutomaton : public JsonView {
@@ -22432,11 +22704,15 @@ public:
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
@@ -22462,10 +22738,14 @@ public:
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
@@ -22492,10 +22772,16 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -22516,8 +22802,11 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -22547,7 +22836,9 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
@@ -22558,6 +22849,7 @@ public:
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
@@ -22585,7 +22877,11 @@ public:
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -22614,7 +22910,9 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
@@ -22648,9 +22946,11 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
@@ -22678,13 +22978,19 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -22742,6 +23048,7 @@ public:
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
@@ -22768,15 +23075,19 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -22798,12 +23109,17 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -22824,6 +23140,9 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
@@ -22883,9 +23202,12 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
@@ -22915,6 +23237,7 @@ public:
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
@@ -22925,6 +23248,7 @@ public:
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
@@ -22946,6 +23270,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
@@ -22985,7 +23310,9 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -23009,14 +23336,18 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
@@ -23038,13 +23369,17 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
@@ -23066,10 +23401,16 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -23096,11 +23437,13 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
@@ -23137,9 +23480,12 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
@@ -23163,9 +23509,11 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -34962,6 +35310,227 @@ public:
   [[nodiscard]] JsonView phoenix_games_beds_placed_standard() const { return at("phoenix_games_beds_placed_standard"); }
   [[nodiscard]] JsonView arcanist_a_final_kills_below_10_hp_face_off() const { return at("arcanist_a_final_kills_below_10_hp_face_off"); }
   [[nodiscard]] JsonView Dragon_effect() const { return at("Dragon_effect"); }
+  [[nodiscard]] JsonView blaze_wither_kills_last_alive() const { return at("blaze_wither_kills_last_alive"); }
+  [[nodiscard]] JsonView blaze_wither_kills_last_alive_standard() const { return at("blaze_wither_kills_last_alive_standard"); }
+  [[nodiscard]] JsonView shaman_a_kills_gvg() const { return at("shaman_a_kills_gvg"); }
+  [[nodiscard]] JsonView shaman_a_kills_melee_gvg() const { return at("shaman_a_kills_melee_gvg"); }
+  [[nodiscard]] JsonView shaman_a_defender_kills_gvg() const { return at("shaman_a_defender_kills_gvg"); }
+  [[nodiscard]] JsonView phoenix_kills_melee_behind_gvg() const { return at("phoenix_kills_melee_behind_gvg"); }
+  [[nodiscard]] JsonView phoenix_defender_final_kills_gvg() const { return at("phoenix_defender_final_kills_gvg"); }
+  [[nodiscard]] JsonView arcanist_iron_armor_gifted_december_gvg() const { return at("arcanist_iron_armor_gifted_december_gvg"); }
+  [[nodiscard]] JsonView shaman_a_final_kills_melee_behind_gvg() const { return at("shaman_a_final_kills_melee_behind_gvg"); }
+  [[nodiscard]] JsonView golem_c_total_final_kills_gvg() const { return at("golem_c_total_final_kills_gvg"); }
+  [[nodiscard]] JsonView golem_c_final_assists_gvg() const { return at("golem_c_final_assists_gvg"); }
+  [[nodiscard]] JsonView herobrine_b_assists_gvg() const { return at("herobrine_b_assists_gvg"); }
+  [[nodiscard]] JsonView herobrine_b_total_kills_gvg() const { return at("herobrine_b_total_kills_gvg"); }
+  [[nodiscard]] JsonView herobrine_b_defender_assists_gvg() const { return at("herobrine_b_defender_assists_gvg"); }
+  [[nodiscard]] JsonView squid_b_final_assists_face_off() const { return at("squid_b_final_assists_face_off"); }
+  [[nodiscard]] JsonView squid_b_total_final_kills_face_off() const { return at("squid_b_total_final_kills_face_off"); }
+  [[nodiscard]] JsonView pigman_final_kills_after_final_killed() const { return at("pigman_final_kills_after_final_killed"); }
+  [[nodiscard]] JsonView pigman_final_kills_after_final_killed_standard() const { return at("pigman_final_kills_after_final_killed_standard"); }
+  [[nodiscard]] JsonView werewolf_a_on_fire_final_kills() const { return at("werewolf_a_on_fire_final_kills"); }
+  [[nodiscard]] JsonView werewolf_a_on_fire_final_kills_standard() const { return at("werewolf_a_on_fire_final_kills_standard"); }
+  [[nodiscard]] JsonView creeper_games_beds_placed() const { return at("creeper_games_beds_placed"); }
+  [[nodiscard]] JsonView creeper_beds_crafted_face_off() const { return at("creeper_beds_crafted_face_off"); }
+  [[nodiscard]] JsonView creeper_games_beds_placed_face_off() const { return at("creeper_games_beds_placed_face_off"); }
+  [[nodiscard]] JsonView creeper_beds_crafted() const { return at("creeper_beds_crafted"); }
+  [[nodiscard]] JsonView arcanist_final_kills_below_5_hp_face_off() const { return at("arcanist_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView spider_b_final_kills_melee_gvg() const { return at("spider_b_final_kills_melee_gvg"); }
+  [[nodiscard]] JsonView spider_b_final_kills_gvg() const { return at("spider_b_final_kills_gvg"); }
+  [[nodiscard]] JsonView spider_b_total_final_kills_gvg() const { return at("spider_b_total_final_kills_gvg"); }
+  [[nodiscard]] JsonView dragon_a_kills_face_off() const { return at("dragon_a_kills_face_off"); }
+  [[nodiscard]] JsonView dragon_a_kills_melee_behind_face_off() const { return at("dragon_a_kills_melee_behind_face_off"); }
+  [[nodiscard]] JsonView dragon_a_kills_melee_face_off() const { return at("dragon_a_kills_melee_face_off"); }
+  [[nodiscard]] JsonView dragon_a_on_fire_kills_face_off() const { return at("dragon_a_on_fire_kills_face_off"); }
+  [[nodiscard]] JsonView dragon_activations_deathmatch_face_off() const { return at("dragon_activations_deathmatch_face_off"); }
+  [[nodiscard]] JsonView dragon_b_activations_deathmatch_face_off() const { return at("dragon_b_activations_deathmatch_face_off"); }
+  [[nodiscard]] JsonView dragon_food_eaten_face_off() const { return at("dragon_food_eaten_face_off"); }
+  [[nodiscard]] JsonView dragon_g_activations_deathmatch_face_off() const { return at("dragon_g_activations_deathmatch_face_off"); }
+  [[nodiscard]] JsonView dragon_kills_melee_behind_face_off() const { return at("dragon_kills_melee_behind_face_off"); }
+  [[nodiscard]] JsonView dragon_steaks_eaten_face_off() const { return at("dragon_steaks_eaten_face_off"); }
+  [[nodiscard]] JsonView dragon_wither_kills_face_off() const { return at("dragon_wither_kills_face_off"); }
+  [[nodiscard]] JsonView dragon_b_final_kills_melee_behind_face_off() const { return at("dragon_b_final_kills_melee_behind_face_off"); }
+  [[nodiscard]] JsonView dragon_final_kills_melee_behind_face_off() const { return at("dragon_final_kills_melee_behind_face_off"); }
+  [[nodiscard]] JsonView dragon_final_kills_ranged_face_off() const { return at("dragon_final_kills_ranged_face_off"); }
+  [[nodiscard]] JsonView dragon_wither_kills_last_alive() const { return at("dragon_wither_kills_last_alive"); }
+  [[nodiscard]] JsonView dragon_wither_kills_last_alive_face_off() const { return at("dragon_wither_kills_last_alive_face_off"); }
+  [[nodiscard]] JsonView creeper_primed_tnt_kills_face_off() const { return at("creeper_primed_tnt_kills_face_off"); }
+  [[nodiscard]] JsonView primed_tnt_kills_face_off() const { return at("primed_tnt_kills_face_off"); }
+  [[nodiscard]] JsonView final_kills_after_grappling_hook_face_off() const { return at("final_kills_after_grappling_hook_face_off"); }
+  [[nodiscard]] JsonView renegade_b_final_kills_after_grappling_hook_face_off() const { return at("renegade_b_final_kills_after_grappling_hook_face_off"); }
+  [[nodiscard]] JsonView renegade_final_kills_after_grappling_hook_face_off() const { return at("renegade_final_kills_after_grappling_hook_face_off"); }
+  [[nodiscard]] JsonView golem_a_defender_final_assists_gvg() const { return at("golem_a_defender_final_assists_gvg"); }
+  [[nodiscard]] JsonView creeper_energy_syphoned_face_off() const { return at("creeper_energy_syphoned_face_off"); }
+  [[nodiscard]] JsonView pigman_b_defender_final_assists() const { return at("pigman_b_defender_final_assists"); }
+  [[nodiscard]] JsonView pigman_b_defender_final_assists_face_off() const { return at("pigman_b_defender_final_assists_face_off"); }
+  [[nodiscard]] JsonView pigman_sword_crafted_gvg() const { return at("pigman_sword_crafted_gvg"); }
+  [[nodiscard]] JsonView hunter_potions_splashed_face_off() const { return at("hunter_potions_splashed_face_off"); }
+  [[nodiscard]] JsonView skeleton_final_kills_ranged_50_face_off() const { return at("skeleton_final_kills_ranged_50_face_off"); }
+  [[nodiscard]] JsonView phoenix_b_kills_melee_behind_face_off() const { return at("phoenix_b_kills_melee_behind_face_off"); }
+  [[nodiscard]] JsonView creeper_b_defender_final_assists_face_off() const { return at("creeper_b_defender_final_assists_face_off"); }
+  [[nodiscard]] JsonView herobrine_c_defender_final_assists_face_off() const { return at("herobrine_c_defender_final_assists_face_off"); }
+  [[nodiscard]] JsonView renegade_final_kills_ranged_30_face_off() const { return at("renegade_final_kills_ranged_30_face_off"); }
+  [[nodiscard]] JsonView spider_a_kills_gvg() const { return at("spider_a_kills_gvg"); }
+  [[nodiscard]] JsonView spider_a_defender_kills_gvg() const { return at("spider_a_defender_kills_gvg"); }
+  [[nodiscard]] JsonView spider_a_kills_melee_gvg() const { return at("spider_a_kills_melee_gvg"); }
+  [[nodiscard]] JsonView automaton_a_on_fire_kills() const { return at("automaton_a_on_fire_kills"); }
+  [[nodiscard]] JsonView automaton_a_on_fire_kills_standard() const { return at("automaton_a_on_fire_kills_standard"); }
+  [[nodiscard]] JsonView phoenix_a_final_kills_melee_behind_face_off() const { return at("phoenix_a_final_kills_melee_behind_face_off"); }
+  [[nodiscard]] JsonView arcanist_beds_placed_face_off() const { return at("arcanist_beds_placed_face_off"); }
+  [[nodiscard]] JsonView pirate_b_final_assists_gvg() const { return at("pirate_b_final_assists_gvg"); }
+  [[nodiscard]] JsonView pirate_b_final_assists_melee_gvg() const { return at("pirate_b_final_assists_melee_gvg"); }
+  [[nodiscard]] JsonView pirate_b_total_final_kills_gvg() const { return at("pirate_b_total_final_kills_gvg"); }
+  [[nodiscard]] JsonView arcanist_a_defender_kills_gvg() const { return at("arcanist_a_defender_kills_gvg"); }
+  [[nodiscard]] JsonView arcanist_c_assists_gvg() const { return at("arcanist_c_assists_gvg"); }
+  [[nodiscard]] JsonView arcanist_defender_kills_gvg() const { return at("arcanist_defender_kills_gvg"); }
+  [[nodiscard]] JsonView creeper_a_defender_assists_gvg() const { return at("creeper_a_defender_assists_gvg"); }
+  [[nodiscard]] JsonView creeper_defender_assists_gvg() const { return at("creeper_defender_assists_gvg"); }
+  [[nodiscard]] JsonView creeper_kills_melee_behind_gvg() const { return at("creeper_kills_melee_behind_gvg"); }
+  [[nodiscard]] JsonView creeper_defender_kills_gvg() const { return at("creeper_defender_kills_gvg"); }
+  [[nodiscard]] JsonView creeper_a_assists_gvg() const { return at("creeper_a_assists_gvg"); }
+  [[nodiscard]] JsonView creeper_a_defender_kills_gvg() const { return at("creeper_a_defender_kills_gvg"); }
+  [[nodiscard]] JsonView arcanist_sword_crafted_gvg() const { return at("arcanist_sword_crafted_gvg"); }
+  [[nodiscard]] JsonView blaze_final_kills_ranged_30_face_off() const { return at("blaze_final_kills_ranged_30_face_off"); }
+  [[nodiscard]] JsonView blaze_wither_kills_last_alive_face_off() const { return at("blaze_wither_kills_last_alive_face_off"); }
+  [[nodiscard]] JsonView moleman_a_defender_kills_gvg() const { return at("moleman_a_defender_kills_gvg"); }
+  [[nodiscard]] JsonView werewolf_final_kills_ranged_face_off() const { return at("werewolf_final_kills_ranged_face_off"); }
+  [[nodiscard]] JsonView golem_games_beds_placed_face_off() const { return at("golem_games_beds_placed_face_off"); }
+  [[nodiscard]] JsonView golem_beds_crafted_face_off() const { return at("golem_beds_crafted_face_off"); }
+  [[nodiscard]] JsonView dreadlord_a_final_kills_below_5_hp_face_off() const { return at("dreadlord_a_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView shark_players_healed_face_off() const { return at("shark_players_healed_face_off"); }
+  [[nodiscard]] JsonView shark_potions_splashed_face_off() const { return at("shark_potions_splashed_face_off"); }
+  [[nodiscard]] JsonView shaman_c_defender_final_assists_face_off() const { return at("shaman_c_defender_final_assists_face_off"); }
+  [[nodiscard]] JsonView automaton_absorption_potions_drunk_face_off() const { return at("automaton_absorption_potions_drunk_face_off"); }
+  [[nodiscard]] JsonView automaton_g_activations_deathmatch_face_off() const { return at("automaton_g_activations_deathmatch_face_off"); }
+  [[nodiscard]] JsonView pigman_kills_with_strength_face_off() const { return at("pigman_kills_with_strength_face_off"); }
+  [[nodiscard]] JsonView shaman_c_on_fire_final_kills() const { return at("shaman_c_on_fire_final_kills"); }
+  [[nodiscard]] JsonView shaman_c_on_fire_final_kills_standard() const { return at("shaman_c_on_fire_final_kills_standard"); }
+  [[nodiscard]] JsonView enderman_final_kills_ranged_face_off() const { return at("enderman_final_kills_ranged_face_off"); }
+  [[nodiscard]] JsonView squid_beds_crafted_face_off() const { return at("squid_beds_crafted_face_off"); }
+  [[nodiscard]] JsonView blaze_a_defender_final_assists_gvg() const { return at("blaze_a_defender_final_assists_gvg"); }
+  [[nodiscard]] JsonView herobrine_b_final_assists_after_final_killed() const { return at("herobrine_b_final_assists_after_final_killed"); }
+  [[nodiscard]] JsonView herobrine_b_final_assists_after_final_killed_standard() const { return at("herobrine_b_final_assists_after_final_killed_standard"); }
+  [[nodiscard]] JsonView automaton_wither_kills_last_alive() const { return at("automaton_wither_kills_last_alive"); }
+  [[nodiscard]] JsonView automaton_wither_kills_last_alive_face_off() const { return at("automaton_wither_kills_last_alive_face_off"); }
+  [[nodiscard]] JsonView cow_wither_kills_last_alive_face_off() const { return at("cow_wither_kills_last_alive_face_off"); }
+  [[nodiscard]] JsonView hunter_wither_kills_last_alive() const { return at("hunter_wither_kills_last_alive"); }
+  [[nodiscard]] JsonView hunter_wither_kills_last_alive_face_off() const { return at("hunter_wither_kills_last_alive_face_off"); }
+  [[nodiscard]] JsonView creeper_a_final_kills_below_10_hp_face_off() const { return at("creeper_a_final_kills_below_10_hp_face_off"); }
+  [[nodiscard]] JsonView skeleton_c_final_assists_face_off() const { return at("skeleton_c_final_assists_face_off"); }
+  [[nodiscard]] JsonView skeleton_c_total_final_kills_face_off() const { return at("skeleton_c_total_final_kills_face_off"); }
+  [[nodiscard]] JsonView skeleton_absorption_potions_drunk_face_off() const { return at("skeleton_absorption_potions_drunk_face_off"); }
+  [[nodiscard]] JsonView cow_c_defender_assists_face_off() const { return at("cow_c_defender_assists_face_off"); }
+  [[nodiscard]] JsonView cow_c_assists_face_off() const { return at("cow_c_assists_face_off"); }
+  [[nodiscard]] JsonView cow_c_total_kills_face_off() const { return at("cow_c_total_kills_face_off"); }
+  [[nodiscard]] JsonView pigman_iron_armor_gifted_december_gvg() const { return at("pigman_iron_armor_gifted_december_gvg"); }
+  [[nodiscard]] JsonView shaman_b_defender_final_assists() const { return at("shaman_b_defender_final_assists"); }
+  [[nodiscard]] JsonView shaman_b_defender_final_assists_standard() const { return at("shaman_b_defender_final_assists_standard"); }
+  [[nodiscard]] JsonView votes_Wonderland() const { return at("votes_Wonderland"); }
+  [[nodiscard]] JsonView golem_final_kills_ranged_30_face_off() const { return at("golem_final_kills_ranged_30_face_off"); }
+  [[nodiscard]] JsonView spider_a_defender_final_kills_face_off() const { return at("spider_a_defender_final_kills_face_off"); }
+  [[nodiscard]] JsonView squid_a_final_assists_melee_gvg() const { return at("squid_a_final_assists_melee_gvg"); }
+  [[nodiscard]] JsonView werewolf_final_kills_ranged_30_face_off() const { return at("werewolf_final_kills_ranged_30_face_off"); }
+  [[nodiscard]] JsonView snowman_sword_crafted_face_off() const { return at("snowman_sword_crafted_face_off"); }
+  [[nodiscard]] JsonView spider_b_defender_final_assists_standard() const { return at("spider_b_defender_final_assists_standard"); }
+  [[nodiscard]] JsonView hunter_a_kills() const { return at("hunter_a_kills"); }
+  [[nodiscard]] JsonView hunter_a_kills_standard() const { return at("hunter_a_kills_standard"); }
+  [[nodiscard]] JsonView hunter_a_kills_melee_standard() const { return at("hunter_a_kills_melee_standard"); }
+  [[nodiscard]] JsonView hunter_a_kills_melee() const { return at("hunter_a_kills_melee"); }
+  [[nodiscard]] JsonView pirate_games_beds_placed_standard() const { return at("pirate_games_beds_placed_standard"); }
+  [[nodiscard]] JsonView pirate_games_beds_placed() const { return at("pirate_games_beds_placed"); }
+  [[nodiscard]] JsonView pirate_beds_crafted() const { return at("pirate_beds_crafted"); }
+  [[nodiscard]] JsonView pirate_beds_crafted_standard() const { return at("pirate_beds_crafted_standard"); }
+  [[nodiscard]] JsonView squid_beds_placed_face_off() const { return at("squid_beds_placed_face_off"); }
+  [[nodiscard]] JsonView arcanist_c_final_kills_below_5_hp_face_off() const { return at("arcanist_c_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView automaton_potions_splashed_face_off() const { return at("automaton_potions_splashed_face_off"); }
+  [[nodiscard]] JsonView spider_c_damage_dealt() const { return at("spider_c_damage_dealt"); }
+  [[nodiscard]] JsonView spider_c_damage_dealt_standard() const { return at("spider_c_damage_dealt_standard"); }
+  [[nodiscard]] JsonView spider_c_enemies_hit() const { return at("spider_c_enemies_hit"); }
+  [[nodiscard]] JsonView spider_c_enemies_hit_standard() const { return at("spider_c_enemies_hit_standard"); }
+  [[nodiscard]] JsonView sheep_iron_sword_crafted() const { return at("sheep_iron_sword_crafted"); }
+  [[nodiscard]] JsonView sheep_iron_sword_crafted_standard() const { return at("sheep_iron_sword_crafted_standard"); }
+  [[nodiscard]] JsonView creeper_b_final_kills_below_5_hp() const { return at("creeper_b_final_kills_below_5_hp"); }
+  [[nodiscard]] JsonView creeper_b_final_kills_below_5_hp_standard() const { return at("creeper_b_final_kills_below_5_hp_standard"); }
+  [[nodiscard]] JsonView blaze_final_kills_below_5_hp_face_off() const { return at("blaze_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView shaman_c_defender_final_kills_face_off() const { return at("shaman_c_defender_final_kills_face_off"); }
+  [[nodiscard]] JsonView blaze_c_defender_final_assists_face_off() const { return at("blaze_c_defender_final_assists_face_off"); }
+  [[nodiscard]] JsonView blaze_c_final_assists_melee_face_off() const { return at("blaze_c_final_assists_melee_face_off"); }
+  [[nodiscard]] JsonView blaze_c_defender_final_assists() const { return at("blaze_c_defender_final_assists"); }
+  [[nodiscard]] JsonView blaze_b_final_assists_melee_face_off() const { return at("blaze_b_final_assists_melee_face_off"); }
+  [[nodiscard]] JsonView arcanist_fish_eaten_gvg() const { return at("arcanist_fish_eaten_gvg"); }
+  [[nodiscard]] JsonView creeper_final_kills_below_5_hp_face_off() const { return at("creeper_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView shark_final_kills_below_5_hp_face_off() const { return at("shark_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView shark_energy_syphoned_face_off() const { return at("shark_energy_syphoned_face_off"); }
+  [[nodiscard]] JsonView shark_apples_eaten_face_off() const { return at("shark_apples_eaten_face_off"); }
+  [[nodiscard]] JsonView pirate_b_final_kills_gvg() const { return at("pirate_b_final_kills_gvg"); }
+  [[nodiscard]] JsonView pirate_b_final_kills_melee_gvg() const { return at("pirate_b_final_kills_melee_gvg"); }
+  [[nodiscard]] JsonView snowman_a_final_kills_below_10_hp_face_off() const { return at("snowman_a_final_kills_below_10_hp_face_off"); }
+  [[nodiscard]] JsonView moleman_b_defender_final_assists() const { return at("moleman_b_defender_final_assists"); }
+  [[nodiscard]] JsonView moleman_b_defender_final_assists_standard() const { return at("moleman_b_defender_final_assists_standard"); }
+  [[nodiscard]] JsonView spider_b_final_kills_melee_behind_gvg() const { return at("spider_b_final_kills_melee_behind_gvg"); }
+  [[nodiscard]] JsonView pirate_b_final_kills_below_5_hp() const { return at("pirate_b_final_kills_below_5_hp"); }
+  [[nodiscard]] JsonView pirate_b_final_kills_below_5_hp_standard() const { return at("pirate_b_final_kills_below_5_hp_standard"); }
+  [[nodiscard]] JsonView moleman_final_kills_below_5_hp_face_off() const { return at("moleman_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView moleman_a_final_kills_below_5_hp_face_off() const { return at("moleman_a_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView snowman_final_kills_below_10_hp_gvg() const { return at("snowman_final_kills_below_10_hp_gvg"); }
+  [[nodiscard]] JsonView snowman_final_kills_melee_behind_gvg() const { return at("snowman_final_kills_melee_behind_gvg"); }
+  [[nodiscard]] JsonView phoenix_wither_kills_gvg() const { return at("phoenix_wither_kills_gvg"); }
+  [[nodiscard]] JsonView assassin_a_final_assists_gvg() const { return at("assassin_a_final_assists_gvg"); }
+  [[nodiscard]] JsonView assassin_a_final_assists_melee_gvg() const { return at("assassin_a_final_assists_melee_gvg"); }
+  [[nodiscard]] JsonView zombie_a_enemies_hit_face_off() const { return at("zombie_a_enemies_hit_face_off"); }
+  [[nodiscard]] JsonView zombie_enemies_hit_face_off() const { return at("zombie_enemies_hit_face_off"); }
+  [[nodiscard]] JsonView dreadlord_c_final_assists_gvg() const { return at("dreadlord_c_final_assists_gvg"); }
+  [[nodiscard]] JsonView dreadlord_c_total_final_kills_gvg() const { return at("dreadlord_c_total_final_kills_gvg"); }
+  [[nodiscard]] JsonView pigman_a_final_kills_melee_behind_gvg() const { return at("pigman_a_final_kills_melee_behind_gvg"); }
+  [[nodiscard]] JsonView enderman_c_total_final_kills_gvg() const { return at("enderman_c_total_final_kills_gvg"); }
+  [[nodiscard]] JsonView enderman_c_final_assists_gvg() const { return at("enderman_c_final_assists_gvg"); }
+  [[nodiscard]] JsonView arcanist_a_diamond_ore_broken_gvg() const { return at("arcanist_a_diamond_ore_broken_gvg"); }
+  [[nodiscard]] JsonView shark_a_final_assists_gvg() const { return at("shark_a_final_assists_gvg"); }
+  [[nodiscard]] JsonView shark_a_total_final_kills_gvg() const { return at("shark_a_total_final_kills_gvg"); }
+  [[nodiscard]] JsonView shark_a_final_assists_melee_gvg() const { return at("shark_a_final_assists_melee_gvg"); }
+  [[nodiscard]] JsonView renegade_games_beds_placed() const { return at("renegade_games_beds_placed"); }
+  [[nodiscard]] JsonView renegade_games_beds_placed_standard() const { return at("renegade_games_beds_placed_standard"); }
+  [[nodiscard]] JsonView hunter_a_kills_face_off() const { return at("hunter_a_kills_face_off"); }
+  [[nodiscard]] JsonView hunter_a_kills_melee_face_off() const { return at("hunter_a_kills_melee_face_off"); }
+  [[nodiscard]] JsonView werewolf_final_kills_ranged_50_standard() const { return at("werewolf_final_kills_ranged_50_standard"); }
+  [[nodiscard]] JsonView werewolf_final_kills_ranged_50() const { return at("werewolf_final_kills_ranged_50"); }
+  [[nodiscard]] JsonView herobrine_c_final_assists_after_final_killed() const { return at("herobrine_c_final_assists_after_final_killed"); }
+  [[nodiscard]] JsonView herobrine_c_final_assists_after_final_killed_standard() const { return at("herobrine_c_final_assists_after_final_killed_standard"); }
+  [[nodiscard]] JsonView hunter_wither_kills_last_alive_standard() const { return at("hunter_wither_kills_last_alive_standard"); }
+  [[nodiscard]] JsonView shaman_c_final_kills_below_10_hp_face_off() const { return at("shaman_c_final_kills_below_10_hp_face_off"); }
+  [[nodiscard]] JsonView spider_beds_crafted_face_off() const { return at("spider_beds_crafted_face_off"); }
+  [[nodiscard]] JsonView spider_games_beds_placed_face_off() const { return at("spider_games_beds_placed_face_off"); }
+  [[nodiscard]] JsonView sheep_a_defender_final_assists() const { return at("sheep_a_defender_final_assists"); }
+  [[nodiscard]] JsonView sheep_a_defender_final_assists_standard() const { return at("sheep_a_defender_final_assists_standard"); }
+  [[nodiscard]] JsonView Angel_effect() const { return at("Angel_effect"); }
+  [[nodiscard]] JsonView creeper_b_on_fire_final_kills() const { return at("creeper_b_on_fire_final_kills"); }
+  [[nodiscard]] JsonView creeper_b_on_fire_final_kills_standard() const { return at("creeper_b_on_fire_final_kills_standard"); }
+  [[nodiscard]] JsonView automaton_final_kills_ranged_face_off() const { return at("automaton_final_kills_ranged_face_off"); }
+  [[nodiscard]] JsonView skeleton_games_beds_placed_face_off() const { return at("skeleton_games_beds_placed_face_off"); }
+  [[nodiscard]] JsonView skeleton_beds_crafted_face_off() const { return at("skeleton_beds_crafted_face_off"); }
+  [[nodiscard]] JsonView skeleton_defender_final_kills_gvg() const { return at("skeleton_defender_final_kills_gvg"); }
+  [[nodiscard]] JsonView skeleton_a_defender_kills_standard() const { return at("skeleton_a_defender_kills_standard"); }
+  [[nodiscard]] JsonView skeleton_a_defender_kills() const { return at("skeleton_a_defender_kills"); }
+  [[nodiscard]] JsonView skeleton_b_defender_final_assists_standard() const { return at("skeleton_b_defender_final_assists_standard"); }
+  [[nodiscard]] JsonView automaton_final_kills_ranged_50() const { return at("automaton_final_kills_ranged_50"); }
+  [[nodiscard]] JsonView automaton_final_kills_ranged_50_standard() const { return at("automaton_final_kills_ranged_50_standard"); }
+  [[nodiscard]] JsonView hunter_final_kills_below_5_hp_face_off() const { return at("hunter_final_kills_below_5_hp_face_off"); }
+  [[nodiscard]] JsonView golem_b_final_assists_melee_face_off() const { return at("golem_b_final_assists_melee_face_off"); }
+  [[nodiscard]] JsonView assassin_a_final_kills_face_off() const { return at("assassin_a_final_kills_face_off"); }
+  [[nodiscard]] JsonView assassin_a_final_kills_melee_face_off() const { return at("assassin_a_final_kills_melee_face_off"); }
+  [[nodiscard]] JsonView cow_a_defender_final_assists_face_off() const { return at("cow_a_defender_final_assists_face_off"); }
+  [[nodiscard]] JsonView herobrine_b_final_assists_melee_face_off() const { return at("herobrine_b_final_assists_melee_face_off"); }
+  [[nodiscard]] JsonView zombie_a_final_kills() const { return at("zombie_a_final_kills"); }
+  [[nodiscard]] JsonView zombie_a_final_kills_melee() const { return at("zombie_a_final_kills_melee"); }
+  [[nodiscard]] JsonView zombie_a_final_kills_melee_behind() const { return at("zombie_a_final_kills_melee_behind"); }
+  [[nodiscard]] JsonView zombie_a_final_kills_melee_behind_standard() const { return at("zombie_a_final_kills_melee_behind_standard"); }
+  [[nodiscard]] JsonView zombie_a_final_kills_melee_standard() const { return at("zombie_a_final_kills_melee_standard"); }
+  [[nodiscard]] JsonView zombie_a_final_kills_standard() const { return at("zombie_a_final_kills_standard"); }
+  [[nodiscard]] JsonView enderman_final_kills_with_fire() const { return at("enderman_final_kills_with_fire"); }
+  [[nodiscard]] JsonView enderman_final_kills_with_fire_standard() const { return at("enderman_final_kills_with_fire_standard"); }
+  [[nodiscard]] JsonView golem_a_defender_assists_gvg() const { return at("golem_a_defender_assists_gvg"); }
+  [[nodiscard]] JsonView moleman_a_final_kills_below_10_hp_face_off() const { return at("moleman_a_final_kills_below_10_hp_face_off"); }
+  [[nodiscard]] JsonView herobrine_potions_splashed_gvg() const { return at("herobrine_potions_splashed_gvg"); }
 };
 
 class PlayerResponsePlayerStatsGingerBread : public JsonView {
@@ -35303,6 +35872,20 @@ public:
   [[nodiscard]] JsonView GingerBread_tkr_points__9_2024_position() const { return at("GingerBread_tkr_points__9_2024_position"); }
   [[nodiscard]] JsonView GingerBread_tkr_points__4_2025_points() const { return at("GingerBread_tkr_points__4_2025_points"); }
   [[nodiscard]] JsonView GingerBread_tkr_points__4_2025_position() const { return at("GingerBread_tkr_points__4_2025_position"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__4_2026_position() const { return at("GingerBread_tkr_points__4_2026_position"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__4_2026_points() const { return at("GingerBread_tkr_points__4_2026_points"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__3_2026_position() const { return at("GingerBread_tkr_points__3_2026_position"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__3_2026_points() const { return at("GingerBread_tkr_points__3_2026_points"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__10_2025_position() const { return at("GingerBread_tkr_points__10_2025_position"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__10_2025_points() const { return at("GingerBread_tkr_points__10_2025_points"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__11_2025_position() const { return at("GingerBread_tkr_points__11_2025_position"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__11_2025_points() const { return at("GingerBread_tkr_points__11_2025_points"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__12_2025_position() const { return at("GingerBread_tkr_points__12_2025_position"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__12_2025_points() const { return at("GingerBread_tkr_points__12_2025_points"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__2_2026_position() const { return at("GingerBread_tkr_points__2_2026_position"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__2_2026_points() const { return at("GingerBread_tkr_points__2_2026_points"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__1_2026_position() const { return at("GingerBread_tkr_points__1_2026_position"); }
+  [[nodiscard]] JsonView GingerBread_tkr_points__1_2026_points() const { return at("GingerBread_tkr_points__1_2026_points"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloScoutInventory : public JsonView {
@@ -35911,6 +36494,7 @@ public:
   [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
   [[nodiscard]] JsonView DIAMOND_PICKAXE_0() const { return at("DIAMOND_PICKAXE:0"); }
   [[nodiscard]] JsonView DIAMOND_PICKAXE_0_32_16_34_35() const { return at("DIAMOND_PICKAXE:0:32,16,34,35"); }
+  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamSnowmanInventory : public JsonView {
@@ -36038,6 +36622,7 @@ public:
   [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
   [[nodiscard]] JsonView CHAINMAIL_HELMET_0_0() const { return at("CHAINMAIL_HELMET:0:0"); }
   [[nodiscard]] JsonView STONE_SWORD_0_19() const { return at("STONE_SWORD:0:19"); }
+  [[nodiscard]] JsonView IRON_HELMET_0_0() const { return at("IRON_HELMET:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamArmorsmithInventory : public JsonView {
@@ -36252,6 +36837,7 @@ public:
   [[nodiscard]] JsonView ENCHANTED_BOOK_0_0_16() const { return at("ENCHANTED_BOOK:0:0,16"); }
   [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
   [[nodiscard]] JsonView DIAMOND_PICKAXE_0() const { return at("DIAMOND_PICKAXE:0"); }
+  [[nodiscard]] JsonView STONE_PICKAXE_0() const { return at("STONE_PICKAXE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaPyromaniacInventory : public JsonView {
@@ -36320,6 +36906,8 @@ public:
   [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
   [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
   [[nodiscard]] JsonView WOOD_SWORD_0_16() const { return at("WOOD_SWORD:0:16"); }
+  [[nodiscard]] JsonView LEATHER_HELMET_0_0() const { return at("LEATHER_HELMET:0:0"); }
+  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaArmorerInventory : public JsonView {
@@ -36532,6 +37120,7 @@ public:
 
   [[nodiscard]] JsonView resetType() const { return at("resetType"); }
   [[nodiscard]] JsonView mode() const { return at("mode"); }
+  [[nodiscard]] JsonView alignment() const { return at("alignment"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloArcheologistInventory : public JsonView {
@@ -36711,6 +37300,7 @@ public:
   [[nodiscard]] JsonView killeffect() const { return at("killeffect"); }
   [[nodiscard]] JsonView emblem() const { return at("emblem"); }
   [[nodiscard]] JsonView sprays() const { return at("sprays"); }
+  [[nodiscard]] JsonView balloon() const { return at("balloon"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloCactusInventory : public JsonView {
@@ -36961,6 +37551,9 @@ public:
   [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
   [[nodiscard]] JsonView SAND_0() const { return at("SAND:0"); }
   [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
+  [[nodiscard]] JsonView LEATHER_HELMET_0_34_7() const { return at("LEATHER_HELMET:0:34,7"); }
+  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_34_7() const { return at("LEATHER_LEGGINGS:0:34,7"); }
+  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_34_7() const { return at("LEATHER_CHESTPLATE:0:34,7"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloBowmanInventory : public JsonView {
@@ -37037,6 +37630,8 @@ public:
   [[nodiscard]] JsonView BOW_110() const { return at("BOW:110"); }
   [[nodiscard]] JsonView BOW_114() const { return at("BOW:114"); }
   [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
+  [[nodiscard]] JsonView GOLD_HELMET_0_0() const { return at("GOLD_HELMET:0:0"); }
+  [[nodiscard]] JsonView BOW_114_48() const { return at("BOW:114:48"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamZookeeperInventory : public JsonView {
@@ -37097,6 +37692,17 @@ public:
   [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
   [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
   [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
+};
+
+class PlayerResponsePlayerStatsSkyWarsKitMiningTeamDefaultInventory : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
+  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
+  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
+  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
+  [[nodiscard]] JsonView IRON_SPADE_0() const { return at("IRON_SPADE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWars : public JsonView {
@@ -37235,6 +37841,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsSkyWarsKitBasicSoloDefaultInventory kit_basic_solo_default_inventory() const { return object_at<PlayerResponsePlayerStatsSkyWarsKitBasicSoloDefaultInventory>("kit_basic_solo_default_inventory"); }
   [[nodiscard]] PlayerResponsePlayerStatsSkyWarsKitBasicSoloFallenAngelInventory kit_basic_solo_fallen_angel_inventory() const { return object_at<PlayerResponsePlayerStatsSkyWarsKitBasicSoloFallenAngelInventory>("kit_basic_solo_fallen-angel_inventory"); }
   [[nodiscard]] PlayerResponsePlayerStatsSkyWarsKitMegaMegaDefaultInventory kit_mega_mega_default_inventory() const { return object_at<PlayerResponsePlayerStatsSkyWarsKitMegaMegaDefaultInventory>("kit_mega_mega_default_inventory"); }
+  [[nodiscard]] PlayerResponsePlayerStatsSkyWarsKitMiningTeamDefaultInventory kit_mining_team_default_inventory() const { return object_at<PlayerResponsePlayerStatsSkyWarsKitMiningTeamDefaultInventory>("kit_mining_team_default_inventory"); }
 
   [[nodiscard]] JsonView coins() const { return at("coins"); }
   [[nodiscard]] JsonView win_streak() const { return at("win_streak"); }
@@ -49994,6 +50601,256 @@ public:
   [[nodiscard]] JsonView inGamePresentsCap_2025_21() const { return at("inGamePresentsCap_2025_21"); }
   [[nodiscard]] JsonView inGamePresentsCap_2025_6() const { return at("inGamePresentsCap_2025_6"); }
   [[nodiscard]] JsonView inGamePresentsCap_2025_18() const { return at("inGamePresentsCap_2025_18"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_13() const { return at("inGamePresentsCap_2025_13"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_29() const { return at("inGamePresentsCap_2025_29"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_30() const { return at("inGamePresentsCap_2025_30"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_31() const { return at("inGamePresentsCap_2025_31"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_2() const { return at("inGamePresentsCap_2026_2"); }
+  [[nodiscard]] JsonView fastest_win_tourney_kit_enderchest_solo_enderchest() const { return at("fastest_win_tourney_kit_enderchest_solo_enderchest"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_1() const { return at("inGamePresentsCap_2026_1"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_25() const { return at("inGamePresentsCap_2025_25"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_5() const { return at("inGamePresentsCap_2025_5"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_15() const { return at("inGamePresentsCap_2025_15"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_19() const { return at("inGamePresentsCap_2025_19"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_22() const { return at("inGamePresentsCap_2025_22"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_10() const { return at("inGamePresentsCap_2025_10"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_14() const { return at("inGamePresentsCap_2025_14"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_5() const { return at("inGamePresentsCap_2026_5"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_8() const { return at("inGamePresentsCap_2025_8"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_27() const { return at("inGamePresentsCap_2025_27"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_11() const { return at("inGamePresentsCap_2025_11"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_17() const { return at("inGamePresentsCap_2025_17"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_9() const { return at("inGamePresentsCap_2025_9"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_16() const { return at("inGamePresentsCap_2025_16"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_20() const { return at("inGamePresentsCap_2025_20"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_23() const { return at("inGamePresentsCap_2025_23"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_28() const { return at("inGamePresentsCap_2025_28"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_3() const { return at("inGamePresentsCap_2026_3"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2026_4() const { return at("inGamePresentsCap_2026_4"); }
+  [[nodiscard]] JsonView fastest_win_tourney_kit_advanced_solo_pig_rider() const { return at("fastest_win_tourney_kit_advanced_solo_pig-rider"); }
+  [[nodiscard]] JsonView killstreak_tourney_kit_advanced_solo_pig_rider() const { return at("killstreak_tourney_kit_advanced_solo_pig-rider"); }
+  [[nodiscard]] JsonView wins_tourney_kit_advanced_solo_pig_rider() const { return at("wins_tourney_kit_advanced_solo_pig-rider"); }
+  [[nodiscard]] JsonView inGamePresentsCap_2025_24() const { return at("inGamePresentsCap_2025_24"); }
+  [[nodiscard]] JsonView killstreak_tourney_kit_basic_solo_cactus() const { return at("killstreak_tourney_kit_basic_solo_cactus"); }
+  [[nodiscard]] JsonView heads_ethereal_kit_mining_team_default() const { return at("heads_ethereal_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_6_kit_supporting_team_rookie() const { return at("challenge_wins_6_kit_supporting_team_rookie"); }
+  [[nodiscard]] JsonView winstreak_kit_attacking_teams_default() const { return at("winstreak_kit_attacking_teams_default"); }
+  [[nodiscard]] JsonView bow_kills_kit_mini_solo_healer() const { return at("bow_kills_kit_mini_solo_healer"); }
+  [[nodiscard]] JsonView heads_ethereal_kit_mini_solo_healer() const { return at("heads_ethereal_kit_mini_solo_healer"); }
+  [[nodiscard]] JsonView heads_salty_kit_mini_solo_healer() const { return at("heads_salty_kit_mini_solo_healer"); }
+  [[nodiscard]] JsonView heads_indescribable_kit_mini_solo_healer() const { return at("heads_indescribable_kit_mini_solo_healer"); }
+  [[nodiscard]] JsonView heads_meh_kit_mini_solo_healer() const { return at("heads_meh_kit_mini_solo_healer"); }
+  [[nodiscard]] JsonView heads_special_kit_mini_solo_athlete() const { return at("heads_special_kit_mini_solo_athlete"); }
+  [[nodiscard]] JsonView heads_special_kit_basic_solo_troll() const { return at("heads_special_kit_basic_solo_troll"); }
+  [[nodiscard]] JsonView challenge_wins_3_kit_basic_solo_frog() const { return at("challenge_wins_3_kit_basic_solo_frog"); }
+  [[nodiscard]] JsonView bow_kills_tourney_kit_advanced_solo_enderman() const { return at("bow_kills_tourney_kit_advanced_solo_enderman"); }
+  [[nodiscard]] JsonView lab_win_lucky_blocks() const { return at("lab_win_lucky_blocks"); }
+  [[nodiscard]] JsonView lab_win_lucky_blocks_kit_mega_mega_armorer() const { return at("lab_win_lucky_blocks_kit_mega_mega_armorer"); }
+  [[nodiscard]] JsonView lab_win_lucky_blocks_mega() const { return at("lab_win_lucky_blocks_mega"); }
+  [[nodiscard]] JsonView heads_sweet_kit_attacking_team_knight() const { return at("heads_sweet_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView kit_mini_solo_magician_inventory_auto_equip_armor() const { return at("kit_mini_solo_magician_inventory_auto_equip_armor"); }
+  [[nodiscard]] JsonView kit_mini_solo_paladin_inventory_auto_equip_armor() const { return at("kit_mini_solo_paladin_inventory_auto_equip_armor"); }
+  [[nodiscard]] JsonView longest_bow_kill_tourney_kit_basic_solo_batguy() const { return at("longest_bow_kill_tourney_kit_basic_solo_batguy"); }
+  [[nodiscard]] JsonView challenge_wins_7_kit_advanced_solo_pig_rider() const { return at("challenge_wins_7_kit_advanced_solo_pig-rider"); }
+  [[nodiscard]] JsonView heads_special_kit_defending_team_armorer() const { return at("heads_special_kit_defending_team_armorer"); }
+  [[nodiscard]] JsonView challenge_wins_5_kit_attacking_team_scout() const { return at("challenge_wins_5_kit_attacking_team_scout"); }
+  [[nodiscard]] JsonView heads_special_kit_basic_solo_grenade() const { return at("heads_special_kit_basic_solo_grenade"); }
+  [[nodiscard]] JsonView challenge_wins_6_kit_supporting_team_zookeeper() const { return at("challenge_wins_6_kit_supporting_team_zookeeper"); }
+  [[nodiscard]] JsonView heads_decent_kit_mini_solo_bowman() const { return at("heads_decent_kit_mini_solo_bowman"); }
+  [[nodiscard]] JsonView heads_succulent_kit_mini_solo_bowman() const { return at("heads_succulent_kit_mini_solo_bowman"); }
+  [[nodiscard]] JsonView heads_ethereal_kit_mini_solo_bowman() const { return at("heads_ethereal_kit_mini_solo_bowman"); }
+  [[nodiscard]] JsonView challenge_wins_0_kit_mythical_nether_lord() const { return at("challenge_wins_0_kit_mythical_nether-lord"); }
+  [[nodiscard]] JsonView mobs_killed_kit_mega_mega_hunter() const { return at("mobs_killed_kit_mega_mega_hunter"); }
+  [[nodiscard]] JsonView heads_heavenly_kit_mini_solo_healer() const { return at("heads_heavenly_kit_mini_solo_healer"); }
+  [[nodiscard]] JsonView challenge_wins_6_kit_advanced_solo_engineer() const { return at("challenge_wins_6_kit_advanced_solo_engineer"); }
+  [[nodiscard]] JsonView challenge_attempts_rookie_lab_kit_supporting_team_healer() const { return at("challenge_attempts_rookie_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_archer_lab_kit_supporting_team_healer() const { return at("challenge_wins_archer_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_half_health_lab_kit_supporting_team_healer() const { return at("challenge_wins_half_health_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_no_block_lab_kit_supporting_team_healer() const { return at("challenge_attempts_no_block_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_no_block_lab_kit_supporting_team_healer() const { return at("challenge_wins_no_block_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_8_lab_kit_supporting_team_healer() const { return at("challenge_wins_8_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_8_lab_kit_supporting_team_healer() const { return at("challenge_attempts_8_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_uhc_lab_kit_supporting_team_healer() const { return at("challenge_attempts_uhc_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_no_chest_lab_kit_supporting_team_healer() const { return at("challenge_wins_no_chest_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_ultimate_warrior_lab_kit_supporting_team_healer() const { return at("challenge_attempts_ultimate_warrior_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_lab_kit_supporting_team_healer() const { return at("challenge_wins_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_uhc_lab_kit_supporting_team_healer() const { return at("challenge_wins_uhc_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_no_chest_lab_kit_supporting_team_healer() const { return at("challenge_attempts_no_chest_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_paper_lab_kit_supporting_team_healer() const { return at("challenge_attempts_paper_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_paper_lab_kit_supporting_team_healer() const { return at("challenge_wins_paper_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_half_health_lab_kit_supporting_team_healer() const { return at("challenge_attempts_half_health_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_archer_lab_kit_supporting_team_healer() const { return at("challenge_attempts_archer_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_attempts_lab_kit_supporting_team_healer() const { return at("challenge_attempts_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_rookie_lab_kit_supporting_team_healer() const { return at("challenge_wins_rookie_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_ultimate_warrior_lab_kit_supporting_team_healer() const { return at("challenge_wins_ultimate_warrior_lab_kit_supporting_team_healer"); }
+  [[nodiscard]] JsonView challenge_wins_2_kit_advanced_solo_enchanter() const { return at("challenge_wins_2_kit_advanced_solo_enchanter"); }
+  [[nodiscard]] JsonView challenge_attempts_8_kit_advanced_solo_engineer() const { return at("challenge_attempts_8_kit_advanced_solo_engineer"); }
+  [[nodiscard]] JsonView challenge_wins_8_kit_attacking_team_sloth() const { return at("challenge_wins_8_kit_attacking_team_sloth"); }
+  [[nodiscard]] JsonView challenge_wins_lab_kit_mining_team_default() const { return at("challenge_wins_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_0_lab_kit_mining_team_default() const { return at("challenge_wins_0_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_half_health_lab_kit_mining_team_default() const { return at("challenge_attempts_half_health_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_archer_lab_kit_mining_team_default() const { return at("challenge_attempts_archer_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_rookie_lab_kit_mining_team_default() const { return at("challenge_attempts_rookie_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_lab_kit_mining_team_default() const { return at("challenge_attempts_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_no_block_lab_kit_mining_team_default() const { return at("challenge_attempts_no_block_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_ultimate_warrior_lab_kit_mining_team_default() const { return at("challenge_attempts_ultimate_warrior_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_paper_lab_kit_mining_team_default() const { return at("challenge_attempts_paper_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_no_chest_lab_kit_mining_team_default() const { return at("challenge_attempts_no_chest_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_8_lab_kit_mining_team_default() const { return at("challenge_attempts_8_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_uhc_lab_kit_mining_team_default() const { return at("challenge_attempts_uhc_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_paper_lab_kit_mining_team_default() const { return at("challenge_wins_paper_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_uhc_lab_kit_mining_team_default() const { return at("challenge_wins_uhc_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_no_block_lab_kit_mining_team_default() const { return at("challenge_wins_no_block_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_ultimate_warrior_lab_kit_mining_team_default() const { return at("challenge_wins_ultimate_warrior_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_8_lab_kit_mining_team_default() const { return at("challenge_wins_8_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_half_health_lab_kit_mining_team_default() const { return at("challenge_wins_half_health_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_archer_lab_kit_mining_team_default() const { return at("challenge_wins_archer_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_no_chest_lab_kit_mining_team_default() const { return at("challenge_wins_no_chest_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_wins_rookie_lab_kit_mining_team_default() const { return at("challenge_wins_rookie_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView winstreak_tourney_kit_attacking_team_slime() const { return at("winstreak_tourney_kit_attacking_team_slime"); }
+  [[nodiscard]] JsonView fall_kills_tourney_kit_mining_team_cannoneer() const { return at("fall_kills_tourney_kit_mining_team_cannoneer"); }
+  [[nodiscard]] JsonView challenge_wins_6_kit_basic_solo_troll() const { return at("challenge_wins_6_kit_basic_solo_troll"); }
+  [[nodiscard]] JsonView challenge_attempts_half_health_lab_kit_defending_team_frog() const { return at("challenge_attempts_half_health_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_rookie_lab_kit_defending_team_frog() const { return at("challenge_attempts_rookie_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_no_block_lab_kit_defending_team_frog() const { return at("challenge_attempts_no_block_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_paper_lab_kit_defending_team_frog() const { return at("challenge_attempts_paper_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_ultimate_warrior_lab_kit_defending_team_frog() const { return at("challenge_attempts_ultimate_warrior_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_lab_kit_defending_team_frog() const { return at("challenge_attempts_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_7_lab_kit_defending_team_frog() const { return at("challenge_attempts_7_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_archer_lab_kit_defending_team_frog() const { return at("challenge_attempts_archer_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_uhc_lab_kit_defending_team_frog() const { return at("challenge_attempts_uhc_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_attempts_no_chest_lab_kit_defending_team_frog() const { return at("challenge_attempts_no_chest_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_no_chest_lab_kit_defending_team_frog() const { return at("challenge_wins_no_chest_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_7_lab_kit_defending_team_frog() const { return at("challenge_wins_7_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_rookie_lab_kit_defending_team_frog() const { return at("challenge_wins_rookie_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_lab_kit_defending_team_frog() const { return at("challenge_wins_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_uhc_lab_kit_defending_team_frog() const { return at("challenge_wins_uhc_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_paper_lab_kit_defending_team_frog() const { return at("challenge_wins_paper_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_no_block_lab_kit_defending_team_frog() const { return at("challenge_wins_no_block_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_half_health_lab_kit_defending_team_frog() const { return at("challenge_wins_half_health_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_ultimate_warrior_lab_kit_defending_team_frog() const { return at("challenge_wins_ultimate_warrior_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_1_lab_kit_attacking_team_scout() const { return at("challenge_wins_1_lab_kit_attacking_team_scout"); }
+  [[nodiscard]] JsonView challenge_attempts_1_lab_kit_attacking_team_scout() const { return at("challenge_attempts_1_lab_kit_attacking_team_scout"); }
+  [[nodiscard]] JsonView votes_Deserted_Islands() const { return at("votes_Deserted Islands"); }
+  [[nodiscard]] JsonView mob_kills_kit_mini_solo_healer() const { return at("mob_kills_kit_mini_solo_healer"); }
+  [[nodiscard]] JsonView heads_special_kit_mini_solo_healer() const { return at("heads_special_kit_mini_solo_healer"); }
+  [[nodiscard]] JsonView heads_special_kit_advanced_solo_enderman() const { return at("heads_special_kit_advanced_solo_enderman"); }
+  [[nodiscard]] JsonView challenge_wins_7_kit_mining_team_speleologist() const { return at("challenge_wins_7_kit_mining_team_speleologist"); }
+  [[nodiscard]] JsonView challenge_attempts_rookie_lab_kit_attacking_team_knight() const { return at("challenge_attempts_rookie_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_lab_kit_attacking_team_knight() const { return at("challenge_attempts_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_ultimate_warrior_lab_kit_attacking_team_knight() const { return at("challenge_attempts_ultimate_warrior_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_no_block_lab_kit_attacking_team_knight() const { return at("challenge_attempts_no_block_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_uhc_lab_kit_attacking_team_knight() const { return at("challenge_attempts_uhc_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_half_health_lab_kit_attacking_team_knight() const { return at("challenge_attempts_half_health_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_no_chest_lab_kit_attacking_team_knight() const { return at("challenge_attempts_no_chest_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_archer_lab_kit_attacking_team_knight() const { return at("challenge_attempts_archer_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_paper_lab_kit_attacking_team_knight() const { return at("challenge_attempts_paper_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_8_lab_kit_attacking_team_knight() const { return at("challenge_attempts_8_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_1_lab_kit_attacking_team_knight() const { return at("challenge_attempts_1_lab_kit_attacking_team_knight"); }
+  [[nodiscard]] JsonView challenge_attempts_rookie_lab_kit_supporting_team_pharaoh() const { return at("challenge_attempts_rookie_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_attempts_lab_kit_supporting_team_pharaoh() const { return at("challenge_attempts_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_attempts_1_lab_kit_supporting_team_pharaoh() const { return at("challenge_attempts_1_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_wins_rookie_lab_kit_supporting_team_pharaoh() const { return at("challenge_wins_rookie_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_wins_1_lab_kit_supporting_team_pharaoh() const { return at("challenge_wins_1_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_wins_lab_kit_supporting_team_pharaoh() const { return at("challenge_wins_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_attempts_2_lab_kit_supporting_team_pharaoh() const { return at("challenge_attempts_2_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_attempts_uhc_lab_kit_supporting_team_pharaoh() const { return at("challenge_attempts_uhc_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_attempts_paper_lab_kit_supporting_team_pharaoh() const { return at("challenge_attempts_paper_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_attempts_3_lab_solo() const { return at("challenge_attempts_3_lab_solo"); }
+  [[nodiscard]] JsonView challenge_attempts_3_lab() const { return at("challenge_attempts_3_lab"); }
+  [[nodiscard]] JsonView challenge_attempts_3_lab_kit_supporting_team_pharaoh() const { return at("challenge_attempts_3_lab_kit_supporting_team_pharaoh"); }
+  [[nodiscard]] JsonView challenge_attempts_8_kit_attacking_team_slime() const { return at("challenge_attempts_8_kit_attacking_team_slime"); }
+  [[nodiscard]] JsonView challenge_wins_8_kit_attacking_team_slime() const { return at("challenge_wins_8_kit_attacking_team_slime"); }
+  [[nodiscard]] JsonView challenge_wins_archer_kit_attacking_team_slime() const { return at("challenge_wins_archer_kit_attacking_team_slime"); }
+  [[nodiscard]] JsonView challenge_wins_no_chest_kit_attacking_team_slime() const { return at("challenge_wins_no_chest_kit_attacking_team_slime"); }
+  [[nodiscard]] JsonView challenge_wins_rookie_kit_attacking_team_slime() const { return at("challenge_wins_rookie_kit_attacking_team_slime"); }
+  [[nodiscard]] JsonView challenge_wins_ultimate_warrior_kit_attacking_team_slime() const { return at("challenge_wins_ultimate_warrior_kit_attacking_team_slime"); }
+  [[nodiscard]] JsonView challenge_attempts_3_kit_mythical_chronobreaker() const { return at("challenge_attempts_3_kit_mythical_chronobreaker"); }
+  [[nodiscard]] JsonView challenge_wins_4_kit_mythical_chronobreaker() const { return at("challenge_wins_4_kit_mythical_chronobreaker"); }
+  [[nodiscard]] JsonView fall_kills_kit_mega_mega_cannoneer() const { return at("fall_kills_kit_mega_mega_cannoneer"); }
+  [[nodiscard]] JsonView assists_kit_attacking_team_fallen_angel() const { return at("assists_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_heavenly_kit_attacking_team_fallen_angel() const { return at("heads_heavenly_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_indescribable_kit_attacking_team_fallen_angel() const { return at("heads_indescribable_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_kit_attacking_team_fallen_angel() const { return at("heads_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_tasty_kit_attacking_team_fallen_angel() const { return at("heads_tasty_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_yucky_kit_attacking_team_fallen_angel() const { return at("heads_yucky_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView deaths_kit_attacking_team_fallen_angel() const { return at("deaths_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView losses_kit_attacking_team_fallen_angel() const { return at("losses_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView arrows_hit_kit_attacking_team_fallen_angel() const { return at("arrows_hit_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView arrows_shot_kit_attacking_team_fallen_angel() const { return at("arrows_shot_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView fall_kills_kit_attacking_team_fallen_angel() const { return at("fall_kills_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_decent_kit_attacking_team_fallen_angel() const { return at("heads_decent_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_divine_kit_attacking_team_fallen_angel() const { return at("heads_divine_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_salty_kit_attacking_team_fallen_angel() const { return at("heads_salty_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView longest_bow_shot_kit_attacking_team_fallen_angel() const { return at("longest_bow_shot_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView mobs_killed_kit_attacking_team_fallen_angel() const { return at("mobs_killed_kit_attacking_team_fallen-angel"); }
+  [[nodiscard]] JsonView heads_indescribable_kit_attacking_team_pig_rider() const { return at("heads_indescribable_kit_attacking_team_pig-rider"); }
+  [[nodiscard]] JsonView heads_special_kit_attacking_team_scout() const { return at("heads_special_kit_attacking_team_scout"); }
+  [[nodiscard]] JsonView challenge_attempts_5_kit_basic_solo_cactus() const { return at("challenge_attempts_5_kit_basic_solo_cactus"); }
+  [[nodiscard]] JsonView challenge_wins_4_kit_basic_solo_scout() const { return at("challenge_wins_4_kit_basic_solo_scout"); }
+  [[nodiscard]] JsonView heads_ethereal_kit_mythical_fishmonger() const { return at("heads_ethereal_kit_mythical_fishmonger"); }
+  [[nodiscard]] JsonView heads_indescribable_kit_mythical_fishmonger() const { return at("heads_indescribable_kit_mythical_fishmonger"); }
+  [[nodiscard]] JsonView challenge_attempts_3_kit_mythical_fishmonger() const { return at("challenge_attempts_3_kit_mythical_fishmonger"); }
+  [[nodiscard]] JsonView heads_special_kit_mythical_fishmonger() const { return at("heads_special_kit_mythical_fishmonger"); }
+  [[nodiscard]] JsonView challenge_wins_5_kit_attacking_team_enderman() const { return at("challenge_wins_5_kit_attacking_team_enderman"); }
+  [[nodiscard]] JsonView heads_special_kit_advanced_solo_pig_rider() const { return at("heads_special_kit_advanced_solo_pig-rider"); }
+  [[nodiscard]] JsonView winstreak_tourney_kit_defending_team_guardian() const { return at("winstreak_tourney_kit_defending_team_guardian"); }
+  [[nodiscard]] JsonView challenge_wins_5_kit_advanced_solo_enderman() const { return at("challenge_wins_5_kit_advanced_solo_enderman"); }
+  [[nodiscard]] JsonView heads_special_kit_basic_solo_speleologist() const { return at("heads_special_kit_basic_solo_speleologist"); }
+  [[nodiscard]] JsonView mob_kills_kit_mega_mega_paladin() const { return at("mob_kills_kit_mega_mega_paladin"); }
+  [[nodiscard]] JsonView challenge_attempts_6_kit_advanced_solo_slime() const { return at("challenge_attempts_6_kit_advanced_solo_slime"); }
+  [[nodiscard]] JsonView challenge_attempts_2_kit_advanced_solo_slime() const { return at("challenge_attempts_2_kit_advanced_solo_slime"); }
+  [[nodiscard]] JsonView lab_win_slime_kit_attacking_team_scout() const { return at("lab_win_slime_kit_attacking_team_scout"); }
+  [[nodiscard]] JsonView lab_win_slime() const { return at("lab_win_slime"); }
+  [[nodiscard]] JsonView lab_win_slime_team() const { return at("lab_win_slime_team"); }
+  [[nodiscard]] JsonView challenge_wins_1_kit_attacking_team_pig_rider() const { return at("challenge_wins_1_kit_attacking_team_pig-rider"); }
+  [[nodiscard]] JsonView challenge_wins_1_kit_supporting_team_princess() const { return at("challenge_wins_1_kit_supporting_team_princess"); }
+  [[nodiscard]] JsonView challenge_wins_2_kit_advanced_solo_slime() const { return at("challenge_wins_2_kit_advanced_solo_slime"); }
+  [[nodiscard]] JsonView challenge_wins_no_chest_kit_basic_solo_princess() const { return at("challenge_wins_no_chest_kit_basic_solo_princess"); }
+  [[nodiscard]] JsonView challenge_wins_ultimate_warrior_kit_basic_solo_princess() const { return at("challenge_wins_ultimate_warrior_kit_basic_solo_princess"); }
+  [[nodiscard]] JsonView challenge_wins_no_block_kit_basic_solo_princess() const { return at("challenge_wins_no_block_kit_basic_solo_princess"); }
+  [[nodiscard]] JsonView challenge_wins_8_kit_basic_solo_princess() const { return at("challenge_wins_8_kit_basic_solo_princess"); }
+  [[nodiscard]] JsonView challenge_attempts_8_kit_basic_solo_princess() const { return at("challenge_attempts_8_kit_basic_solo_princess"); }
+  [[nodiscard]] JsonView challenge_attempts_1_lab_kit_defending_team_frog() const { return at("challenge_attempts_1_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_1_lab_kit_defending_team_frog() const { return at("challenge_wins_1_lab_kit_defending_team_frog"); }
+  [[nodiscard]] JsonView challenge_wins_7_kit_basic_solo_princess() const { return at("challenge_wins_7_kit_basic_solo_princess"); }
+  [[nodiscard]] JsonView challenge_wins_7_kit_advanced_solo_slime() const { return at("challenge_wins_7_kit_advanced_solo_slime"); }
+  [[nodiscard]] JsonView heads_ethereal_kit_supporting_team_pyro() const { return at("heads_ethereal_kit_supporting_team_pyro"); }
+  [[nodiscard]] JsonView challenge_wins_lab_kit_supporting_team_zookeeper() const { return at("challenge_wins_lab_kit_supporting_team_zookeeper"); }
+  [[nodiscard]] JsonView challenge_wins_0_lab_kit_supporting_team_zookeeper() const { return at("challenge_wins_0_lab_kit_supporting_team_zookeeper"); }
+  [[nodiscard]] JsonView challenge_wins_0_kit_defending_team_batguy() const { return at("challenge_wins_0_kit_defending_team_batguy"); }
+  [[nodiscard]] JsonView challenge_wins_no_block_lab_kit_attacking_team_enderman() const { return at("challenge_wins_no_block_lab_kit_attacking_team_enderman"); }
+  [[nodiscard]] JsonView challenge_attempts_no_block_lab_kit_attacking_team_enderman() const { return at("challenge_attempts_no_block_lab_kit_attacking_team_enderman"); }
+  [[nodiscard]] JsonView heads_sweet_kit_basic_solo_fisherman() const { return at("heads_sweet_kit_basic_solo_fisherman"); }
+  [[nodiscard]] JsonView challenge_wins_0_kit_mythical_monster_trainer() const { return at("challenge_wins_0_kit_mythical_monster-trainer"); }
+  [[nodiscard]] JsonView heads_ethereal_kit_mini_solo_blacksmith() const { return at("heads_ethereal_kit_mini_solo_blacksmith"); }
+  [[nodiscard]] JsonView challenge_attempts_7_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_7_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_attempts_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_attempts_paper_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_paper_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_attempts_no_block_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_no_block_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_attempts_archer_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_archer_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_attempts_half_health_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_half_health_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_attempts_rookie_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_rookie_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_attempts_ultimate_warrior_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_ultimate_warrior_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_attempts_uhc_lab_kit_attacking_team_salmon() const { return at("challenge_attempts_uhc_lab_kit_attacking_team_salmon"); }
+  [[nodiscard]] JsonView challenge_wins_7_lab_kit_mining_team_default() const { return at("challenge_wins_7_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_7_lab_kit_mining_team_default() const { return at("challenge_attempts_7_lab_kit_mining_team_default"); }
+  [[nodiscard]] JsonView challenge_attempts_no_chest_lab_kit_defending_team_baseball_player() const { return at("challenge_attempts_no_chest_lab_kit_defending_team_baseball-player"); }
+  [[nodiscard]] JsonView challenge_wins_lab_kit_defending_team_baseball_player() const { return at("challenge_wins_lab_kit_defending_team_baseball-player"); }
+  [[nodiscard]] JsonView challenge_wins_1_lab_kit_defending_team_baseball_player() const { return at("challenge_wins_1_lab_kit_defending_team_baseball-player"); }
+  [[nodiscard]] JsonView challenge_attempts_lab_kit_defending_team_baseball_player() const { return at("challenge_attempts_lab_kit_defending_team_baseball-player"); }
+  [[nodiscard]] JsonView challenge_wins_no_chest_lab_kit_defending_team_baseball_player() const { return at("challenge_wins_no_chest_lab_kit_defending_team_baseball-player"); }
+  [[nodiscard]] JsonView challenge_attempts_1_lab_kit_defending_team_baseball_player() const { return at("challenge_attempts_1_lab_kit_defending_team_baseball-player"); }
+  [[nodiscard]] JsonView challenge_wins_0_kit_attacking_team_slime() const { return at("challenge_wins_0_kit_attacking_team_slime"); }
+  [[nodiscard]] JsonView challenge_wins_0_kit_attacking_team_jester() const { return at("challenge_wins_0_kit_attacking_team_jester"); }
+  [[nodiscard]] JsonView challenge_wins_half_health_kit_supporting_team_warlock() const { return at("challenge_wins_half_health_kit_supporting_team_warlock"); }
+  [[nodiscard]] JsonView mob_kills_kit_mega_mega_enderman() const { return at("mob_kills_kit_mega_mega_enderman"); }
+  [[nodiscard]] JsonView mobs_killed_kit_mega_mega_cannoneer() const { return at("mobs_killed_kit_mega_mega_cannoneer"); }
+  [[nodiscard]] JsonView lab_win_lucky_blocks_kit_mining_team_default() const { return at("lab_win_lucky_blocks_kit_mining_team_default"); }
+  [[nodiscard]] JsonView lab_win_lucky_blocks_mega_doubles() const { return at("lab_win_lucky_blocks_mega_doubles"); }
+  [[nodiscard]] JsonView challenge_attempts_7_lab_kit_attacking_team_scout() const { return at("challenge_attempts_7_lab_kit_attacking_team_scout"); }
+  [[nodiscard]] JsonView challenge_wins_6_kit_advanced_solo_magician() const { return at("challenge_wins_6_kit_advanced_solo_magician"); }
+  [[nodiscard]] JsonView fall_kills_tourney_kit_attacking_team_fisherman() const { return at("fall_kills_tourney_kit_attacking_team_fisherman"); }
 };
 
 class PlayerResponsePlayerStatsTrueCombat : public JsonView {
@@ -50245,6 +51102,7 @@ public:
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsBOTMUNForceLightning : public JsonView {
@@ -50445,6 +51303,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsBOTMUNMonsterCharge : public JsonView {
@@ -50455,6 +51315,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsBOTMUNFrostbolt : public JsonView {
@@ -50475,6 +51337,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsBOTMUNRicochet : public JsonView {
@@ -50647,6 +51511,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsBOTMUNBite : public JsonView {
@@ -50657,6 +51523,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsBOTMUNShieldQuake : public JsonView {
@@ -50929,6 +51797,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKMelee : public JsonView {
@@ -50952,6 +51822,9 @@ public:
   [[nodiscard]] JsonView smasher_normal() const { return at("smasher_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKBatarang : public JsonView {
@@ -50962,6 +51835,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKBotmubile : public JsonView {
@@ -50994,6 +51869,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKFrostbolt : public JsonView {
@@ -51044,6 +51921,7 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKThrowCake : public JsonView {
@@ -51096,6 +51974,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKSpiderKick : public JsonView {
@@ -51126,6 +52006,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKWebShot : public JsonView {
@@ -51169,6 +52051,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKHomingMissiles : public JsonView {
@@ -51290,6 +52174,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKTelepunch : public JsonView {
@@ -51330,6 +52216,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKGrenade : public JsonView {
@@ -51382,6 +52270,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGENERALCLUCKKameBeam : public JsonView {
@@ -51574,6 +52464,7 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView damage_dealt3v3() const { return at("damage_dealt3v3"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANLaserCannon : public JsonView {
@@ -51603,6 +52494,7 @@ public:
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANMelee : public JsonView {
@@ -51628,6 +52520,9 @@ public:
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView damage_dealt3v3() const { return at("damage_dealt3v3"); }
+  [[nodiscard]] JsonView smashed3v3() const { return at("smashed3v3"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANBoulder : public JsonView {
@@ -51651,6 +52546,9 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANBotmubile : public JsonView {
@@ -51661,6 +52559,7 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANBatarang : public JsonView {
@@ -51673,6 +52572,7 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANForcePull : public JsonView {
@@ -51683,6 +52583,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANBazooka : public JsonView {
@@ -51694,6 +52596,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANMonsterCharge : public JsonView {
@@ -51734,6 +52638,7 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANSpooderBuddies : public JsonView {
@@ -51797,6 +52702,9 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
+  [[nodiscard]] JsonView damage_dealt3v3() const { return at("damage_dealt3v3"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANSeismicSlam : public JsonView {
@@ -51828,6 +52736,7 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANDesertEagle : public JsonView {
@@ -51838,6 +52747,7 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANThrowCake : public JsonView {
@@ -51901,6 +52811,7 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed3v3() const { return at("smashed3v3"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANFreezingBreath : public JsonView {
@@ -51911,6 +52822,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANTeleboom : public JsonView {
@@ -51931,6 +52844,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANChargedBeam : public JsonView {
@@ -52070,6 +52985,7 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
+  [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANSupersonicBark : public JsonView {
@@ -52277,6 +53193,9 @@ public:
   [[nodiscard]] JsonView smasher_teams() const { return at("smasher_teams"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
+  [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKMonsterCharge : public JsonView {
@@ -52361,6 +53280,9 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKEggBazooka : public JsonView {
@@ -52419,6 +53341,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKWebShot : public JsonView {
@@ -52440,6 +53364,9 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKSwingPin : public JsonView {
@@ -52571,6 +53498,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKChargedBeam : public JsonView {
@@ -52613,6 +53542,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKKiBlast : public JsonView {
@@ -52634,6 +53565,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKDefecake : public JsonView {
@@ -52674,6 +53607,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKFlamingDesertEagle : public JsonView {
@@ -52684,6 +53619,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKRicochet : public JsonView {
@@ -52694,6 +53631,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKNotchedBow : public JsonView {
@@ -52704,6 +53643,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKFreezingBreath : public JsonView {
@@ -52780,6 +53721,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKStaticLaser : public JsonView {
@@ -52958,6 +53901,8 @@ public:
   [[nodiscard]] JsonView smasher_teams() const { return at("smasher_teams"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERMelee : public JsonView {
@@ -52980,6 +53925,7 @@ public:
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
   [[nodiscard]] JsonView smasher_normal() const { return at("smasher_normal"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERCakeStorm : public JsonView {
@@ -53002,6 +53948,9 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
+  [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERForceLightning : public JsonView {
@@ -53037,6 +53986,9 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
+  [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
+  [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERLaserCannon : public JsonView {
@@ -53047,6 +53999,9 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERBatarang : public JsonView {
@@ -53057,6 +54012,9 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERDefecake : public JsonView {
@@ -53089,6 +54047,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERReinforcements : public JsonView {
@@ -53163,6 +54123,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERFreezingBreath : public JsonView {
@@ -53346,6 +54308,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERShieldBash : public JsonView {
@@ -53618,6 +54582,14 @@ public:
   [[nodiscard]] JsonView friend_losses() const { return at("friend_losses"); }
   [[nodiscard]] JsonView friend_wins() const { return at("friend_wins"); }
   [[nodiscard]] JsonView friend_wins_normal() const { return at("friend_wins_normal"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
+  [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView deaths_3v3() const { return at("deaths_3v3"); }
+  [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView games_3v3() const { return at("games_3v3"); }
+  [[nodiscard]] JsonView win_streak_3v3() const { return at("win_streak_3v3"); }
+  [[nodiscard]] JsonView wins_3v3() const { return at("wins_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsMARAUDERMelee : public JsonView {
@@ -53882,6 +54854,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsMARAUDERCakeStorm : public JsonView {
@@ -54130,6 +55104,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsMARAUDERDefecake : public JsonView {
@@ -54811,6 +55787,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSPODERMANShieldBash : public JsonView {
@@ -55008,6 +55986,7 @@ public:
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsFROSTYFrostbolt : public JsonView {
@@ -55136,6 +56115,7 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsFROSTYBoulder : public JsonView {
@@ -55419,6 +56399,7 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsFROSTYEggBazooka : public JsonView {
@@ -55481,6 +56462,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsFROSTYKameBeam : public JsonView {
@@ -55513,6 +56496,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsFROSTYTelepunch : public JsonView {
@@ -55685,6 +56670,7 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
+  [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUMelee : public JsonView {
@@ -55710,6 +56696,7 @@ public:
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUKameBeam : public JsonView {
@@ -55733,6 +56720,7 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUForceLightning : public JsonView {
@@ -55743,6 +56731,7 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUReinforcements : public JsonView {
@@ -55753,6 +56742,7 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKULaserCannon : public JsonView {
@@ -55821,6 +56811,7 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUDesertEagle : public JsonView {
@@ -55913,6 +56904,7 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUHomingMissiles : public JsonView {
@@ -55923,6 +56915,7 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUVoidSlash : public JsonView {
@@ -55963,6 +56956,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUEggBazooka : public JsonView {
@@ -56422,6 +57417,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSKULLFIREMelee : public JsonView {
@@ -56796,6 +57793,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSKULLFIREDash : public JsonView {
@@ -57203,6 +58202,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsPUGFrostbolt : public JsonView {
@@ -57322,6 +58323,7 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsPUGSpiderKick : public JsonView {
@@ -57795,6 +58797,8 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSHOOPDAWHOOPGrenade : public JsonView {
@@ -57825,6 +58829,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSHOOPDAWHOOPThrowCake : public JsonView {
@@ -58703,6 +59709,9 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsDUSKCRAWLERRicochet : public JsonView {
@@ -59059,6 +60068,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGREENHOODReinforcements : public JsonView {
@@ -59149,6 +60160,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGREENHOODOnionCannon : public JsonView {
@@ -59191,6 +60204,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGREENHOODFrostbolt : public JsonView {
@@ -59235,6 +60250,7 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGREENHOODForcePull : public JsonView {
@@ -59245,6 +60261,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGREENHOODBoom : public JsonView {
@@ -59415,6 +60433,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGREENHOODKameBeam : public JsonView {
@@ -59516,6 +60536,9 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGREENHOODFirMaLazer : public JsonView {
@@ -59801,6 +60824,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICFrostbolt : public JsonView {
@@ -59811,6 +60836,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICThrowCake : public JsonView {
@@ -59833,6 +60860,7 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICNotchedBow : public JsonView {
@@ -59959,6 +60987,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICBatarang : public JsonView {
@@ -59988,6 +61018,7 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
+  [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICDesertEagle : public JsonView {
@@ -59998,6 +61029,8 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICDefecake : public JsonView {
@@ -60090,6 +61123,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICWerepug : public JsonView {
@@ -60120,6 +61155,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICRicochet : public JsonView {
@@ -60190,6 +61227,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSANICFlyingPunch : public JsonView {
@@ -60622,6 +61661,7 @@ public:
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
   [[nodiscard]] JsonView smasher_2v2() const { return at("smasher_2v2"); }
   [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView smasher_teams() const { return at("smasher_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSERGEANTSHIELDMonsterCharge : public JsonView {
@@ -60709,6 +61749,8 @@ public:
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
+  [[nodiscard]] JsonView smasher() const { return at("smasher"); }
+  [[nodiscard]] JsonView smasher_normal() const { return at("smasher_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSERGEANTSHIELDGrapplingHook : public JsonView {
@@ -60844,6 +61886,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSERGEANTSHIELDSupersonicBark : public JsonView {
@@ -60926,6 +61970,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSERGEANTSHIELDKameBeam : public JsonView {
@@ -60974,6 +62020,9 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
+  [[nodiscard]] JsonView damage_dealt_teams() const { return at("damage_dealt_teams"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView smasher_teams() const { return at("smasher_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSERGEANTSHIELDRocketPunch : public JsonView {
@@ -61014,6 +62063,9 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
+  [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSERGEANTSHIELDWallClimber : public JsonView {
@@ -61023,6 +62075,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsSERGEANTSHIELDFirMaLazer : public JsonView {
@@ -62950,6 +64004,11 @@ public:
   [[nodiscard]] JsonView alt_master_active_kit_frost_knight() const { return at("alt_master_active_kit_frost_knight"); }
   [[nodiscard]] JsonView fastest_win_mega_kit_scout() const { return at("fastest_win_mega_kit_scout"); }
   [[nodiscard]] JsonView mega_wins_kit_scout() const { return at("mega_wins_kit_scout"); }
+  [[nodiscard]] JsonView fastest_win_mega_kit_cleric() const { return at("fastest_win_mega_kit_cleric"); }
+  [[nodiscard]] JsonView mega_wins_kit_cleric() const { return at("mega_wins_kit_cleric"); }
+  [[nodiscard]] JsonView fastest_win_solo_perk_no_chest_challenge() const { return at("fastest_win_solo_perk_no_chest_challenge"); }
+  [[nodiscard]] JsonView jumpman_inventory_auto_equip_armor() const { return at("jumpman_inventory_auto_equip_armor"); }
+  [[nodiscard]] JsonView fastest_win_solo_perk_half_health_challenge() const { return at("fastest_win_solo_perk_half_health_challenge"); }
 };
 
 class PlayerResponsePlayerStatsLegacyLeaderboardSettings : public JsonView {
@@ -63117,6 +64176,9 @@ public:
   [[nodiscard]] JsonView bw_challenge_protect_the_president_best_time() const { return at("bw_challenge_protect_the_president_best_time"); }
   [[nodiscard]] JsonView bw_challenge_master_assassin_best_time() const { return at("bw_challenge_master_assassin_best_time"); }
   [[nodiscard]] JsonView bw_challenge_cant_touch_this_best_time() const { return at("bw_challenge_cant_touch_this_best_time"); }
+  [[nodiscard]] JsonView bw_challenge_wool_warrior_best_time() const { return at("bw_challenge_wool_warrior_best_time"); }
+  [[nodiscard]] JsonView bw_challenge_anchor_best_time() const { return at("bw_challenge_anchor_best_time"); }
+  [[nodiscard]] JsonView bw_challenge_no_dreaming_best_time() const { return at("bw_challenge_no_dreaming_best_time"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsLeaderboardSettings : public JsonView {
@@ -63507,6 +64569,17 @@ public:
   [[nodiscard]] JsonView general_daku_tea_repeat() const { return at("general_daku_tea_repeat"); }
   [[nodiscard]] JsonView bucky_spice_repeat() const { return at("bucky_spice_repeat"); }
   [[nodiscard]] JsonView oasis_husks_repeat() const { return at("oasis_husks_repeat"); }
+  [[nodiscard]] JsonView phase_four_ascension_wallet_o() const { return at("phase_four_ascension_wallet_o"); }
+  [[nodiscard]] JsonView king_flut_emeralds() const { return at("king_flut_emeralds"); }
+  [[nodiscard]] JsonView bucky_spice() const { return at("bucky_spice"); }
+  [[nodiscard]] JsonView don_espresso_emerald() const { return at("don_espresso_emerald"); }
+  [[nodiscard]] JsonView oasis_bottle() const { return at("oasis_bottle"); }
+  [[nodiscard]] JsonView jagger_tickets() const { return at("jagger_tickets"); }
+  [[nodiscard]] JsonView skyblock_player_souls() const { return at("skyblock_player_souls"); }
+  [[nodiscard]] JsonView combat_artist_sally_husks() const { return at("combat_artist_sally_husks"); }
+  [[nodiscard]] JsonView ratman_iron() const { return at("ratman_iron"); }
+  [[nodiscard]] JsonView laundry_gal_bottles_repeat() const { return at("laundry_gal_bottles_repeat"); }
+  [[nodiscard]] JsonView spaceman_forge_coal() const { return at("spaceman_forge_coal"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsSlumberQuestItem : public JsonView {
@@ -63567,6 +64640,11 @@ public:
   [[nodiscard]] JsonView slumber_item_diamond_essence() const { return at("slumber_item_diamond_essence"); }
   [[nodiscard]] JsonView slumber_item_forge_coal() const { return at("slumber_item_forge_coal"); }
   [[nodiscard]] JsonView slumber_item_ticket_tart() const { return at("slumber_item_ticket_tart"); }
+  [[nodiscard]] JsonView slumber_item_potion_bottle() const { return at("slumber_item_potion_bottle"); }
+  [[nodiscard]] JsonView slumber_item_nightmare_noodles() const { return at("slumber_item_nightmare_noodles"); }
+  [[nodiscard]] JsonView slumber_item_snoring_nachos() const { return at("slumber_item_snoring_nachos"); }
+  [[nodiscard]] JsonView slumber_item_soul_salsa() const { return at("slumber_item_soul_salsa"); }
+  [[nodiscard]] JsonView slumber_item_dreamcake() const { return at("slumber_item_dreamcake"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsSlumberQuestGamblerGeorge : public JsonView {
@@ -63593,6 +64671,8 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsBedwarsSlumberQuestObjective objective() const { return object_at<PlayerResponsePlayerStatsBedwarsSlumberQuestObjective>("objective"); }
   [[nodiscard]] PlayerResponsePlayerStatsBedwarsSlumberQuestItem item() const { return object_at<PlayerResponsePlayerStatsBedwarsSlumberQuestItem>("item"); }
   [[nodiscard]] PlayerResponsePlayerStatsBedwarsSlumberQuestGamblerGeorge gambler_george() const { return object_at<PlayerResponsePlayerStatsBedwarsSlumberQuestGamblerGeorge>("gambler_george"); }
+
+  [[nodiscard]] JsonView lastTraded() const { return at("lastTraded"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsSlumberFredgie : public JsonView {
@@ -63756,6 +64836,7 @@ public:
   [[nodiscard]] JsonView slumberItemNotification() const { return at("slumberItemNotification"); }
   [[nodiscard]] JsonView slumberWalletFull() const { return at("slumberWalletFull"); }
   [[nodiscard]] JsonView trapRemoval() const { return at("trapRemoval"); }
+  [[nodiscard]] JsonView auto_equip_prestiges() const { return at("auto_equip_prestiges"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsFavorites : public JsonView {
@@ -63775,6 +64856,8 @@ public:
   [[nodiscard]] JsonView woodSkin() const { return at("woodSkin"); }
   [[nodiscard]] JsonView starting_weapon() const { return at("starting_weapon"); }
   [[nodiscard]] JsonView figurine() const { return at("figurine"); }
+  [[nodiscard]] JsonView prestige_scheme() const { return at("prestige_scheme"); }
+  [[nodiscard]] JsonView star() const { return at("star"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsQuestNPCTutorials : public JsonView {
@@ -63903,6 +64986,8 @@ public:
   [[nodiscard]] JsonView oasis() const { return at("oasis"); }
   [[nodiscard]] JsonView slumber() const { return at("slumber"); }
   [[nodiscard]] JsonView appetizer() const { return at("appetizer"); }
+  [[nodiscard]] JsonView first_course() const { return at("first_course"); }
+  [[nodiscard]] JsonView second_course() const { return at("second_course"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsFeastfoodCooked : public JsonView {
@@ -63910,6 +64995,10 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView ticket_tart() const { return at("ticket_tart"); }
+  [[nodiscard]] JsonView nightmare_noodles() const { return at("nightmare_noodles"); }
+  [[nodiscard]] JsonView snoring_nachos() const { return at("snoring_nachos"); }
+  [[nodiscard]] JsonView soul_salsa() const { return at("soul_salsa"); }
+  [[nodiscard]] JsonView dreamcake() const { return at("dreamcake"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsFeastfood : public JsonView {
@@ -63925,6 +65014,30 @@ public:
 
   [[nodiscard]] JsonView appetizer_boon() const { return at("appetizer_boon"); }
   [[nodiscard]] JsonView first_dream_of_wood_skins() const { return at("first_dream_of_wood_skins"); }
+  [[nodiscard]] JsonView killmessages_glorious() const { return at("killmessages_glorious"); }
+  [[nodiscard]] JsonView dream_of_animals() const { return at("dream_of_animals"); }
+  [[nodiscard]] JsonView first_nightmare_of_challenges() const { return at("first_nightmare_of_challenges"); }
+  [[nodiscard]] JsonView first_course_boon() const { return at("first_course_boon"); }
+  [[nodiscard]] JsonView woodSkin_birch_log() const { return at("woodSkin_birch_log"); }
+  [[nodiscard]] JsonView woodSkin_oak_log() const { return at("woodSkin_oak_log"); }
+  [[nodiscard]] JsonView woodSkin_spruce_log() const { return at("woodSkin_spruce_log"); }
+  [[nodiscard]] JsonView woodSkin_dark_oak_log() const { return at("woodSkin_dark_oak_log"); }
+  [[nodiscard]] JsonView woodSkin_jungle_log() const { return at("woodSkin_jungle_log"); }
+  [[nodiscard]] JsonView woodSkin_acacia_log() const { return at("woodSkin_acacia_log"); }
+  [[nodiscard]] JsonView dream_of_prestige_stars() const { return at("dream_of_prestige_stars"); }
+  [[nodiscard]] JsonView npcskin_cow_pyramid() const { return at("npcskin_cow_pyramid"); }
+  [[nodiscard]] JsonView npcskin_cluck_stack() const { return at("npcskin_cluck_stack"); }
+  [[nodiscard]] JsonView challenge_wool_warrior() const { return at("challenge_wool_warrior"); }
+  [[nodiscard]] JsonView victorydance_chicken_apocalypse() const { return at("victorydance_chicken_apocalypse"); }
+  [[nodiscard]] JsonView first_dream_of_shopkeeper_skins() const { return at("first_dream_of_shopkeeper_skins"); }
+  [[nodiscard]] JsonView star_four_pointed() const { return at("star_four_pointed"); }
+  [[nodiscard]] JsonView second_nightmare_of_challenges() const { return at("second_nightmare_of_challenges"); }
+  [[nodiscard]] JsonView second_course_boon() const { return at("second_course_boon"); }
+  [[nodiscard]] JsonView second_dream_of_wood_skins() const { return at("second_dream_of_wood_skins"); }
+  [[nodiscard]] JsonView dream_of_prestige_brackets() const { return at("dream_of_prestige_brackets"); }
+  [[nodiscard]] JsonView third_nightmare_of_challenges() const { return at("third_nightmare_of_challenges"); }
+  [[nodiscard]] JsonView challenge_anchor() const { return at("challenge_anchor"); }
+  [[nodiscard]] JsonView challenge_no_dreaming() const { return at("challenge_no_dreaming"); }
 };
 
 class PlayerResponsePlayerStatsBedwars : public JsonView {
@@ -65853,6 +66966,114 @@ public:
   [[nodiscard]] JsonView data_version() const { return at("data_version"); }
   [[nodiscard]] JsonView active_star() const { return at("active_star"); }
   [[nodiscard]] JsonView active_prestige_scheme() const { return at("active_prestige_scheme"); }
+  [[nodiscard]] JsonView four_four_totallynormal__items_purchased_bedwars() const { return at("four_four_totallynormal__items_purchased_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_deaths_bedwars() const { return at("four_four_totallynormal_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_entity_attack_deaths_bedwars() const { return at("four_four_totallynormal_entity_attack_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_entity_attack_final_kills_bedwars() const { return at("four_four_totallynormal_entity_attack_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_entity_attack_kills_bedwars() const { return at("four_four_totallynormal_entity_attack_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_fall_deaths_bedwars() const { return at("four_four_totallynormal_fall_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_final_kills_bedwars() const { return at("four_four_totallynormal_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_games_played_bedwars() const { return at("four_four_totallynormal_games_played_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_gold_resources_collected_bedwars() const { return at("four_four_totallynormal_gold_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_iron_resources_collected_bedwars() const { return at("four_four_totallynormal_iron_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_items_purchased_bedwars() const { return at("four_four_totallynormal_items_purchased_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_kills_bedwars() const { return at("four_four_totallynormal_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_permanent_items_purchased_bedwars() const { return at("four_four_totallynormal_permanent_items_purchased_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_resources_collected_bedwars() const { return at("four_four_totallynormal_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_void_deaths_bedwars() const { return at("four_four_totallynormal_void_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_void_final_kills_bedwars() const { return at("four_four_totallynormal_void_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_void_kills_bedwars() const { return at("four_four_totallynormal_void_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_wins_bedwars() const { return at("four_four_totallynormal_wins_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_diamond_resources_collected_bedwars() const { return at("four_four_totallynormal_diamond_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_emerald_resources_collected_bedwars() const { return at("four_four_totallynormal_emerald_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_fall_kills_bedwars() const { return at("four_four_totallynormal_fall_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_magic_final_kills_bedwars() const { return at("four_four_totallynormal_magic_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_winstreak() const { return at("eight_two_totallynormal_winstreak"); }
+  [[nodiscard]] JsonView eight_two_totallynormal__items_purchased_bedwars() const { return at("eight_two_totallynormal__items_purchased_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_beds_broken_bedwars() const { return at("eight_two_totallynormal_beds_broken_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_beds_lost_bedwars() const { return at("eight_two_totallynormal_beds_lost_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_deaths_bedwars() const { return at("eight_two_totallynormal_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_emerald_resources_collected_bedwars() const { return at("eight_two_totallynormal_emerald_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_final_deaths_bedwars() const { return at("eight_two_totallynormal_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_final_kills_bedwars() const { return at("eight_two_totallynormal_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_games_played_bedwars() const { return at("eight_two_totallynormal_games_played_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_gold_resources_collected_bedwars() const { return at("eight_two_totallynormal_gold_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_iron_resources_collected_bedwars() const { return at("eight_two_totallynormal_iron_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_items_purchased_bedwars() const { return at("eight_two_totallynormal_items_purchased_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_losses_bedwars() const { return at("eight_two_totallynormal_losses_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_permanent_items_purchased_bedwars() const { return at("eight_two_totallynormal_permanent_items_purchased_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_resources_collected_bedwars() const { return at("eight_two_totallynormal_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_suffocation_deaths_bedwars() const { return at("eight_two_totallynormal_suffocation_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_void_deaths_bedwars() const { return at("eight_two_totallynormal_void_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_void_final_deaths_bedwars() const { return at("eight_two_totallynormal_void_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_void_final_kills_bedwars() const { return at("eight_two_totallynormal_void_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_diamond_resources_collected_bedwars() const { return at("eight_two_totallynormal_diamond_resources_collected_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_entity_attack_kills_bedwars() const { return at("eight_two_totallynormal_entity_attack_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_kills_bedwars() const { return at("eight_two_totallynormal_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_entity_attack_deaths_bedwars() const { return at("eight_two_totallynormal_entity_attack_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_entity_attack_final_kills_bedwars() const { return at("eight_two_totallynormal_entity_attack_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_fall_final_kills_bedwars() const { return at("eight_two_totallynormal_fall_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_wins_bedwars() const { return at("eight_two_totallynormal_wins_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_winstreak() const { return at("four_four_totallynormal_winstreak"); }
+  [[nodiscard]] JsonView four_four_totallynormal_beds_lost_bedwars() const { return at("four_four_totallynormal_beds_lost_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_final_deaths_bedwars() const { return at("four_four_totallynormal_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_losses_bedwars() const { return at("four_four_totallynormal_losses_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_void_final_deaths_bedwars() const { return at("four_four_totallynormal_void_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_beds_broken_bedwars() const { return at("four_four_totallynormal_beds_broken_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_void_kills_bedwars() const { return at("eight_two_totallynormal_void_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_entity_attack_final_deaths_bedwars() const { return at("eight_two_totallynormal_entity_attack_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_fall_deaths_bedwars() const { return at("eight_two_totallynormal_fall_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_entity_explosion_deaths_bedwars() const { return at("eight_two_totallynormal_entity_explosion_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_projectile_final_kills_bedwars() const { return at("eight_two_totallynormal_projectile_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_magic_final_kills_bedwars() const { return at("eight_two_totallynormal_magic_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_fall_kills_bedwars() const { return at("eight_two_totallynormal_fall_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_projectile_deaths_bedwars() const { return at("eight_two_totallynormal_projectile_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_magic_deaths_bedwars() const { return at("eight_two_totallynormal_magic_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_entity_attack_final_deaths_bedwars() const { return at("four_four_totallynormal_entity_attack_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_fall_final_deaths_bedwars() const { return at("four_four_totallynormal_fall_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_fall_final_kills_bedwars() const { return at("four_four_totallynormal_fall_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_magic_deaths_bedwars() const { return at("four_four_totallynormal_magic_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_entity_explosion_final_kills_bedwars() const { return at("eight_two_totallynormal_entity_explosion_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_entity_explosion_kills_bedwars() const { return at("eight_two_totallynormal_entity_explosion_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_projectile_deaths_bedwars() const { return at("four_four_totallynormal_projectile_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_entity_explosion_final_kills_bedwars() const { return at("four_four_totallynormal_entity_explosion_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_entity_explosion_kills_bedwars() const { return at("four_four_totallynormal_entity_explosion_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_projectile_final_deaths_bedwars() const { return at("eight_two_totallynormal_projectile_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_magic_final_deaths_bedwars() const { return at("eight_two_totallynormal_magic_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_magic_kills_bedwars() const { return at("eight_two_totallynormal_magic_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_projectile_kills_bedwars() const { return at("eight_two_totallynormal_projectile_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_projectile_final_kills_bedwars() const { return at("four_four_totallynormal_projectile_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_entity_explosion_deaths_bedwars() const { return at("four_four_totallynormal_entity_explosion_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_magic_final_deaths_bedwars() const { return at("four_four_totallynormal_magic_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_projectile_kills_bedwars() const { return at("four_four_totallynormal_projectile_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_magic_kills_bedwars() const { return at("four_four_totallynormal_magic_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_fall_final_deaths_bedwars() const { return at("eight_two_totallynormal_fall_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_suffocation_final_kills_bedwars() const { return at("eight_two_totallynormal_suffocation_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_suffocation_final_deaths_bedwars() const { return at("eight_two_totallynormal_suffocation_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_entity_explosion_final_deaths_bedwars() const { return at("four_four_totallynormal_entity_explosion_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView active_prestige_bracket() const { return at("active_prestige_bracket"); }
+  [[nodiscard]] JsonView four_four_totallynormal_suffocation_deaths_bedwars() const { return at("four_four_totallynormal_suffocation_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_fire_tick_deaths_bedwars() const { return at("eight_two_totallynormal_fire_tick_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_fire_tick_kills_bedwars() const { return at("eight_two_totallynormal_fire_tick_kills_bedwars"); }
+  [[nodiscard]] JsonView bw_challenge_wool_warrior() const { return at("bw_challenge_wool_warrior"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_fire_deaths_bedwars() const { return at("eight_two_totallynormal_fire_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_projectile_final_deaths_bedwars() const { return at("four_four_totallynormal_projectile_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_entity_explosion_final_deaths_bedwars() const { return at("eight_two_totallynormal_entity_explosion_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_suffocation_final_deaths_bedwars() const { return at("four_four_totallynormal_suffocation_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_underworld_drowning_final_deaths_bedwars() const { return at("four_four_underworld_drowning_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_voidless_suffocation_final_kills_bedwars() const { return at("eight_two_voidless_suffocation_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_fire_tick_final_kills_bedwars() const { return at("four_four_totallynormal_fire_tick_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_fire_tick_deaths_bedwars() const { return at("four_four_totallynormal_fire_tick_deaths_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_fire_tick_kills_bedwars() const { return at("four_four_totallynormal_fire_tick_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_suffocation_final_kills_bedwars() const { return at("four_four_totallynormal_suffocation_final_kills_bedwars"); }
+  [[nodiscard]] JsonView tourney_bedwars4s_0_suffocation_kills_bedwars() const { return at("tourney_bedwars4s_0_suffocation_kills_bedwars"); }
+  [[nodiscard]] JsonView bw_challenge_anchor() const { return at("bw_challenge_anchor"); }
+  [[nodiscard]] JsonView four_four_lucky_block_explosion_kills_bedwars() const { return at("four_four_lucky_block_explosion_kills_bedwars"); }
+  [[nodiscard]] JsonView bw_challenge_no_dreaming() const { return at("bw_challenge_no_dreaming"); }
+  [[nodiscard]] JsonView tourney_bedwars4s_0_suffocation_final_kills_bedwars() const { return at("tourney_bedwars4s_0_suffocation_final_kills_bedwars"); }
+  [[nodiscard]] JsonView four_four_totallynormal_fire_deaths_bedwars() const { return at("four_four_totallynormal_fire_deaths_bedwars"); }
+  [[nodiscard]] JsonView eight_two_totallynormal_fire_kills_bedwars() const { return at("eight_two_totallynormal_fire_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_one_ultimate_fire_tick_final_kills_bedwars() const { return at("eight_one_ultimate_fire_tick_final_kills_bedwars"); }
 };
 
 class PlayerResponsePlayerStatsMurderMysteryLeaderboardSettings : public JsonView {
@@ -66467,7 +67688,12 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsMurderMysteryClassic : public JsonView {
@@ -66506,6 +67732,7 @@ public:
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsMurderMystery : public JsonView {
@@ -68963,6 +70190,7 @@ public:
   [[nodiscard]] JsonView active_prefixicon() const { return at("active_prefixicon"); }
   [[nodiscard]] JsonView active_prefixstat() const { return at("active_prefixstat"); }
   [[nodiscard]] JsonView bow_kills_archives_top_floor_MURDER_SHOWDOWN() const { return at("bow_kills_archives_top_floor_MURDER_SHOWDOWN"); }
+  [[nodiscard]] JsonView suicides_transport_MURDER_HARDCORE() const { return at("suicides_transport_MURDER_HARDCORE"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout5 : public JsonView {
@@ -68993,6 +70221,7 @@ public:
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -69024,11 +70253,13 @@ public:
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -69046,11 +70277,13 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsOpDuelLayout5 : public JsonView {
@@ -69068,13 +70301,28 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
+  [[nodiscard]] JsonView _15() const { return at("15"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutArcher5 : public JsonView {
@@ -69090,12 +70338,15 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsUhcDuelLayout5 : public JsonView {
@@ -69153,11 +70404,14 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
@@ -69173,14 +70427,18 @@ public:
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
@@ -69476,6 +70734,7 @@ public:
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelWarrior : public JsonView {
@@ -69521,6 +70780,7 @@ public:
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelArcher : public JsonView {
@@ -69565,6 +70825,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
@@ -69573,6 +70834,7 @@ public:
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -69642,6 +70904,7 @@ public:
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
@@ -69669,6 +70932,7 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
@@ -69687,7 +70951,14 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -69707,12 +70978,18 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -69742,6 +71019,7 @@ public:
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
@@ -69755,6 +71033,7 @@ public:
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
@@ -69764,6 +71043,8 @@ public:
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -69831,12 +71112,16 @@ public:
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsUhcDuelLayout2 : public JsonView {
@@ -69861,11 +71146,13 @@ public:
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -69912,6 +71199,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
@@ -70114,6 +71402,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -70140,8 +71429,12 @@ public:
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -70312,9 +71605,12 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBowDuelLayout1 : public JsonView {
@@ -70331,6 +71627,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
@@ -70352,6 +71649,7 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
@@ -70374,9 +71672,11 @@ public:
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -70475,6 +71775,7 @@ public:
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -70578,6 +71879,7 @@ public:
 
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
@@ -70770,6 +72072,7 @@ public:
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
@@ -70815,6 +72118,7 @@ public:
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -70862,6 +72166,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
@@ -70902,6 +72207,7 @@ public:
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -70965,6 +72271,7 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -71115,6 +72422,7 @@ public:
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedPaladin : public JsonView {
@@ -71136,6 +72444,7 @@ public:
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
@@ -71185,6 +72494,7 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamKnight : public JsonView {
@@ -71211,8 +72521,10 @@ public:
 
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloChampion : public JsonView {
@@ -71239,6 +72551,7 @@ public:
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
@@ -71248,6 +72561,8 @@ public:
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelAthlete : public JsonView {
@@ -71288,6 +72603,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -71339,6 +72655,7 @@ public:
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
@@ -71350,6 +72667,7 @@ public:
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloPyromancer : public JsonView {
@@ -71369,17 +72687,21 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -71408,6 +72730,9 @@ public:
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedArmorer : public JsonView {
@@ -71433,6 +72758,7 @@ public:
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -71459,6 +72785,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
@@ -71468,6 +72795,7 @@ public:
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
@@ -71495,11 +72823,14 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelScout : public JsonView {
@@ -71577,6 +72908,7 @@ public:
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
@@ -71666,6 +72998,7 @@ public:
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -71758,6 +73091,8 @@ public:
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
@@ -71850,6 +73185,7 @@ public:
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
@@ -71876,9 +73212,12 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -71919,6 +73258,7 @@ public:
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -71958,6 +73298,8 @@ public:
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -72013,8 +73355,12 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelWarlock : public JsonView {
@@ -72076,6 +73422,7 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
@@ -72102,6 +73449,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
 };
@@ -72119,6 +73467,7 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
@@ -72205,6 +73554,7 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -72249,6 +73599,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -72289,13 +73640,17 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamPharaoh : public JsonView {
@@ -72381,6 +73736,8 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
 };
@@ -72394,6 +73751,7 @@ public:
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
@@ -72431,10 +73789,12 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelPaladin : public JsonView {
@@ -72494,6 +73854,7 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
@@ -72514,7 +73875,10 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
@@ -72538,9 +73902,11 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelJockey : public JsonView {
@@ -72557,6 +73923,7 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
@@ -72630,6 +73997,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelViking : public JsonView {
@@ -72699,6 +74067,8 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelSnowman : public JsonView {
@@ -72717,6 +74087,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
@@ -72780,6 +74151,8 @@ public:
   [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelBowman : public JsonView {
@@ -72850,6 +74223,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBowman5 : public JsonView {
@@ -72866,6 +74240,7 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
@@ -72911,7 +74286,9 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelBlaze : public JsonView {
@@ -72929,6 +74306,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelFarmer : public JsonView {
@@ -72949,6 +74327,7 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -73013,6 +74392,7 @@ public:
   [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
@@ -73297,12 +74677,14 @@ public:
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout2 : public JsonView {
@@ -73380,6 +74762,8 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutToxicologist5 : public JsonView {
@@ -73388,7 +74772,10 @@ public:
 
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
@@ -73722,6 +75109,8 @@ public:
 
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
@@ -73766,6 +75155,7 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
@@ -73778,7 +75168,9 @@ public:
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
@@ -73841,6 +75233,8 @@ public:
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
@@ -73856,6 +75250,7 @@ public:
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
@@ -73979,8 +75374,10 @@ public:
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
@@ -74120,6 +75517,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
@@ -74127,7 +75525,9 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
@@ -74154,6 +75554,9 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutJockey5 : public JsonView {
@@ -74168,6 +75571,9 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
 };
 
@@ -74200,6 +75606,8 @@ public:
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
@@ -74239,7 +75647,10 @@ public:
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutFisherman4 : public JsonView {
@@ -74279,6 +75690,7 @@ public:
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBlacksmith1 : public JsonView {
@@ -74314,6 +75726,7 @@ public:
   [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
@@ -74480,6 +75893,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamSnowman : public JsonView {
@@ -74523,6 +75937,7 @@ public:
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
@@ -74546,6 +75961,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -74641,10 +76057,12 @@ class PlayerResponsePlayerStatsDuelsSwDuelLayoutChampion2 : public JsonView {
 public:
   using JsonView::JsonView;
 
+  [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
@@ -74655,11 +76073,18 @@ public:
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBlacksmithRankedBlacksmith : public JsonView {
@@ -74677,6 +76102,12 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
+  [[nodiscard]] JsonView _15() const { return at("15"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
@@ -74709,6 +76140,8 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
@@ -74721,8 +76154,11 @@ public:
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutGolem5 : public JsonView {
@@ -74739,6 +76175,7 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
@@ -74759,6 +76196,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBowman1 : public JsonView {
@@ -74964,6 +76402,10 @@ public:
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _19() const { return at("19"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamPrincess : public JsonView {
@@ -75044,6 +76486,7 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelCannoneer : public JsonView {
@@ -75140,6 +76583,7 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
@@ -75157,7 +76601,10 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeleton5 : public JsonView {
@@ -75222,6 +76669,7 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSpiderNew : public JsonView {
@@ -75238,6 +76686,7 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutCreeper5 : public JsonView {
@@ -75314,6 +76763,10 @@ public:
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
@@ -75526,6 +76979,8 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
@@ -75552,11 +77007,18 @@ public:
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
@@ -75607,10 +77069,22 @@ public:
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
+  [[nodiscard]] JsonView _15() const { return at("15"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _25() const { return at("25"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutBlaze1 : public JsonView {
@@ -75714,9 +77188,12 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutCowNew : public JsonView {
@@ -75754,6 +77231,7 @@ public:
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
@@ -75771,6 +77249,7 @@ public:
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
@@ -75851,6 +77330,7 @@ public:
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutFlorist5 : public JsonView {
@@ -75864,6 +77344,8 @@ public:
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutReddragon5 : public JsonView {
@@ -75876,7 +77358,10 @@ public:
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutViking5 : public JsonView {
@@ -75903,9 +77388,11 @@ public:
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloScout : public JsonView {
@@ -75939,6 +77426,7 @@ public:
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
 };
@@ -75952,6 +77440,8 @@ public:
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutGolemNew : public JsonView {
@@ -75966,7 +77456,9 @@ public:
   [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutArmorsmith5 : public JsonView {
@@ -75998,6 +77490,9 @@ public:
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
@@ -76020,6 +77515,9 @@ public:
 
   [[nodiscard]] JsonView _0() const { return at("0"); }
   [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
@@ -76027,6 +77525,8 @@ public:
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
@@ -76039,6 +77539,8 @@ public:
   [[nodiscard]] JsonView _2() const { return at("2"); }
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman4 : public JsonView {
@@ -76138,11 +77640,15 @@ public:
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
   [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
   [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _11() const { return at("11"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman4 : public JsonView {
@@ -76157,6 +77663,281 @@ public:
   [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
+};
+
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutSpeleologist5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+};
+
+class PlayerResponsePlayerStatsDuelsLayoutSwDuelSalmon : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutPirate4 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman4 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+};
+
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutBlacksmith4 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutZombieNew : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+};
+
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeletonNew : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutWerewolf1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
+};
+
+class PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman2 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+};
+
+class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutCreepertamer5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+};
+
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutPyromancer2 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+};
+
+class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutMeatmaster5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
+};
+
+class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutSlimeyslime5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+};
+
+class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutTim5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
+};
+
+class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+};
+
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
 };
 
 class PlayerResponsePlayerStatsDuels : public JsonView {
@@ -76519,6 +78300,27 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutAthlete2 sw_duel_layout_athlete_2() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutAthlete2>("sw_duel_layout_athlete_2"); }
   [[nodiscard]] PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloAthlete layout_sw_duel_kit_mini_solo_athlete() const { return object_at<PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloAthlete>("layout_sw_duel_kit_mini_solo_athlete"); }
   [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman4 mw_duel_layout_shaman_4() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman4>("mw_duel_layout_shaman_4"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutSpeleologist5 sw_duel_layout_speleologist_5() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutSpeleologist5>("sw_duel_layout_speleologist_5"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsLayoutSwDuelSalmon layout_sw_duel_salmon() const { return object_at<PlayerResponsePlayerStatsDuelsLayoutSwDuelSalmon>("layout_sw_duel_salmon"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutPirate4 mw_duel_layout_pirate_4() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutPirate4>("mw_duel_layout_pirate_4"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman1 mw_duel_layout_enderman_1() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman1>("mw_duel_layout_enderman_1"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman4 mw_duel_layout_enderman_4() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman4>("mw_duel_layout_enderman_4"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutBlacksmith4 sw_duel_layout_blacksmith_4() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutBlacksmith4>("sw_duel_layout_blacksmith_4"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutZombieNew mw_duel_layout_zombie_new() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutZombieNew>("mw_duel_layout_zombie_new"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutScout sw_duel_layout_scout() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutScout>("sw_duel_layout_scout"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman mw_duel_layout_shaman() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman>("mw_duel_layout_shaman"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman1 mw_duel_layout_shaman_1() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman1>("mw_duel_layout_shaman_1"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeletonNew mw_duel_layout_skeleton_new() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeletonNew>("mw_duel_layout_skeleton_new"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutWerewolf1 mw_duel_layout_werewolf_1() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutWerewolf1>("mw_duel_layout_werewolf_1"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman5 mw_duel_layout_moleman_5() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman5>("mw_duel_layout_moleman_5"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman2 mw_duel_layout_moleman_2() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman2>("mw_duel_layout_moleman_2"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsBlitzDuelLayoutCreepertamer5 blitz_duel_layout_creepertamer_5() const { return object_at<PlayerResponsePlayerStatsDuelsBlitzDuelLayoutCreepertamer5>("blitz_duel_layout_creepertamer_5"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutPyromancer2 sw_duel_layout_pyromancer_2() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutPyromancer2>("sw_duel_layout_pyromancer_2"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsBlitzDuelLayoutMeatmaster5 blitz_duel_layout_meatmaster_5() const { return object_at<PlayerResponsePlayerStatsDuelsBlitzDuelLayoutMeatmaster5>("blitz_duel_layout_meatmaster_5"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsBlitzDuelLayoutSlimeyslime5 blitz_duel_layout_slimeyslime_5() const { return object_at<PlayerResponsePlayerStatsDuelsBlitzDuelLayoutSlimeyslime5>("blitz_duel_layout_slimeyslime_5"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsBlitzDuelLayoutTim5 blitz_duel_layout_tim_5() const { return object_at<PlayerResponsePlayerStatsDuelsBlitzDuelLayoutTim5>("blitz_duel_layout_tim_5"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger layout_sw_duel_kit_mythical_fishmonger() const { return object_at<PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger>("layout_sw_duel_kit_mythical_fishmonger"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1 sw_duel_layout_knight_1() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1>("sw_duel_layout_knight_1"); }
 
   [[nodiscard]] JsonView duels_recently_played() const { return at("duels_recently_played"); }
   [[nodiscard]] JsonView sw_duels_kit() const { return at("sw_duels_kit"); }
@@ -78236,6 +80038,23 @@ public:
   [[nodiscard]] JsonView fire_final_deaths_bedwars() const { return at("fire_final_deaths_bedwars"); }
   [[nodiscard]] JsonView skywars_world_elite_title_prestige() const { return at("skywars_world_elite_title_prestige"); }
   [[nodiscard]] JsonView ranked_1_guardian_kit_wins() const { return at("ranked_1_guardian_kit_wins"); }
+  [[nodiscard]] JsonView block_explosion_final_deaths_bedwars() const { return at("block_explosion_final_deaths_bedwars"); }
+  [[nodiscard]] JsonView block_explosion_deaths_bedwars() const { return at("block_explosion_deaths_bedwars"); }
+  [[nodiscard]] JsonView block_explosion_final_kills_bedwars() const { return at("block_explosion_final_kills_bedwars"); }
+  [[nodiscard]] JsonView ranked_loss_streak_op_duel() const { return at("ranked_loss_streak_op_duel"); }
+  [[nodiscard]] JsonView ranked_streak_op_duel() const { return at("ranked_streak_op_duel"); }
+  [[nodiscard]] JsonView ranked_1_horsetamer_kit_wins() const { return at("ranked_1_horsetamer_kit_wins"); }
+  [[nodiscard]] JsonView mw_four_golem_kit_wins() const { return at("mw_four_golem_kit_wins"); }
+  [[nodiscard]] JsonView ranked_1_phoenix_kit_wins() const { return at("ranked_1_phoenix_kit_wins"); }
+  [[nodiscard]] JsonView ranked_1_astronaut_kit_wins() const { return at("ranked_1_astronaut_kit_wins"); }
+  [[nodiscard]] JsonView bow_world_elite_title_prestige() const { return at("bow_world_elite_title_prestige"); }
+  [[nodiscard]] JsonView bow_world_master_title_prestige() const { return at("bow_world_master_title_prestige"); }
+  [[nodiscard]] JsonView bow_divine_title_prestige() const { return at("bow_divine_title_prestige"); }
+  [[nodiscard]] JsonView ranked_1_florist_kit_wins() const { return at("ranked_1_florist_kit_wins"); }
+  [[nodiscard]] JsonView ranked_1_creepertamer_kit_wins() const { return at("ranked_1_creepertamer_kit_wins"); }
+  [[nodiscard]] JsonView ranked_streak_potion_duel() const { return at("ranked_streak_potion_duel"); }
+  [[nodiscard]] JsonView ranked_loss_streak_potion_duel() const { return at("ranked_loss_streak_potion_duel"); }
+  [[nodiscard]] JsonView blitz_ascended_title_prestige() const { return at("blitz_ascended_title_prestige"); }
 };
 
 class PlayerResponsePlayerStatsBuildBattleLeaderboardSettings : public JsonView {
@@ -78294,6 +80113,71 @@ public:
   [[nodiscard]] JsonView _Claus() const { return at(" Claus"); }
 };
 
+class PlayerResponsePlayerStatsBuildBattleVotesReceived : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView legendary() const { return at("legendary"); }
+};
+
+class PlayerResponsePlayerStatsBuildBattleBackdropWins : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView none() const { return at("none"); }
+  [[nodiscard]] JsonView pond() const { return at("pond"); }
+  [[nodiscard]] JsonView mountains() const { return at("mountains"); }
+  [[nodiscard]] JsonView astro() const { return at("astro"); }
+  [[nodiscard]] JsonView village() const { return at("village"); }
+  [[nodiscard]] JsonView ten_anniversary() const { return at("ten_anniversary"); }
+  [[nodiscard]] JsonView at_the_beach() const { return at("at_the_beach"); }
+  [[nodiscard]] JsonView desert() const { return at("desert"); }
+  [[nodiscard]] JsonView year_of_the_snake() const { return at("year_of_the_snake"); }
+  [[nodiscard]] JsonView pumpkin_god() const { return at("pumpkin_god"); }
+  [[nodiscard]] JsonView greyspire() const { return at("greyspire"); }
+  [[nodiscard]] JsonView hypixel_lobby() const { return at("hypixel_lobby"); }
+  [[nodiscard]] JsonView artifact() const { return at("artifact"); }
+  [[nodiscard]] JsonView airship() const { return at("airship"); }
+  [[nodiscard]] JsonView back_to_school() const { return at("back_to_school"); }
+  [[nodiscard]] JsonView web() const { return at("web"); }
+  [[nodiscard]] JsonView graveyard() const { return at("graveyard"); }
+  [[nodiscard]] JsonView bunny() const { return at("bunny"); }
+  [[nodiscard]] JsonView happy_world() const { return at("happy_world"); }
+  [[nodiscard]] JsonView snowflake() const { return at("snowflake"); }
+  [[nodiscard]] JsonView townpocalypse() const { return at("townpocalypse"); }
+  [[nodiscard]] JsonView fireplace() const { return at("fireplace"); }
+  [[nodiscard]] JsonView coffee() const { return at("coffee"); }
+  [[nodiscard]] JsonView skyline() const { return at("skyline"); }
+  [[nodiscard]] JsonView potionmaking() const { return at("potionmaking"); }
+  [[nodiscard]] JsonView lunar2() const { return at("lunar2"); }
+  [[nodiscard]] JsonView ruins() const { return at("ruins"); }
+  [[nodiscard]] JsonView aquarium() const { return at("aquarium"); }
+  [[nodiscard]] JsonView city() const { return at("city"); }
+  [[nodiscard]] JsonView midnighttown() const { return at("midnighttown"); }
+  [[nodiscard]] JsonView art() const { return at("art"); }
+  [[nodiscard]] JsonView candy_cane() const { return at("candy_cane"); }
+  [[nodiscard]] JsonView haunted_room() const { return at("haunted_room"); }
+  [[nodiscard]] JsonView tropical_sands() const { return at("tropical_sands"); }
+  [[nodiscard]] JsonView vanilla() const { return at("vanilla"); }
+  [[nodiscard]] JsonView royale() const { return at("royale"); }
+  [[nodiscard]] JsonView study() const { return at("study"); }
+  [[nodiscard]] JsonView year_of_the_horse() const { return at("year_of_the_horse"); }
+  [[nodiscard]] JsonView pizza() const { return at("pizza"); }
+  [[nodiscard]] JsonView lunar1() const { return at("lunar1"); }
+  [[nodiscard]] JsonView knights_hall() const { return at("knights_hall"); }
+  [[nodiscard]] JsonView cozy() const { return at("cozy"); }
+  [[nodiscard]] JsonView monastery() const { return at("monastery"); }
+  [[nodiscard]] JsonView dirigible() const { return at("dirigible"); }
+};
+
+class PlayerResponsePlayerStatsBuildBattleFavorites : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView backdrops() const { return at("backdrops"); }
+  [[nodiscard]] JsonView movement_trail() const { return at("movement_trail"); }
+};
+
 class PlayerResponsePlayerStatsBuildBattle : public JsonView {
 public:
   using JsonView::JsonView;
@@ -78302,6 +80186,9 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsBuildBattleLastWon last_won() const { return object_at<PlayerResponsePlayerStatsBuildBattleLastWon>("last_won"); }
   [[nodiscard]] PlayerResponsePlayerStatsBuildBattleEmblem emblem() const { return object_at<PlayerResponsePlayerStatsBuildBattleEmblem>("emblem"); }
   [[nodiscard]] PlayerResponsePlayerStatsBuildBattleVotesMrs votes_Mrs() const { return object_at<PlayerResponsePlayerStatsBuildBattleVotesMrs>("votes_Mrs"); }
+  [[nodiscard]] PlayerResponsePlayerStatsBuildBattleVotesReceived votes_received() const { return object_at<PlayerResponsePlayerStatsBuildBattleVotesReceived>("votes_received"); }
+  [[nodiscard]] PlayerResponsePlayerStatsBuildBattleBackdropWins backdrop_wins() const { return object_at<PlayerResponsePlayerStatsBuildBattleBackdropWins>("backdrop_wins"); }
+  [[nodiscard]] PlayerResponsePlayerStatsBuildBattleFavorites favorites() const { return object_at<PlayerResponsePlayerStatsBuildBattleFavorites>("favorites"); }
 
   [[nodiscard]] JsonView wins() const { return at("wins"); }
   [[nodiscard]] JsonView packages() const { return at("packages"); }
@@ -78989,6 +80876,14 @@ public:
   [[nodiscard]] JsonView legacy_emblems_converted() const { return at("legacy_emblems_converted"); }
   [[nodiscard]] JsonView first_guesses() const { return at("first_guesses"); }
   [[nodiscard]] JsonView perfect_insane_builds() const { return at("perfect_insane_builds"); }
+  [[nodiscard]] JsonView selected_prefix_icon() const { return at("selected_prefix_icon"); }
+  [[nodiscard]] JsonView seasonal_wins() const { return at("seasonal_wins"); }
+  [[nodiscard]] JsonView seasonal_wins_teams_normal() const { return at("seasonal_wins_teams_normal"); }
+  [[nodiscard]] JsonView seasonal_wins_solo_normal() const { return at("seasonal_wins_solo_normal"); }
+  [[nodiscard]] JsonView seasonal_wins_speed_builders() const { return at("seasonal_wins_speed_builders"); }
+  [[nodiscard]] JsonView selected_icon_color() const { return at("selected_icon_color"); }
+  [[nodiscard]] JsonView seasonal_wins_solo_pro() const { return at("seasonal_wins_solo_pro"); }
+  [[nodiscard]] JsonView votes_Greenhouse() const { return at("votes_Greenhouse"); }
 };
 
 class PlayerResponsePlayerStatsPitProfileKingQuest : public JsonView {
@@ -79346,6 +81241,11 @@ public:
   [[nodiscard]] JsonView Pit_tdm_blue_kills_2026_spring() const { return at("Pit_tdm_blue_kills_2026_spring"); }
   [[nodiscard]] JsonView Pit_auction_bid_2026_spring() const { return at("Pit_auction_bid_2026_spring"); }
   [[nodiscard]] JsonView Pit_raffle_jackpot_2026_spring() const { return at("Pit_raffle_jackpot_2026_spring"); }
+  [[nodiscard]] JsonView Pit_kotl_gold_2026_winter() const { return at("Pit_kotl_gold_2026_winter"); }
+  [[nodiscard]] JsonView Pit_kotl_time_2026_winter() const { return at("Pit_kotl_time_2026_winter"); }
+  [[nodiscard]] JsonView Pit_cake_eaten_2026_winter() const { return at("Pit_cake_eaten_2026_winter"); }
+  [[nodiscard]] JsonView Pit_tdm_blue_kills_2026_winter() const { return at("Pit_tdm_blue_kills_2026_winter"); }
+  [[nodiscard]] JsonView Pit_kills_as_beast_2026_winter() const { return at("Pit_kills_as_beast_2026_winter"); }
 };
 
 class PlayerResponsePlayerStatsPitProfileInvContents : public JsonView {
@@ -79720,6 +81620,28 @@ public:
   [[nodiscard]] JsonView gold_stack_streak_28() const { return at("gold_stack_streak_28"); }
   [[nodiscard]] JsonView xp_stack_streak_19() const { return at("xp_stack_streak_19"); }
   [[nodiscard]] JsonView xp_stack_streak_20() const { return at("xp_stack_streak_20"); }
+  [[nodiscard]] JsonView last_fish_fished() const { return at("last_fish_fished"); }
+  [[nodiscard]] JsonView fish_fished_today() const { return at("fish_fished_today"); }
+  [[nodiscard]] JsonView unlocks_37() const { return at("unlocks_37"); }
+  [[nodiscard]] JsonView cash_during_prestige_39() const { return at("cash_during_prestige_39"); }
+  [[nodiscard]] JsonView unlocks_38() const { return at("unlocks_38"); }
+  [[nodiscard]] JsonView unlocks_39() const { return at("unlocks_39"); }
+  [[nodiscard]] JsonView unlocks_36() const { return at("unlocks_36"); }
+  [[nodiscard]] JsonView cash_during_prestige_36() const { return at("cash_during_prestige_36"); }
+  [[nodiscard]] JsonView cash_during_prestige_37() const { return at("cash_during_prestige_37"); }
+  [[nodiscard]] JsonView cash_during_prestige_38() const { return at("cash_during_prestige_38"); }
+  [[nodiscard]] JsonView gold_stack_streak_40() const { return at("gold_stack_streak_40"); }
+  [[nodiscard]] JsonView gold_stack_streak_41() const { return at("gold_stack_streak_41"); }
+  [[nodiscard]] JsonView gold_stack_streak_42() const { return at("gold_stack_streak_42"); }
+  [[nodiscard]] JsonView cash_during_prestige_40() const { return at("cash_during_prestige_40"); }
+  [[nodiscard]] JsonView cash_during_prestige_41() const { return at("cash_during_prestige_41"); }
+  [[nodiscard]] JsonView unlocks_40() const { return at("unlocks_40"); }
+  [[nodiscard]] JsonView cash_during_prestige_42() const { return at("cash_during_prestige_42"); }
+  [[nodiscard]] JsonView unlocks_41() const { return at("unlocks_41"); }
+  [[nodiscard]] JsonView unlocks_42() const { return at("unlocks_42"); }
+  [[nodiscard]] JsonView xp_stack_streak_36() const { return at("xp_stack_streak_36"); }
+  [[nodiscard]] JsonView gold_stack_streak_36() const { return at("gold_stack_streak_36"); }
+  [[nodiscard]] JsonView gold_stack_streak_37() const { return at("gold_stack_streak_37"); }
 };
 
 class PlayerResponsePlayerStatsPitPitStatsPtl : public JsonView {
@@ -79888,6 +81810,7 @@ public:
   [[nodiscard]] JsonView _26() const { return at("26"); }
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -80009,6 +81932,7 @@ public:
   [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _29() const { return at("29"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -80061,6 +81985,7 @@ public:
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -80991,6 +82916,8 @@ public:
   [[nodiscard]] JsonView orb() const { return at("orb"); }
   [[nodiscard]] JsonView junk() const { return at("junk"); }
   [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+  [[nodiscard]] JsonView plant() const { return at("plant"); }
+  [[nodiscard]] JsonView creature() const { return at("creature"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStats2025ChristmasWater : public JsonView {
@@ -81001,6 +82928,8 @@ public:
   [[nodiscard]] JsonView orb() const { return at("orb"); }
   [[nodiscard]] JsonView fish() const { return at("fish"); }
   [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+  [[nodiscard]] JsonView creature() const { return at("creature"); }
+  [[nodiscard]] JsonView plant() const { return at("plant"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStats2025ChristmasLava : public JsonView {
@@ -81009,6 +82938,10 @@ public:
 
   [[nodiscard]] JsonView fish() const { return at("fish"); }
   [[nodiscard]] JsonView junk() const { return at("junk"); }
+  [[nodiscard]] JsonView orb() const { return at("orb"); }
+  [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+  [[nodiscard]] JsonView plant() const { return at("plant"); }
+  [[nodiscard]] JsonView creature() const { return at("creature"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStats2025Christmas : public JsonView {
@@ -81038,6 +82971,20 @@ public:
   [[nodiscard]] JsonView junk() const { return at("junk"); }
   [[nodiscard]] JsonView orb() const { return at("orb"); }
   [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+  [[nodiscard]] JsonView creature() const { return at("creature"); }
+  [[nodiscard]] JsonView plant() const { return at("plant"); }
+};
+
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterLava : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView creature() const { return at("creature"); }
+  [[nodiscard]] JsonView fish() const { return at("fish"); }
+  [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+  [[nodiscard]] JsonView plant() const { return at("plant"); }
+  [[nodiscard]] JsonView junk() const { return at("junk"); }
+  [[nodiscard]] JsonView orb() const { return at("orb"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026Easter : public JsonView {
@@ -81045,6 +82992,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterWater water() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterWater>("water"); }
+  [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterLava lava() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterLava>("lava"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026 : public JsonView {
@@ -81208,6 +83156,8 @@ public:
   [[nodiscard]] JsonView fish() const { return at("fish"); }
   [[nodiscard]] JsonView junk() const { return at("junk"); }
   [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+  [[nodiscard]] JsonView plant() const { return at("plant"); }
+  [[nodiscard]] JsonView creature() const { return at("creature"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanent : public JsonView {
@@ -81461,6 +83411,7 @@ public:
   [[nodiscard]] JsonView christmas_guide_2025() const { return at("christmas_guide_2025"); }
   [[nodiscard]] JsonView bingo_13() const { return at("bingo_13"); }
   [[nodiscard]] JsonView become_rabbit() const { return at("become_rabbit"); }
+  [[nodiscard]] JsonView easter_guide_2026() const { return at("easter_guide_2026"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyDiscoveredZones : public JsonView {
@@ -81555,11 +83506,19 @@ public:
   [[nodiscard]] JsonView golden_carrot() const { return at("golden_carrot"); }
 };
 
+class PlayerResponsePlayerStatsMainLobbyBecomeRabbitSettings : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView mainLobbyOwnRabbit() const { return at("mainLobbyOwnRabbit"); }
+};
+
 class PlayerResponsePlayerStatsMainLobbyBecomeRabbit : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerStatsMainLobbyBecomeRabbitEaten eaten() const { return object_at<PlayerResponsePlayerStatsMainLobbyBecomeRabbitEaten>("eaten"); }
+  [[nodiscard]] PlayerResponsePlayerStatsMainLobbyBecomeRabbitSettings settings() const { return object_at<PlayerResponsePlayerStatsMainLobbyBecomeRabbitSettings>("settings"); }
 };
 
 class PlayerResponsePlayerStatsMainLobby : public JsonView {
@@ -87419,6 +89378,49 @@ public:
   [[nodiscard]] JsonView experience() const { return at("experience"); }
 };
 
+class PlayerResponsePlayerPetStatsTURKEY : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView name() const { return at("name"); }
+};
+
+class PlayerResponsePlayerPetStatsENDERMANCAKEHUNGER : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView timestamp() const { return at("timestamp"); }
+  [[nodiscard]] JsonView value() const { return at("value"); }
+};
+
+class PlayerResponsePlayerPetStatsENDERMANCAKETHIRST : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView timestamp() const { return at("timestamp"); }
+  [[nodiscard]] JsonView value() const { return at("value"); }
+};
+
+class PlayerResponsePlayerPetStatsENDERMANCAKEEXERCISE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView timestamp() const { return at("timestamp"); }
+  [[nodiscard]] JsonView value() const { return at("value"); }
+};
+
+class PlayerResponsePlayerPetStatsENDERMANCAKE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerPetStatsENDERMANCAKEHUNGER HUNGER() const { return object_at<PlayerResponsePlayerPetStatsENDERMANCAKEHUNGER>("HUNGER"); }
+  [[nodiscard]] PlayerResponsePlayerPetStatsENDERMANCAKETHIRST THIRST() const { return object_at<PlayerResponsePlayerPetStatsENDERMANCAKETHIRST>("THIRST"); }
+  [[nodiscard]] PlayerResponsePlayerPetStatsENDERMANCAKEEXERCISE EXERCISE() const { return object_at<PlayerResponsePlayerPetStatsENDERMANCAKEEXERCISE>("EXERCISE"); }
+
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView experience() const { return at("experience"); }
+};
+
 class PlayerResponsePlayerPetStats : public JsonView {
 public:
   using JsonView::JsonView;
@@ -87599,6 +89601,8 @@ public:
   [[nodiscard]] PlayerResponsePlayerPetStatsHORSEBROWNBABY HORSE_BROWN_BABY() const { return object_at<PlayerResponsePlayerPetStatsHORSEBROWNBABY>("HORSE_BROWN_BABY"); }
   [[nodiscard]] PlayerResponsePlayerPetStatsCYCLOPS CYCLOPS() const { return object_at<PlayerResponsePlayerPetStatsCYCLOPS>("CYCLOPS"); }
   [[nodiscard]] PlayerResponsePlayerPetStatsWITHERSKELETON WITHER_SKELETON() const { return object_at<PlayerResponsePlayerPetStatsWITHERSKELETON>("WITHER_SKELETON"); }
+  [[nodiscard]] PlayerResponsePlayerPetStatsTURKEY TURKEY() const { return object_at<PlayerResponsePlayerPetStatsTURKEY>("TURKEY"); }
+  [[nodiscard]] PlayerResponsePlayerPetStatsENDERMANCAKE ENDERMAN_CAKE() const { return object_at<PlayerResponsePlayerPetStatsENDERMANCAKE>("ENDERMAN_CAKE"); }
 };
 
 class PlayerResponsePlayerHousingMetaPlayerSettings : public JsonView {
@@ -87628,403 +89632,13 @@ public:
   [[nodiscard]] JsonView visibilityDisabled() const { return at("visibilityDisabled"); }
   [[nodiscard]] JsonView tutorialStep() const { return at("tutorialStep"); }
   [[nodiscard]] JsonView firstHouseJoinMs() const { return at("firstHouseJoinMs"); }
-  [[nodiscard]] JsonView given_cookies_104988() const { return at("given_cookies_104988"); }
-  [[nodiscard]] JsonView given_cookies_105008() const { return at("given_cookies_105008"); }
   [[nodiscard]] JsonView selectedChannels_v3() const { return at("selectedChannels_v3"); }
-  [[nodiscard]] JsonView given_cookies_105028() const { return at("given_cookies_105028"); }
-  [[nodiscard]] JsonView given_cookies_105029() const { return at("given_cookies_105029"); }
   [[nodiscard]] JsonView plotSize() const { return at("plotSize"); }
-  [[nodiscard]] JsonView given_cookies_104983() const { return at("given_cookies_104983"); }
-  [[nodiscard]] JsonView given_cookies_104990() const { return at("given_cookies_104990"); }
-  [[nodiscard]] JsonView given_cookies_104994() const { return at("given_cookies_104994"); }
-  [[nodiscard]] JsonView given_cookies_105001() const { return at("given_cookies_105001"); }
-  [[nodiscard]] JsonView given_cookies_105004() const { return at("given_cookies_105004"); }
-  [[nodiscard]] JsonView given_cookies_105011() const { return at("given_cookies_105011"); }
-  [[nodiscard]] JsonView given_cookies_105017() const { return at("given_cookies_105017"); }
-  [[nodiscard]] JsonView given_cookies_105025() const { return at("given_cookies_105025"); }
-  [[nodiscard]] JsonView given_cookies_105026() const { return at("given_cookies_105026"); }
-  [[nodiscard]] JsonView given_cookies_105027() const { return at("given_cookies_105027"); }
-  [[nodiscard]] JsonView given_cookies_105032() const { return at("given_cookies_105032"); }
-  [[nodiscard]] JsonView given_cookies_105042() const { return at("given_cookies_105042"); }
-  [[nodiscard]] JsonView given_cookies_105044() const { return at("given_cookies_105044"); }
-  [[nodiscard]] JsonView given_cookies_105050() const { return at("given_cookies_105050"); }
-  [[nodiscard]] JsonView given_cookies_105062() const { return at("given_cookies_105062"); }
-  [[nodiscard]] JsonView given_cookies_105063() const { return at("given_cookies_105063"); }
-  [[nodiscard]] JsonView given_cookies_105065() const { return at("given_cookies_105065"); }
-  [[nodiscard]] JsonView given_cookies_104987() const { return at("given_cookies_104987"); }
-  [[nodiscard]] JsonView given_cookies_104996() const { return at("given_cookies_104996"); }
-  [[nodiscard]] JsonView given_cookies_105000() const { return at("given_cookies_105000"); }
-  [[nodiscard]] JsonView given_cookies_105018() const { return at("given_cookies_105018"); }
-  [[nodiscard]] JsonView given_cookies_105019() const { return at("given_cookies_105019"); }
-  [[nodiscard]] JsonView given_cookies_105030() const { return at("given_cookies_105030"); }
-  [[nodiscard]] JsonView given_cookies_105043() const { return at("given_cookies_105043"); }
-  [[nodiscard]] JsonView given_cookies_105048() const { return at("given_cookies_105048"); }
-  [[nodiscard]] JsonView given_cookies_105051() const { return at("given_cookies_105051"); }
-  [[nodiscard]] JsonView given_cookies_104984() const { return at("given_cookies_104984"); }
-  [[nodiscard]] JsonView given_cookies_104985() const { return at("given_cookies_104985"); }
-  [[nodiscard]] JsonView given_cookies_104989() const { return at("given_cookies_104989"); }
-  [[nodiscard]] JsonView given_cookies_104999() const { return at("given_cookies_104999"); }
-  [[nodiscard]] JsonView given_cookies_105002() const { return at("given_cookies_105002"); }
-  [[nodiscard]] JsonView given_cookies_105006() const { return at("given_cookies_105006"); }
-  [[nodiscard]] JsonView given_cookies_105007() const { return at("given_cookies_105007"); }
-  [[nodiscard]] JsonView given_cookies_105014() const { return at("given_cookies_105014"); }
-  [[nodiscard]] JsonView given_cookies_105021() const { return at("given_cookies_105021"); }
-  [[nodiscard]] JsonView given_cookies_105036() const { return at("given_cookies_105036"); }
-  [[nodiscard]] JsonView given_cookies_105053() const { return at("given_cookies_105053"); }
-  [[nodiscard]] JsonView given_cookies_105061() const { return at("given_cookies_105061"); }
-  [[nodiscard]] JsonView given_cookies_104982() const { return at("given_cookies_104982"); }
-  [[nodiscard]] JsonView given_cookies_104986() const { return at("given_cookies_104986"); }
   [[nodiscard]] JsonView playlist() const { return at("playlist"); }
-  [[nodiscard]] JsonView given_cookies_105035() const { return at("given_cookies_105035"); }
-  [[nodiscard]] JsonView given_cookies_105049() const { return at("given_cookies_105049"); }
   [[nodiscard]] JsonView toggle_BORDER() const { return at("toggle_BORDER"); }
   [[nodiscard]] JsonView plotResets() const { return at("plotResets"); }
-  [[nodiscard]] JsonView given_cookies_105037() const { return at("given_cookies_105037"); }
-  [[nodiscard]] JsonView given_cookies_105052() const { return at("given_cookies_105052"); }
-  [[nodiscard]] JsonView given_cookies_105057() const { return at("given_cookies_105057"); }
-  [[nodiscard]] JsonView given_cookies_105058() const { return at("given_cookies_105058"); }
-  [[nodiscard]] JsonView given_cookies_105059() const { return at("given_cookies_105059"); }
-  [[nodiscard]] JsonView given_cookies_105060() const { return at("given_cookies_105060"); }
-  [[nodiscard]] JsonView given_cookies_105064() const { return at("given_cookies_105064"); }
-  [[nodiscard]] JsonView given_cookies_105067() const { return at("given_cookies_105067"); }
-  [[nodiscard]] JsonView given_cookies_105069() const { return at("given_cookies_105069"); }
-  [[nodiscard]] JsonView given_cookies_105070() const { return at("given_cookies_105070"); }
-  [[nodiscard]] JsonView given_cookies_105071() const { return at("given_cookies_105071"); }
-  [[nodiscard]] JsonView given_cookies_105073() const { return at("given_cookies_105073"); }
-  [[nodiscard]] JsonView given_cookies_105075() const { return at("given_cookies_105075"); }
-  [[nodiscard]] JsonView given_cookies_105076() const { return at("given_cookies_105076"); }
-  [[nodiscard]] JsonView given_cookies_105086() const { return at("given_cookies_105086"); }
-  [[nodiscard]] JsonView given_cookies_105087() const { return at("given_cookies_105087"); }
-  [[nodiscard]] JsonView given_cookies_105088() const { return at("given_cookies_105088"); }
-  [[nodiscard]] JsonView given_cookies_105089() const { return at("given_cookies_105089"); }
-  [[nodiscard]] JsonView given_cookies_105098() const { return at("given_cookies_105098"); }
-  [[nodiscard]] JsonView given_cookies_105099() const { return at("given_cookies_105099"); }
-  [[nodiscard]] JsonView given_cookies_105100() const { return at("given_cookies_105100"); }
-  [[nodiscard]] JsonView given_cookies_105101() const { return at("given_cookies_105101"); }
-  [[nodiscard]] JsonView given_cookies_105104() const { return at("given_cookies_105104"); }
-  [[nodiscard]] JsonView given_cookies_105106() const { return at("given_cookies_105106"); }
-  [[nodiscard]] JsonView given_cookies_105111() const { return at("given_cookies_105111"); }
-  [[nodiscard]] JsonView given_cookies_105115() const { return at("given_cookies_105115"); }
-  [[nodiscard]] JsonView given_cookies_105122() const { return at("given_cookies_105122"); }
-  [[nodiscard]] JsonView given_cookies_105125() const { return at("given_cookies_105125"); }
-  [[nodiscard]] JsonView given_cookies_105127() const { return at("given_cookies_105127"); }
-  [[nodiscard]] JsonView given_cookies_105128() const { return at("given_cookies_105128"); }
-  [[nodiscard]] JsonView given_cookies_105129() const { return at("given_cookies_105129"); }
-  [[nodiscard]] JsonView given_cookies_105134() const { return at("given_cookies_105134"); }
-  [[nodiscard]] JsonView given_cookies_105139() const { return at("given_cookies_105139"); }
-  [[nodiscard]] JsonView given_cookies_105140() const { return at("given_cookies_105140"); }
-  [[nodiscard]] JsonView given_cookies_105144() const { return at("given_cookies_105144"); }
-  [[nodiscard]] JsonView given_cookies_105093() const { return at("given_cookies_105093"); }
-  [[nodiscard]] JsonView given_cookies_105146() const { return at("given_cookies_105146"); }
-  [[nodiscard]] JsonView given_cookies_105149() const { return at("given_cookies_105149"); }
-  [[nodiscard]] JsonView given_cookies_105155() const { return at("given_cookies_105155"); }
-  [[nodiscard]] JsonView given_cookies_105156() const { return at("given_cookies_105156"); }
-  [[nodiscard]] JsonView given_cookies_105159() const { return at("given_cookies_105159"); }
-  [[nodiscard]] JsonView given_cookies_105160() const { return at("given_cookies_105160"); }
-  [[nodiscard]] JsonView given_cookies_105161() const { return at("given_cookies_105161"); }
-  [[nodiscard]] JsonView given_cookies_105165() const { return at("given_cookies_105165"); }
-  [[nodiscard]] JsonView given_cookies_105179() const { return at("given_cookies_105179"); }
-  [[nodiscard]] JsonView given_cookies_105193() const { return at("given_cookies_105193"); }
-  [[nodiscard]] JsonView given_cookies_105038() const { return at("given_cookies_105038"); }
-  [[nodiscard]] JsonView given_cookies_105056() const { return at("given_cookies_105056"); }
-  [[nodiscard]] JsonView given_cookies_105068() const { return at("given_cookies_105068"); }
-  [[nodiscard]] JsonView given_cookies_105005() const { return at("given_cookies_105005"); }
-  [[nodiscard]] JsonView given_cookies_105009() const { return at("given_cookies_105009"); }
-  [[nodiscard]] JsonView given_cookies_105020() const { return at("given_cookies_105020"); }
-  [[nodiscard]] JsonView given_cookies_105066() const { return at("given_cookies_105066"); }
-  [[nodiscard]] JsonView given_cookies_105206() const { return at("given_cookies_105206"); }
-  [[nodiscard]] JsonView given_cookies_105209() const { return at("given_cookies_105209"); }
-  [[nodiscard]] JsonView given_cookies_105211() const { return at("given_cookies_105211"); }
-  [[nodiscard]] JsonView given_cookies_105228() const { return at("given_cookies_105228"); }
-  [[nodiscard]] JsonView given_cookies_105246() const { return at("given_cookies_105246"); }
-  [[nodiscard]] JsonView given_cookies_105254() const { return at("given_cookies_105254"); }
-  [[nodiscard]] JsonView given_cookies_105260() const { return at("given_cookies_105260"); }
-  [[nodiscard]] JsonView given_cookies_105261() const { return at("given_cookies_105261"); }
-  [[nodiscard]] JsonView given_cookies_105269() const { return at("given_cookies_105269"); }
-  [[nodiscard]] JsonView given_cookies_105273() const { return at("given_cookies_105273"); }
-  [[nodiscard]] JsonView given_cookies_105276() const { return at("given_cookies_105276"); }
-  [[nodiscard]] JsonView given_cookies_105277() const { return at("given_cookies_105277"); }
-  [[nodiscard]] JsonView given_cookies_105279() const { return at("given_cookies_105279"); }
-  [[nodiscard]] JsonView given_cookies_105284() const { return at("given_cookies_105284"); }
-  [[nodiscard]] JsonView given_cookies_105287() const { return at("given_cookies_105287"); }
-  [[nodiscard]] JsonView given_cookies_105289() const { return at("given_cookies_105289"); }
-  [[nodiscard]] JsonView given_cookies_105315() const { return at("given_cookies_105315"); }
-  [[nodiscard]] JsonView given_cookies_105041() const { return at("given_cookies_105041"); }
-  [[nodiscard]] JsonView given_cookies_105072() const { return at("given_cookies_105072"); }
-  [[nodiscard]] JsonView given_cookies_105079() const { return at("given_cookies_105079"); }
-  [[nodiscard]] JsonView given_cookies_105081() const { return at("given_cookies_105081"); }
-  [[nodiscard]] JsonView given_cookies_105092() const { return at("given_cookies_105092"); }
-  [[nodiscard]] JsonView given_cookies_105107() const { return at("given_cookies_105107"); }
-  [[nodiscard]] JsonView given_cookies_105108() const { return at("given_cookies_105108"); }
-  [[nodiscard]] JsonView given_cookies_105110() const { return at("given_cookies_105110"); }
-  [[nodiscard]] JsonView given_cookies_105119() const { return at("given_cookies_105119"); }
-  [[nodiscard]] JsonView given_cookies_105120() const { return at("given_cookies_105120"); }
-  [[nodiscard]] JsonView given_cookies_105121() const { return at("given_cookies_105121"); }
-  [[nodiscard]] JsonView given_cookies_105123() const { return at("given_cookies_105123"); }
-  [[nodiscard]] JsonView given_cookies_105151() const { return at("given_cookies_105151"); }
-  [[nodiscard]] JsonView given_cookies_105173() const { return at("given_cookies_105173"); }
-  [[nodiscard]] JsonView given_cookies_105175() const { return at("given_cookies_105175"); }
-  [[nodiscard]] JsonView given_cookies_104981() const { return at("given_cookies_104981"); }
-  [[nodiscard]] JsonView given_cookies_104991() const { return at("given_cookies_104991"); }
-  [[nodiscard]] JsonView given_cookies_104993() const { return at("given_cookies_104993"); }
-  [[nodiscard]] JsonView given_cookies_104997() const { return at("given_cookies_104997"); }
-  [[nodiscard]] JsonView given_cookies_105003() const { return at("given_cookies_105003"); }
-  [[nodiscard]] JsonView given_cookies_105010() const { return at("given_cookies_105010"); }
-  [[nodiscard]] JsonView given_cookies_105012() const { return at("given_cookies_105012"); }
-  [[nodiscard]] JsonView given_cookies_105023() const { return at("given_cookies_105023"); }
-  [[nodiscard]] JsonView given_cookies_105033() const { return at("given_cookies_105033"); }
-  [[nodiscard]] JsonView given_cookies_105039() const { return at("given_cookies_105039"); }
-  [[nodiscard]] JsonView given_cookies_105045() const { return at("given_cookies_105045"); }
-  [[nodiscard]] JsonView given_cookies_105054() const { return at("given_cookies_105054"); }
-  [[nodiscard]] JsonView given_cookies_105077() const { return at("given_cookies_105077"); }
-  [[nodiscard]] JsonView given_cookies_105078() const { return at("given_cookies_105078"); }
-  [[nodiscard]] JsonView given_cookies_105131() const { return at("given_cookies_105131"); }
-  [[nodiscard]] JsonView given_cookies_105143() const { return at("given_cookies_105143"); }
-  [[nodiscard]] JsonView given_cookies_105145() const { return at("given_cookies_105145"); }
-  [[nodiscard]] JsonView given_cookies_105172() const { return at("given_cookies_105172"); }
-  [[nodiscard]] JsonView given_cookies_105197() const { return at("given_cookies_105197"); }
-  [[nodiscard]] JsonView given_cookies_105216() const { return at("given_cookies_105216"); }
-  [[nodiscard]] JsonView given_cookies_105220() const { return at("given_cookies_105220"); }
-  [[nodiscard]] JsonView given_cookies_105229() const { return at("given_cookies_105229"); }
-  [[nodiscard]] JsonView given_cookies_105251() const { return at("given_cookies_105251"); }
-  [[nodiscard]] JsonView given_cookies_105264() const { return at("given_cookies_105264"); }
-  [[nodiscard]] JsonView given_cookies_105295() const { return at("given_cookies_105295"); }
-  [[nodiscard]] JsonView given_cookies_105297() const { return at("given_cookies_105297"); }
-  [[nodiscard]] JsonView given_cookies_105298() const { return at("given_cookies_105298"); }
-  [[nodiscard]] JsonView given_cookies_105312() const { return at("given_cookies_105312"); }
-  [[nodiscard]] JsonView given_cookies_105313() const { return at("given_cookies_105313"); }
-  [[nodiscard]] JsonView given_cookies_105113() const { return at("given_cookies_105113"); }
-  [[nodiscard]] JsonView given_cookies_105114() const { return at("given_cookies_105114"); }
-  [[nodiscard]] JsonView given_cookies_105226() const { return at("given_cookies_105226"); }
-  [[nodiscard]] JsonView given_cookies_105227() const { return at("given_cookies_105227"); }
-  [[nodiscard]] JsonView given_cookies_105230() const { return at("given_cookies_105230"); }
-  [[nodiscard]] JsonView given_cookies_105236() const { return at("given_cookies_105236"); }
-  [[nodiscard]] JsonView given_cookies_105262() const { return at("given_cookies_105262"); }
-  [[nodiscard]] JsonView given_cookies_105304() const { return at("given_cookies_105304"); }
-  [[nodiscard]] JsonView given_cookies_105306() const { return at("given_cookies_105306"); }
-  [[nodiscard]] JsonView given_cookies_105309() const { return at("given_cookies_105309"); }
-  [[nodiscard]] JsonView given_cookies_105322() const { return at("given_cookies_105322"); }
-  [[nodiscard]] JsonView given_cookies_105327() const { return at("given_cookies_105327"); }
-  [[nodiscard]] JsonView given_cookies_105329() const { return at("given_cookies_105329"); }
-  [[nodiscard]] JsonView given_cookies_105034() const { return at("given_cookies_105034"); }
-  [[nodiscard]] JsonView given_cookies_105040() const { return at("given_cookies_105040"); }
-  [[nodiscard]] JsonView given_cookies_105090() const { return at("given_cookies_105090"); }
-  [[nodiscard]] JsonView given_cookies_105136() const { return at("given_cookies_105136"); }
-  [[nodiscard]] JsonView given_cookies_105191() const { return at("given_cookies_105191"); }
-  [[nodiscard]] JsonView given_cookies_105186() const { return at("given_cookies_105186"); }
-  [[nodiscard]] JsonView given_cookies_105130() const { return at("given_cookies_105130"); }
-  [[nodiscard]] JsonView given_cookies_105199() const { return at("given_cookies_105199"); }
-  [[nodiscard]] JsonView given_cookies_105200() const { return at("given_cookies_105200"); }
-  [[nodiscard]] JsonView given_cookies_105201() const { return at("given_cookies_105201"); }
-  [[nodiscard]] JsonView given_cookies_105224() const { return at("given_cookies_105224"); }
-  [[nodiscard]] JsonView given_cookies_105117() const { return at("given_cookies_105117"); }
-  [[nodiscard]] JsonView given_cookies_105126() const { return at("given_cookies_105126"); }
-  [[nodiscard]] JsonView given_cookies_105148() const { return at("given_cookies_105148"); }
-  [[nodiscard]] JsonView given_cookies_105152() const { return at("given_cookies_105152"); }
-  [[nodiscard]] JsonView given_cookies_105154() const { return at("given_cookies_105154"); }
-  [[nodiscard]] JsonView given_cookies_104980() const { return at("given_cookies_104980"); }
-  [[nodiscard]] JsonView given_cookies_105022() const { return at("given_cookies_105022"); }
-  [[nodiscard]] JsonView given_cookies_105055() const { return at("given_cookies_105055"); }
-  [[nodiscard]] JsonView given_cookies_105080() const { return at("given_cookies_105080"); }
-  [[nodiscard]] JsonView given_cookies_105094() const { return at("given_cookies_105094"); }
-  [[nodiscard]] JsonView given_cookies_105095() const { return at("given_cookies_105095"); }
-  [[nodiscard]] JsonView given_cookies_105096() const { return at("given_cookies_105096"); }
-  [[nodiscard]] JsonView given_cookies_105105() const { return at("given_cookies_105105"); }
-  [[nodiscard]] JsonView given_cookies_105190() const { return at("given_cookies_105190"); }
-  [[nodiscard]] JsonView given_cookies_105210() const { return at("given_cookies_105210"); }
-  [[nodiscard]] JsonView given_cookies_105291() const { return at("given_cookies_105291"); }
-  [[nodiscard]] JsonView given_cookies_105300() const { return at("given_cookies_105300"); }
-  [[nodiscard]] JsonView given_cookies_105311() const { return at("given_cookies_105311"); }
-  [[nodiscard]] JsonView given_cookies_105323() const { return at("given_cookies_105323"); }
-  [[nodiscard]] JsonView given_cookies_105333() const { return at("given_cookies_105333"); }
-  [[nodiscard]] JsonView given_cookies_105335() const { return at("given_cookies_105335"); }
-  [[nodiscard]] JsonView given_cookies_105074() const { return at("given_cookies_105074"); }
-  [[nodiscard]] JsonView given_cookies_105141() const { return at("given_cookies_105141"); }
-  [[nodiscard]] JsonView given_cookies_105153() const { return at("given_cookies_105153"); }
-  [[nodiscard]] JsonView given_cookies_105157() const { return at("given_cookies_105157"); }
-  [[nodiscard]] JsonView given_cookies_105158() const { return at("given_cookies_105158"); }
-  [[nodiscard]] JsonView given_cookies_105170() const { return at("given_cookies_105170"); }
-  [[nodiscard]] JsonView given_cookies_105231() const { return at("given_cookies_105231"); }
-  [[nodiscard]] JsonView given_cookies_105082() const { return at("given_cookies_105082"); }
-  [[nodiscard]] JsonView given_cookies_105103() const { return at("given_cookies_105103"); }
-  [[nodiscard]] JsonView given_cookies_105274() const { return at("given_cookies_105274"); }
-  [[nodiscard]] JsonView given_cookies_105084() const { return at("given_cookies_105084"); }
-  [[nodiscard]] JsonView given_cookies_105085() const { return at("given_cookies_105085"); }
-  [[nodiscard]] JsonView given_cookies_105091() const { return at("given_cookies_105091"); }
-  [[nodiscard]] JsonView given_cookies_105135() const { return at("given_cookies_105135"); }
-  [[nodiscard]] JsonView given_cookies_105137() const { return at("given_cookies_105137"); }
-  [[nodiscard]] JsonView given_cookies_105142() const { return at("given_cookies_105142"); }
-  [[nodiscard]] JsonView given_cookies_105162() const { return at("given_cookies_105162"); }
-  [[nodiscard]] JsonView given_cookies_105163() const { return at("given_cookies_105163"); }
-  [[nodiscard]] JsonView given_cookies_105164() const { return at("given_cookies_105164"); }
-  [[nodiscard]] JsonView given_cookies_105168() const { return at("given_cookies_105168"); }
-  [[nodiscard]] JsonView given_cookies_105169() const { return at("given_cookies_105169"); }
-  [[nodiscard]] JsonView given_cookies_105195() const { return at("given_cookies_105195"); }
-  [[nodiscard]] JsonView given_cookies_105198() const { return at("given_cookies_105198"); }
-  [[nodiscard]] JsonView given_cookies_105202() const { return at("given_cookies_105202"); }
-  [[nodiscard]] JsonView given_cookies_105203() const { return at("given_cookies_105203"); }
-  [[nodiscard]] JsonView given_cookies_105204() const { return at("given_cookies_105204"); }
-  [[nodiscard]] JsonView given_cookies_105205() const { return at("given_cookies_105205"); }
-  [[nodiscard]] JsonView given_cookies_105207() const { return at("given_cookies_105207"); }
-  [[nodiscard]] JsonView given_cookies_105208() const { return at("given_cookies_105208"); }
-  [[nodiscard]] JsonView given_cookies_105212() const { return at("given_cookies_105212"); }
-  [[nodiscard]] JsonView given_cookies_105213() const { return at("given_cookies_105213"); }
-  [[nodiscard]] JsonView given_cookies_105214() const { return at("given_cookies_105214"); }
-  [[nodiscard]] JsonView given_cookies_105215() const { return at("given_cookies_105215"); }
-  [[nodiscard]] JsonView given_cookies_105217() const { return at("given_cookies_105217"); }
-  [[nodiscard]] JsonView given_cookies_105218() const { return at("given_cookies_105218"); }
-  [[nodiscard]] JsonView given_cookies_105219() const { return at("given_cookies_105219"); }
-  [[nodiscard]] JsonView given_cookies_105221() const { return at("given_cookies_105221"); }
-  [[nodiscard]] JsonView given_cookies_105222() const { return at("given_cookies_105222"); }
-  [[nodiscard]] JsonView given_cookies_105223() const { return at("given_cookies_105223"); }
-  [[nodiscard]] JsonView given_cookies_105225() const { return at("given_cookies_105225"); }
-  [[nodiscard]] JsonView given_cookies_105232() const { return at("given_cookies_105232"); }
-  [[nodiscard]] JsonView given_cookies_105233() const { return at("given_cookies_105233"); }
-  [[nodiscard]] JsonView given_cookies_105234() const { return at("given_cookies_105234"); }
-  [[nodiscard]] JsonView given_cookies_105235() const { return at("given_cookies_105235"); }
-  [[nodiscard]] JsonView given_cookies_105237() const { return at("given_cookies_105237"); }
-  [[nodiscard]] JsonView given_cookies_105238() const { return at("given_cookies_105238"); }
-  [[nodiscard]] JsonView given_cookies_105239() const { return at("given_cookies_105239"); }
-  [[nodiscard]] JsonView given_cookies_105242() const { return at("given_cookies_105242"); }
-  [[nodiscard]] JsonView given_cookies_105243() const { return at("given_cookies_105243"); }
-  [[nodiscard]] JsonView given_cookies_105244() const { return at("given_cookies_105244"); }
-  [[nodiscard]] JsonView given_cookies_105245() const { return at("given_cookies_105245"); }
-  [[nodiscard]] JsonView given_cookies_105247() const { return at("given_cookies_105247"); }
-  [[nodiscard]] JsonView given_cookies_105249() const { return at("given_cookies_105249"); }
-  [[nodiscard]] JsonView given_cookies_105250() const { return at("given_cookies_105250"); }
-  [[nodiscard]] JsonView given_cookies_105252() const { return at("given_cookies_105252"); }
-  [[nodiscard]] JsonView given_cookies_105253() const { return at("given_cookies_105253"); }
-  [[nodiscard]] JsonView given_cookies_105268() const { return at("given_cookies_105268"); }
-  [[nodiscard]] JsonView given_cookies_105270() const { return at("given_cookies_105270"); }
-  [[nodiscard]] JsonView given_cookies_105271() const { return at("given_cookies_105271"); }
-  [[nodiscard]] JsonView given_cookies_105272() const { return at("given_cookies_105272"); }
-  [[nodiscard]] JsonView given_cookies_105275() const { return at("given_cookies_105275"); }
-  [[nodiscard]] JsonView given_cookies_105278() const { return at("given_cookies_105278"); }
-  [[nodiscard]] JsonView given_cookies_105280() const { return at("given_cookies_105280"); }
-  [[nodiscard]] JsonView given_cookies_105281() const { return at("given_cookies_105281"); }
-  [[nodiscard]] JsonView given_cookies_105282() const { return at("given_cookies_105282"); }
-  [[nodiscard]] JsonView given_cookies_105283() const { return at("given_cookies_105283"); }
-  [[nodiscard]] JsonView given_cookies_105285() const { return at("given_cookies_105285"); }
-  [[nodiscard]] JsonView given_cookies_105286() const { return at("given_cookies_105286"); }
-  [[nodiscard]] JsonView given_cookies_105288() const { return at("given_cookies_105288"); }
-  [[nodiscard]] JsonView given_cookies_105290() const { return at("given_cookies_105290"); }
-  [[nodiscard]] JsonView given_cookies_105299() const { return at("given_cookies_105299"); }
-  [[nodiscard]] JsonView given_cookies_105301() const { return at("given_cookies_105301"); }
-  [[nodiscard]] JsonView given_cookies_105302() const { return at("given_cookies_105302"); }
-  [[nodiscard]] JsonView given_cookies_105305() const { return at("given_cookies_105305"); }
-  [[nodiscard]] JsonView given_cookies_105307() const { return at("given_cookies_105307"); }
-  [[nodiscard]] JsonView given_cookies_105308() const { return at("given_cookies_105308"); }
-  [[nodiscard]] JsonView given_cookies_105314() const { return at("given_cookies_105314"); }
-  [[nodiscard]] JsonView given_cookies_105316() const { return at("given_cookies_105316"); }
-  [[nodiscard]] JsonView given_cookies_105317() const { return at("given_cookies_105317"); }
-  [[nodiscard]] JsonView given_cookies_105318() const { return at("given_cookies_105318"); }
-  [[nodiscard]] JsonView given_cookies_105319() const { return at("given_cookies_105319"); }
-  [[nodiscard]] JsonView given_cookies_105320() const { return at("given_cookies_105320"); }
-  [[nodiscard]] JsonView given_cookies_105321() const { return at("given_cookies_105321"); }
-  [[nodiscard]] JsonView given_cookies_105324() const { return at("given_cookies_105324"); }
-  [[nodiscard]] JsonView given_cookies_105325() const { return at("given_cookies_105325"); }
-  [[nodiscard]] JsonView given_cookies_105328() const { return at("given_cookies_105328"); }
-  [[nodiscard]] JsonView given_cookies_105330() const { return at("given_cookies_105330"); }
-  [[nodiscard]] JsonView given_cookies_105336() const { return at("given_cookies_105336"); }
-  [[nodiscard]] JsonView given_cookies_105337() const { return at("given_cookies_105337"); }
-  [[nodiscard]] JsonView given_cookies_105340() const { return at("given_cookies_105340"); }
-  [[nodiscard]] JsonView given_cookies_105341() const { return at("given_cookies_105341"); }
-  [[nodiscard]] JsonView given_cookies_105342() const { return at("given_cookies_105342"); }
-  [[nodiscard]] JsonView given_cookies_105343() const { return at("given_cookies_105343"); }
-  [[nodiscard]] JsonView given_cookies_105138() const { return at("given_cookies_105138"); }
-  [[nodiscard]] JsonView given_cookies_105263() const { return at("given_cookies_105263"); }
-  [[nodiscard]] JsonView given_cookies_105326() const { return at("given_cookies_105326"); }
-  [[nodiscard]] JsonView given_cookies_105194() const { return at("given_cookies_105194"); }
-  [[nodiscard]] JsonView given_cookies_105181() const { return at("given_cookies_105181"); }
-  [[nodiscard]] JsonView given_cookies_105182() const { return at("given_cookies_105182"); }
-  [[nodiscard]] JsonView given_cookies_105192() const { return at("given_cookies_105192"); }
-  [[nodiscard]] JsonView given_cookies_105196() const { return at("given_cookies_105196"); }
-  [[nodiscard]] JsonView given_cookies_105147() const { return at("given_cookies_105147"); }
-  [[nodiscard]] JsonView given_cookies_105150() const { return at("given_cookies_105150"); }
-  [[nodiscard]] JsonView given_cookies_105166() const { return at("given_cookies_105166"); }
-  [[nodiscard]] JsonView given_cookies_105167() const { return at("given_cookies_105167"); }
-  [[nodiscard]] JsonView given_cookies_105171() const { return at("given_cookies_105171"); }
-  [[nodiscard]] JsonView given_cookies_105174() const { return at("given_cookies_105174"); }
-  [[nodiscard]] JsonView given_cookies_105176() const { return at("given_cookies_105176"); }
-  [[nodiscard]] JsonView given_cookies_105177() const { return at("given_cookies_105177"); }
-  [[nodiscard]] JsonView given_cookies_105178() const { return at("given_cookies_105178"); }
-  [[nodiscard]] JsonView given_cookies_105180() const { return at("given_cookies_105180"); }
-  [[nodiscard]] JsonView given_cookies_105183() const { return at("given_cookies_105183"); }
-  [[nodiscard]] JsonView given_cookies_105184() const { return at("given_cookies_105184"); }
-  [[nodiscard]] JsonView given_cookies_105185() const { return at("given_cookies_105185"); }
-  [[nodiscard]] JsonView given_cookies_105188() const { return at("given_cookies_105188"); }
-  [[nodiscard]] JsonView given_cookies_105189() const { return at("given_cookies_105189"); }
-  [[nodiscard]] JsonView given_cookies_105255() const { return at("given_cookies_105255"); }
-  [[nodiscard]] JsonView given_cookies_105256() const { return at("given_cookies_105256"); }
-  [[nodiscard]] JsonView given_cookies_105257() const { return at("given_cookies_105257"); }
-  [[nodiscard]] JsonView given_cookies_105258() const { return at("given_cookies_105258"); }
-  [[nodiscard]] JsonView given_cookies_105265() const { return at("given_cookies_105265"); }
-  [[nodiscard]] JsonView given_cookies_105266() const { return at("given_cookies_105266"); }
-  [[nodiscard]] JsonView given_cookies_105267() const { return at("given_cookies_105267"); }
-  [[nodiscard]] JsonView given_cookies_105331() const { return at("given_cookies_105331"); }
-  [[nodiscard]] JsonView given_cookies_105332() const { return at("given_cookies_105332"); }
-  [[nodiscard]] JsonView given_cookies_105334() const { return at("given_cookies_105334"); }
-  [[nodiscard]] JsonView given_cookies_105344() const { return at("given_cookies_105344"); }
-  [[nodiscard]] JsonView given_cookies_105097() const { return at("given_cookies_105097"); }
-  [[nodiscard]] JsonView given_cookies_105339() const { return at("given_cookies_105339"); }
-  [[nodiscard]] JsonView given_cookies_105248() const { return at("given_cookies_105248"); }
   [[nodiscard]] JsonView purchasedSlots() const { return at("purchasedSlots"); }
-  [[nodiscard]] JsonView given_cookies_104976() const { return at("given_cookies_104976"); }
-  [[nodiscard]] JsonView given_cookies_105013() const { return at("given_cookies_105013"); }
-  [[nodiscard]] JsonView given_cookies_105112() const { return at("given_cookies_105112"); }
-  [[nodiscard]] JsonView given_cookies_105132() const { return at("given_cookies_105132"); }
-  [[nodiscard]] JsonView given_cookies_105338() const { return at("given_cookies_105338"); }
-  [[nodiscard]] JsonView given_cookies_105047() const { return at("given_cookies_105047"); }
-  [[nodiscard]] JsonView given_cookies_105102() const { return at("given_cookies_105102"); }
-  [[nodiscard]] JsonView given_cookies_104992() const { return at("given_cookies_104992"); }
-  [[nodiscard]] JsonView given_cookies_104998() const { return at("given_cookies_104998"); }
-  [[nodiscard]] JsonView given_cookies_105240() const { return at("given_cookies_105240"); }
-  [[nodiscard]] JsonView given_cookies_105241() const { return at("given_cookies_105241"); }
-  [[nodiscard]] JsonView given_cookies_105259() const { return at("given_cookies_105259"); }
-  [[nodiscard]] JsonView given_cookies_105294() const { return at("given_cookies_105294"); }
-  [[nodiscard]] JsonView given_cookies_105310() const { return at("given_cookies_105310"); }
-  [[nodiscard]] JsonView given_cookies_105109() const { return at("given_cookies_105109"); }
-  [[nodiscard]] JsonView given_cookies_105116() const { return at("given_cookies_105116"); }
-  [[nodiscard]] JsonView given_cookies_105133() const { return at("given_cookies_105133"); }
-  [[nodiscard]] JsonView given_cookies_105296() const { return at("given_cookies_105296"); }
-  [[nodiscard]] JsonView given_cookies_105083() const { return at("given_cookies_105083"); }
-  [[nodiscard]] JsonView given_cookies_105187() const { return at("given_cookies_105187"); }
-  [[nodiscard]] JsonView given_cookies_105293() const { return at("given_cookies_105293"); }
-  [[nodiscard]] JsonView given_cookies_105015() const { return at("given_cookies_105015"); }
-  [[nodiscard]] JsonView given_cookies_105016() const { return at("given_cookies_105016"); }
-  [[nodiscard]] JsonView given_cookies_105024() const { return at("given_cookies_105024"); }
-  [[nodiscard]] JsonView given_cookies_105124() const { return at("given_cookies_105124"); }
-  [[nodiscard]] JsonView given_cookies_105292() const { return at("given_cookies_105292"); }
-  [[nodiscard]] JsonView given_cookies_105303() const { return at("given_cookies_105303"); }
-  [[nodiscard]] JsonView given_cookies_105031() const { return at("given_cookies_105031"); }
-  [[nodiscard]] JsonView given_cookies_105118() const { return at("given_cookies_105118"); }
-  [[nodiscard]] JsonView given_cookies_104977() const { return at("given_cookies_104977"); }
-  [[nodiscard]] JsonView given_cookies_104979() const { return at("given_cookies_104979"); }
-  [[nodiscard]] JsonView given_cookies_104975() const { return at("given_cookies_104975"); }
-  [[nodiscard]] JsonView given_cookies_105046() const { return at("given_cookies_105046"); }
-  [[nodiscard]] JsonView given_cookies_104937() const { return at("given_cookies_104937"); }
-  [[nodiscard]] JsonView given_cookies_104995() const { return at("given_cookies_104995"); }
-  [[nodiscard]] JsonView given_cookies_104974() const { return at("given_cookies_104974"); }
-  [[nodiscard]] JsonView given_cookies_104973() const { return at("given_cookies_104973"); }
-  [[nodiscard]] JsonView given_cookies_104978() const { return at("given_cookies_104978"); }
   [[nodiscard]] JsonView toggle_TIPS() const { return at("toggle_TIPS"); }
-  [[nodiscard]] JsonView given_cookies_104972() const { return at("given_cookies_104972"); }
-  [[nodiscard]] JsonView given_cookies_104971() const { return at("given_cookies_104971"); }
-  [[nodiscard]] JsonView given_cookies_104967() const { return at("given_cookies_104967"); }
-  [[nodiscard]] JsonView given_cookies_104970() const { return at("given_cookies_104970"); }
-  [[nodiscard]] JsonView given_cookies_104969() const { return at("given_cookies_104969"); }
-  [[nodiscard]] JsonView given_cookies_105346() const { return at("given_cookies_105346"); }
-  [[nodiscard]] JsonView given_cookies_104968() const { return at("given_cookies_104968"); }
-  [[nodiscard]] JsonView given_cookies_105345() const { return at("given_cookies_105345"); }
-  [[nodiscard]] JsonView given_cookies_105349() const { return at("given_cookies_105349"); }
-  [[nodiscard]] JsonView given_cookies_105348() const { return at("given_cookies_105348"); }
-  [[nodiscard]] JsonView given_cookies_105350() const { return at("given_cookies_105350"); }
-  [[nodiscard]] JsonView given_cookies_105347() const { return at("given_cookies_105347"); }
-  [[nodiscard]] JsonView given_cookies_105351() const { return at("given_cookies_105351"); }
-  [[nodiscard]] JsonView given_cookies_105352() const { return at("given_cookies_105352"); }
-  [[nodiscard]] JsonView given_cookies_105354() const { return at("given_cookies_105354"); }
-  [[nodiscard]] JsonView given_cookies_105366() const { return at("given_cookies_105366"); }
-  [[nodiscard]] JsonView given_cookies_105370() const { return at("given_cookies_105370"); }
 };
 
 class PlayerResponsePlayerGiftingMeta : public JsonView {
@@ -88785,6 +90399,8 @@ public:
   [[nodiscard]] JsonView WALLS3__comeback_challenge() const { return at("WALLS3__comeback_challenge"); }
   [[nodiscard]] JsonView WOOL_GAMES__sheep_wars_challenge() const { return at("WOOL_GAMES__sheep_wars_challenge"); }
   [[nodiscard]] JsonView ARCADE__blocking_dead_challenge() const { return at("ARCADE__blocking_dead_challenge"); }
+  [[nodiscard]] JsonView WOOL_GAMES__wool_wars_challenge() const { return at("WOOL_GAMES__wool_wars_challenge"); }
+  [[nodiscard]] JsonView BEDWARS__defensive() const { return at("BEDWARS__defensive"); }
 };
 
 class PlayerResponsePlayerChallengesDayJ : public JsonView {
@@ -88865,6 +90481,11 @@ public:
   [[nodiscard]] JsonView WALLS3__wither_challenge() const { return at("WALLS3__wither_challenge"); }
   [[nodiscard]] JsonView WOOL_GAMES__wool_wars_challenge() const { return at("WOOL_GAMES__wool_wars_challenge"); }
   [[nodiscard]] JsonView WOOL_GAMES__sheep_wars_challenge() const { return at("WOOL_GAMES__sheep_wars_challenge"); }
+  [[nodiscard]] JsonView BEDWARS__defensive() const { return at("BEDWARS__defensive"); }
+  [[nodiscard]] JsonView BUILD_BATTLE__guesser_challenge() const { return at("BUILD_BATTLE__guesser_challenge"); }
+  [[nodiscard]] JsonView QUAKECRAFT__powerup_challenge() const { return at("QUAKECRAFT__powerup_challenge"); }
+  [[nodiscard]] JsonView VAMPIREZ__fang_challenge() const { return at("VAMPIREZ__fang_challenge"); }
+  [[nodiscard]] JsonView GINGERBREAD__first_place_challenge() const { return at("GINGERBREAD__first_place_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayK : public JsonView {
@@ -88956,6 +90577,8 @@ public:
   [[nodiscard]] JsonView ARCADE__farm_hunt_challenge() const { return at("ARCADE__farm_hunt_challenge"); }
   [[nodiscard]] JsonView ARCADE__pixel_painters_challenge() const { return at("ARCADE__pixel_painters_challenge"); }
   [[nodiscard]] JsonView TNTGAMES__bow_spleef_challenge() const { return at("TNTGAMES__bow_spleef_challenge"); }
+  [[nodiscard]] JsonView WOOL_GAMES__wool_wars_challenge() const { return at("WOOL_GAMES__wool_wars_challenge"); }
+  [[nodiscard]] JsonView SURVIVAL_GAMES__iron_man_challenge() const { return at("SURVIVAL_GAMES__iron_man_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayL : public JsonView {
@@ -89044,6 +90667,7 @@ public:
   [[nodiscard]] JsonView ARCADE__bounty_hunter_challenge() const { return at("ARCADE__bounty_hunter_challenge"); }
   [[nodiscard]] JsonView ARCADE__creeper_attack_challenge() const { return at("ARCADE__creeper_attack_challenge"); }
   [[nodiscard]] JsonView ARCADE__farm_hunt_challenge() const { return at("ARCADE__farm_hunt_challenge"); }
+  [[nodiscard]] JsonView WOOL_GAMES__wool_wars_challenge() const { return at("WOOL_GAMES__wool_wars_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayA : public JsonView {
@@ -89127,6 +90751,10 @@ public:
   [[nodiscard]] JsonView ARCADE__farm_hunt_challenge() const { return at("ARCADE__farm_hunt_challenge"); }
   [[nodiscard]] JsonView ARCADE__pixel_painters_challenge() const { return at("ARCADE__pixel_painters_challenge"); }
   [[nodiscard]] JsonView QUAKECRAFT__powerup_challenge() const { return at("QUAKECRAFT__powerup_challenge"); }
+  [[nodiscard]] JsonView ARCADE__blocking_dead_challenge() const { return at("ARCADE__blocking_dead_challenge"); }
+  [[nodiscard]] JsonView WOOL_GAMES__wool_wars_challenge() const { return at("WOOL_GAMES__wool_wars_challenge"); }
+  [[nodiscard]] JsonView SUPER_SMASH__crystal_challenge() const { return at("SUPER_SMASH__crystal_challenge"); }
+  [[nodiscard]] JsonView VAMPIREZ__fang_challenge() const { return at("VAMPIREZ__fang_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayB : public JsonView {
@@ -89212,6 +90840,8 @@ public:
   [[nodiscard]] JsonView ARCADE__blocking_dead_challenge() const { return at("ARCADE__blocking_dead_challenge"); }
   [[nodiscard]] JsonView BEDWARS__defensive() const { return at("BEDWARS__defensive"); }
   [[nodiscard]] JsonView ARCADE__hide_and_seek_challenge() const { return at("ARCADE__hide_and_seek_challenge"); }
+  [[nodiscard]] JsonView WOOL_GAMES__wool_wars_challenge() const { return at("WOOL_GAMES__wool_wars_challenge"); }
+  [[nodiscard]] JsonView ARCADE__mini_walls_challenge() const { return at("ARCADE__mini_walls_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayC : public JsonView {
@@ -89291,6 +90921,7 @@ public:
   [[nodiscard]] JsonView WALLS3__wither_challenge() const { return at("WALLS3__wither_challenge"); }
   [[nodiscard]] JsonView BUILD_BATTLE__top_3_challenge() const { return at("BUILD_BATTLE__top_3_challenge"); }
   [[nodiscard]] JsonView ARCADE__party_games_challenge() const { return at("ARCADE__party_games_challenge"); }
+  [[nodiscard]] JsonView BUILD_BATTLE__guesser_challenge() const { return at("BUILD_BATTLE__guesser_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayD : public JsonView {
@@ -95098,6 +96729,15 @@ public:
   [[nodiscard]] JsonView Pbpowerup() const { return at("Pbpowerup"); }
   [[nodiscard]] JsonView Vampzprep() const { return at("Vampzprep"); }
   [[nodiscard]] JsonView Tntleafmealone() const { return at("Tntleafmealone"); }
+  [[nodiscard]] JsonView Blitzcountingdown() const { return at("Blitzcountingdown"); }
+  [[nodiscard]] JsonView Tntnotenough() const { return at("Tntnotenough"); }
+  [[nodiscard]] JsonView Warlordsfortheteam() const { return at("Warlordsfortheteam"); }
+  [[nodiscard]] JsonView Warlordshotspell() const { return at("Warlordshotspell"); }
+  [[nodiscard]] JsonView Paintballthreetimes() const { return at("Paintballthreetimes"); }
+  [[nodiscard]] JsonView Quakesunnydelight() const { return at("Quakesunnydelight"); }
+  [[nodiscard]] JsonView Vampzlongnight() const { return at("Vampzlongnight"); }
+  [[nodiscard]] JsonView Smashbloodthirsty() const { return at("Smashbloodthirsty"); }
+  [[nodiscard]] JsonView Blitzshutdown() const { return at("Blitzshutdown"); }
 };
 
 class PlayerResponsePlayerSeasonalEaster2026BingoClassicEasy : public JsonView {
@@ -95105,6 +96745,8 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoClassicEasyObjectives objectives() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoClassicEasyObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView rewards() const { return at("rewards"); }
 };
 
 class PlayerResponsePlayerSeasonalEaster2026BingoCasualEasyObjectives : public JsonView {
@@ -95125,6 +96767,9 @@ public:
   [[nodiscard]] JsonView Arcadebeginneregghunter() const { return at("Arcadebeginneregghunter"); }
   [[nodiscard]] JsonView Murderreadyornot() const { return at("Murderreadyornot"); }
   [[nodiscard]] JsonView Murdergoldensun() const { return at("Murdergoldensun"); }
+  [[nodiscard]] JsonView Bbvote() const { return at("Bbvote"); }
+  [[nodiscard]] JsonView Arcadefootballgoal() const { return at("Arcadefootballgoal"); }
+  [[nodiscard]] JsonView Murderbowkill() const { return at("Murderbowkill"); }
 };
 
 class PlayerResponsePlayerSeasonalEaster2026BingoCasualEasy : public JsonView {
@@ -95154,6 +96799,9 @@ public:
   [[nodiscard]] JsonView Skywarsbrightandearly() const { return at("Skywarsbrightandearly"); }
   [[nodiscard]] JsonView Skywarsbloodhound() const { return at("Skywarsbloodhound"); }
   [[nodiscard]] JsonView Duelsquakevictor() const { return at("Duelsquakevictor"); }
+  [[nodiscard]] JsonView Skywarsholidayrefill() const { return at("Skywarsholidayrefill"); }
+  [[nodiscard]] JsonView Skywarsvoidkill() const { return at("Skywarsvoidkill"); }
+  [[nodiscard]] JsonView Duelseasykillsacrossmodes() const { return at("Duelseasykillsacrossmodes"); }
 };
 
 class PlayerResponsePlayerSeasonalEaster2026BingoPvpEasy : public JsonView {
@@ -95171,6 +96819,20 @@ public:
 
   [[nodiscard]] JsonView Arcademoonlitescape() const { return at("Arcademoonlitescape"); }
   [[nodiscard]] JsonView Arcadedropperwarmingup() const { return at("Arcadedropperwarmingup"); }
+  [[nodiscard]] JsonView Murdervengeance() const { return at("Murdervengeance"); }
+  [[nodiscard]] JsonView Murderkillmurdermultiple() const { return at("Murderkillmurdermultiple"); }
+  [[nodiscard]] JsonView Murderstreak() const { return at("Murderstreak"); }
+  [[nodiscard]] JsonView Arcadesurvivorstreak() const { return at("Arcadesurvivorstreak"); }
+  [[nodiscard]] JsonView Bbscarygood() const { return at("Bbscarygood"); }
+  [[nodiscard]] JsonView Bbtop3() const { return at("Bbtop3"); }
+  [[nodiscard]] JsonView Buildbattlebossbuilder() const { return at("Buildbattlebossbuilder"); }
+  [[nodiscard]] JsonView Mainraremythical() const { return at("Mainraremythical"); }
+  [[nodiscard]] JsonView Arcadedragons() const { return at("Arcadedragons"); }
+  [[nodiscard]] JsonView Bbspeedfirst() const { return at("Bbspeedfirst"); }
+  [[nodiscard]] JsonView Arcadeenderspleef() const { return at("Arcadeenderspleef"); }
+  [[nodiscard]] JsonView Arcadesteve() const { return at("Arcadesteve"); }
+  [[nodiscard]] JsonView Arcadepartystarswin() const { return at("Arcadepartystarswin"); }
+  [[nodiscard]] JsonView Arcadepurger() const { return at("Arcadepurger"); }
 };
 
 class PlayerResponsePlayerSeasonalEaster2026BingoCasualHard : public JsonView {
@@ -95178,6 +96840,8 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoCasualHardObjectives objectives() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoCasualHardObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView rewards() const { return at("rewards"); }
 };
 
 class PlayerResponsePlayerSeasonalEaster2026BingoPvpHardObjectives : public JsonView {
@@ -95193,6 +96857,13 @@ public:
   [[nodiscard]] JsonView Duelsbridgeflawless() const { return at("Duelsbridgeflawless"); }
   [[nodiscard]] JsonView Duelsprizefighter() const { return at("Duelsprizefighter"); }
   [[nodiscard]] JsonView Woolctwcarrier() const { return at("Woolctwcarrier"); }
+  [[nodiscard]] JsonView Bedwarsinvisibility() const { return at("Bedwarsinvisibility"); }
+  [[nodiscard]] JsonView Skywarsbetterwithbuds() const { return at("Skywarsbetterwithbuds"); }
+  [[nodiscard]] JsonView Skywarschallenge() const { return at("Skywarschallenge"); }
+  [[nodiscard]] JsonView Skywarscabinetofsouls() const { return at("Skywarscabinetofsouls"); }
+  [[nodiscard]] JsonView Swoffering() const { return at("Swoffering"); }
+  [[nodiscard]] JsonView Wooltechnicolor() const { return at("Wooltechnicolor"); }
+  [[nodiscard]] JsonView Duelsheadintheclouds() const { return at("Duelsheadintheclouds"); }
 };
 
 class PlayerResponsePlayerSeasonalEaster2026BingoPvpHard : public JsonView {
@@ -95200,6 +96871,47 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoPvpHardObjectives objectives() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoPvpHardObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView rewards() const { return at("rewards"); }
+};
+
+class PlayerResponsePlayerSeasonalEaster2026BingoRewards : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView easy() const { return at("easy"); }
+  [[nodiscard]] JsonView hard() const { return at("hard"); }
+};
+
+class PlayerResponsePlayerSeasonalEaster2026BingoClassicHardObjectives : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView Smashtwolives() const { return at("Smashtwolives"); }
+  [[nodiscard]] JsonView Pbnuke() const { return at("Pbnuke"); }
+  [[nodiscard]] JsonView Arenasoulsiphoner() const { return at("Arenasoulsiphoner"); }
+  [[nodiscard]] JsonView Quakespringtimeshowcase() const { return at("Quakespringtimeshowcase"); }
+  [[nodiscard]] JsonView Cvcallaround() const { return at("Cvcallaround"); }
+  [[nodiscard]] JsonView Tnttagtildeath() const { return at("Tnttagtildeath"); }
+  [[nodiscard]] JsonView Megawallsblitzdeathmatch() const { return at("Megawallsblitzdeathmatch"); }
+  [[nodiscard]] JsonView Blitzallhallowshavoc() const { return at("Blitzallhallowshavoc"); }
+  [[nodiscard]] JsonView Smashtheendisnigh() const { return at("Smashtheendisnigh"); }
+  [[nodiscard]] JsonView Megawallsfinal() const { return at("Megawallsfinal"); }
+  [[nodiscard]] JsonView Blitzsafetyisanillusion() const { return at("Blitzsafetyisanillusion"); }
+  [[nodiscard]] JsonView Blitzstar() const { return at("Blitzstar"); }
+  [[nodiscard]] JsonView Tntspleeftriumphant() const { return at("Tntspleeftriumphant"); }
+  [[nodiscard]] JsonView Warlordsgraveconsequences() const { return at("Warlordsgraveconsequences"); }
+  [[nodiscard]] JsonView Warlordscapture() const { return at("Warlordscapture"); }
+  [[nodiscard]] JsonView Wallspursuit() const { return at("Wallspursuit"); }
+};
+
+class PlayerResponsePlayerSeasonalEaster2026BingoClassicHard : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoClassicHardObjectives objectives() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoClassicHardObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView rewards() const { return at("rewards"); }
 };
 
 class PlayerResponsePlayerSeasonalEaster2026Bingo : public JsonView {
@@ -95211,6 +96923,8 @@ public:
   [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoPvpEasy pvp_easy() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoPvpEasy>("pvp_easy"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoCasualHard casual_hard() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoCasualHard>("casual_hard"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoPvpHard pvp_hard() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoPvpHard>("pvp_hard"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoRewards rewards() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoRewards>("rewards"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalEaster2026BingoClassicHard classic_hard() const { return object_at<PlayerResponsePlayerSeasonalEaster2026BingoClassicHard>("classic_hard"); }
 
   [[nodiscard]] JsonView pinned() const { return at("pinned"); }
 };
@@ -97390,6 +99104,13 @@ public:
   [[nodiscard]] JsonView logins() const { return at("logins"); }
 };
 
+class PlayerResponsePlayerUpcomingLanguageReleaseThai : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView logins() const { return at("logins"); }
+};
+
 class PlayerResponsePlayer : public JsonView {
 public:
   using JsonView::JsonView;
@@ -97480,6 +99201,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerUpcomingLanguageReleaseRomanian upcomingLanguageRelease_Romanian() const { return object_at<PlayerResponsePlayerUpcomingLanguageReleaseRomanian>("upcomingLanguageRelease_Romanian"); }
   [[nodiscard]] PlayerResponsePlayerSkin skin() const { return object_at<PlayerResponsePlayerSkin>("skin"); }
   [[nodiscard]] PlayerResponsePlayerUpcomingLanguageReleaseMalay upcomingLanguageRelease_Malay() const { return object_at<PlayerResponsePlayerUpcomingLanguageReleaseMalay>("upcomingLanguageRelease_Malay"); }
+  [[nodiscard]] PlayerResponsePlayerUpcomingLanguageReleaseThai upcomingLanguageRelease_Thai() const { return object_at<PlayerResponsePlayerUpcomingLanguageReleaseThai>("upcomingLanguageRelease_Thai"); }
 
   [[nodiscard]] JsonView _id() const { return at("_id"); }
   [[nodiscard]] JsonView achievementsOneTime() const { return at("achievementsOneTime"); }
@@ -98003,6 +99725,11 @@ public:
   [[nodiscard]] JsonView monthly_kills_b() const { return at("monthly_kills_b"); }
   [[nodiscard]] JsonView weekly_kills_a() const { return at("weekly_kills_a"); }
   [[nodiscard]] JsonView scorpius_bribe_456() const { return at("scorpius_bribe_456"); }
+  [[nodiscard]] JsonView scorpius_bribe_480() const { return at("scorpius_bribe_480"); }
+  [[nodiscard]] JsonView realPermRank() const { return at("realPermRank"); }
+  [[nodiscard]] JsonView show_tntrun_actionbar_info() const { return at("show_tntrun_actionbar_info"); }
+  [[nodiscard]] JsonView xmas2018_TNT_1() const { return at("xmas2018_TNT_1"); }
+  [[nodiscard]] JsonView xmas2018_TNT_2() const { return at("xmas2018_TNT_2"); }
 };
 
 class PlayerResponse : public JsonView {
