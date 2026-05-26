@@ -143291,6 +143291,18 @@ public:
   [[nodiscard]] JsonView REALITY_HOPPER_BRONZE() const { return at("REALITY_HOPPER_BRONZE"); }
   [[nodiscard]] JsonView SEA_FROG_BRONZE() const { return at("SEA_FROG_BRONZE"); }
   [[nodiscard]] JsonView WETLANDS_FROG_BRONZE() const { return at("WETLANDS_FROG_BRONZE"); }
+  [[nodiscard]] JsonView HIGHLANDS_FROG_BRONZE() const { return at("HIGHLANDS_FROG_BRONZE"); }
+  [[nodiscard]] JsonView EXPLODING_FROG_SILVER() const { return at("EXPLODING_FROG_SILVER"); }
+  [[nodiscard]] JsonView BLESSED_FROG_SILVER() const { return at("BLESSED_FROG_SILVER"); }
+  [[nodiscard]] JsonView BULLFROG_SILVER() const { return at("BULLFROG_SILVER"); }
+  [[nodiscard]] JsonView COMMON_FROG_SILVER() const { return at("COMMON_FROG_SILVER"); }
+  [[nodiscard]] JsonView SEA_FROG_SILVER() const { return at("SEA_FROG_SILVER"); }
+  [[nodiscard]] JsonView CAVE_FROG_SILVER() const { return at("CAVE_FROG_SILVER"); }
+  [[nodiscard]] JsonView TREE_FROG_BRONZE() const { return at("TREE_FROG_BRONZE"); }
+  [[nodiscard]] JsonView TREE_FROG_SILVER() const { return at("TREE_FROG_SILVER"); }
+  [[nodiscard]] JsonView HIGHLANDS_FROG_SILVER() const { return at("HIGHLANDS_FROG_SILVER"); }
+  [[nodiscard]] JsonView WETLANDS_FROG_SILVER() const { return at("WETLANDS_FROG_SILVER"); }
+  [[nodiscard]] JsonView PUDDLE_JUMPER_SILVER() const { return at("PUDDLE_JUMPER_SILVER"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
