@@ -130612,6 +130612,9 @@ public:
   [[nodiscard]] JsonView sea_shine_12() const { return at("sea_shine_12"); }
   [[nodiscard]] JsonView lotus_fish_1() const { return at("lotus_fish_1"); }
   [[nodiscard]] JsonView manta_ray_124() const { return at("manta_ray_124"); }
+  [[nodiscard]] JsonView puddle_jumper_85() const { return at("puddle_jumper_85"); }
+  [[nodiscard]] JsonView frog_prince_132() const { return at("frog_prince_132"); }
+  [[nodiscard]] JsonView tewtil_10() const { return at("tewtil_10"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryDeaths : public JsonView {
@@ -140040,6 +140043,7 @@ public:
   [[nodiscard]] JsonView WILD_ROSE() const { return at("WILD_ROSE"); }
   [[nodiscard]] JsonView DOUBLE_PLANT() const { return at("DOUBLE_PLANT"); }
   [[nodiscard]] JsonView MOONFLOWER() const { return at("MOONFLOWER"); }
+  [[nodiscard]] JsonView LOTUS() const { return at("LOTUS"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
@@ -141651,6 +141655,14 @@ public:
   [[nodiscard]] JsonView atoll_croaker_45() const { return at("atoll_croaker_45"); }
   [[nodiscard]] JsonView manta_ray() const { return at("manta_ray"); }
   [[nodiscard]] JsonView manta_ray_124() const { return at("manta_ray_124"); }
+  [[nodiscard]] JsonView drowned_captain_74() const { return at("drowned_captain_74"); }
+  [[nodiscard]] JsonView lotus_guardian_55() const { return at("lotus_guardian_55"); }
+  [[nodiscard]] JsonView gorf_65() const { return at("gorf_65"); }
+  [[nodiscard]] JsonView frog_prince_132() const { return at("frog_prince_132"); }
+  [[nodiscard]] JsonView puddle_jumper() const { return at("puddle_jumper"); }
+  [[nodiscard]] JsonView frog_prince() const { return at("frog_prince"); }
+  [[nodiscard]] JsonView lotus_jumping_frog() const { return at("lotus_jumping_frog"); }
+  [[nodiscard]] JsonView tewtil() const { return at("tewtil"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -143264,6 +143276,21 @@ public:
   [[nodiscard]] JsonView DEEPFRIES() const { return at("DEEPFRIES"); }
   [[nodiscard]] JsonView FLORAL_GELATIN() const { return at("FLORAL_GELATIN"); }
   [[nodiscard]] JsonView CARROT_ZEST() const { return at("CARROT_ZEST"); }
+  [[nodiscard]] JsonView CONDENSED_WATER_LILY() const { return at("CONDENSED_WATER_LILY"); }
+  [[nodiscard]] JsonView LOTUS() const { return at("LOTUS"); }
+  [[nodiscard]] JsonView LOTUS_SILVER() const { return at("LOTUS_SILVER"); }
+  [[nodiscard]] JsonView REVERSE_REFORGE_STONE_CORE() const { return at("REVERSE_REFORGE_STONE_CORE"); }
+  [[nodiscard]] JsonView FROGCOIN() const { return at("FROGCOIN"); }
+  [[nodiscard]] JsonView BLESSED_FROG_BRONZE() const { return at("BLESSED_FROG_BRONZE"); }
+  [[nodiscard]] JsonView BULLFROG_BRONZE() const { return at("BULLFROG_BRONZE"); }
+  [[nodiscard]] JsonView CAVE_FROG_BRONZE() const { return at("CAVE_FROG_BRONZE"); }
+  [[nodiscard]] JsonView COMMON_FROG_BRONZE() const { return at("COMMON_FROG_BRONZE"); }
+  [[nodiscard]] JsonView EXPLODING_FROG_BRONZE() const { return at("EXPLODING_FROG_BRONZE"); }
+  [[nodiscard]] JsonView LEAP_FROG_BRONZE() const { return at("LEAP_FROG_BRONZE"); }
+  [[nodiscard]] JsonView PUDDLE_JUMPER_BRONZE() const { return at("PUDDLE_JUMPER_BRONZE"); }
+  [[nodiscard]] JsonView REALITY_HOPPER_BRONZE() const { return at("REALITY_HOPPER_BRONZE"); }
+  [[nodiscard]] JsonView SEA_FROG_BRONZE() const { return at("SEA_FROG_BRONZE"); }
+  [[nodiscard]] JsonView WETLANDS_FROG_BRONZE() const { return at("WETLANDS_FROG_BRONZE"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
@@ -145761,6 +145788,11 @@ public:
   [[nodiscard]] JsonView loch_hook() const { return at("loch_hook"); }
   [[nodiscard]] JsonView freezing_spread() const { return at("freezing_spread"); }
   [[nodiscard]] JsonView groovy_radar() const { return at("groovy_radar"); }
+  [[nodiscard]] JsonView diamond_frog() const { return at("diamond_frog"); }
+  [[nodiscard]] JsonView golden_frog() const { return at("golden_frog"); }
+  [[nodiscard]] JsonView lily_puncher() const { return at("lily_puncher"); }
+  [[nodiscard]] JsonView lily_tracker() const { return at("lily_tracker"); }
+  [[nodiscard]] JsonView lotus_trophy() const { return at("lotus_trophy"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
