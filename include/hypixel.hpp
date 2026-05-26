@@ -143303,6 +143303,8 @@ public:
   [[nodiscard]] JsonView HIGHLANDS_FROG_SILVER() const { return at("HIGHLANDS_FROG_SILVER"); }
   [[nodiscard]] JsonView WETLANDS_FROG_SILVER() const { return at("WETLANDS_FROG_SILVER"); }
   [[nodiscard]] JsonView PUDDLE_JUMPER_SILVER() const { return at("PUDDLE_JUMPER_SILVER"); }
+  [[nodiscard]] JsonView LOTUS_GOLD() const { return at("LOTUS_GOLD"); }
+  [[nodiscard]] JsonView LEAP_FROG_SILVER() const { return at("LEAP_FROG_SILVER"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
