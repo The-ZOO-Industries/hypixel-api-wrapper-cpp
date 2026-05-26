@@ -5032,6 +5032,7 @@ class AchievementsResponseAchievementsSkyblockOneTimeHAPPYHOLIDAYS;
 class AchievementsResponseAchievementsSkyblockOneTimeHIGHERTHANARABBIT;
 class AchievementsResponseAchievementsSkyblockOneTimeBALROGMEMORIES;
 class AchievementsResponseAchievementsSkyblockOneTimeTHEITSYBITSYSPIDER;
+class AchievementsResponseAchievementsSkyblockOneTimeLILYMANIA;
 class AchievementsResponseAchievementsSkyblockOneTimeEXPLOSIVEENDING;
 class AchievementsResponseAchievementsSkyblockOneTimeCLEANUPCREW;
 class AchievementsResponseAchievementsSkyblockOneTimeSADDLEUP;
@@ -7558,6 +7559,7 @@ class SkyblockCollectionsResponseCollectionsFISHINGItemsPRISMARINESHARD;
 class SkyblockCollectionsResponseCollectionsFISHINGItemsINKSACK;
 class SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH;
 class SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH3;
+class SkyblockCollectionsResponseCollectionsFISHINGItemsLOTUS;
 class SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH2;
 class SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH1;
 class SkyblockCollectionsResponseCollectionsFISHINGItemsMAGMAFISH;
@@ -114180,6 +114182,16 @@ public:
   [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
+class AchievementsResponseAchievementsSkyblockOneTimeLILYMANIA : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView secret() const { return at("secret"); }
+};
+
 class AchievementsResponseAchievementsSkyblockOneTimeEXPLOSIVEENDING : public JsonView {
 public:
   using JsonView::JsonView;
@@ -115587,6 +115599,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeHIGHERTHANARABBIT HIGHER_THAN_A_RABBIT() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeHIGHERTHANARABBIT>("HIGHER_THAN_A_RABBIT"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeBALROGMEMORIES BALROG_MEMORIES() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeBALROGMEMORIES>("BALROG_MEMORIES"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeTHEITSYBITSYSPIDER THE_ITSY_BITSY_SPIDER() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeTHEITSYBITSYSPIDER>("THE_ITSY_BITSY_SPIDER"); }
+  [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeLILYMANIA LILY_MANIA() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeLILYMANIA>("LILY_MANIA"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeEXPLOSIVEENDING EXPLOSIVE_ENDING() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeEXPLOSIVEENDING>("EXPLOSIVE_ENDING"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeCLEANUPCREW CLEANUP_CREW() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeCLEANUPCREW>("CLEANUP_CREW"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeSADDLEUP SADDLE_UP() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeSADDLEUP>("SADDLE_UP"); }
@@ -130590,6 +130603,15 @@ public:
   [[nodiscard]] JsonView littlefoot_533() const { return at("littlefoot_533"); }
   [[nodiscard]] JsonView nessie_302() const { return at("nessie_302"); }
   [[nodiscard]] JsonView pest_lunar_moth_1() const { return at("pest_lunar_moth_1"); }
+  [[nodiscard]] JsonView atoll_croaker_45() const { return at("atoll_croaker_45"); }
+  [[nodiscard]] JsonView gorf_65() const { return at("gorf_65"); }
+  [[nodiscard]] JsonView lotus_guardian_55() const { return at("lotus_guardian_55"); }
+  [[nodiscard]] JsonView lotus_jumping_frog_5() const { return at("lotus_jumping_frog_5"); }
+  [[nodiscard]] JsonView drowned_captain_74() const { return at("drowned_captain_74"); }
+  [[nodiscard]] JsonView flip_flopper_10() const { return at("flip_flopper_10"); }
+  [[nodiscard]] JsonView sea_shine_12() const { return at("sea_shine_12"); }
+  [[nodiscard]] JsonView lotus_fish_1() const { return at("lotus_fish_1"); }
+  [[nodiscard]] JsonView manta_ray_124() const { return at("manta_ray_124"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryDeaths : public JsonView {
@@ -141619,6 +141641,16 @@ public:
   [[nodiscard]] JsonView nessie() const { return at("nessie"); }
   [[nodiscard]] JsonView pest_lunar_moth() const { return at("pest_lunar_moth"); }
   [[nodiscard]] JsonView gaia_construct_85() const { return at("gaia_construct_85"); }
+  [[nodiscard]] JsonView atoll_croaker() const { return at("atoll_croaker"); }
+  [[nodiscard]] JsonView gorf() const { return at("gorf"); }
+  [[nodiscard]] JsonView lotus_guardian() const { return at("lotus_guardian"); }
+  [[nodiscard]] JsonView drowned_captain() const { return at("drowned_captain"); }
+  [[nodiscard]] JsonView flip_flopper() const { return at("flip_flopper"); }
+  [[nodiscard]] JsonView sea_shine() const { return at("sea_shine"); }
+  [[nodiscard]] JsonView lotus_fish() const { return at("lotus_fish"); }
+  [[nodiscard]] JsonView atoll_croaker_45() const { return at("atoll_croaker_45"); }
+  [[nodiscard]] JsonView manta_ray() const { return at("manta_ray"); }
+  [[nodiscard]] JsonView manta_ray_124() const { return at("manta_ray_124"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -141848,6 +141880,7 @@ public:
   [[nodiscard]] JsonView large_treasure() const { return at("large_treasure"); }
   [[nodiscard]] JsonView total() const { return at("total"); }
   [[nodiscard]] JsonView outstanding() const { return at("outstanding"); }
+  [[nodiscard]] JsonView trophy_frog() const { return at("trophy_frog"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsGifts : public JsonView {
@@ -148520,6 +148553,15 @@ public:
   [[nodiscard]] JsonView tiers() const { return at("tiers"); }
 };
 
+class SkyblockCollectionsResponseCollectionsFISHINGItemsLOTUS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView maxTiers() const { return at("maxTiers"); }
+  [[nodiscard]] JsonView tiers() const { return at("tiers"); }
+};
+
 class SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH2 : public JsonView {
 public:
   using JsonView::JsonView;
@@ -148583,6 +148625,7 @@ public:
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFISHINGItemsINKSACK INK_SACK() const { return object_at<SkyblockCollectionsResponseCollectionsFISHINGItemsINKSACK>("INK_SACK"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH RAW_FISH() const { return object_at<SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH>("RAW_FISH"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH3 RAW_FISH_3() const { return object_at<SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH3>("RAW_FISH:3"); }
+  [[nodiscard]] SkyblockCollectionsResponseCollectionsFISHINGItemsLOTUS LOTUS() const { return object_at<SkyblockCollectionsResponseCollectionsFISHINGItemsLOTUS>("LOTUS"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH2 RAW_FISH_2() const { return object_at<SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH2>("RAW_FISH:2"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH1 RAW_FISH_1() const { return object_at<SkyblockCollectionsResponseCollectionsFISHINGItemsRAWFISH1>("RAW_FISH:1"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFISHINGItemsMAGMAFISH MAGMA_FISH() const { return object_at<SkyblockCollectionsResponseCollectionsFISHINGItemsMAGMAFISH>("MAGMA_FISH"); }
