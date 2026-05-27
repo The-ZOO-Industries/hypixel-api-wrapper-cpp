@@ -144385,6 +144385,7 @@ public:
   [[nodiscard]] JsonView dungeon_hub() const { return at("dungeon_hub"); }
   [[nodiscard]] JsonView fishing_1() const { return at("fishing_1"); }
   [[nodiscard]] JsonView foraging_2() const { return at("foraging_2"); }
+  [[nodiscard]] JsonView lotus_atoll() const { return at("lotus_atoll"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterRabbits : public JsonView {
