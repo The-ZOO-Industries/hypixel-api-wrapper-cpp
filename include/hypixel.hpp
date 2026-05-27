@@ -130615,6 +130615,8 @@ public:
   [[nodiscard]] JsonView puddle_jumper_85() const { return at("puddle_jumper_85"); }
   [[nodiscard]] JsonView frog_prince_132() const { return at("frog_prince_132"); }
   [[nodiscard]] JsonView tewtil_10() const { return at("tewtil_10"); }
+  [[nodiscard]] JsonView magma_pillar_220() const { return at("magma_pillar_220"); }
+  [[nodiscard]] JsonView volcanic_snail_90() const { return at("volcanic_snail_90"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryDeaths : public JsonView {
@@ -141663,6 +141665,10 @@ public:
   [[nodiscard]] JsonView frog_prince() const { return at("frog_prince"); }
   [[nodiscard]] JsonView lotus_jumping_frog() const { return at("lotus_jumping_frog"); }
   [[nodiscard]] JsonView tewtil() const { return at("tewtil"); }
+  [[nodiscard]] JsonView magma_pillar() const { return at("magma_pillar"); }
+  [[nodiscard]] JsonView magma_pillar_220() const { return at("magma_pillar_220"); }
+  [[nodiscard]] JsonView volcanic_snail() const { return at("volcanic_snail"); }
+  [[nodiscard]] JsonView volcanic_snail_90() const { return at("volcanic_snail_90"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -143305,6 +143311,7 @@ public:
   [[nodiscard]] JsonView PUDDLE_JUMPER_SILVER() const { return at("PUDDLE_JUMPER_SILVER"); }
   [[nodiscard]] JsonView LOTUS_GOLD() const { return at("LOTUS_GOLD"); }
   [[nodiscard]] JsonView LEAP_FROG_SILVER() const { return at("LEAP_FROG_SILVER"); }
+  [[nodiscard]] JsonView SEARED_ESCARGOT() const { return at("SEARED_ESCARGOT"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
