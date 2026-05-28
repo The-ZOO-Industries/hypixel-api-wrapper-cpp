@@ -114190,6 +114190,8 @@ public:
   [[nodiscard]] JsonView name() const { return at("name"); }
   [[nodiscard]] JsonView description() const { return at("description"); }
   [[nodiscard]] JsonView secret() const { return at("secret"); }
+  [[nodiscard]] JsonView gamePercentUnlocked() const { return at("gamePercentUnlocked"); }
+  [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
 class AchievementsResponseAchievementsSkyblockOneTimeEXPLOSIVEENDING : public JsonView {
