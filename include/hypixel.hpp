@@ -140464,6 +140464,7 @@ public:
   [[nodiscard]] JsonView puffercloud() const { return at("puffercloud"); }
   [[nodiscard]] JsonView littlefoot() const { return at("littlefoot"); }
   [[nodiscard]] JsonView nessie() const { return at("nessie"); }
+  [[nodiscard]] JsonView blastberry() const { return at("blastberry"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
