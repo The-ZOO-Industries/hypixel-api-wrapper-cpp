@@ -7325,6 +7325,143 @@ class SkyblockProfileV2ResponseProfileMembersUuidShards;
 class SkyblockProfileV2ResponseProfileMembersUuidTemples;
 class SkyblockProfileV2ResponseProfileMembersUuidAttributesStacks;
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27HELMET;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27CHESTPLATE;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27LEGGINGS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27BOOTS;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadout;
 class SkyblockProfileV2ResponseProfileMembersUuid;
 class SkyblockProfileV2ResponseProfileMembers;
 class SkyblockProfileV2ResponseProfileBanking;
@@ -145845,6 +145982,1234 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAttributesStacks stacks() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAttributesStacks>("stacks"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19BOOTS>("BOOTS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19HELMET>("HELMET"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20HELMET>("HELMET"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20BOOTS>("BOOTS"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21HELMET>("HELMET"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21BOOTS>("BOOTS"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22HELMET>("HELMET"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22BOOTS>("BOOTS"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23HELMET>("HELMET"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23BOOTS>("BOOTS"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24HELMET>("HELMET"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24BOOTS>("BOOTS"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25HELMET>("HELMET"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25BOOTS>("BOOTS"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26HELMET>("HELMET"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26BOOTS>("BOOTS"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27HELMET : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27CHESTPLATE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27LEGGINGS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27BOOTS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27HELMET HELMET() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27HELMET>("HELMET"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27CHESTPLATE CHESTPLATE() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27CHESTPLATE>("CHESTPLATE"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27LEGGINGS LEGGINGS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27LEGGINGS>("LEGGINGS"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27BOOTS BOOTS() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27BOOTS>("BOOTS"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1 _1() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor1>("1"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2 _2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor2>("2"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3 _3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor3>("3"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4 _4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor4>("4"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5 _5() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor5>("5"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6 _6() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor6>("6"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7 _7() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor7>("7"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8 _8() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor8>("8"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9 _9() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor9>("9"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10 _10() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor10>("10"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11 _11() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor11>("11"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12 _12() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor12>("12"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13 _13() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor13>("13"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14 _14() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor14>("14"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15 _15() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor15>("15"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16 _16() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor16>("16"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17 _17() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor17>("17"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18 _18() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor18>("18"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19 _19() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor19>("19"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20 _20() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor20>("20"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21 _21() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor21>("21"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22 _22() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor22>("22"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23 _23() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor23>("23"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24 _24() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor24>("24"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25 _25() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor25>("25"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26 _26() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor26>("26"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27 _27() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor27>("27"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadout : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor armor() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutArmor>("armor"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuid : public JsonView {
 public:
   using JsonView::JsonView;
@@ -145884,6 +147249,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidShards shards() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidShards>("shards"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidTemples temples() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidTemples>("temples"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAttributes attributes() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAttributes>("attributes"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadout loadout() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadout>("loadout"); }
 
   [[nodiscard]] JsonView first_join_hub() const { return at("first_join_hub"); }
   [[nodiscard]] JsonView player_id() const { return at("player_id"); }
