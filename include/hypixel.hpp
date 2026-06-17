@@ -145064,6 +145064,7 @@ public:
   [[nodiscard]] JsonView figgy() const { return at("figgy"); }
   [[nodiscard]] JsonView lotus() const { return at("lotus"); }
   [[nodiscard]] JsonView croak() const { return at("croak"); }
+  [[nodiscard]] JsonView toad() const { return at("toad"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
