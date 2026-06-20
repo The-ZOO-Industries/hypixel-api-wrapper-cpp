@@ -131515,6 +131515,7 @@ public:
   [[nodiscard]] JsonView chillblade_31() const { return at("chillblade_31"); }
   [[nodiscard]] JsonView littlefoot_533() const { return at("littlefoot_533"); }
   [[nodiscard]] JsonView nessie_302() const { return at("nessie_302"); }
+  [[nodiscard]] JsonView primordial_bat_2() const { return at("primordial_bat_2"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -143468,6 +143469,7 @@ public:
   [[nodiscard]] JsonView LEAP_FROG_SILVER() const { return at("LEAP_FROG_SILVER"); }
   [[nodiscard]] JsonView SEARED_ESCARGOT() const { return at("SEARED_ESCARGOT"); }
   [[nodiscard]] JsonView REALITY_HOPPER_SILVER() const { return at("REALITY_HOPPER_SILVER"); }
+  [[nodiscard]] JsonView TARANTULA_SILK() const { return at("TARANTULA_SILK"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
