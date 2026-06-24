@@ -3629,6 +3629,8 @@ class PlayerResponsePlayerSeasonalSummer2024Bingo;
 class PlayerResponsePlayerSeasonalSummer2024;
 class PlayerResponsePlayerSeasonalSummer2025Levelling;
 class PlayerResponsePlayerSeasonalSummer2025;
+class PlayerResponsePlayerSeasonalSummer2026Levelling;
+class PlayerResponsePlayerSeasonalSummer2026;
 class PlayerResponsePlayerSeasonalSummer;
 class PlayerResponsePlayerSeasonalHalloween2022Levelling;
 class PlayerResponsePlayerSeasonalHalloween2022;
@@ -97456,6 +97458,20 @@ public:
   [[nodiscard]] PlayerResponsePlayerSeasonalSummer2025Levelling levelling() const { return object_at<PlayerResponsePlayerSeasonalSummer2025Levelling>("levelling"); }
 };
 
+class PlayerResponsePlayerSeasonalSummer2026Levelling : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView experience() const { return at("experience"); }
+};
+
+class PlayerResponsePlayerSeasonalSummer2026 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerSeasonalSummer2026Levelling levelling() const { return object_at<PlayerResponsePlayerSeasonalSummer2026Levelling>("levelling"); }
+};
+
 class PlayerResponsePlayerSeasonalSummer : public JsonView {
 public:
   using JsonView::JsonView;
@@ -97464,6 +97480,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerSeasonalSummer2023 _2023() const { return object_at<PlayerResponsePlayerSeasonalSummer2023>("2023"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalSummer2024 _2024() const { return object_at<PlayerResponsePlayerSeasonalSummer2024>("2024"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalSummer2025 _2025() const { return object_at<PlayerResponsePlayerSeasonalSummer2025>("2025"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalSummer2026 _2026() const { return object_at<PlayerResponsePlayerSeasonalSummer2026>("2026"); }
 };
 
 class PlayerResponsePlayerSeasonalHalloween2022Levelling : public JsonView {
