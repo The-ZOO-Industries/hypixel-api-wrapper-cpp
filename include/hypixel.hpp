@@ -81391,6 +81391,8 @@ public:
   [[nodiscard]] JsonView Pit_tdm_blue_kills_2026_winter() const { return at("Pit_tdm_blue_kills_2026_winter"); }
   [[nodiscard]] JsonView Pit_kills_as_beast_2026_winter() const { return at("Pit_kills_as_beast_2026_winter"); }
   [[nodiscard]] JsonView Pit_raffle_tickets_2026_summer() const { return at("Pit_raffle_tickets_2026_summer"); }
+  [[nodiscard]] JsonView Pit_rage_pit_damage_2026_summer() const { return at("Pit_rage_pit_damage_2026_summer"); }
+  [[nodiscard]] JsonView Pit_auction_bid_2026_summer() const { return at("Pit_auction_bid_2026_summer"); }
 };
 
 class PlayerResponsePlayerStatsPitProfileInvContents : public JsonView {
@@ -141856,6 +141858,7 @@ public:
   [[nodiscard]] JsonView magma_pillar_220() const { return at("magma_pillar_220"); }
   [[nodiscard]] JsonView volcanic_snail() const { return at("volcanic_snail"); }
   [[nodiscard]] JsonView volcanic_snail_90() const { return at("volcanic_snail_90"); }
+  [[nodiscard]] JsonView murkwater_jumping_frog() const { return at("murkwater_jumping_frog"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -143502,6 +143505,7 @@ public:
   [[nodiscard]] JsonView REALITY_HOPPER_SILVER() const { return at("REALITY_HOPPER_SILVER"); }
   [[nodiscard]] JsonView TARANTULA_SILK() const { return at("TARANTULA_SILK"); }
   [[nodiscard]] JsonView MOLTEN_POWDER() const { return at("MOLTEN_POWDER"); }
+  [[nodiscard]] JsonView TOKEN_OF_THE_CENTURY() const { return at("TOKEN_OF_THE_CENTURY"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
