@@ -128489,6 +128489,8 @@ public:
 
   [[nodiscard]] JsonView talked_to() const { return at("talked_to"); }
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
+  [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
+  [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataTyzzo : public JsonView {
@@ -128497,6 +128499,8 @@ public:
 
   [[nodiscard]] JsonView talked_to() const { return at("talked_to"); }
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
+  [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
+  [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataAgatha : public JsonView {
@@ -128522,6 +128526,8 @@ public:
 
   [[nodiscard]] JsonView talked_to() const { return at("talked_to"); }
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
+  [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
+  [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataShaggy : public JsonView {
@@ -128545,6 +128551,8 @@ public:
 
   [[nodiscard]] JsonView talked_to() const { return at("talked_to"); }
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
+  [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
+  [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataPesthunterPhillip : public JsonView {
@@ -128622,6 +128630,8 @@ public:
 
   [[nodiscard]] JsonView talked_to() const { return at("talked_to"); }
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
+  [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
+  [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastChefTed : public JsonView {
