@@ -81397,6 +81397,7 @@ public:
   [[nodiscard]] JsonView Pit_auction_bid_2026_summer() const { return at("Pit_auction_bid_2026_summer"); }
   [[nodiscard]] JsonView Pit_blockhead_blocks_2026_summer() const { return at("Pit_blockhead_blocks_2026_summer"); }
   [[nodiscard]] JsonView Pit_tdm_blue_kills_2026_summer() const { return at("Pit_tdm_blue_kills_2026_summer"); }
+  [[nodiscard]] JsonView Pit_tdm_red_kills_2026_summer() const { return at("Pit_tdm_red_kills_2026_summer"); }
 };
 
 class PlayerResponsePlayerStatsPitProfileInvContents : public JsonView {
