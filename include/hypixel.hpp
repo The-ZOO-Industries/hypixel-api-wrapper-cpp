@@ -2512,6 +2512,8 @@ class PlayerResponsePlayerStatsMainLobbyFishingStats2025;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterWater;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterLava;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026Easter;
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerWater;
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026Summer;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026;
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanentWater;
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanentIndividualFish;
@@ -83144,11 +83146,28 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterLava lava() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026EasterLava>("lava"); }
 };
 
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerWater : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView junk() const { return at("junk"); }
+  [[nodiscard]] JsonView fish() const { return at("fish"); }
+  [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+};
+
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026Summer : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerWater water() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerWater>("water"); }
+};
+
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026 : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026Easter easter() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026Easter>("easter"); }
+  [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026Summer summer() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026Summer>("summer"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanentWater : public JsonView {
