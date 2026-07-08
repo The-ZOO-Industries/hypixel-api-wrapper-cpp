@@ -147851,6 +147851,7 @@ public:
   [[nodiscard]] JsonView name() const { return at("name"); }
   [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts2 : public JsonView {
@@ -147872,6 +147873,11 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts4 : public JsonView {
@@ -147912,6 +147918,9 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts8 : public JsonView {
@@ -147920,6 +147929,10 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts9 : public JsonView {
@@ -147936,6 +147949,10 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts11 : public JsonView {
@@ -147944,6 +147961,11 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts12 : public JsonView {
