@@ -81440,6 +81440,8 @@ public:
   [[nodiscard]] JsonView Pit_tdm_red_kills_2026_summer() const { return at("Pit_tdm_red_kills_2026_summer"); }
   [[nodiscard]] JsonView Pit_raffle_jackpot_2026_summer() const { return at("Pit_raffle_jackpot_2026_summer"); }
   [[nodiscard]] JsonView Pit_kills_as_beast_2026_summer() const { return at("Pit_kills_as_beast_2026_summer"); }
+  [[nodiscard]] JsonView Pit_kotl_time_2026_summer() const { return at("Pit_kotl_time_2026_summer"); }
+  [[nodiscard]] JsonView Pit_kotl_gold_2026_summer() const { return at("Pit_kotl_gold_2026_summer"); }
 };
 
 class PlayerResponsePlayerStatsPitProfileInvContents : public JsonView {
