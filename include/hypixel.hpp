@@ -145845,6 +145845,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView mining() const { return at("mining"); }
+  [[nodiscard]] JsonView foraging() const { return at("foraging"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree : public JsonView {
@@ -148037,6 +148038,8 @@ public:
   [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
   [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts8 : public JsonView {
@@ -148061,6 +148064,9 @@ public:
   [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
   [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
+  [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts10 : public JsonView {
@@ -148096,6 +148102,10 @@ public:
   [[nodiscard]] JsonView name() const { return at("name"); }
   [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
   [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts13 : public JsonView {
