@@ -144381,6 +144381,7 @@ public:
   [[nodiscard]] JsonView xp_on_last_follower_spawn() const { return at("xp_on_last_follower_spawn"); }
   [[nodiscard]] JsonView spawn_timestamp() const { return at("spawn_timestamp"); }
   [[nodiscard]] JsonView kill_timestamp() const { return at("kill_timestamp"); }
+  [[nodiscard]] JsonView cocooned() const { return at("cocooned"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSlayer : public JsonView {
