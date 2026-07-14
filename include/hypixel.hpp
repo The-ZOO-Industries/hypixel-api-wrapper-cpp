@@ -6123,6 +6123,10 @@ class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot1;
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot2;
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot3;
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot4;
+class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot5;
+class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot6;
+class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot7;
+class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot8;
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuning;
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorage;
 class SkyblockProfileV2ResponseProfileMembersUuidLevelingCompletions;
@@ -127189,6 +127193,34 @@ public:
   [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot6 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot7 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot8 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuning : public JsonView {
 public:
   using JsonView::JsonView;
@@ -127198,6 +127230,10 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot2 slot_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot2>("slot_2"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot3 slot_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot3>("slot_3"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot4 slot_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot4>("slot_4"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot5 slot_5() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot5>("slot_5"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot6 slot_6() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot6>("slot_6"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot7 slot_7() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot7>("slot_7"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot8 slot_8() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot8>("slot_8"); }
 
   [[nodiscard]] JsonView highest_unlocked_slot() const { return at("highest_unlocked_slot"); }
   [[nodiscard]] JsonView refund_1() const { return at("refund_1"); }
