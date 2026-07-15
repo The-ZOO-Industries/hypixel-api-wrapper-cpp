@@ -148058,6 +148058,7 @@ public:
   [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
   [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
   [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts6 : public JsonView {
