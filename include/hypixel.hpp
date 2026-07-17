@@ -6083,6 +6083,7 @@ class GamesResponseGamesWALLS;
 class GamesResponseGamesSKYWARSModeNames;
 class GamesResponseGamesSKYWARS;
 class GamesResponseGamesVAMPIREZ;
+class GamesResponseGamesPROTOTYPEModeNames;
 class GamesResponseGamesPROTOTYPE;
 class GamesResponseGamesWALLS3;
 class GamesResponseGamesBEDWARSModeNames;
@@ -126628,9 +126629,20 @@ public:
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
 
+class GamesResponseGamesPROTOTYPEModeNames : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView RAVENGARD_DUNGEON_TRIO() const { return at("RAVENGARD_DUNGEON_TRIO"); }
+  [[nodiscard]] JsonView RAVENGARD_TUTORIAL() const { return at("RAVENGARD_TUTORIAL"); }
+  [[nodiscard]] JsonView RAVENGARD_HUB() const { return at("RAVENGARD_HUB"); }
+};
+
 class GamesResponseGamesPROTOTYPE : public JsonView {
 public:
   using JsonView::JsonView;
+
+  [[nodiscard]] GamesResponseGamesPROTOTYPEModeNames modeNames() const { return object_at<GamesResponseGamesPROTOTYPEModeNames>("modeNames"); }
 
   [[nodiscard]] JsonView databaseName() const { return at("databaseName"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
