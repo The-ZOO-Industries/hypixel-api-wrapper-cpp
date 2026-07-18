@@ -145783,6 +145783,20 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView center_of_the_forest() const { return at("center_of_the_forest"); }
+  [[nodiscard]] JsonView daily_wishes() const { return at("daily_wishes"); }
+  [[nodiscard]] JsonView efficient_forager() const { return at("efficient_forager"); }
+  [[nodiscard]] JsonView foraging_fortune() const { return at("foraging_fortune"); }
+  [[nodiscard]] JsonView galateas_might() const { return at("galateas_might"); }
+  [[nodiscard]] JsonView hunters_luck() const { return at("hunters_luck"); }
+  [[nodiscard]] JsonView strength_boost() const { return at("strength_boost"); }
+  [[nodiscard]] JsonView sweep() const { return at("sweep"); }
+  [[nodiscard]] JsonView toggle_daily_wishes() const { return at("toggle_daily_wishes"); }
+  [[nodiscard]] JsonView toggle_efficient_forager() const { return at("toggle_efficient_forager"); }
+  [[nodiscard]] JsonView toggle_foraging_fortune() const { return at("toggle_foraging_fortune"); }
+  [[nodiscard]] JsonView toggle_galateas_might() const { return at("toggle_galateas_might"); }
+  [[nodiscard]] JsonView toggle_hunters_luck() const { return at("toggle_hunters_luck"); }
+  [[nodiscard]] JsonView toggle_strength_boost() const { return at("toggle_strength_boost"); }
+  [[nodiscard]] JsonView toggle_sweep() const { return at("toggle_sweep"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging3 : public JsonView {
@@ -145878,6 +145892,7 @@ public:
   [[nodiscard]] JsonView mountain() const { return at("mountain"); }
   [[nodiscard]] JsonView forest() const { return at("forest"); }
   [[nodiscard]] JsonView mountain_2() const { return at("mountain_2"); }
+  [[nodiscard]] JsonView forest_2() const { return at("forest_2"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeExperience : public JsonView {
@@ -146148,6 +146163,7 @@ public:
   [[nodiscard]] JsonView forests_whispers_spent() const { return at("forests_whispers_spent"); }
   [[nodiscard]] JsonView current_daily_effect() const { return at("current_daily_effect"); }
   [[nodiscard]] JsonView current_daily_effect_last_changed() const { return at("current_daily_effect_last_changed"); }
+  [[nodiscard]] JsonView forests_whispers_spent_2() const { return at("forests_whispers_spent_2"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidShardsTraps : public JsonView {
