@@ -127215,6 +127215,14 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
+  [[nodiscard]] JsonView attack_speed() const { return at("attack_speed"); }
+  [[nodiscard]] JsonView critical_chance() const { return at("critical_chance"); }
+  [[nodiscard]] JsonView critical_damage() const { return at("critical_damage"); }
+  [[nodiscard]] JsonView defense() const { return at("defense"); }
+  [[nodiscard]] JsonView health() const { return at("health"); }
+  [[nodiscard]] JsonView intelligence() const { return at("intelligence"); }
+  [[nodiscard]] JsonView strength() const { return at("strength"); }
+  [[nodiscard]] JsonView walk_speed() const { return at("walk_speed"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot6 : public JsonView {
