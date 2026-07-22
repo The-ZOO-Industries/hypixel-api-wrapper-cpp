@@ -7113,6 +7113,11 @@ class SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyCompleteQuiz;
 class SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTalkToElizabeth;
 class SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTalkToSecurityClerk;
 class SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTravelToCommunityCenter;
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesAddChickenPet;
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesSummonChickenPet;
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToBartenderIntro;
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToFarmhand3;
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToFarmhand4;
 class SkyblockProfileV2ResponseProfileMembersUuidObjectives;
 class SkyblockProfileV2ResponseProfileMembersUuidCollection;
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths;
@@ -139575,6 +139580,51 @@ public:
   [[nodiscard]] JsonView completed_at() const { return at("completed_at"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesAddChickenPet : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView progress() const { return at("progress"); }
+  [[nodiscard]] JsonView completed_at() const { return at("completed_at"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesSummonChickenPet : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView progress() const { return at("progress"); }
+  [[nodiscard]] JsonView completed_at() const { return at("completed_at"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToBartenderIntro : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView progress() const { return at("progress"); }
+  [[nodiscard]] JsonView completed_at() const { return at("completed_at"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToFarmhand3 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView progress() const { return at("progress"); }
+  [[nodiscard]] JsonView completed_at() const { return at("completed_at"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToFarmhand4 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView progress() const { return at("progress"); }
+  [[nodiscard]] JsonView completed_at() const { return at("completed_at"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidObjectives : public JsonView {
 public:
   using JsonView::JsonView;
@@ -140346,6 +140396,11 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTalkToElizabeth safety_talk_to_elizabeth() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTalkToElizabeth>("safety_talk_to_elizabeth"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTalkToSecurityClerk safety_talk_to_security_clerk() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTalkToSecurityClerk>("safety_talk_to_security_clerk"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTravelToCommunityCenter safety_travel_to_community_center() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidObjectivesSafetyTravelToCommunityCenter>("safety_travel_to_community_center"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidObjectivesAddChickenPet add_chicken_pet() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidObjectivesAddChickenPet>("add_chicken_pet"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidObjectivesSummonChickenPet summon_chicken_pet() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidObjectivesSummonChickenPet>("summon_chicken_pet"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToBartenderIntro talk_to_bartender_intro() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToBartenderIntro>("talk_to_bartender_intro"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToFarmhand3 talk_to_farmhand_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToFarmhand3>("talk_to_farmhand_3"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToFarmhand4 talk_to_farmhand_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidObjectivesTalkToFarmhand4>("talk_to_farmhand_4"); }
 
   [[nodiscard]] JsonView tutorial() const { return at("tutorial"); }
 };
