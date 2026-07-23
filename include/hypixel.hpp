@@ -145859,6 +145859,25 @@ public:
   [[nodiscard]] JsonView toggle_hunters_luck() const { return at("toggle_hunters_luck"); }
   [[nodiscard]] JsonView toggle_strength_boost() const { return at("toggle_strength_boost"); }
   [[nodiscard]] JsonView toggle_sweep() const { return at("toggle_sweep"); }
+  [[nodiscard]] JsonView toggle_center_of_the_forest() const { return at("toggle_center_of_the_forest"); }
+  [[nodiscard]] JsonView deep_waters() const { return at("deep_waters"); }
+  [[nodiscard]] JsonView toggle_deep_waters() const { return at("toggle_deep_waters"); }
+  [[nodiscard]] JsonView foraging_madness() const { return at("foraging_madness"); }
+  [[nodiscard]] JsonView toggle_foraging_madness() const { return at("toggle_foraging_madness"); }
+  [[nodiscard]] JsonView luck_of_the_forest() const { return at("luck_of_the_forest"); }
+  [[nodiscard]] JsonView toggle_luck_of_the_forest() const { return at("toggle_luck_of_the_forest"); }
+  [[nodiscard]] JsonView _250_gifts() const { return at("250_gifts"); }
+  [[nodiscard]] JsonView early_bird() const { return at("early_bird"); }
+  [[nodiscard]] JsonView essence_fortune() const { return at("essence_fortune"); }
+  [[nodiscard]] JsonView forest_speed() const { return at("forest_speed"); }
+  [[nodiscard]] JsonView forest_strength() const { return at("forest_strength"); }
+  [[nodiscard]] JsonView toggle_250_gifts() const { return at("toggle_250_gifts"); }
+  [[nodiscard]] JsonView toggle_early_bird() const { return at("toggle_early_bird"); }
+  [[nodiscard]] JsonView toggle_essence_fortune() const { return at("toggle_essence_fortune"); }
+  [[nodiscard]] JsonView toggle_forest_speed() const { return at("toggle_forest_speed"); }
+  [[nodiscard]] JsonView toggle_forest_strength() const { return at("toggle_forest_strength"); }
+  [[nodiscard]] JsonView toggle_tree_whisperer() const { return at("toggle_tree_whisperer"); }
+  [[nodiscard]] JsonView tree_whisperer() const { return at("tree_whisperer"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging3 : public JsonView {
@@ -148198,6 +148217,9 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts7 : public JsonView {
