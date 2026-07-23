@@ -14447,6 +14447,7 @@ public:
   [[nodiscard]] JsonView meteor_shower() const { return at("meteor_shower"); }
   [[nodiscard]] JsonView hot_potato() const { return at("hot_potato"); }
   [[nodiscard]] JsonView nuke() const { return at("nuke"); }
+  [[nodiscard]] JsonView purge() const { return at("purge"); }
 };
 
 class PlayerResponsePlayerStatsArcadeDisastersStatsSurvived : public JsonView {
