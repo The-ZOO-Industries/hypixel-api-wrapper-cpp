@@ -83684,6 +83684,7 @@ public:
   [[nodiscard]] JsonView bingo_13() const { return at("bingo_13"); }
   [[nodiscard]] JsonView become_rabbit() const { return at("become_rabbit"); }
   [[nodiscard]] JsonView easter_guide_2026() const { return at("easter_guide_2026"); }
+  [[nodiscard]] JsonView summer_guide_2026() const { return at("summer_guide_2026"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyDiscoveredZones : public JsonView {
