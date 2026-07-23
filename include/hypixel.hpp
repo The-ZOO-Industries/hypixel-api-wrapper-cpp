@@ -35779,6 +35779,7 @@ public:
   [[nodiscard]] JsonView golem_a_defender_assists_gvg() const { return at("golem_a_defender_assists_gvg"); }
   [[nodiscard]] JsonView moleman_a_final_kills_below_10_hp_face_off() const { return at("moleman_a_final_kills_below_10_hp_face_off"); }
   [[nodiscard]] JsonView herobrine_potions_splashed_gvg() const { return at("herobrine_potions_splashed_gvg"); }
+  [[nodiscard]] JsonView assassin_a_final_kills_melee_behind_face_off() const { return at("assassin_a_final_kills_melee_behind_face_off"); }
 };
 
 class PlayerResponsePlayerStatsGingerBread : public JsonView {
@@ -150175,6 +150176,7 @@ public:
   [[nodiscard]] JsonView requirement() const { return at("requirement"); }
   [[nodiscard]] JsonView status() const { return at("status"); }
   [[nodiscard]] JsonView position() const { return at("position"); }
+  [[nodiscard]] JsonView bonus_rewards() const { return at("bonus_rewards"); }
 };
 
 class SkyblockGardenResponseGardenActiveCommissionsSherry : public JsonView {
@@ -150547,6 +150549,7 @@ public:
   [[nodiscard]] JsonView requirement() const { return at("requirement"); }
   [[nodiscard]] JsonView status() const { return at("status"); }
   [[nodiscard]] JsonView position() const { return at("position"); }
+  [[nodiscard]] JsonView bonus_rewards() const { return at("bonus_rewards"); }
 };
 
 class SkyblockGardenResponseGardenActiveCommissionsTalKer : public JsonView {
