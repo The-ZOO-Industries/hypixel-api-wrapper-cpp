@@ -20388,6 +20388,7 @@ class PlayerResponsePlayerStatsWallsInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
+  [[nodiscard]] JsonView _0() const { return at("0"); }
 };
 
 class PlayerResponsePlayerStatsWallsInventoryLayout : public JsonView {
@@ -47879,6 +47880,9 @@ public:
   [[nodiscard]] JsonView challenge_wins_6_kit_advanced_solo_magician() const { return at("challenge_wins_6_kit_advanced_solo_magician"); }
   [[nodiscard]] JsonView fall_kills_tourney_kit_attacking_team_fisherman() const { return at("fall_kills_tourney_kit_attacking_team_fisherman"); }
   [[nodiscard]] JsonView challenge_wins_2_kit_supporting_team_pyro() const { return at("challenge_wins_2_kit_supporting_team_pyro"); }
+  [[nodiscard]] JsonView bow_kills_lab_kit_advanced_solo_pig_rider() const { return at("bow_kills_lab_kit_advanced_solo_pig-rider"); }
+  [[nodiscard]] JsonView challenge_attempts_5_kit_advanced_solo_enchanter() const { return at("challenge_attempts_5_kit_advanced_solo_enchanter"); }
+  [[nodiscard]] JsonView challenge_wins_6_kit_mythical_monster_trainer() const { return at("challenge_wins_6_kit_mythical_monster-trainer"); }
 };
 
 class PlayerResponsePlayerStatsTrueCombat : public JsonView {
@@ -119213,6 +119217,7 @@ public:
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
   [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
+  [[nodiscard]] JsonView dnd_enabled() const { return at("dnd_enabled"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataElle : public JsonView {
@@ -119283,6 +119288,7 @@ public:
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
   [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
+  [[nodiscard]] JsonView dnd_enabled() const { return at("dnd_enabled"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataDrillFuelMechanic : public JsonView {
@@ -119330,6 +119336,7 @@ public:
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
   [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
+  [[nodiscard]] JsonView dnd_enabled() const { return at("dnd_enabled"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFairy : public JsonView {
@@ -119388,6 +119395,7 @@ public:
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
   [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
+  [[nodiscard]] JsonView dnd_enabled() const { return at("dnd_enabled"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataForgeForeman : public JsonView {
@@ -119398,6 +119406,7 @@ public:
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
   [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
+  [[nodiscard]] JsonView dnd_enabled() const { return at("dnd_enabled"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataCommunityShop : public JsonView {
@@ -119673,6 +119682,7 @@ public:
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
   [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
+  [[nodiscard]] JsonView dnd_enabled() const { return at("dnd_enabled"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataWoolWeaver : public JsonView {
@@ -123245,6 +123255,26 @@ public:
   [[nodiscard]] JsonView master_watcher_spirit_bear_5() const { return at("master_watcher_spirit_bear_5"); }
   [[nodiscard]] JsonView cellar_spider_75() const { return at("cellar_spider_75"); }
   [[nodiscard]] JsonView kuudra_slasher_400() const { return at("kuudra_slasher_400"); }
+  [[nodiscard]] JsonView skeleton_2() const { return at("skeleton_2"); }
+  [[nodiscard]] JsonView fried_chicken_30() const { return at("fried_chicken_30"); }
+  [[nodiscard]] JsonView cretan_bull_95() const { return at("cretan_bull_95"); }
+  [[nodiscard]] JsonView zombie_9() const { return at("zombie_9"); }
+  [[nodiscard]] JsonView wetwing_18() const { return at("wetwing_18"); }
+  [[nodiscard]] JsonView ent_14() const { return at("ent_14"); }
+  [[nodiscard]] JsonView strider_21() const { return at("strider_21"); }
+  [[nodiscard]] JsonView duelist_rollim_6() const { return at("duelist_rollim_6"); }
+  [[nodiscard]] JsonView master_cellar_spider_105() const { return at("master_cellar_spider_105"); }
+  [[nodiscard]] JsonView master_crypt_undead_externalizable_25() const { return at("master_crypt_undead_externalizable_25"); }
+  [[nodiscard]] JsonView crypt_undead_relenter_55() const { return at("crypt_undead_relenter_55"); }
+  [[nodiscard]] JsonView crypt_undead_relenter_25() const { return at("crypt_undead_relenter_25"); }
+  [[nodiscard]] JsonView skeleton_15() const { return at("skeleton_15"); }
+  [[nodiscard]] JsonView crypt_undead_pieter_40() const { return at("crypt_undead_pieter_40"); }
+  [[nodiscard]] JsonView enderman_7() const { return at("enderman_7"); }
+  [[nodiscard]] JsonView master_crypt_undead_cheesey_25() const { return at("master_crypt_undead_cheesey_25"); }
+  [[nodiscard]] JsonView lost_adventurer_123() const { return at("lost_adventurer_123"); }
+  [[nodiscard]] JsonView cellar_spider_115() const { return at("cellar_spider_115"); }
+  [[nodiscard]] JsonView scribe_5() const { return at("scribe_5"); }
+  [[nodiscard]] JsonView master_crypt_undead_bembo_25() const { return at("master_crypt_undead_bembo_25"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132140,6 +132170,12 @@ public:
   [[nodiscard]] JsonView ENCHANTED_RED_SAND() const { return at("ENCHANTED_RED_SAND"); }
   [[nodiscard]] JsonView ENCHANTED_COAL_BLOCK() const { return at("ENCHANTED_COAL_BLOCK"); }
   [[nodiscard]] JsonView ENCHANTED_PACKED_ICE() const { return at("ENCHANTED_PACKED_ICE"); }
+  [[nodiscard]] JsonView BRICK() const { return at("BRICK"); }
+  [[nodiscard]] JsonView ENCHANTED_SUGAR() const { return at("ENCHANTED_SUGAR"); }
+  [[nodiscard]] JsonView ENCHANTED_SUGAR_CANE() const { return at("ENCHANTED_SUGAR_CANE"); }
+  [[nodiscard]] JsonView ENCHANTED_LUSH_BERBERIS() const { return at("ENCHANTED_LUSH_BERBERIS"); }
+  [[nodiscard]] JsonView ABSOLUTE_ENDER_PEARL() const { return at("ABSOLUTE_ENDER_PEARL"); }
+  [[nodiscard]] JsonView ENCHANTED_POPPY() const { return at("ENCHANTED_POPPY"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
@@ -132618,6 +132654,15 @@ public:
   [[nodiscard]] JsonView nightmare() const { return at("nightmare"); }
   [[nodiscard]] JsonView zombie_miner() const { return at("zombie_miner"); }
   [[nodiscard]] JsonView strider() const { return at("strider"); }
+  [[nodiscard]] JsonView fried_chicken() const { return at("fried_chicken"); }
+  [[nodiscard]] JsonView wetwing() const { return at("wetwing"); }
+  [[nodiscard]] JsonView ent() const { return at("ent"); }
+  [[nodiscard]] JsonView crypt_undead_relenter() const { return at("crypt_undead_relenter"); }
+  [[nodiscard]] JsonView master_crypt_undead_externalizable() const { return at("master_crypt_undead_externalizable"); }
+  [[nodiscard]] JsonView crypt_undead_pieter() const { return at("crypt_undead_pieter"); }
+  [[nodiscard]] JsonView master_crypt_undead_cheesey() const { return at("master_crypt_undead_cheesey"); }
+  [[nodiscard]] JsonView scribe() const { return at("scribe"); }
+  [[nodiscard]] JsonView master_crypt_undead_bembo() const { return at("master_crypt_undead_bembo"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -133901,6 +133946,9 @@ public:
   [[nodiscard]] JsonView siamese_lynx_15() const { return at("siamese_lynx_15"); }
   [[nodiscard]] JsonView cretan_bull_95() const { return at("cretan_bull_95"); }
   [[nodiscard]] JsonView omegagma_400() const { return at("omegagma_400"); }
+  [[nodiscard]] JsonView enderman_8() const { return at("enderman_8"); }
+  [[nodiscard]] JsonView skeleton_12() const { return at("skeleton_12"); }
+  [[nodiscard]] JsonView enderman_15() const { return at("enderman_15"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
