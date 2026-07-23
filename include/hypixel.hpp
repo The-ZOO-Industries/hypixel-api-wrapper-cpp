@@ -7231,8 +7231,6 @@ class SkyblockProfileV2ResponseProfileMembersUuidPetsDataAutopet;
 class SkyblockProfileV2ResponseProfileMembersUuidPetsDataPetCare;
 class SkyblockProfileV2ResponseProfileMembersUuidPetsData;
 class SkyblockProfileV2ResponseProfileMembersUuidItemData;
-class SkyblockProfileV2ResponseProfileMembersUuidSharedInventoryCandyInventoryContents;
-class SkyblockProfileV2ResponseProfileMembersUuidSharedInventoryCarnivalMaskInventoryContents;
 class SkyblockProfileV2ResponseProfileMembersUuidSharedInventory;
 class SkyblockProfileV2ResponseProfileMembersUuidJacobsContestMedalsInv;
 class SkyblockProfileV2ResponseProfileMembersUuidJacobsContestPerks;
@@ -7549,6 +7547,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment9;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT4;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT3;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT1;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT2;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts1;
@@ -13730,30 +13729,6 @@ class PlayerResponsePlayerStatsArcadeMiniWallsInventoryLayout : public JsonView 
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsArcadePixelParty : public JsonView {
@@ -13787,37 +13762,6 @@ class PlayerResponsePlayerStatsArcadeWoolhuntInventorylayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsArcadeDropperMapStatsBbq : public JsonView {
@@ -15761,1685 +15705,252 @@ class PlayerResponsePlayerStatsHungerGamesRogueInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesFishermanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesBakerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesArcherInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesSlimeySlimeInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesPigmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesScoutInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesArmorerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesFarmerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesToxicologistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesPaladinInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesWolftamerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesNecromancerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesWarriorInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesTrollInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesGuardianInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesHunterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesCreepertamerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesJockeyInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesMeatMasterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesBlazeInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesGolemInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesMeatmasterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesSpeleologistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesFloristInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesHorsetamerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesKnightInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesHypeTrainInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesVikingInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesShadowKnightInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesPhoenixInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesDonkeytamerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesRangerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesArachnologistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesSnowmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesReaperInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesAstronautInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesMilkmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesWarlockInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesRedDragonInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesTimInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesDiverInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGamesPrivategames : public JsonView {
@@ -17468,37 +15979,6 @@ class PlayerResponsePlayerStatsHungerGamesSharkInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHungerGames : public JsonView {
@@ -21908,42 +20388,6 @@ class PlayerResponsePlayerStatsWallsInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWallsInventoryLayout : public JsonView {
@@ -22146,42 +20590,6 @@ class PlayerResponsePlayerStatsWalls3SkeletonInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ClassesHerobrinePrestigeTag : public JsonView {
@@ -22901,770 +21309,138 @@ class PlayerResponsePlayerStatsWalls3DreadlordInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3HerobrineInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3EndermanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ZombieInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3CreeperInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3WerewolfInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3SpiderInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3PhoenixInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3GolemInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3PirateInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3MolemanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3CowInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ShamanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3SharkInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3SquidInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ArcanistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3PigmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3BlazeInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3HunterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3AssassinInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3RenegadeInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3SnowmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3AutomatonInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3LeaderboardSettings : public JsonView {
@@ -23679,31 +21455,6 @@ class PlayerResponsePlayerStatsWalls3SheepInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3Settings : public JsonView {
@@ -23721,54 +21472,12 @@ class PlayerResponsePlayerStatsWalls3DragonInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3AngelInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWalls3Privategames : public JsonView {
@@ -36146,149 +33855,66 @@ class PlayerResponsePlayerStatsSkyWarsKitBasicSoloScoutInventory : public JsonVi
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloArmorerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0() const { return at("GOLD_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0() const { return at("GOLD_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedScoutInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_AXE_0() const { return at("DIAMOND_AXE:0"); }
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_PICKAXE_0() const { return at("DIAMOND_PICKAXE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedChampionInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0() const { return at("ENCHANTED_BOOK:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView ANVIL_0() const { return at("ANVIL:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedArmorerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0() const { return at("DIAMOND_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedPyromancerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView POTION_3() const { return at("POTION:3"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_0() const { return at("LAVA_BUCKET:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_1() const { return at("LAVA_BUCKET:1"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloFarmerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView EGG_0() const { return at("EGG:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0_4() const { return at("IRON_LEGGINGS:0:4"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloPyroInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FLINT_AND_STEEL_0() const { return at("FLINT_AND_STEEL:0"); }
-  [[nodiscard]] JsonView POTION_3() const { return at("POTION:3"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_0() const { return at("LAVA_BUCKET:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView FLINT_AND_STEEL_35() const { return at("FLINT_AND_STEEL:35"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_1() const { return at("LAVA_BUCKET:1"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_4() const { return at("LAVA_BUCKET:4"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_2() const { return at("LAVA_BUCKET:2"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_3() const { return at("LAVA_BUCKET:3"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamScoutInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView POTION_34() const { return at("POTION:34"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloSalmonInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_2() const { return at("WATER_BUCKET:2"); }
-  [[nodiscard]] JsonView WATER_BUCKET_1() const { return at("WATER_BUCKET:1"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView RAW_FISH_1_16_19() const { return at("RAW_FISH:1:16,19"); }
-  [[nodiscard]] JsonView SPONGE_0() const { return at("SPONGE:0"); }
-  [[nodiscard]] JsonView RAW_FISH_1() const { return at("RAW_FISH:1"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamSalmonInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_2() const { return at("WATER_BUCKET:2"); }
-  [[nodiscard]] JsonView WATER_BUCKET_1() const { return at("WATER_BUCKET:1"); }
-  [[nodiscard]] JsonView RAW_FISH_1() const { return at("RAW_FISH:1"); }
-  [[nodiscard]] JsonView SPONGE_0() const { return at("SPONGE:0"); }
-  [[nodiscard]] JsonView RAW_FISH_1_16_19() const { return at("RAW_FISH:1:16,19"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsHeadCollection : public JsonView {
@@ -36303,932 +33929,414 @@ class PlayerResponsePlayerStatsSkyWarsKitMythicalMonsterTrainerInventory : publi
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_98() const { return at("MONSTER_EGG:98"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView DIRT_0() const { return at("DIRT:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaScoutInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_34() const { return at("POTION:34"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView WOOL_11() const { return at("WOOL:11"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMythicalEndLordInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView ENDER_STONE_0() const { return at("ENDER_STONE:0"); }
-  [[nodiscard]] JsonView ENDER_PEARL_0() const { return at("ENDER_PEARL:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamFrogInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView WATER_LILY_0() const { return at("WATER_LILY:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamPigRiderInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0() const { return at("GOLD_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0() const { return at("GOLD_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView GOLD_SWORD_0() const { return at("GOLD_SWORD:0"); }
-  [[nodiscard]] JsonView SADDLE_0() const { return at("SADDLE:0"); }
-  [[nodiscard]] JsonView CARROT_STICK_0() const { return at("CARROT_STICK:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_90() const { return at("MONSTER_EGG:90"); }
-  [[nodiscard]] JsonView HAY_BLOCK_0() const { return at("HAY_BLOCK:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0_0() const { return at("GOLD_LEGGINGS:0:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0_0() const { return at("GOLD_BOOTS:0:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0() const { return at("GOLD_HELMET:0:0"); }
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0_0() const { return at("GOLD_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView GOLD_SWORD_0_16() const { return at("GOLD_SWORD:0:16"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedHoundInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView COOKED_BEEF_0() const { return at("COOKED_BEEF:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedMagicianInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView MILK_BUCKET_0() const { return at("MILK_BUCKET:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView POTION_12() const { return at("POTION:12"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView POTION_8() const { return at("POTION:8"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0() const { return at("DIAMOND_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView ANVIL_0() const { return at("ANVIL:0"); }
-  [[nodiscard]] JsonView BOOKSHELF_0() const { return at("BOOKSHELF:0"); }
-  [[nodiscard]] JsonView ENCHANTMENT_TABLE_0() const { return at("ENCHANTMENT_TABLE:0"); }
-  [[nodiscard]] JsonView EXP_BOTTLE_0() const { return at("EXP_BOTTLE:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedAthleteInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView POTION_9() const { return at("POTION:9"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedPaladinInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView DIAMOND_LEGGINGS_0() const { return at("DIAMOND_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedHealerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitRankedRankedBowmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView BOW_0() const { return at("BOW:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamPharaohInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView BEACON_0() const { return at("BEACON:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView GOLD_BLOCK_0() const { return at("GOLD_BLOCK:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_BLOCK_0() const { return at("DIAMOND_BLOCK:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView EMERALD_BLOCK_0() const { return at("EMERALD_BLOCK:0"); }
-  [[nodiscard]] JsonView IRON_BLOCK_0() const { return at("IRON_BLOCK:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0_0_34() const { return at("GOLD_BOOTS:0:0,34"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0_34() const { return at("GOLD_HELMET:0:0,34"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamGolemInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView MONSTER_EGG_99() const { return at("MONSTER_EGG:99"); }
-  [[nodiscard]] JsonView BAKED_POTATO_0() const { return at("BAKED_POTATO:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView RED_ROSE_0() const { return at("RED_ROSE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_0() const { return at("IRON_BOOTS:0:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0_0() const { return at("IRON_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView RED_ROSE_0_16() const { return at("RED_ROSE:0:16"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaKnightInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0() const { return at("GOLD_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0() const { return at("GOLD_LEGGINGS:0"); }
-  [[nodiscard]] JsonView FLINT_AND_STEEL_0() const { return at("FLINT_AND_STEEL:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0_16() const { return at("DIAMOND_SWORD:0:16"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloPrincessInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView BOW_114() const { return at("BOW:114"); }
-  [[nodiscard]] JsonView BOW_114_50() const { return at("BOW:114:50"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0() const { return at("GOLD_HELMET:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloGrenadeInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView MONSTER_EGG_50() const { return at("MONSTER_EGG:50"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_3() const { return at("LEATHER_CHESTPLATE:0:3"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_3() const { return at("LEATHER_LEGGINGS:0:3"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloFrogInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView WATER_LILY_0() const { return at("WATER_LILY:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloEnergixInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_9() const { return at("POTION:9"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloDiscoInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView NOTE_BLOCK_0() const { return at("NOTE_BLOCK:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView JUKEBOX_0() const { return at("JUKEBOX:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_RECORD_0() const { return at("GOLD_RECORD:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_4() const { return at("LEATHER_HELMET:0:4"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_2() const { return at("LEATHER_BOOTS:0:2"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloBatguyInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_12() const { return at("POTION:12"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_65() const { return at("MONSTER_EGG:65"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloTrollInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView WEB_0() const { return at("WEB:0"); }
-  [[nodiscard]] JsonView FIREWORK_0() const { return at("FIREWORK:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView POTION_4() const { return at("POTION:4"); }
-  [[nodiscard]] JsonView POTION_10() const { return at("POTION:10"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloSpeleologistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView STONE_0() const { return at("STONE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0_32_16_34() const { return at("IRON_PICKAXE:0:32,16,34"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloSnowmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView SNOW_BLOCK_0() const { return at("SNOW_BLOCK:0"); }
-  [[nodiscard]] JsonView PUMPKIN_0() const { return at("PUMPKIN:0"); }
-  [[nodiscard]] JsonView SNOW_BALL_0() const { return at("SNOW_BALL:0"); }
-  [[nodiscard]] JsonView IRON_SPADE_0() const { return at("IRON_SPADE:0"); }
-  [[nodiscard]] JsonView COAL_BLOCK_0() const { return at("COAL_BLOCK:0"); }
-  [[nodiscard]] JsonView IRON_SPADE_0_16() const { return at("IRON_SPADE:0:16"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_1() const { return at("LEATHER_HELMET:0:1"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloRookieInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView COOKED_BEEF_0() const { return at("COOKED_BEEF:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GLASS_0() const { return at("GLASS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloPharaohInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView BEACON_0() const { return at("BEACON:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView EMERALD_BLOCK_0() const { return at("EMERALD_BLOCK:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloKnightInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView GOLD_SWORD_0() const { return at("GOLD_SWORD:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0() const { return at("GOLD_HELMET:0:0"); }
-  [[nodiscard]] JsonView GOLD_SWORD_0_16_34() const { return at("GOLD_SWORD:0:16,34"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloHunterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView BOW_0() const { return at("BOW:0"); }
-  [[nodiscard]] JsonView BOW_0_48() const { return at("BOW:0:48"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloFishermanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView COOKED_FISH_0() const { return at("COOKED_FISH:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_HELMET_0() const { return at("CHAINMAIL_HELMET:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_LEGGINGS_0() const { return at("CHAINMAIL_LEGGINGS:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_HELMET_0_5() const { return at("CHAINMAIL_HELMET:0:5"); }
-  [[nodiscard]] JsonView FISHING_ROD_0_34_19_61_62() const { return at("FISHING_ROD:0:34,19,61,62"); }
-  [[nodiscard]] JsonView FISHING_ROD_0_34_61_62() const { return at("FISHING_ROD:0:34,61,62"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloEndermanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ENDER_PEARL_0() const { return at("ENDER_PEARL:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_0() const { return at("IRON_BOOTS:0:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0_0() const { return at("IRON_HELMET:0:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloEnchanterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView EXP_BOTTLE_0() const { return at("EXP_BOTTLE:0"); }
-  [[nodiscard]] JsonView ENCHANTMENT_TABLE_0() const { return at("ENCHANTMENT_TABLE:0"); }
-  [[nodiscard]] JsonView BOOKSHELF_0() const { return at("BOOKSHELF:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0() const { return at("GOLD_LEGGINGS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloEcologistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView LOG_0() const { return at("LOG:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0_32_16() const { return at("IRON_AXE:0:32,16"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
-  [[nodiscard]] JsonView STONE_AXE_0_32_16() const { return at("STONE_AXE:0:32,16"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloCannoneerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView TNT_0() const { return at("TNT:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView STONE_PLATE_0() const { return at("STONE_PLATE:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView REDSTONE_BLOCK_0() const { return at("REDSTONE_BLOCK:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_2_3() const { return at("IRON_BOOTS:0:2,3"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloArmorsmithInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0() const { return at("ENCHANTED_BOOK:0"); }
-  [[nodiscard]] JsonView EXP_BOTTLE_0() const { return at("EXP_BOTTLE:0"); }
-  [[nodiscard]] JsonView ANVIL_0() const { return at("ANVIL:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0_0_16() const { return at("ENCHANTED_BOOK:0:0,16"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0_48() const { return at("ENCHANTED_BOOK:0:48"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiningTeamSpeleologistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView STONE_0() const { return at("STONE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView DIAMOND_PICKAXE_0() const { return at("DIAMOND_PICKAXE:0"); }
-  [[nodiscard]] JsonView DIAMOND_PICKAXE_0_32_16_34_35() const { return at("DIAMOND_PICKAXE:0:32,16,34,35"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamSnowmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView SNOW_BLOCK_0() const { return at("SNOW_BLOCK:0"); }
-  [[nodiscard]] JsonView PUMPKIN_0() const { return at("PUMPKIN:0"); }
-  [[nodiscard]] JsonView IRON_SPADE_0() const { return at("IRON_SPADE:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView SNOW_BALL_0() const { return at("SNOW_BALL:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView DIAMOND_SPADE_0() const { return at("DIAMOND_SPADE:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView COAL_BLOCK_0() const { return at("COAL_BLOCK:0"); }
-  [[nodiscard]] JsonView DIAMOND_SPADE_0_16() const { return at("DIAMOND_SPADE:0:16"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_1() const { return at("LEATHER_HELMET:0:1"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamRookieInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView COOKED_BEEF_0() const { return at("COOKED_BEEF:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GLASS_0() const { return at("GLASS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0_16() const { return at("IRON_SWORD:0:16"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamHunterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView BOW_0() const { return at("BOW:0"); }
-  [[nodiscard]] JsonView BOW_0_48() const { return at("BOW:0:48"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamHealerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView POTION_33() const { return at("POTION:33"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamGuardianInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView OBSIDIAN_0() const { return at("OBSIDIAN:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_54() const { return at("MONSTER_EGG:54"); }
-  [[nodiscard]] JsonView MONSTER_EGG_51() const { return at("MONSTER_EGG:51"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0_0() const { return at("CHAINMAIL_BOOTS:0:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_LEGGINGS_0_0() const { return at("CHAINMAIL_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamEndermanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ENDER_PEARL_0() const { return at("ENDER_PEARL:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_0() const { return at("IRON_BOOTS:0:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0_0() const { return at("IRON_HELMET:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamEnchanterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView EXP_BOTTLE_0() const { return at("EXP_BOTTLE:0"); }
-  [[nodiscard]] JsonView ENCHANTMENT_TABLE_0() const { return at("ENCHANTMENT_TABLE:0"); }
-  [[nodiscard]] JsonView BOOKSHELF_0() const { return at("BOOKSHELF:0"); }
-  [[nodiscard]] JsonView DIAMOND_0() const { return at("DIAMOND:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamEcologistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView LOG_0() const { return at("LOG:0"); }
-  [[nodiscard]] JsonView DIAMOND_AXE_0() const { return at("DIAMOND_AXE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0_32_16() const { return at("IRON_AXE:0:32,16"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
-  [[nodiscard]] JsonView DIAMOND_AXE_0_32() const { return at("DIAMOND_AXE:0:32"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiningTeamCannoneerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView TNT_0() const { return at("TNT:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView STONE_PLATE_0() const { return at("STONE_PLATE:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView REDSTONE_BLOCK_0() const { return at("REDSTONE_BLOCK:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_2_3() const { return at("DIAMOND_BOOTS:0:2,3"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamBaseballPlayerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_HELMET_0() const { return at("CHAINMAIL_HELMET:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_HELMET_0_0() const { return at("CHAINMAIL_HELMET:0:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0_19() const { return at("STONE_SWORD:0:19"); }
-  [[nodiscard]] JsonView IRON_HELMET_0_0() const { return at("IRON_HELMET:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamArmorsmithInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0() const { return at("ENCHANTED_BOOK:0"); }
-  [[nodiscard]] JsonView EXP_BOTTLE_0() const { return at("EXP_BOTTLE:0"); }
-  [[nodiscard]] JsonView ANVIL_0() const { return at("ANVIL:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0_0_16_48_2_51() const { return at("ENCHANTED_BOOK:0:0,16,48,2,51"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0_48() const { return at("ENCHANTED_BOOK:0:48"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamDiscoInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView NOTE_BLOCK_0() const { return at("NOTE_BLOCK:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView JUKEBOX_0() const { return at("JUKEBOX:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_RECORD_0() const { return at("GOLD_RECORD:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_2() const { return at("LEATHER_BOOTS:0:2"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0_7() const { return at("LEATHER_CHESTPLATE:0:0,7"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_4() const { return at("LEATHER_HELMET:0:4"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamGrenadeInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView MONSTER_EGG_50() const { return at("MONSTER_EGG:50"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_3() const { return at("LEATHER_BOOTS:0:3"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_3() const { return at("LEATHER_CHESTPLATE:0:3"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_3() const { return at("LEATHER_LEGGINGS:0:3"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamBatguyInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_12() const { return at("POTION:12"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_65() const { return at("MONSTER_EGG:65"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_0() const { return at("IRON_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_0() const { return at("LEATHER_HELMET:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitEnderchestSoloEnderchestInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamEnergixInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_9() const { return at("POTION:9"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaCannoneerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView TNT_0() const { return at("TNT:0"); }
-  [[nodiscard]] JsonView DIAMOND_LEGGINGS_0() const { return at("DIAMOND_LEGGINGS:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView REDSTONE_BLOCK_0() const { return at("REDSTONE_BLOCK:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_LEGGINGS_0_3() const { return at("DIAMOND_LEGGINGS:0:3"); }
-  [[nodiscard]] JsonView STONE_SWORD_0_16() const { return at("STONE_SWORD:0:16"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloBaseballPlayerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0_0() const { return at("IRON_HELMET:0:0"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0_19() const { return at("WOOD_SWORD:0:19"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamArmorerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0() const { return at("GOLD_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0() const { return at("GOLD_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0() const { return at("DIAMOND_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_LEGGINGS_0() const { return at("DIAMOND_LEGGINGS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloSlimeInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView SLIME_BLOCK_0() const { return at("SLIME_BLOCK:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_2() const { return at("IRON_BOOTS:0:2"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloPigRiderInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView SADDLE_0() const { return at("SADDLE:0"); }
-  [[nodiscard]] JsonView CARROT_STICK_0() const { return at("CARROT_STICK:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_90() const { return at("MONSTER_EGG:90"); }
-  [[nodiscard]] JsonView HAY_BLOCK_0() const { return at("HAY_BLOCK:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0() const { return at("GOLD_HELMET:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBlacksmithRankedBlacksmithInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView ANVIL_0() const { return at("ANVIL:0"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0() const { return at("ENCHANTED_BOOK:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaFishermanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_0() const { return at("DIAMOND_BOOTS:0:0"); }
-  [[nodiscard]] JsonView FISHING_ROD_0_34_61_62() const { return at("FISHING_ROD:0:34,61,62"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaSkeletorInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView CHAINMAIL_LEGGINGS_0() const { return at("CHAINMAIL_LEGGINGS:0"); }
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView BOW_0() const { return at("BOW:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_51() const { return at("MONSTER_EGG:51"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_HELMET_0() const { return at("CHAINMAIL_HELMET:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0_0() const { return at("CHAINMAIL_BOOTS:0:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0_0() const { return at("CHAINMAIL_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_HELMET_0_0() const { return at("CHAINMAIL_HELMET:0:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_LEGGINGS_0_0() const { return at("CHAINMAIL_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaHellhoundInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_AXE_0() const { return at("DIAMOND_AXE:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_95() const { return at("MONSTER_EGG:95"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_0() const { return at("DIAMOND_BOOTS:0:0"); }
-  [[nodiscard]] JsonView STONE_AXE_0() const { return at("STONE_AXE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaArmorsmithInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_LEGGINGS_0() const { return at("DIAMOND_LEGGINGS:0"); }
-  [[nodiscard]] JsonView EXP_BOTTLE_0() const { return at("EXP_BOTTLE:0"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0() const { return at("ENCHANTED_BOOK:0"); }
-  [[nodiscard]] JsonView ENCHANTMENT_TABLE_0() const { return at("ENCHANTMENT_TABLE:0"); }
-  [[nodiscard]] JsonView ANVIL_0() const { return at("ANVIL:0"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0_0_16() const { return at("ENCHANTED_BOOK:0:0,16"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView DIAMOND_PICKAXE_0() const { return at("DIAMOND_PICKAXE:0"); }
-  [[nodiscard]] JsonView STONE_PICKAXE_0() const { return at("STONE_PICKAXE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaPyromaniacInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_AXE_0() const { return at("DIAMOND_AXE:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView FLINT_AND_STEEL_0() const { return at("FLINT_AND_STEEL:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView POTION_3() const { return at("POTION:3"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_0() const { return at("LAVA_BUCKET:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView DIAMOND_AXE_0_20() const { return at("DIAMOND_AXE:0:20"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0_34() const { return at("LEATHER_CHESTPLATE:0:0,34"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0_34() const { return at("LEATHER_LEGGINGS:0:0,34"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaPaladinInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0_17() const { return at("IRON_SWORD:0:17"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaHealerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0() const { return at("GOLD_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0() const { return at("GOLD_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_SPADE_0() const { return at("DIAMOND_SPADE:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0_0() const { return at("GOLD_BOOTS:0:0"); }
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0_0() const { return at("GOLD_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0() const { return at("GOLD_HELMET:0:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0_0() const { return at("GOLD_LEGGINGS:0:0"); }
-  [[nodiscard]] JsonView IRON_SPADE_0() const { return at("IRON_SPADE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaWitchInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
-  [[nodiscard]] JsonView POTION_13() const { return at("POTION:13"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView POTION_4() const { return at("POTION:4"); }
-  [[nodiscard]] JsonView POTION_9() const { return at("POTION:9"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0_16() const { return at("WOOD_SWORD:0:16"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_0() const { return at("LEATHER_HELMET:0:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaArmorerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView POTION_8() const { return at("POTION:8"); }
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0() const { return at("DIAMOND_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_0() const { return at("DIAMOND_BOOTS:0:0"); }
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0_0() const { return at("DIAMOND_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_0() const { return at("IRON_BOOTS:0:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0_0() const { return at("IRON_CHESTPLATE:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaBaseballPlayerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0_0() const { return at("DIAMOND_HELMET:0:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0_19() const { return at("DIAMOND_SWORD:0:19"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamFarmerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_LEGGINGS_0() const { return at("DIAMOND_LEGGINGS:0"); }
-  [[nodiscard]] JsonView EGG_0() const { return at("EGG:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView DIAMOND_LEGGINGS_0_4() const { return at("DIAMOND_LEGGINGS:0:4"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMythicalNetherLordInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView NETHER_BRICK_0() const { return at("NETHER_BRICK:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_NUGGET_0() const { return at("GOLD_NUGGET:0"); }
-  [[nodiscard]] JsonView GOLD_NUGGET_0_16_20() const { return at("GOLD_NUGGET:0:16,20"); }
-  [[nodiscard]] JsonView POTION_3() const { return at("POTION:3"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
-  [[nodiscard]] JsonView NETHERRACK_0() const { return at("NETHERRACK:0"); }
-  [[nodiscard]] JsonView GOLD_NUGGET_0_20() const { return at("GOLD_NUGGET:0:20"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamPyroInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FLINT_AND_STEEL_0() const { return at("FLINT_AND_STEEL:0"); }
-  [[nodiscard]] JsonView POTION_3() const { return at("POTION:3"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_0() const { return at("LAVA_BUCKET:0"); }
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0() const { return at("DIAMOND_CHESTPLATE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsPrivategames : public JsonView {
@@ -37254,45 +34362,24 @@ class PlayerResponsePlayerStatsSkyWarsKitMegaMegaHunterInventory : public JsonVi
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView CHAINMAIL_LEGGINGS_0() const { return at("CHAINMAIL_LEGGINGS:0"); }
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView BOW_0() const { return at("BOW:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView BOW_0_48() const { return at("BOW:0:48"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloZookeeperInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView MONSTER_EGG_0() const { return at("MONSTER_EGG:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloHealerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMythicalThundermeisterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_AXE_24() const { return at("GOLD_AXE:24"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsPerkslotNormal : public JsonView {
@@ -37359,13 +34446,6 @@ class PlayerResponsePlayerStatsSkyWarsKitMythicalChronobreakerInventory : public
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView WATCH_0() const { return at("WATCH:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsLeaderboardSettings : public JsonView {
@@ -37381,157 +34461,66 @@ class PlayerResponsePlayerStatsSkyWarsKitBasicSoloArcheologistInventory : public
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView POTION_3() const { return at("POTION:3"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_34() const { return at("GOLD_HELMET:0:34"); }
-  [[nodiscard]] JsonView FISHING_ROD_0_34_61() const { return at("FISHING_ROD:0:34,61"); }
-  [[nodiscard]] JsonView FISHING_ROD_0_34_61_62() const { return at("FISHING_ROD:0:34,61,62"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamSlimeInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView SLIME_BLOCK_0() const { return at("SLIME_BLOCK:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_0_2() const { return at("DIAMOND_BOOTS:0:0,2"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloAthleteInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView DIRT_0() const { return at("DIRT:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_2() const { return at("IRON_BOOTS:0:2"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloScoutInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_2() const { return at("DIAMOND_BOOTS:0:2"); }
-  [[nodiscard]] JsonView DIAMOND_AXE_0_32_16() const { return at("DIAMOND_AXE:0:32,16"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView DIAMOND_PICKAXE_0_32() const { return at("DIAMOND_PICKAXE:0:32"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView DIAMOND_AXE_0_16() const { return at("DIAMOND_AXE:0:16"); }
-  [[nodiscard]] JsonView DIAMOND_AXE_0_32() const { return at("DIAMOND_AXE:0:32"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloChampionInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0_16() const { return at("DIAMOND_SWORD:0:16"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView ENCHANTED_BOOK_0_16() const { return at("ENCHANTED_BOOK:0:16"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView ANVIL_0() const { return at("ANVIL:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitEnderchestTeamEnderchestInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloPaladinInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_LEGGINGS_0_0() const { return at("DIAMOND_LEGGINGS:0:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloPyromancerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_0_1() const { return at("DIAMOND_BOOTS:0:0,1"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0_20() const { return at("DIAMOND_SWORD:0:20"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView LAVA_BUCKET_0() const { return at("LAVA_BUCKET:0"); }
-  [[nodiscard]] JsonView POTION_3() const { return at("POTION:3"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0_20() const { return at("IRON_SWORD:0:20"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamKnightInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0_34() const { return at("GOLD_HELMET:0:0,34"); }
-  [[nodiscard]] JsonView IRON_SWORD_0_16() const { return at("IRON_SWORD:0:16"); }
-  [[nodiscard]] JsonView GOLD_SWORD_0() const { return at("GOLD_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloEngineerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DISPENSER_0() const { return at("DISPENSER:0"); }
-  [[nodiscard]] JsonView LEVER_0() const { return at("LEVER:0"); }
-  [[nodiscard]] JsonView PISTON_BASE_0() const { return at("PISTON_BASE:0"); }
-  [[nodiscard]] JsonView REDSTONE_0() const { return at("REDSTONE:0"); }
-  [[nodiscard]] JsonView SLIME_BALL_0() const { return at("SLIME_BALL:0"); }
-  [[nodiscard]] JsonView TRIPWIRE_HOOK_0() const { return at("TRIPWIRE_HOOK:0"); }
-  [[nodiscard]] JsonView WEB_0() const { return at("WEB:0"); }
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView FLINT_AND_STEEL_0() const { return at("FLINT_AND_STEEL:0"); }
-  [[nodiscard]] JsonView GRAVEL_0() const { return at("GRAVEL:0"); }
-  [[nodiscard]] JsonView SAND_0() const { return at("SAND:0"); }
-  [[nodiscard]] JsonView SULPHUR_0() const { return at("SULPHUR:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloMagicianInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_101() const { return at("MONSTER_EGG:101"); }
-  [[nodiscard]] JsonView POTION_14() const { return at("POTION:14"); }
-  [[nodiscard]] JsonView STICK_0_16() const { return at("STICK:0:16"); }
-  [[nodiscard]] JsonView STICK_0() const { return at("STICK:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsDisabledPerks : public JsonView {
@@ -37561,41 +34550,18 @@ class PlayerResponsePlayerStatsSkyWarsKitBasicSoloCactusInventory : public JsonV
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView CACTUS_0() const { return at("CACTUS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_34_7() const { return at("LEATHER_CHESTPLATE:0:34,7"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_34_7() const { return at("LEATHER_HELMET:0:34,7"); }
-  [[nodiscard]] JsonView SAND_0() const { return at("SAND:0"); }
-  [[nodiscard]] JsonView SANDSTONE_0() const { return at("SANDSTONE:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloArmorerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0_0() const { return at("DIAMOND_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0_0() const { return at("IRON_BOOTS:0:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0_0() const { return at("IRON_CHESTPLATE:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMythicalCryomancerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView EGG_0() const { return at("EGG:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView SNOW_BALL_0() const { return at("SNOW_BALL:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsSettings : public JsonView {
@@ -37614,349 +34580,156 @@ class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamTrollInventory : public J
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FIREWORK_0() const { return at("FIREWORK:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView WEB_0() const { return at("WEB:0"); }
-  [[nodiscard]] JsonView POTION_10() const { return at("POTION:10"); }
-  [[nodiscard]] JsonView POTION_4() const { return at("POTION:4"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0_1_34_3_7() const { return at("LEATHER_BOOTS:0:0,1,34,3,7"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0_1_34_3_7() const { return at("LEATHER_CHESTPLATE:0:0,1,34,3,7"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_0_1_34_3_7() const { return at("LEATHER_HELMET:0:0,1,34,3,7"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0_1_34_3_7() const { return at("LEATHER_LEGGINGS:0:0,1,34,3,7"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamArcheologistInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView FISHING_ROD_0_34_61() const { return at("FISHING_ROD:0:34,61"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0_34() const { return at("GOLD_HELMET:0:0,34"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0_0() const { return at("IRON_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView POTION_3() const { return at("POTION:3"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaEndermanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView ENDER_PEARL_0() const { return at("ENDER_PEARL:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_0_2() const { return at("DIAMOND_BOOTS:0:0,2"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloBlacksmithInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ANVIL_0() const { return at("ANVIL:0"); }
-  [[nodiscard]] JsonView DIRT_0() const { return at("DIRT:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView BOW_0() const { return at("BOW:0"); }
-  [[nodiscard]] JsonView DIAMOND_PICKAXE_0() const { return at("DIAMOND_PICKAXE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloHoundInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView COOKED_BEEF_0() const { return at("COOKED_BEEF:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0_0() const { return at("DIAMOND_BOOTS:0:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView DIRT_0() const { return at("DIRT:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloJesterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamSlothInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GHAST_TEAR_0() const { return at("GHAST_TEAR:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LOG_3() const { return at("LOG:3"); }
-  [[nodiscard]] JsonView POTION_10() const { return at("POTION:10"); }
-  [[nodiscard]] JsonView GHAST_TEAR_0_16() const { return at("GHAST_TEAR:0:16"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_0() const { return at("LEATHER_HELMET:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloGuardianInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_LEGGINGS_0() const { return at("CHAINMAIL_LEGGINGS:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_51() const { return at("MONSTER_EGG:51"); }
-  [[nodiscard]] JsonView MONSTER_EGG_54() const { return at("MONSTER_EGG:54"); }
-  [[nodiscard]] JsonView OBSIDIAN_0() const { return at("OBSIDIAN:0"); }
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamEngineerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView DISPENSER_0() const { return at("DISPENSER:0"); }
-  [[nodiscard]] JsonView FLINT_AND_STEEL_0() const { return at("FLINT_AND_STEEL:0"); }
-  [[nodiscard]] JsonView LEVER_0() const { return at("LEVER:0"); }
-  [[nodiscard]] JsonView PISTON_BASE_0() const { return at("PISTON_BASE:0"); }
-  [[nodiscard]] JsonView REDSTONE_0() const { return at("REDSTONE:0"); }
-  [[nodiscard]] JsonView SAND_0() const { return at("SAND:0"); }
-  [[nodiscard]] JsonView SLIME_BALL_0() const { return at("SLIME_BALL:0"); }
-  [[nodiscard]] JsonView SULPHUR_0() const { return at("SULPHUR:0"); }
-  [[nodiscard]] JsonView TRIPWIRE_HOOK_0() const { return at("TRIPWIRE_HOOK:0"); }
-  [[nodiscard]] JsonView WEB_0() const { return at("WEB:0"); }
-  [[nodiscard]] JsonView GRAVEL_0() const { return at("GRAVEL:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamMagicianInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_101() const { return at("MONSTER_EGG:101"); }
-  [[nodiscard]] JsonView POTION_14() const { return at("POTION:14"); }
-  [[nodiscard]] JsonView STICK_0() const { return at("STICK:0"); }
-  [[nodiscard]] JsonView STICK_0_16() const { return at("STICK:0:16"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloWarlockInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_12() const { return at("POTION:12"); }
-  [[nodiscard]] JsonView POTION_4() const { return at("POTION:4"); }
-  [[nodiscard]] JsonView POTION_8() const { return at("POTION:8"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMythicalFishmongerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_0() const { return at("MONSTER_EGG:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0_0() const { return at("LEATHER_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_0() const { return at("LEATHER_LEGGINGS:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamFishermanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView CHAINMAIL_HELMET_0() const { return at("CHAINMAIL_HELMET:0"); }
-  [[nodiscard]] JsonView COOKED_FISH_0() const { return at("COOKED_FISH:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitDefendingTeamCactusInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView CACTUS_0() const { return at("CACTUS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView SAND_0() const { return at("SAND:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0_34_7() const { return at("LEATHER_HELMET:0:34,7"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0_34_7() const { return at("LEATHER_LEGGINGS:0:34,7"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_34_7() const { return at("LEATHER_CHESTPLATE:0:34,7"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloBowmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView BOW_0_48() const { return at("BOW:0:48"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0_0() const { return at("DIAMOND_HELMET:0:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloHealerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiniSoloMagicianInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0_1() const { return at("DIAMOND_CHESTPLATE:0:1"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView MILK_BUCKET_0() const { return at("MILK_BUCKET:0"); }
-  [[nodiscard]] JsonView POTION_12() const { return at("POTION:12"); }
-  [[nodiscard]] JsonView POTION_8() const { return at("POTION:8"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamWarlockInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_12() const { return at("POTION:12"); }
-  [[nodiscard]] JsonView POTION_4() const { return at("POTION:4"); }
-  [[nodiscard]] JsonView POTION_8() const { return at("POTION:8"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0_0() const { return at("CHAINMAIL_BOOTS:0:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0_0() const { return at("LEATHER_CHESTPLATE:0:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamPrincessInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView BOW_110() const { return at("BOW:110"); }
-  [[nodiscard]] JsonView BOW_114() const { return at("BOW:114"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0_0() const { return at("GOLD_HELMET:0:0"); }
-  [[nodiscard]] JsonView BOW_114_48() const { return at("BOW:114:48"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitSupportingTeamZookeeperInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView MONSTER_EGG_0() const { return at("MONSTER_EGG:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAttackingTeamJesterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitAdvancedSoloSlothInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LOG_3() const { return at("LOG:3"); }
-  [[nodiscard]] JsonView POTION_10() const { return at("POTION:10"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloDefaultInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView WOOD_AXE_0() const { return at("WOOD_AXE:0"); }
-  [[nodiscard]] JsonView WOOD_PICKAXE_0() const { return at("WOOD_PICKAXE:0"); }
-  [[nodiscard]] JsonView WOOD_SPADE_0() const { return at("WOOD_SPADE:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView WOOD_SWORD_0() const { return at("WOOD_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitBasicSoloFallenAngelInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView DIAMOND_HOE_0_16() const { return at("DIAMOND_HOE:0:16"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMegaMegaDefaultInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_SPADE_0() const { return at("IRON_SPADE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWarsKitMiningTeamDefaultInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_PICKAXE_0() const { return at("IRON_PICKAXE:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_SPADE_0() const { return at("IRON_SPADE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyWars : public JsonView {
@@ -51105,6 +47878,7 @@ public:
   [[nodiscard]] JsonView challenge_attempts_7_lab_kit_attacking_team_scout() const { return at("challenge_attempts_7_lab_kit_attacking_team_scout"); }
   [[nodiscard]] JsonView challenge_wins_6_kit_advanced_solo_magician() const { return at("challenge_wins_6_kit_advanced_solo_magician"); }
   [[nodiscard]] JsonView fall_kills_tourney_kit_attacking_team_fisherman() const { return at("fall_kills_tourney_kit_attacking_team_fisherman"); }
+  [[nodiscard]] JsonView challenge_wins_2_kit_supporting_team_pyro() const { return at("challenge_wins_2_kit_supporting_team_pyro"); }
 };
 
 class PlayerResponsePlayerStatsTrueCombat : public JsonView {
@@ -53210,6 +49984,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTINMANWerepug : public JsonView {
@@ -54411,6 +51187,7 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERKiBlast : public JsonView {
@@ -54604,6 +51381,8 @@ public:
   [[nodiscard]] JsonView smashed() const { return at("smashed"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERDash : public JsonView {
@@ -56357,6 +53136,7 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsFROSTYBazooka : public JsonView {
@@ -63279,216 +60059,66 @@ class PlayerResponsePlayerStatsSkyClashAssassinInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView POTION_14() const { return at("POTION:14"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_12() const { return at("POTION:12"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView ENDER_PEARL_0() const { return at("ENDER_PEARL:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashGuardianInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashFrostKnightInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView SNOW_BLOCK_0() const { return at("SNOW_BLOCK:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_LEGGINGS_0() const { return at("CHAINMAIL_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_LEGGINGS_0() const { return at("IRON_LEGGINGS:0"); }
-  [[nodiscard]] JsonView SNOW_BALL_0() const { return at("SNOW_BALL:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_97() const { return at("MONSTER_EGG:97"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_SPADE_0() const { return at("DIAMOND_SPADE:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_SPADE_0() const { return at("IRON_SPADE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashScoutInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView WOOD_0() const { return at("WOOD:0"); }
-  [[nodiscard]] JsonView POTION_2() const { return at("POTION:2"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView DIAMOND_BOOTS_0() const { return at("DIAMOND_BOOTS:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView POTION_10() const { return at("POTION:10"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashArcherInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView BOW_0() const { return at("BOW:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashNecromancerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView CHAINMAIL_LEGGINGS_0() const { return at("CHAINMAIL_LEGGINGS:0"); }
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView BOW_0() const { return at("BOW:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_BOOTS_0() const { return at("CHAINMAIL_BOOTS:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView CHAINMAIL_HELMET_0() const { return at("CHAINMAIL_HELMET:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView DIAMOND_HELMET_0() const { return at("DIAMOND_HELMET:0"); }
-  [[nodiscard]] JsonView POTION_12() const { return at("POTION:12"); }
-  [[nodiscard]] JsonView ARROW_0() const { return at("ARROW:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView MONSTER_EGG_51() const { return at("MONSTER_EGG:51"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashSwordsmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
-  [[nodiscard]] JsonView DIAMOND_SWORD_0() const { return at("DIAMOND_SWORD:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView POTION_9() const { return at("POTION:9"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashClericInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView POTION_5() const { return at("POTION:5"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView GOLD_SWORD_0() const { return at("GOLD_SWORD:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0() const { return at("GOLD_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0() const { return at("GOLD_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLDEN_APPLE_0() const { return at("GOLDEN_APPLE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashBerserkerInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView COOKED_BEEF_0() const { return at("COOKED_BEEF:0"); }
-  [[nodiscard]] JsonView DIAMOND_AXE_0() const { return at("DIAMOND_AXE:0"); }
-  [[nodiscard]] JsonView POTION_1() const { return at("POTION:1"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView STONE_AXE_0() const { return at("STONE_AXE:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_AXE_0() const { return at("IRON_AXE:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashJumpmanInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView LEATHER_CHESTPLATE_0() const { return at("LEATHER_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_BOOTS_0() const { return at("IRON_BOOTS:0"); }
-  [[nodiscard]] JsonView DIRT_0() const { return at("DIRT:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView IRON_SWORD_0() const { return at("IRON_SWORD:0"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
-  [[nodiscard]] JsonView LEATHER_HELMET_0() const { return at("LEATHER_HELMET:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView IRON_HELMET_0() const { return at("IRON_HELMET:0"); }
-  [[nodiscard]] JsonView WATER_BUCKET_0() const { return at("WATER_BUCKET:0"); }
-  [[nodiscard]] JsonView LEATHER_BOOTS_0() const { return at("LEATHER_BOOTS:0"); }
-  [[nodiscard]] JsonView POTION_11() const { return at("POTION:11"); }
-  [[nodiscard]] JsonView DIAMOND_CHESTPLATE_0() const { return at("DIAMOND_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView CHAINMAIL_CHESTPLATE_0() const { return at("CHAINMAIL_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView IRON_CHESTPLATE_0() const { return at("IRON_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView STONE_SWORD_0() const { return at("STONE_SWORD:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClashTreasureHunterInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView WEB_0() const { return at("WEB:0"); }
-  [[nodiscard]] JsonView FISHING_ROD_0() const { return at("FISHING_ROD:0"); }
-  [[nodiscard]] JsonView GOLD_CHESTPLATE_0() const { return at("GOLD_CHESTPLATE:0"); }
-  [[nodiscard]] JsonView LEATHER_LEGGINGS_0() const { return at("LEATHER_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_LEGGINGS_0() const { return at("GOLD_LEGGINGS:0"); }
-  [[nodiscard]] JsonView GOLD_BOOTS_0() const { return at("GOLD_BOOTS:0"); }
-  [[nodiscard]] JsonView GOLD_PICKAXE_0() const { return at("GOLD_PICKAXE:0"); }
-  [[nodiscard]] JsonView GOLD_HELMET_0() const { return at("GOLD_HELMET:0"); }
-  [[nodiscard]] JsonView SKULL_ITEM_3() const { return at("SKULL_ITEM:3"); }
-  [[nodiscard]] JsonView SKULL_ITEM_2() const { return at("SKULL_ITEM:2"); }
-  [[nodiscard]] JsonView SKULL_ITEM_1() const { return at("SKULL_ITEM:1"); }
-  [[nodiscard]] JsonView COMPASS_0() const { return at("COMPASS:0"); }
 };
 
 class PlayerResponsePlayerStatsSkyClash : public JsonView {
@@ -64263,6 +60893,7 @@ public:
   [[nodiscard]] JsonView fastest_win_solo_perk_no_chest_challenge() const { return at("fastest_win_solo_perk_no_chest_challenge"); }
   [[nodiscard]] JsonView jumpman_inventory_auto_equip_armor() const { return at("jumpman_inventory_auto_equip_armor"); }
   [[nodiscard]] JsonView fastest_win_solo_perk_half_health_challenge() const { return at("fastest_win_solo_perk_half_health_challenge"); }
+  [[nodiscard]] JsonView fastest_win_solo_perk_ultimate_warrior_challenge() const { return at("fastest_win_solo_perk_ultimate_warrior_challenge"); }
 };
 
 class PlayerResponsePlayerStatsLegacyLeaderboardSettings : public JsonView {
@@ -70451,1359 +67082,258 @@ class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutNecromancer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutPigman5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsOpDuelLayout5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutArcher5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsUhcDuelLayout5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutArmorer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutFarmer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsClassicDuelLayout5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsPotionDuelLayout5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPyromancer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutChampion5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBridgeDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelPyromancer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelWolftamer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutClassicDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelFisherman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelWarrior : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelKnight : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelArcher : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelArmorer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelNecromancer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsUhcDuelLayout1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutGolem5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutScout5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutTroll5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBaseballPlayer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutFisherman5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutUhcDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutArmorer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsUhcDuelLayout2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutHerobrine4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHellhound5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPaladin5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelChampion : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedScout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedChampion : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutOpDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelRenegade : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutComboDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutPotionDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedMagician : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelHerobrine : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsPrivategames : public JsonView {
@@ -71847,417 +67377,90 @@ class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutKnight5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBowDuelLayout1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsClassicDuelLayout1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsOpDuelLayout1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsPotionDuelLayout1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutHerobrine1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsComboDuelLayout1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeleton1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsUhcDuelLayout4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBowDuelLayout4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsClassicDuelLayout4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsOpDuelLayout4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsPotionDuelLayout4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeleton4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLeaderboardSettings : public JsonView {
@@ -72310,402 +67513,90 @@ class PlayerResponsePlayerStatsDuelsLayoutMwDuelAssassin : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBedwarsTwoOneDuelsRushLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelHunter : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelHorsetamer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelReaper : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelRogue : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelShadowKnight : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBowDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelGolem : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamFallenAngel : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedPyromancer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsComboDuelLayout5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelArcanist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamGolem : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedPaladin : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
 };
 
 class PlayerResponsePlayerStatsDuelsFavorites : public JsonView {
@@ -72735,5463 +67626,1794 @@ class PlayerResponsePlayerStatsDuelsLayoutBowspleefDuelLayout : public JsonView 
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamKnight : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloFallenAngel : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloChampion : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelAthlete : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamFisherman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamGrenade : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloMagician : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloPyromancer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloScout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedArmorer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedAthlete : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedHealer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelScout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutAthlete5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutChampion4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutEcologist5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBowDuelLayout5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutDreadlord1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutArmorer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelPigman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelToxicologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelAutomaton : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelShaman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutParkourEightLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutQuakeDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSpleefDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamPyro : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamFrog : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelMilkman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelPigman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamEnderman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutClassicDoublesLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelEnderman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedBowman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelDonkeytamer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelWarlock : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamMagician : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiningTeamCannoneer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelCreeper : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelArmorer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelHunter : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelTroll : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelBlaze : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelPhoenix : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelShark : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelSkeleton : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelSnowman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamPharaoh : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelDiver : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelMagician : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHealer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutMagician5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPyromancer1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelPaladin : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelSpeleologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelAstronaut : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelBaker : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelGolem : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelJockey : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelMeatmaster : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelRanger : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelReddragon : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelViking : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutAthlete1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelDreadlord : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelSnowman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelScout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloPharaoh : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutBaker5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelBowman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutHunterNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloFisherman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelSpider : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBowman5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelPirate : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelArachnologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelBlaze : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelFarmer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelFlorist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelGuardian : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelHypeTrain : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelPhoenix : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelTim : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamEnergix : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitRankedRankedHound : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBlacksmith5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutGuardian5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamArmorer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelSlimeyslime : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamGuardian : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsComboDuelLayout4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutBlaze5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutHerobrine5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPyromancer4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamEcologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutPhoenix1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitEnderchestTeamEnderchest : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutRogue5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutToxicologist5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelZombie : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAdvancedSoloPyro : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamFarmer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutDreadlord5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutZombie1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutZombie4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsOpDuelLayout2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSnowmanNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutRenegadeNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloTroll : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelSquid : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelPyro : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelEcologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelGrenade : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelSpeleologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamSalmon : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelBlacksmith : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelHealer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelHound : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelPaladin : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutHerobrineNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHound5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiningTeamSpeleologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAdvancedSoloFarmer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAdvancedSoloEnderman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamHunter : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBowDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsClassicDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
 };
 
 class PlayerResponsePlayerStatsDuelsComboDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutHerobrine : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsOpDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsPotionDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsUhcDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutSkeletor5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutSlime5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutArmorer4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutArcanist5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamScout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloWarlock : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHealer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamHealer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutEnderman1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutWitch5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBoxingDuelLayout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutArachnologist5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutJockey5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelShark : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutEnderman5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelCreepertamer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloEcologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutPaladin5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutFisherman4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelCow : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBlacksmith1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutChampion1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutMagician1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutAthlete4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsPotionDuelLayout2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalEndLord : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutArmorer1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHealer1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamBatguy : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamSnowman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelMoleman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelWerewolf : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamTroll : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAdvancedSoloSalmon : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAdvancedSoloMagician : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamWarlock : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsClassicDuelLayout2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutChampion2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutReaper5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBlacksmithRankedBlacksmith : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamBaseballPlayer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamArmorsmith : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutBlaze5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutGolem5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutArcanistNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBowman1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBowman4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelSnowman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBaseballPlayer1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHound1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPaladin1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamEngineer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamJester : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamPigRider : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamSlime : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamSloth : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamDisco : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamEnchanter : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamPrincess : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamRookie : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelAngel : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelDragon : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutMwDuelSheep : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelCannoneer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelRandom : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAdvancedSoloEngineer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelHunter : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelFarmer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutCannoneer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutEndermanNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeleton5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutWerewolf5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutWerewolfNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutDreadlordNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSpiderNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutCreeper5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutPigmanNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutShadowKnight5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAdvancedSoloCannoneer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutGrenade5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutSalmon5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHealer4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHound4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutMagician4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPaladin4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitDefendingTeamCactus : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloArmorer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAdvancedSoloSloth : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutArcanist4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitAttackingTeamArcheologist : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitEnderchestSoloEnderchest : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutFisherman5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloRookie : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiningTeamDefault : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitSupportingTeamZookeeper : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutBlitzDuelRambo : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutSpeleologist5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutPirate5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutHunter5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutHypeTrain5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutBlaze1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutEnderman4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelFrog : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBowDuelLayout2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsComboDuelLayout2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutHunter5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutHorsetamer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutCowNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutChampion : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPyro5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutBlazeNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSharkNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloBowman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutWarlock5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPharaoh5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloBaseballPlayer : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloGrenade : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutFlorist5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutReddragon5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutViking5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutWolftamer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloScout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutArcanist1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutGuardian5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutRambo5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutGolemNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutArmorsmith5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutHunter5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelPharaoh : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutSnowman5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutAstronaut5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutPhoenix5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSquidNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutHerobrine2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutShamanNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutAthlete2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMiniSoloAthlete : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutSpeleologist5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelSalmon : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutPirate4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutEnderman4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutBlacksmith4 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutZombieNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutScout : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutShaman1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutSkeletonNew : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutWerewolf1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutMoleman2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutCreepertamer5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutPyromancer2 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutMeatmaster5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutSlimeyslime5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutTim5 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
 };
 
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
 };
 
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1 : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
 };
 
 class PlayerResponsePlayerStatsDuels : public JsonView {
@@ -82001,42 +73223,6 @@ class PlayerResponsePlayerStatsHousingLayoutItems : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] JsonView _0() const { return at("0"); }
-  [[nodiscard]] JsonView _1() const { return at("1"); }
-  [[nodiscard]] JsonView _2() const { return at("2"); }
-  [[nodiscard]] JsonView _3() const { return at("3"); }
-  [[nodiscard]] JsonView _4() const { return at("4"); }
-  [[nodiscard]] JsonView _5() const { return at("5"); }
-  [[nodiscard]] JsonView _6() const { return at("6"); }
-  [[nodiscard]] JsonView _7() const { return at("7"); }
-  [[nodiscard]] JsonView _8() const { return at("8"); }
-  [[nodiscard]] JsonView _9() const { return at("9"); }
-  [[nodiscard]] JsonView _10() const { return at("10"); }
-  [[nodiscard]] JsonView _11() const { return at("11"); }
-  [[nodiscard]] JsonView _12() const { return at("12"); }
-  [[nodiscard]] JsonView _13() const { return at("13"); }
-  [[nodiscard]] JsonView _14() const { return at("14"); }
-  [[nodiscard]] JsonView _15() const { return at("15"); }
-  [[nodiscard]] JsonView _16() const { return at("16"); }
-  [[nodiscard]] JsonView _17() const { return at("17"); }
-  [[nodiscard]] JsonView _18() const { return at("18"); }
-  [[nodiscard]] JsonView _19() const { return at("19"); }
-  [[nodiscard]] JsonView _20() const { return at("20"); }
-  [[nodiscard]] JsonView _21() const { return at("21"); }
-  [[nodiscard]] JsonView _22() const { return at("22"); }
-  [[nodiscard]] JsonView _23() const { return at("23"); }
-  [[nodiscard]] JsonView _24() const { return at("24"); }
-  [[nodiscard]] JsonView _25() const { return at("25"); }
-  [[nodiscard]] JsonView _26() const { return at("26"); }
-  [[nodiscard]] JsonView _27() const { return at("27"); }
-  [[nodiscard]] JsonView _28() const { return at("28"); }
-  [[nodiscard]] JsonView _29() const { return at("29"); }
-  [[nodiscard]] JsonView _30() const { return at("30"); }
-  [[nodiscard]] JsonView _31() const { return at("31"); }
-  [[nodiscard]] JsonView _32() const { return at("32"); }
-  [[nodiscard]] JsonView _33() const { return at("33"); }
-  [[nodiscard]] JsonView _34() const { return at("34"); }
-  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsHousingLeaderboardSettings : public JsonView {
@@ -132030,25 +123216,35 @@ public:
   [[nodiscard]] JsonView duelist_rollim_7() const { return at("duelist_rollim_7"); }
   [[nodiscard]] JsonView magma_cube_1() const { return at("magma_cube_1"); }
   [[nodiscard]] JsonView spider_7() const { return at("spider_7"); }
-  [[nodiscard]] JsonView fried_chicken_30() const { return at("fried_chicken_30"); }
-  [[nodiscard]] JsonView cretan_bull_95() const { return at("cretan_bull_95"); }
-  [[nodiscard]] JsonView zombie_6() const { return at("zombie_6"); }
-  [[nodiscard]] JsonView zombie_9() const { return at("zombie_9"); }
-  [[nodiscard]] JsonView wetwing_18() const { return at("wetwing_18"); }
-  [[nodiscard]] JsonView silvo_5() const { return at("silvo_5"); }
-  [[nodiscard]] JsonView ent_14() const { return at("ent_14"); }
-  [[nodiscard]] JsonView carrot_king_25() const { return at("carrot_king_25"); }
-  [[nodiscard]] JsonView dante_goon_50() const { return at("dante_goon_50"); }
-  [[nodiscard]] JsonView headless_horseman_100() const { return at("headless_horseman_100"); }
-  [[nodiscard]] JsonView drowned_captain_74() const { return at("drowned_captain_74"); }
-  [[nodiscard]] JsonView cave_spider_1() const { return at("cave_spider_1"); }
-  [[nodiscard]] JsonView master_dungeon_respawning_skeleton_skull_120() const { return at("master_dungeon_respawning_skeleton_skull_120"); }
-  [[nodiscard]] JsonView master_crypt_undead__onah_25() const { return at("master_crypt_undead__onah_25"); }
-  [[nodiscard]] JsonView master_crypt_undead_williamtiger_25() const { return at("master_crypt_undead_williamtiger_25"); }
-  [[nodiscard]] JsonView zombie_15() const { return at("zombie_15"); }
-  [[nodiscard]] JsonView skeleton_15() const { return at("skeleton_15"); }
-  [[nodiscard]] JsonView slime_15() const { return at("slime_15"); }
+  [[nodiscard]] JsonView revenant_sycophant_300() const { return at("revenant_sycophant_300"); }
   [[nodiscard]] JsonView phanpyre_10() const { return at("phanpyre_10"); }
+  [[nodiscard]] JsonView master_crypt_undead_sylent_50() const { return at("master_crypt_undead_sylent_50"); }
+  [[nodiscard]] JsonView master_crypt_undead_sfarnham_50() const { return at("master_crypt_undead_sfarnham_50"); }
+  [[nodiscard]] JsonView cave_spider_1() const { return at("cave_spider_1"); }
+  [[nodiscard]] JsonView master_crypt_undead_vinny8ball666_50() const { return at("master_crypt_undead_vinny8ball666_50"); }
+  [[nodiscard]] JsonView enderman_15() const { return at("enderman_15"); }
+  [[nodiscard]] JsonView master_crypt_undead_relenter_50() const { return at("master_crypt_undead_relenter_50"); }
+  [[nodiscard]] JsonView cellar_spider_125() const { return at("cellar_spider_125"); }
+  [[nodiscard]] JsonView master_lost_adventurer_113() const { return at("master_lost_adventurer_113"); }
+  [[nodiscard]] JsonView skeleton_6() const { return at("skeleton_6"); }
+  [[nodiscard]] JsonView zombie_6() const { return at("zombie_6"); }
+  [[nodiscard]] JsonView crypt_undead_hypixel_25() const { return at("crypt_undead_hypixel_25"); }
+  [[nodiscard]] JsonView diamond_guy_170() const { return at("diamond_guy_170"); }
+  [[nodiscard]] JsonView silvo_5() const { return at("silvo_5"); }
+  [[nodiscard]] JsonView enderman_2() const { return at("enderman_2"); }
+  [[nodiscard]] JsonView enderman_5() const { return at("enderman_5"); }
+  [[nodiscard]] JsonView banshee_10() const { return at("banshee_10"); }
+  [[nodiscard]] JsonView nightmare_24() const { return at("nightmare_24"); }
+  [[nodiscard]] JsonView zombie_miner_150() const { return at("zombie_miner_150"); }
+  [[nodiscard]] JsonView zombie_2() const { return at("zombie_2"); }
+  [[nodiscard]] JsonView spider_2() const { return at("spider_2"); }
+  [[nodiscard]] JsonView strider_20() const { return at("strider_20"); }
+  [[nodiscard]] JsonView kuudra_slasher_200() const { return at("kuudra_slasher_200"); }
+  [[nodiscard]] JsonView magma_cube_6() const { return at("magma_cube_6"); }
+  [[nodiscard]] JsonView lost_adventurer_153() const { return at("lost_adventurer_153"); }
+  [[nodiscard]] JsonView master_watcher_spirit_bear_5() const { return at("master_watcher_spirit_bear_5"); }
+  [[nodiscard]] JsonView cellar_spider_75() const { return at("cellar_spider_75"); }
+  [[nodiscard]] JsonView kuudra_slasher_400() const { return at("kuudra_slasher_400"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -140929,16 +132125,21 @@ public:
   [[nodiscard]] JsonView ENCHANTED_SPRUCE_LOG() const { return at("ENCHANTED_SPRUCE_LOG"); }
   [[nodiscard]] JsonView ENCHANTED_BIRCH_LOG() const { return at("ENCHANTED_BIRCH_LOG"); }
   [[nodiscard]] JsonView ENCHANTED_COCOA() const { return at("ENCHANTED_COCOA"); }
-  [[nodiscard]] JsonView ENCHANTED_SUGAR() const { return at("ENCHANTED_SUGAR"); }
-  [[nodiscard]] JsonView RED_ROSE_6() const { return at("RED_ROSE:6"); }
-  [[nodiscard]] JsonView ENCHANTED_GRILLED_PORK() const { return at("ENCHANTED_GRILLED_PORK"); }
-  [[nodiscard]] JsonView RED_ROSE_4() const { return at("RED_ROSE:4"); }
-  [[nodiscard]] JsonView RED_ROSE_3() const { return at("RED_ROSE:3"); }
-  [[nodiscard]] JsonView RED_GIFT() const { return at("RED_GIFT"); }
-  [[nodiscard]] JsonView ENCHANTED_COAL_BLOCK() const { return at("ENCHANTED_COAL_BLOCK"); }
-  [[nodiscard]] JsonView RED_ROSE_1() const { return at("RED_ROSE:1"); }
-  [[nodiscard]] JsonView ENCHANTED_RED_SAND() const { return at("ENCHANTED_RED_SAND"); }
+  [[nodiscard]] JsonView ENCHANTED_REDSTONE_BLOCK() const { return at("ENCHANTED_REDSTONE_BLOCK"); }
   [[nodiscard]] JsonView ENCHANTED_BAKED_POTATO() const { return at("ENCHANTED_BAKED_POTATO"); }
+  [[nodiscard]] JsonView RED_ROSE_8() const { return at("RED_ROSE:8"); }
+  [[nodiscard]] JsonView RED_ROSE_5() const { return at("RED_ROSE:5"); }
+  [[nodiscard]] JsonView RED_ROSE_4() const { return at("RED_ROSE:4"); }
+  [[nodiscard]] JsonView RED_ROSE_2() const { return at("RED_ROSE:2"); }
+  [[nodiscard]] JsonView RED_ROSE_3() const { return at("RED_ROSE:3"); }
+  [[nodiscard]] JsonView RED_ROSE_1() const { return at("RED_ROSE:1"); }
+  [[nodiscard]] JsonView RED_ROSE_6() const { return at("RED_ROSE:6"); }
+  [[nodiscard]] JsonView DOUBLE_PLANT_1() const { return at("DOUBLE_PLANT:1"); }
+  [[nodiscard]] JsonView DOUBLE_PLANT_4() const { return at("DOUBLE_PLANT:4"); }
+  [[nodiscard]] JsonView DOUBLE_PLANT_5() const { return at("DOUBLE_PLANT:5"); }
+  [[nodiscard]] JsonView ENCHANTED_RED_SAND() const { return at("ENCHANTED_RED_SAND"); }
+  [[nodiscard]] JsonView ENCHANTED_COAL_BLOCK() const { return at("ENCHANTED_COAL_BLOCK"); }
+  [[nodiscard]] JsonView ENCHANTED_PACKED_ICE() const { return at("ENCHANTED_PACKED_ICE"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
@@ -141408,18 +132609,15 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_sylent() const { return at("master_crypt_undead_sylent"); }
   [[nodiscard]] JsonView master_crypt_undead_friedrich() const { return at("master_crypt_undead_friedrich"); }
   [[nodiscard]] JsonView duelist_rollim() const { return at("duelist_rollim"); }
-  [[nodiscard]] JsonView fried_chicken() const { return at("fried_chicken"); }
-  [[nodiscard]] JsonView wetwing() const { return at("wetwing"); }
-  [[nodiscard]] JsonView silvo() const { return at("silvo"); }
-  [[nodiscard]] JsonView ent() const { return at("ent"); }
-  [[nodiscard]] JsonView crypt_undead_valentin() const { return at("crypt_undead_valentin"); }
-  [[nodiscard]] JsonView crypt_undead_christian() const { return at("crypt_undead_christian"); }
-  [[nodiscard]] JsonView carrot_king() const { return at("carrot_king"); }
-  [[nodiscard]] JsonView dante_goon() const { return at("dante_goon"); }
-  [[nodiscard]] JsonView headless_horseman() const { return at("headless_horseman"); }
-  [[nodiscard]] JsonView drowned_captain() const { return at("drowned_captain"); }
-  [[nodiscard]] JsonView master_crypt_undead_williamtiger() const { return at("master_crypt_undead_williamtiger"); }
   [[nodiscard]] JsonView phanpyre() const { return at("phanpyre"); }
+  [[nodiscard]] JsonView generator_ghast() const { return at("generator_ghast"); }
+  [[nodiscard]] JsonView headless_horseman() const { return at("headless_horseman"); }
+  [[nodiscard]] JsonView crypt_undead_hypixel() const { return at("crypt_undead_hypixel"); }
+  [[nodiscard]] JsonView silvo() const { return at("silvo"); }
+  [[nodiscard]] JsonView banshee() const { return at("banshee"); }
+  [[nodiscard]] JsonView nightmare() const { return at("nightmare"); }
+  [[nodiscard]] JsonView zombie_miner() const { return at("zombie_miner"); }
+  [[nodiscard]] JsonView strider() const { return at("strider"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -142702,8 +133900,7 @@ public:
   [[nodiscard]] JsonView minos_hunter_25() const { return at("minos_hunter_25"); }
   [[nodiscard]] JsonView siamese_lynx_15() const { return at("siamese_lynx_15"); }
   [[nodiscard]] JsonView cretan_bull_95() const { return at("cretan_bull_95"); }
-  [[nodiscard]] JsonView enderman_8() const { return at("enderman_8"); }
-  [[nodiscard]] JsonView skeleton_12() const { return at("skeleton_12"); }
+  [[nodiscard]] JsonView omegagma_400() const { return at("omegagma_400"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -144372,6 +135569,8 @@ public:
   [[nodiscard]] JsonView RUNE_AXE_FADING_WHITE_2() const { return at("RUNE_AXE_FADING_WHITE_2"); }
   [[nodiscard]] JsonView SMALL_POCKET_BLACK_HOLE() const { return at("SMALL_POCKET_BLACK_HOLE"); }
   [[nodiscard]] JsonView RUNE_PRIMAL_FEAR_3() const { return at("RUNE_PRIMAL_FEAR_3"); }
+  [[nodiscard]] JsonView RUNE_FIERY_BURST_3() const { return at("RUNE_FIERY_BURST_3"); }
+  [[nodiscard]] JsonView RUNE_SLIMY_3() const { return at("RUNE_SLIMY_3"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
@@ -144685,28 +135884,10 @@ public:
   [[nodiscard]] JsonView teleporter_pill_consumed() const { return at("teleporter_pill_consumed"); }
 };
 
-class SkyblockProfileV2ResponseProfileMembersUuidSharedInventoryCandyInventoryContents : public JsonView {
-public:
-  using JsonView::JsonView;
-
-  [[nodiscard]] JsonView type() const { return at("type"); }
-  [[nodiscard]] JsonView data() const { return at("data"); }
-};
-
-class SkyblockProfileV2ResponseProfileMembersUuidSharedInventoryCarnivalMaskInventoryContents : public JsonView {
-public:
-  using JsonView::JsonView;
-
-  [[nodiscard]] JsonView type() const { return at("type"); }
-  [[nodiscard]] JsonView data() const { return at("data"); }
-};
-
 class SkyblockProfileV2ResponseProfileMembersUuidSharedInventory : public JsonView {
 public:
   using JsonView::JsonView;
 
-  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSharedInventoryCandyInventoryContents candy_inventory_contents() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSharedInventoryCandyInventoryContents>("candy_inventory_contents"); }
-  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSharedInventoryCarnivalMaskInventoryContents carnival_mask_inventory_contents() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSharedInventoryCarnivalMaskInventoryContents>("carnival_mask_inventory_contents"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidJacobsContestMedalsInv : public JsonView {
@@ -146334,8 +137515,6 @@ public:
   [[nodiscard]] JsonView toggle_sheer_force() const { return at("toggle_sheer_force"); }
   [[nodiscard]] JsonView dust_collector() const { return at("dust_collector"); }
   [[nodiscard]] JsonView toggle_dust_collector() const { return at("toggle_dust_collector"); }
-  [[nodiscard]] JsonView gemstone_infusion() const { return at("gemstone_infusion"); }
-  [[nodiscard]] JsonView toggle_gemstone_infusion() const { return at("toggle_gemstone_infusion"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging : public JsonView {
@@ -148802,6 +139981,14 @@ public:
   [[nodiscard]] JsonView data() const { return at("data"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT2 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10 : public JsonView {
 public:
   using JsonView::JsonView;
@@ -148809,6 +139996,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT4 EQUIPMENT_SLOT_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT4>("EQUIPMENT_SLOT_4"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT3 EQUIPMENT_SLOT_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT3>("EQUIPMENT_SLOT_3"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT1 EQUIPMENT_SLOT_1() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT1>("EQUIPMENT_SLOT_1"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT2 EQUIPMENT_SLOT_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10EQUIPMENTSLOT2>("EQUIPMENT_SLOT_2"); }
 
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
@@ -149050,7 +140238,6 @@ public:
   [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
-  [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts16 : public JsonView {
@@ -149078,6 +140265,8 @@ public:
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
+  [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
+  [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts18 : public JsonView {
