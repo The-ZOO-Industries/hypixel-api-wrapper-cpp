@@ -20389,6 +20389,26 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView _0() const { return at("0"); }
+  [[nodiscard]] JsonView _1() const { return at("1"); }
+  [[nodiscard]] JsonView _2() const { return at("2"); }
+  [[nodiscard]] JsonView _3() const { return at("3"); }
+  [[nodiscard]] JsonView _4() const { return at("4"); }
+  [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _7() const { return at("7"); }
+  [[nodiscard]] JsonView _8() const { return at("8"); }
+  [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _16() const { return at("16"); }
+  [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _23() const { return at("23"); }
+  [[nodiscard]] JsonView _24() const { return at("24"); }
+  [[nodiscard]] JsonView _25() const { return at("25"); }
+  [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _32() const { return at("32"); }
+  [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
 class PlayerResponsePlayerStatsWallsInventoryLayout : public JsonView {
@@ -118435,6 +118455,14 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
+  [[nodiscard]] JsonView attack_speed() const { return at("attack_speed"); }
+  [[nodiscard]] JsonView critical_chance() const { return at("critical_chance"); }
+  [[nodiscard]] JsonView critical_damage() const { return at("critical_damage"); }
+  [[nodiscard]] JsonView defense() const { return at("defense"); }
+  [[nodiscard]] JsonView health() const { return at("health"); }
+  [[nodiscard]] JsonView intelligence() const { return at("intelligence"); }
+  [[nodiscard]] JsonView strength() const { return at("strength"); }
+  [[nodiscard]] JsonView walk_speed() const { return at("walk_speed"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot7 : public JsonView {
@@ -118442,6 +118470,14 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
+  [[nodiscard]] JsonView attack_speed() const { return at("attack_speed"); }
+  [[nodiscard]] JsonView critical_chance() const { return at("critical_chance"); }
+  [[nodiscard]] JsonView critical_damage() const { return at("critical_damage"); }
+  [[nodiscard]] JsonView defense() const { return at("defense"); }
+  [[nodiscard]] JsonView health() const { return at("health"); }
+  [[nodiscard]] JsonView intelligence() const { return at("intelligence"); }
+  [[nodiscard]] JsonView strength() const { return at("strength"); }
+  [[nodiscard]] JsonView walk_speed() const { return at("walk_speed"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuningSlot8 : public JsonView {
@@ -123275,6 +123311,7 @@ public:
   [[nodiscard]] JsonView cellar_spider_115() const { return at("cellar_spider_115"); }
   [[nodiscard]] JsonView scribe_5() const { return at("scribe_5"); }
   [[nodiscard]] JsonView master_crypt_undead_bembo_25() const { return at("master_crypt_undead_bembo_25"); }
+  [[nodiscard]] JsonView enderman_12() const { return at("enderman_12"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132176,6 +132213,8 @@ public:
   [[nodiscard]] JsonView ENCHANTED_LUSH_BERBERIS() const { return at("ENCHANTED_LUSH_BERBERIS"); }
   [[nodiscard]] JsonView ABSOLUTE_ENDER_PEARL() const { return at("ABSOLUTE_ENDER_PEARL"); }
   [[nodiscard]] JsonView ENCHANTED_POPPY() const { return at("ENCHANTED_POPPY"); }
+  [[nodiscard]] JsonView ENCHANTED_DANDELION() const { return at("ENCHANTED_DANDELION"); }
+  [[nodiscard]] JsonView POLISHED_PUMPKIN() const { return at("POLISHED_PUMPKIN"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
