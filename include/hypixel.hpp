@@ -123335,6 +123335,7 @@ public:
   [[nodiscard]] JsonView drowned_captain_74() const { return at("drowned_captain_74"); }
   [[nodiscard]] JsonView atoll_croaker_45() const { return at("atoll_croaker_45"); }
   [[nodiscard]] JsonView lotus_guardian_55() const { return at("lotus_guardian_55"); }
+  [[nodiscard]] JsonView headless_horseman_100() const { return at("headless_horseman_100"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132246,6 +132247,7 @@ public:
   [[nodiscard]] JsonView ENCHANTED_WET_SPONGE() const { return at("ENCHANTED_WET_SPONGE"); }
   [[nodiscard]] JsonView ENCHANTED_SLIME_BLOCK() const { return at("ENCHANTED_SLIME_BLOCK"); }
   [[nodiscard]] JsonView ENCHANTED_QUARTZ_BLOCK() const { return at("ENCHANTED_QUARTZ_BLOCK"); }
+  [[nodiscard]] JsonView RED_GIFT() const { return at("RED_GIFT"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
@@ -132740,6 +132742,8 @@ public:
   [[nodiscard]] JsonView drowned_captain() const { return at("drowned_captain"); }
   [[nodiscard]] JsonView atoll_croaker() const { return at("atoll_croaker"); }
   [[nodiscard]] JsonView lotus_guardian() const { return at("lotus_guardian"); }
+  [[nodiscard]] JsonView crypt_undead_friedrich() const { return at("crypt_undead_friedrich"); }
+  [[nodiscard]] JsonView crypt_undead_marius() const { return at("crypt_undead_marius"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
