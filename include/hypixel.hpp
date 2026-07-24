@@ -20401,7 +20401,10 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
+  [[nodiscard]] JsonView _14() const { return at("14"); }
+  [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
