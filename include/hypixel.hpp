@@ -123369,6 +123369,9 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_dueces_25() const { return at("master_crypt_undead_dueces_25"); }
   [[nodiscard]] JsonView master_crypt_undead_skyerzz_25() const { return at("master_crypt_undead_skyerzz_25"); }
   [[nodiscard]] JsonView master_crypt_undead_sylent_25() const { return at("master_crypt_undead_sylent_25"); }
+  [[nodiscard]] JsonView dungeon_respawning_skeleton_skull_90() const { return at("dungeon_respawning_skeleton_skull_90"); }
+  [[nodiscard]] JsonView master_crypt_undead_cecer_25() const { return at("master_crypt_undead_cecer_25"); }
+  [[nodiscard]] JsonView master_lonely_spider_65() const { return at("master_lonely_spider_65"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132811,6 +132814,7 @@ public:
   [[nodiscard]] JsonView crypt_undead_christian() const { return at("crypt_undead_christian"); }
   [[nodiscard]] JsonView crypt_undead_minikloon() const { return at("crypt_undead_minikloon"); }
   [[nodiscard]] JsonView master_crypt_undead_dueces() const { return at("master_crypt_undead_dueces"); }
+  [[nodiscard]] JsonView master_crypt_undead_cecer() const { return at("master_crypt_undead_cecer"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
