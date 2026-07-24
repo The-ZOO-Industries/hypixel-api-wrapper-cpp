@@ -47909,6 +47909,9 @@ public:
   [[nodiscard]] JsonView challenge_wins_6_kit_mythical_monster_trainer() const { return at("challenge_wins_6_kit_mythical_monster-trainer"); }
   [[nodiscard]] JsonView challenge_wins_0_kit_advanced_solo_zookeeper() const { return at("challenge_wins_0_kit_advanced_solo_zookeeper"); }
   [[nodiscard]] JsonView challenge_wins_0_kit_basic_solo_batguy() const { return at("challenge_wins_0_kit_basic_solo_batguy"); }
+  [[nodiscard]] JsonView fastest_win_tourney_kit_advanced_solo_engineer() const { return at("fastest_win_tourney_kit_advanced_solo_engineer"); }
+  [[nodiscard]] JsonView longest_bow_kill_tourney_kit_advanced_solo_engineer() const { return at("longest_bow_kill_tourney_kit_advanced_solo_engineer"); }
+  [[nodiscard]] JsonView longest_bow_shot_tourney_kit_advanced_solo_engineer() const { return at("longest_bow_shot_tourney_kit_advanced_solo_engineer"); }
 };
 
 class PlayerResponsePlayerStatsTrueCombat : public JsonView {
