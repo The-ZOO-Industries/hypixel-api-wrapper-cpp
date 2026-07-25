@@ -123375,6 +123375,7 @@ public:
   [[nodiscard]] JsonView dungeon_respawning_skeleton_skull_90() const { return at("dungeon_respawning_skeleton_skull_90"); }
   [[nodiscard]] JsonView master_crypt_undead_cecer_25() const { return at("master_crypt_undead_cecer_25"); }
   [[nodiscard]] JsonView master_lonely_spider_65() const { return at("master_lonely_spider_65"); }
+  [[nodiscard]] JsonView brood_mother_cave_spider_6() const { return at("brood_mother_cave_spider_6"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
