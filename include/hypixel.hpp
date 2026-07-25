@@ -71568,6 +71568,7 @@ public:
   [[nodiscard]] JsonView ranked_streak_potion_duel() const { return at("ranked_streak_potion_duel"); }
   [[nodiscard]] JsonView ranked_loss_streak_potion_duel() const { return at("ranked_loss_streak_potion_duel"); }
   [[nodiscard]] JsonView blitz_ascended_title_prestige() const { return at("blitz_ascended_title_prestige"); }
+  [[nodiscard]] JsonView ranked_1_snowman_kit_wins() const { return at("ranked_1_snowman_kit_wins"); }
 };
 
 class PlayerResponsePlayerStatsBuildBattleLeaderboardSettings : public JsonView {
