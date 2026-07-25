@@ -123393,6 +123393,7 @@ public:
   [[nodiscard]] JsonView nurse_shark_6() const { return at("nurse_shark_6"); }
   [[nodiscard]] JsonView blue_shark_20() const { return at("blue_shark_20"); }
   [[nodiscard]] JsonView zombie_15() const { return at("zombie_15"); }
+  [[nodiscard]] JsonView jockey_shot_silverfish_42() const { return at("jockey_shot_silverfish_42"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
