@@ -123376,6 +123376,7 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_cecer_25() const { return at("master_crypt_undead_cecer_25"); }
   [[nodiscard]] JsonView master_lonely_spider_65() const { return at("master_lonely_spider_65"); }
   [[nodiscard]] JsonView brood_mother_cave_spider_6() const { return at("brood_mother_cave_spider_6"); }
+  [[nodiscard]] JsonView dante_goon_50() const { return at("dante_goon_50"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132313,6 +132314,7 @@ public:
   [[nodiscard]] JsonView ENCHANTED_QUARTZ_BLOCK() const { return at("ENCHANTED_QUARTZ_BLOCK"); }
   [[nodiscard]] JsonView RED_GIFT() const { return at("RED_GIFT"); }
   [[nodiscard]] JsonView MUTANT_NETHER_STALK() const { return at("MUTANT_NETHER_STALK"); }
+  [[nodiscard]] JsonView ENCHANTED_GRILLED_PORK() const { return at("ENCHANTED_GRILLED_PORK"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
@@ -132820,6 +132822,8 @@ public:
   [[nodiscard]] JsonView crypt_undead_minikloon() const { return at("crypt_undead_minikloon"); }
   [[nodiscard]] JsonView master_crypt_undead_dueces() const { return at("master_crypt_undead_dueces"); }
   [[nodiscard]] JsonView master_crypt_undead_cecer() const { return at("master_crypt_undead_cecer"); }
+  [[nodiscard]] JsonView crypt_undead_valentin() const { return at("crypt_undead_valentin"); }
+  [[nodiscard]] JsonView dante_goon() const { return at("dante_goon"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
