@@ -123403,6 +123403,8 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_orangemarshall_45() const { return at("master_crypt_undead_orangemarshall_45"); }
   [[nodiscard]] JsonView master_crypt_undead_minikloon_50() const { return at("master_crypt_undead_minikloon_50"); }
   [[nodiscard]] JsonView slime_15() const { return at("slime_15"); }
+  [[nodiscard]] JsonView master_crypt_undead_williamtiger_25() const { return at("master_crypt_undead_williamtiger_25"); }
+  [[nodiscard]] JsonView stranded_nymph_250() const { return at("stranded_nymph_250"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132857,6 +132859,8 @@ public:
   [[nodiscard]] JsonView crypt_undead_orangemarshall() const { return at("crypt_undead_orangemarshall"); }
   [[nodiscard]] JsonView nurse_shark() const { return at("nurse_shark"); }
   [[nodiscard]] JsonView blue_shark() const { return at("blue_shark"); }
+  [[nodiscard]] JsonView master_crypt_undead_williamtiger() const { return at("master_crypt_undead_williamtiger"); }
+  [[nodiscard]] JsonView stranded_nymph() const { return at("stranded_nymph"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
