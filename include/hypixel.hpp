@@ -118509,6 +118509,14 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView purchase_ts() const { return at("purchase_ts"); }
+  [[nodiscard]] JsonView health() const { return at("health"); }
+  [[nodiscard]] JsonView defense() const { return at("defense"); }
+  [[nodiscard]] JsonView walk_speed() const { return at("walk_speed"); }
+  [[nodiscard]] JsonView strength() const { return at("strength"); }
+  [[nodiscard]] JsonView critical_damage() const { return at("critical_damage"); }
+  [[nodiscard]] JsonView critical_chance() const { return at("critical_chance"); }
+  [[nodiscard]] JsonView attack_speed() const { return at("attack_speed"); }
+  [[nodiscard]] JsonView intelligence() const { return at("intelligence"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAccessoryBagStorageTuning : public JsonView {
@@ -123382,6 +123390,9 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_sfarnham_55() const { return at("master_crypt_undead_sfarnham_55"); }
   [[nodiscard]] JsonView master_crypt_undead_likaos_55() const { return at("master_crypt_undead_likaos_55"); }
   [[nodiscard]] JsonView crypt_undead_orangemarshall_25() const { return at("crypt_undead_orangemarshall_25"); }
+  [[nodiscard]] JsonView nurse_shark_6() const { return at("nurse_shark_6"); }
+  [[nodiscard]] JsonView blue_shark_20() const { return at("blue_shark_20"); }
+  [[nodiscard]] JsonView zombie_15() const { return at("zombie_15"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132834,6 +132845,8 @@ public:
   [[nodiscard]] JsonView crypt_undead_valentin() const { return at("crypt_undead_valentin"); }
   [[nodiscard]] JsonView dante_goon() const { return at("dante_goon"); }
   [[nodiscard]] JsonView crypt_undead_orangemarshall() const { return at("crypt_undead_orangemarshall"); }
+  [[nodiscard]] JsonView nurse_shark() const { return at("nurse_shark"); }
+  [[nodiscard]] JsonView blue_shark() const { return at("blue_shark"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -134128,6 +134141,8 @@ public:
   [[nodiscard]] JsonView skeleton_10() const { return at("skeleton_10"); }
   [[nodiscard]] JsonView spider_2() const { return at("spider_2"); }
   [[nodiscard]] JsonView spider_11() const { return at("spider_11"); }
+  [[nodiscard]] JsonView skeleton_7() const { return at("skeleton_7"); }
+  [[nodiscard]] JsonView zombie_5() const { return at("zombie_5"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -137985,6 +138000,8 @@ public:
   [[nodiscard]] JsonView toggle_gemstone_infusion() const { return at("toggle_gemstone_infusion"); }
   [[nodiscard]] JsonView mining_speed_boost() const { return at("mining_speed_boost"); }
   [[nodiscard]] JsonView toggle_mining_speed_boost() const { return at("toggle_mining_speed_boost"); }
+  [[nodiscard]] JsonView sheer_force() const { return at("sheer_force"); }
+  [[nodiscard]] JsonView toggle_sheer_force() const { return at("toggle_sheer_force"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining3 : public JsonView {
