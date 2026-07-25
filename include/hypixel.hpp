@@ -53882,6 +53882,7 @@ public:
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUDesertEagle : public JsonView {
