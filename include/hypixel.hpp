@@ -123377,6 +123377,10 @@ public:
   [[nodiscard]] JsonView master_lonely_spider_65() const { return at("master_lonely_spider_65"); }
   [[nodiscard]] JsonView brood_mother_cave_spider_6() const { return at("brood_mother_cave_spider_6"); }
   [[nodiscard]] JsonView dante_goon_50() const { return at("dante_goon_50"); }
+  [[nodiscard]] JsonView crypt_undead_valentin_40() const { return at("crypt_undead_valentin_40"); }
+  [[nodiscard]] JsonView master_crypt_undead_sfarnham_55() const { return at("master_crypt_undead_sfarnham_55"); }
+  [[nodiscard]] JsonView master_crypt_undead_likaos_55() const { return at("master_crypt_undead_likaos_55"); }
+  [[nodiscard]] JsonView crypt_undead_orangemarshall_25() const { return at("crypt_undead_orangemarshall_25"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132315,6 +132319,10 @@ public:
   [[nodiscard]] JsonView RED_GIFT() const { return at("RED_GIFT"); }
   [[nodiscard]] JsonView MUTANT_NETHER_STALK() const { return at("MUTANT_NETHER_STALK"); }
   [[nodiscard]] JsonView ENCHANTED_GRILLED_PORK() const { return at("ENCHANTED_GRILLED_PORK"); }
+  [[nodiscard]] JsonView CONCENTRATED_STONE() const { return at("CONCENTRATED_STONE"); }
+  [[nodiscard]] JsonView ENCHANTED_CACTUS() const { return at("ENCHANTED_CACTUS"); }
+  [[nodiscard]] JsonView ENCHANTED_SULPHUR_CUBE() const { return at("ENCHANTED_SULPHUR_CUBE"); }
+  [[nodiscard]] JsonView HYPERGOLIC_IONIZED_CERAMICS() const { return at("HYPERGOLIC_IONIZED_CERAMICS"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
@@ -132824,6 +132832,7 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_cecer() const { return at("master_crypt_undead_cecer"); }
   [[nodiscard]] JsonView crypt_undead_valentin() const { return at("crypt_undead_valentin"); }
   [[nodiscard]] JsonView dante_goon() const { return at("dante_goon"); }
+  [[nodiscard]] JsonView crypt_undead_orangemarshall() const { return at("crypt_undead_orangemarshall"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -135788,6 +135797,7 @@ public:
   [[nodiscard]] JsonView RUNE_PRIMAL_FEAR_3() const { return at("RUNE_PRIMAL_FEAR_3"); }
   [[nodiscard]] JsonView RUNE_FIERY_BURST_3() const { return at("RUNE_FIERY_BURST_3"); }
   [[nodiscard]] JsonView RUNE_SLIMY_3() const { return at("RUNE_SLIMY_3"); }
+  [[nodiscard]] JsonView RUNE_RAINY_DAY_3() const { return at("RUNE_RAINY_DAY_3"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
