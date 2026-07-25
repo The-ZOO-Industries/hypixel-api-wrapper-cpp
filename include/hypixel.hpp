@@ -123395,6 +123395,8 @@ public:
   [[nodiscard]] JsonView blue_shark_20() const { return at("blue_shark_20"); }
   [[nodiscard]] JsonView zombie_15() const { return at("zombie_15"); }
   [[nodiscard]] JsonView jockey_shot_silverfish_42() const { return at("jockey_shot_silverfish_42"); }
+  [[nodiscard]] JsonView skeleton_13() const { return at("skeleton_13"); }
+  [[nodiscard]] JsonView master_crypt_undead_orangemarshall_45() const { return at("master_crypt_undead_orangemarshall_45"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
