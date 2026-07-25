@@ -123402,6 +123402,7 @@ public:
   [[nodiscard]] JsonView skeleton_13() const { return at("skeleton_13"); }
   [[nodiscard]] JsonView master_crypt_undead_orangemarshall_45() const { return at("master_crypt_undead_orangemarshall_45"); }
   [[nodiscard]] JsonView master_crypt_undead_minikloon_50() const { return at("master_crypt_undead_minikloon_50"); }
+  [[nodiscard]] JsonView slime_15() const { return at("slime_15"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -138011,6 +138012,8 @@ public:
   [[nodiscard]] JsonView toggle_mining_speed_boost() const { return at("toggle_mining_speed_boost"); }
   [[nodiscard]] JsonView sheer_force() const { return at("sheer_force"); }
   [[nodiscard]] JsonView toggle_sheer_force() const { return at("toggle_sheer_force"); }
+  [[nodiscard]] JsonView front_loaded() const { return at("front_loaded"); }
+  [[nodiscard]] JsonView toggle_front_loaded() const { return at("toggle_front_loaded"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining3 : public JsonView {
