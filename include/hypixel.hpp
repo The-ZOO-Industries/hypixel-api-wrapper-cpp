@@ -123409,6 +123409,7 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_donpireso_45() const { return at("master_crypt_undead_donpireso_45"); }
   [[nodiscard]] JsonView crypt_undead_mistresseldrid_25() const { return at("crypt_undead_mistresseldrid_25"); }
   [[nodiscard]] JsonView crypt_undead_mistresseldrid_55() const { return at("crypt_undead_mistresseldrid_55"); }
+  [[nodiscard]] JsonView lost_adventurer_113() const { return at("lost_adventurer_113"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -126076,6 +126077,7 @@ public:
   [[nodiscard]] JsonView Seffea() const { return at("Seffea"); }
   [[nodiscard]] JsonView rhanora_cat_2() const { return at("rhanora_cat_2"); }
   [[nodiscard]] JsonView jine() const { return at("jine"); }
+  [[nodiscard]] JsonView abiphone_dealer() const { return at("abiphone_dealer"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidObjectivesChooseFaction : public JsonView {
@@ -137783,6 +137785,8 @@ public:
   [[nodiscard]] JsonView toggle_dust_collector() const { return at("toggle_dust_collector"); }
   [[nodiscard]] JsonView gemstone_infusion() const { return at("gemstone_infusion"); }
   [[nodiscard]] JsonView toggle_gemstone_infusion() const { return at("toggle_gemstone_infusion"); }
+  [[nodiscard]] JsonView star_powder() const { return at("star_powder"); }
+  [[nodiscard]] JsonView toggle_star_powder() const { return at("toggle_star_powder"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging : public JsonView {
