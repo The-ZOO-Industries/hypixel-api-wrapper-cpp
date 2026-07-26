@@ -123410,6 +123410,9 @@ public:
   [[nodiscard]] JsonView crypt_undead_mistresseldrid_25() const { return at("crypt_undead_mistresseldrid_25"); }
   [[nodiscard]] JsonView crypt_undead_mistresseldrid_55() const { return at("crypt_undead_mistresseldrid_55"); }
   [[nodiscard]] JsonView lost_adventurer_113() const { return at("lost_adventurer_113"); }
+  [[nodiscard]] JsonView master_crypt_undead_bernhard_40() const { return at("master_crypt_undead_bernhard_40"); }
+  [[nodiscard]] JsonView crypt_undead_donpireso_55() const { return at("crypt_undead_donpireso_55"); }
+  [[nodiscard]] JsonView master_crypt_undead_connorlinfoot_25() const { return at("master_crypt_undead_connorlinfoot_25"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132870,6 +132873,9 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_williamtiger() const { return at("master_crypt_undead_williamtiger"); }
   [[nodiscard]] JsonView stranded_nymph() const { return at("stranded_nymph"); }
   [[nodiscard]] JsonView crypt_undead_mistresseldrid() const { return at("crypt_undead_mistresseldrid"); }
+  [[nodiscard]] JsonView crypt_undead_donpireso() const { return at("crypt_undead_donpireso"); }
+  [[nodiscard]] JsonView master_crypt_undead_bernhard() const { return at("master_crypt_undead_bernhard"); }
+  [[nodiscard]] JsonView master_crypt_undead_connorlinfoot() const { return at("master_crypt_undead_connorlinfoot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
