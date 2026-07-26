@@ -132347,6 +132347,7 @@ public:
   [[nodiscard]] JsonView ENCHANTED_CACTUS() const { return at("ENCHANTED_CACTUS"); }
   [[nodiscard]] JsonView ENCHANTED_SULPHUR_CUBE() const { return at("ENCHANTED_SULPHUR_CUBE"); }
   [[nodiscard]] JsonView HYPERGOLIC_IONIZED_CERAMICS() const { return at("HYPERGOLIC_IONIZED_CERAMICS"); }
+  [[nodiscard]] JsonView GLASS() const { return at("GLASS"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
