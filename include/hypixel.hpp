@@ -120611,6 +120611,7 @@ public:
   [[nodiscard]] JsonView crimson_isle_blobfish_s() const { return at("crimson_isle_blobfish_s"); }
   [[nodiscard]] JsonView crimson_isle_fetch__sulphur_s() const { return at("crimson_isle_fetch__sulphur_s"); }
   [[nodiscard]] JsonView crimson_isle_fetch_kada_lead_s() const { return at("crimson_isle_fetch_kada_lead_s"); }
+  [[nodiscard]] JsonView crimson_isle_slugfish_s() const { return at("crimson_isle_slugfish_s"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataQuestsAlchemistQuest : public JsonView {
@@ -123405,6 +123406,9 @@ public:
   [[nodiscard]] JsonView slime_15() const { return at("slime_15"); }
   [[nodiscard]] JsonView master_crypt_undead_williamtiger_25() const { return at("master_crypt_undead_williamtiger_25"); }
   [[nodiscard]] JsonView stranded_nymph_250() const { return at("stranded_nymph_250"); }
+  [[nodiscard]] JsonView master_crypt_undead_donpireso_45() const { return at("master_crypt_undead_donpireso_45"); }
+  [[nodiscard]] JsonView crypt_undead_mistresseldrid_25() const { return at("crypt_undead_mistresseldrid_25"); }
+  [[nodiscard]] JsonView crypt_undead_mistresseldrid_55() const { return at("crypt_undead_mistresseldrid_55"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -126071,6 +126075,7 @@ public:
   [[nodiscard]] JsonView mage_alchemist() const { return at("mage_alchemist"); }
   [[nodiscard]] JsonView Seffea() const { return at("Seffea"); }
   [[nodiscard]] JsonView rhanora_cat_2() const { return at("rhanora_cat_2"); }
+  [[nodiscard]] JsonView jine() const { return at("jine"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidObjectivesChooseFaction : public JsonView {
@@ -132862,6 +132867,7 @@ public:
   [[nodiscard]] JsonView blue_shark() const { return at("blue_shark"); }
   [[nodiscard]] JsonView master_crypt_undead_williamtiger() const { return at("master_crypt_undead_williamtiger"); }
   [[nodiscard]] JsonView stranded_nymph() const { return at("stranded_nymph"); }
+  [[nodiscard]] JsonView crypt_undead_mistresseldrid() const { return at("crypt_undead_mistresseldrid"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
