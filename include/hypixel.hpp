@@ -82603,6 +82603,7 @@ public:
   [[nodiscard]] JsonView BUILD_BATTLE__top_3_challenge() const { return at("BUILD_BATTLE__top_3_challenge"); }
   [[nodiscard]] JsonView BATTLEGROUND__support_challenge() const { return at("BATTLEGROUND__support_challenge"); }
   [[nodiscard]] JsonView BUILD_BATTLE__guesser_challenge() const { return at("BUILD_BATTLE__guesser_challenge"); }
+  [[nodiscard]] JsonView SURVIVAL_GAMES__iron_man_challenge() const { return at("SURVIVAL_GAMES__iron_man_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayF : public JsonView {
