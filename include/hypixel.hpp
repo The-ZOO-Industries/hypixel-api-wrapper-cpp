@@ -7342,6 +7342,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining2;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2;
+class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHinaTasksTaskProgress;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHinaTasks;
@@ -138203,6 +138204,13 @@ public:
   [[nodiscard]] JsonView custom_name() const { return at("custom_name"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView custom_name() const { return at("custom_name"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree : public JsonView {
 public:
   using JsonView::JsonView;
@@ -138217,6 +138225,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining mining() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining>("mining"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging foraging() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging>("foraging"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2 foraging_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2>("foraging_2"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3 mining_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3>("mining_3"); }
 
   [[nodiscard]] JsonView refund_ability_free() const { return at("refund_ability_free"); }
 };
@@ -140630,6 +140639,7 @@ public:
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
+  [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts16 : public JsonView {
