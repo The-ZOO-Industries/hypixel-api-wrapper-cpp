@@ -123416,6 +123416,8 @@ public:
   [[nodiscard]] JsonView crypt_undead_donpireso_55() const { return at("crypt_undead_donpireso_55"); }
   [[nodiscard]] JsonView master_crypt_undead_connorlinfoot_25() const { return at("master_crypt_undead_connorlinfoot_25"); }
   [[nodiscard]] JsonView master_dungeon_respawning_skeleton_skull_120() const { return at("master_dungeon_respawning_skeleton_skull_120"); }
+  [[nodiscard]] JsonView master_crypt_undead_agentk_45() const { return at("master_crypt_undead_agentk_45"); }
+  [[nodiscard]] JsonView master_crypt_undead_jamiethegeek_55() const { return at("master_crypt_undead_jamiethegeek_55"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
