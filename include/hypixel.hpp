@@ -91298,6 +91298,7 @@ public:
   [[nodiscard]] JsonView show_tntrun_actionbar_info() const { return at("show_tntrun_actionbar_info"); }
   [[nodiscard]] JsonView xmas2018_TNT_1() const { return at("xmas2018_TNT_1"); }
   [[nodiscard]] JsonView xmas2018_TNT_2() const { return at("xmas2018_TNT_2"); }
+  [[nodiscard]] JsonView scorpius_bribe_504() const { return at("scorpius_bribe_504"); }
 };
 
 class PlayerResponse : public JsonView {
