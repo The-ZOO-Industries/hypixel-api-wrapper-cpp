@@ -7343,6 +7343,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3;
+class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining4;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHinaTasksTaskProgress;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHinaTasks;
@@ -7558,6 +7559,10 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11EQUIPMENTSLOT
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11EQUIPMENTSLOT3;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11EQUIPMENTSLOT2;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT1;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT2;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT4;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts1;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts2;
@@ -121174,6 +121179,12 @@ public:
   [[nodiscard]] JsonView powder_spent_non_refundable_glacite_2() const { return at("powder_spent_non_refundable_glacite_2"); }
   [[nodiscard]] JsonView powder_spent_gemstone_3() const { return at("powder_spent_gemstone_3"); }
   [[nodiscard]] JsonView powder_spent_mithril_3() const { return at("powder_spent_mithril_3"); }
+  [[nodiscard]] JsonView powder_spent_glacite_3() const { return at("powder_spent_glacite_3"); }
+  [[nodiscard]] JsonView powder_spent_titanium_3() const { return at("powder_spent_titanium_3"); }
+  [[nodiscard]] JsonView powder_spent_gemstone_4() const { return at("powder_spent_gemstone_4"); }
+  [[nodiscard]] JsonView powder_spent_glacite_4() const { return at("powder_spent_glacite_4"); }
+  [[nodiscard]] JsonView powder_spent_mithril_4() const { return at("powder_spent_mithril_4"); }
+  [[nodiscard]] JsonView powder_spent_titanium_4() const { return at("powder_spent_titanium_4"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryKills : public JsonView {
@@ -123418,6 +123429,7 @@ public:
   [[nodiscard]] JsonView master_dungeon_respawning_skeleton_skull_120() const { return at("master_dungeon_respawning_skeleton_skull_120"); }
   [[nodiscard]] JsonView master_crypt_undead_agentk_45() const { return at("master_crypt_undead_agentk_45"); }
   [[nodiscard]] JsonView master_crypt_undead_jamiethegeek_55() const { return at("master_crypt_undead_jamiethegeek_55"); }
+  [[nodiscard]] JsonView manta_ray_124() const { return at("manta_ray_124"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132881,6 +132893,7 @@ public:
   [[nodiscard]] JsonView crypt_undead_donpireso() const { return at("crypt_undead_donpireso"); }
   [[nodiscard]] JsonView master_crypt_undead_bernhard() const { return at("master_crypt_undead_bernhard"); }
   [[nodiscard]] JsonView master_crypt_undead_connorlinfoot() const { return at("master_crypt_undead_connorlinfoot"); }
+  [[nodiscard]] JsonView manta_ray() const { return at("manta_ray"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -134177,6 +134190,8 @@ public:
   [[nodiscard]] JsonView spider_11() const { return at("spider_11"); }
   [[nodiscard]] JsonView skeleton_7() const { return at("skeleton_7"); }
   [[nodiscard]] JsonView zombie_5() const { return at("zombie_5"); }
+  [[nodiscard]] JsonView zombie_1() const { return at("zombie_1"); }
+  [[nodiscard]] JsonView enderman_1() const { return at("enderman_1"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -138098,6 +138113,24 @@ public:
   [[nodiscard]] JsonView toggle_sky_mall() const { return at("toggle_sky_mall"); }
   [[nodiscard]] JsonView toggle_speedy_mineman() const { return at("toggle_speedy_mineman"); }
   [[nodiscard]] JsonView toggle_subterranean_fisher() const { return at("toggle_subterranean_fisher"); }
+  [[nodiscard]] JsonView pickobulus() const { return at("pickobulus"); }
+  [[nodiscard]] JsonView toggle_pickobulus() const { return at("toggle_pickobulus"); }
+  [[nodiscard]] JsonView maniac_miner() const { return at("maniac_miner"); }
+  [[nodiscard]] JsonView toggle_maniac_miner() const { return at("toggle_maniac_miner"); }
+  [[nodiscard]] JsonView fortunate_mineman() const { return at("fortunate_mineman"); }
+  [[nodiscard]] JsonView toggle_fortunate_mineman() const { return at("toggle_fortunate_mineman"); }
+  [[nodiscard]] JsonView surveyor() const { return at("surveyor"); }
+  [[nodiscard]] JsonView toggle_surveyor() const { return at("toggle_surveyor"); }
+  [[nodiscard]] JsonView eager_adventurer() const { return at("eager_adventurer"); }
+  [[nodiscard]] JsonView toggle_eager_adventurer() const { return at("toggle_eager_adventurer"); }
+  [[nodiscard]] JsonView vanguard_seeker() const { return at("vanguard_seeker"); }
+  [[nodiscard]] JsonView toggle_vanguard_seeker() const { return at("toggle_vanguard_seeker"); }
+  [[nodiscard]] JsonView dead_mans_chest() const { return at("dead_mans_chest"); }
+  [[nodiscard]] JsonView toggle_dead_mans_chest() const { return at("toggle_dead_mans_chest"); }
+  [[nodiscard]] JsonView mining_master() const { return at("mining_master"); }
+  [[nodiscard]] JsonView toggle_mining_master() const { return at("toggle_mining_master"); }
+  [[nodiscard]] JsonView gifts_from_the_departed() const { return at("gifts_from_the_departed"); }
+  [[nodiscard]] JsonView toggle_gifts_from_the_departed() const { return at("toggle_gifts_from_the_departed"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining4 : public JsonView {
@@ -138106,6 +138139,56 @@ public:
 
   [[nodiscard]] JsonView core_of_the_mountain() const { return at("core_of_the_mountain"); }
   [[nodiscard]] JsonView toggle_core_of_the_mountain() const { return at("toggle_core_of_the_mountain"); }
+  [[nodiscard]] JsonView mining_speed() const { return at("mining_speed"); }
+  [[nodiscard]] JsonView toggle_mining_speed() const { return at("toggle_mining_speed"); }
+  [[nodiscard]] JsonView mining_fortune() const { return at("mining_fortune"); }
+  [[nodiscard]] JsonView toggle_mining_fortune() const { return at("toggle_mining_fortune"); }
+  [[nodiscard]] JsonView titanium_insanium() const { return at("titanium_insanium"); }
+  [[nodiscard]] JsonView toggle_titanium_insanium() const { return at("toggle_titanium_insanium"); }
+  [[nodiscard]] JsonView efficient_miner() const { return at("efficient_miner"); }
+  [[nodiscard]] JsonView toggle_efficient_miner() const { return at("toggle_efficient_miner"); }
+  [[nodiscard]] JsonView mole() const { return at("mole"); }
+  [[nodiscard]] JsonView toggle_mole() const { return at("toggle_mole"); }
+  [[nodiscard]] JsonView gem_lover() const { return at("gem_lover"); }
+  [[nodiscard]] JsonView toggle_gem_lover() const { return at("toggle_gem_lover"); }
+  [[nodiscard]] JsonView seasoned_mineman() const { return at("seasoned_mineman"); }
+  [[nodiscard]] JsonView toggle_seasoned_mineman() const { return at("toggle_seasoned_mineman"); }
+  [[nodiscard]] JsonView blockhead() const { return at("blockhead"); }
+  [[nodiscard]] JsonView daily_grind() const { return at("daily_grind"); }
+  [[nodiscard]] JsonView daily_powder() const { return at("daily_powder"); }
+  [[nodiscard]] JsonView fortunate_mineman() const { return at("fortunate_mineman"); }
+  [[nodiscard]] JsonView great_explorer() const { return at("great_explorer"); }
+  [[nodiscard]] JsonView luck_of_the_cave() const { return at("luck_of_the_cave"); }
+  [[nodiscard]] JsonView maniac_miner() const { return at("maniac_miner"); }
+  [[nodiscard]] JsonView metal_head() const { return at("metal_head"); }
+  [[nodiscard]] JsonView no_stone_unturned() const { return at("no_stone_unturned"); }
+  [[nodiscard]] JsonView old_school() const { return at("old_school"); }
+  [[nodiscard]] JsonView powder_buff() const { return at("powder_buff"); }
+  [[nodiscard]] JsonView precision_mining() const { return at("precision_mining"); }
+  [[nodiscard]] JsonView professional() const { return at("professional"); }
+  [[nodiscard]] JsonView quick_forge() const { return at("quick_forge"); }
+  [[nodiscard]] JsonView sky_mall() const { return at("sky_mall"); }
+  [[nodiscard]] JsonView speedy_mineman() const { return at("speedy_mineman"); }
+  [[nodiscard]] JsonView steady_hand() const { return at("steady_hand"); }
+  [[nodiscard]] JsonView strong_arm() const { return at("strong_arm"); }
+  [[nodiscard]] JsonView toggle_blockhead() const { return at("toggle_blockhead"); }
+  [[nodiscard]] JsonView toggle_daily_grind() const { return at("toggle_daily_grind"); }
+  [[nodiscard]] JsonView toggle_daily_powder() const { return at("toggle_daily_powder"); }
+  [[nodiscard]] JsonView toggle_fortunate_mineman() const { return at("toggle_fortunate_mineman"); }
+  [[nodiscard]] JsonView toggle_great_explorer() const { return at("toggle_great_explorer"); }
+  [[nodiscard]] JsonView toggle_luck_of_the_cave() const { return at("toggle_luck_of_the_cave"); }
+  [[nodiscard]] JsonView toggle_maniac_miner() const { return at("toggle_maniac_miner"); }
+  [[nodiscard]] JsonView toggle_metal_head() const { return at("toggle_metal_head"); }
+  [[nodiscard]] JsonView toggle_no_stone_unturned() const { return at("toggle_no_stone_unturned"); }
+  [[nodiscard]] JsonView toggle_old_school() const { return at("toggle_old_school"); }
+  [[nodiscard]] JsonView toggle_powder_buff() const { return at("toggle_powder_buff"); }
+  [[nodiscard]] JsonView toggle_precision_mining() const { return at("toggle_precision_mining"); }
+  [[nodiscard]] JsonView toggle_professional() const { return at("toggle_professional"); }
+  [[nodiscard]] JsonView toggle_quick_forge() const { return at("toggle_quick_forge"); }
+  [[nodiscard]] JsonView toggle_sky_mall() const { return at("toggle_sky_mall"); }
+  [[nodiscard]] JsonView toggle_speedy_mineman() const { return at("toggle_speedy_mineman"); }
+  [[nodiscard]] JsonView toggle_steady_hand() const { return at("toggle_steady_hand"); }
+  [[nodiscard]] JsonView toggle_strong_arm() const { return at("toggle_strong_arm"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining5 : public JsonView {
@@ -138141,6 +138224,7 @@ public:
   [[nodiscard]] JsonView mining_2() const { return at("mining_2"); }
   [[nodiscard]] JsonView foraging_2() const { return at("foraging_2"); }
   [[nodiscard]] JsonView mining_3() const { return at("mining_3"); }
+  [[nodiscard]] JsonView mining_4() const { return at("mining_4"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeTokensSpent : public JsonView {
@@ -138152,6 +138236,7 @@ public:
   [[nodiscard]] JsonView mountain_2() const { return at("mountain_2"); }
   [[nodiscard]] JsonView forest_2() const { return at("forest_2"); }
   [[nodiscard]] JsonView mountain_3() const { return at("mountain_3"); }
+  [[nodiscard]] JsonView mountain_4() const { return at("mountain_4"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeExperience : public JsonView {
@@ -138213,6 +138298,13 @@ public:
   [[nodiscard]] JsonView custom_name() const { return at("custom_name"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining4 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView custom_name() const { return at("custom_name"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree : public JsonView {
 public:
   using JsonView::JsonView;
@@ -138228,6 +138320,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging foraging() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging>("foraging"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2 foraging_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2>("foraging_2"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3 mining_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3>("mining_3"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining4 mining_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining4>("mining_4"); }
 
   [[nodiscard]] JsonView refund_ability_free() const { return at("refund_ability_free"); }
 };
@@ -140402,6 +140495,41 @@ public:
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT2 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT4 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT1 EQUIPMENT_SLOT_1() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT1>("EQUIPMENT_SLOT_1"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT2 EQUIPMENT_SLOT_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT2>("EQUIPMENT_SLOT_2"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT4 EQUIPMENT_SLOT_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT4>("EQUIPMENT_SLOT_4"); }
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment : public JsonView {
 public:
   using JsonView::JsonView;
@@ -140417,6 +140545,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment9 _9() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment9>("9"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10 _10() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment10>("10"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11 _11() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11>("11"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12 _12() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12>("12"); }
 
   [[nodiscard]] JsonView equipped_set() const { return at("equipped_set"); }
 };
