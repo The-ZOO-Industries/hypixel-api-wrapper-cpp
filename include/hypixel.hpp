@@ -90540,6 +90540,7 @@ public:
   [[nodiscard]] JsonView Plaza() const { return at("Plaza"); }
   [[nodiscard]] JsonView Shory() const { return at("Shory"); }
   [[nodiscard]] JsonView Station() const { return at("Station"); }
+  [[nodiscard]] JsonView Ravenport() const { return at("Ravenport"); }
 };
 
 class PlayerResponsePlayerMapVotes : public JsonView {
