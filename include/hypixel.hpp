@@ -90541,6 +90541,7 @@ public:
   [[nodiscard]] JsonView Shory() const { return at("Shory"); }
   [[nodiscard]] JsonView Station() const { return at("Station"); }
   [[nodiscard]] JsonView Ravenport() const { return at("Ravenport"); }
+  [[nodiscard]] JsonView Raven_s_Crypt() const { return at("Raven's Crypt"); }
 };
 
 class PlayerResponsePlayerMapVotes : public JsonView {
