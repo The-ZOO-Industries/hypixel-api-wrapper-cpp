@@ -137951,6 +137951,9 @@ public:
   [[nodiscard]] JsonView toggle_damage_boost() const { return at("toggle_damage_boost"); }
   [[nodiscard]] JsonView axe_toss() const { return at("axe_toss"); }
   [[nodiscard]] JsonView toggle_axe_toss() const { return at("toggle_axe_toss"); }
+  [[nodiscard]] JsonView half_full() const { return at("half_full"); }
+  [[nodiscard]] JsonView toggle_half_full() const { return at("toggle_half_full"); }
+  [[nodiscard]] JsonView toggle_half_empty() const { return at("toggle_half_empty"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging3 : public JsonView {
