@@ -876,9 +876,11 @@ class PlayerResponsePlayerStatsWalls3ClassesRenegadePrestigeTag;
 class PlayerResponsePlayerStatsWalls3ClassesRenegade;
 class PlayerResponsePlayerStatsWalls3ClassesAutomatonPrestigeTag;
 class PlayerResponsePlayerStatsWalls3ClassesAutomaton;
+class PlayerResponsePlayerStatsWalls3ClassesSheepPrestigeTag;
 class PlayerResponsePlayerStatsWalls3ClassesSheep;
 class PlayerResponsePlayerStatsWalls3ClassesAngelPrestigeTag;
 class PlayerResponsePlayerStatsWalls3ClassesAngel;
+class PlayerResponsePlayerStatsWalls3ClassesDragonPrestigeTag;
 class PlayerResponsePlayerStatsWalls3ClassesDragon;
 class PlayerResponsePlayerStatsWalls3Classes;
 class PlayerResponsePlayerStatsWalls3DreadlordInventory;
@@ -20835,6 +20837,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView class_points_showcase() const { return at("class_points_showcase"); }
+  [[nodiscard]] JsonView type() const { return at("type"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ClassesArcanist : public JsonView {
@@ -20981,6 +20984,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView class_points_showcase() const { return at("class_points_showcase"); }
+  [[nodiscard]] JsonView type() const { return at("type"); }
 };
 
 class PlayerResponsePlayerStatsWalls3ClassesPirate : public JsonView {
@@ -21270,9 +21274,19 @@ public:
   [[nodiscard]] JsonView enderchest_rows() const { return at("enderchest_rows"); }
 };
 
+class PlayerResponsePlayerStatsWalls3ClassesSheepPrestigeTag : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView class_points_showcase() const { return at("class_points_showcase"); }
+  [[nodiscard]] JsonView type() const { return at("type"); }
+};
+
 class PlayerResponsePlayerStatsWalls3ClassesSheep : public JsonView {
 public:
   using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerStatsWalls3ClassesSheepPrestigeTag prestige_tag() const { return object_at<PlayerResponsePlayerStatsWalls3ClassesSheepPrestigeTag>("prestige_tag"); }
 
   [[nodiscard]] JsonView unlocked() const { return at("unlocked"); }
   [[nodiscard]] JsonView skill_level_d() const { return at("skill_level_d"); }
@@ -21303,9 +21317,19 @@ public:
   [[nodiscard]] JsonView prestige() const { return at("prestige"); }
 };
 
+class PlayerResponsePlayerStatsWalls3ClassesDragonPrestigeTag : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView class_points_showcase() const { return at("class_points_showcase"); }
+  [[nodiscard]] JsonView type() const { return at("type"); }
+};
+
 class PlayerResponsePlayerStatsWalls3ClassesDragon : public JsonView {
 public:
   using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerStatsWalls3ClassesDragonPrestigeTag prestige_tag() const { return object_at<PlayerResponsePlayerStatsWalls3ClassesDragonPrestigeTag>("prestige_tag"); }
 
   [[nodiscard]] JsonView unlocked() const { return at("unlocked"); }
   [[nodiscard]] JsonView enderchest_rows() const { return at("enderchest_rows"); }
@@ -33534,6 +33558,50 @@ public:
   [[nodiscard]] JsonView moleman_a_final_kills_below_10_hp_face_off() const { return at("moleman_a_final_kills_below_10_hp_face_off"); }
   [[nodiscard]] JsonView herobrine_potions_splashed_gvg() const { return at("herobrine_potions_splashed_gvg"); }
   [[nodiscard]] JsonView assassin_a_final_kills_melee_behind_face_off() const { return at("assassin_a_final_kills_melee_behind_face_off"); }
+  [[nodiscard]] JsonView shaman_final_kills_below_10_hp_gvg() const { return at("shaman_final_kills_below_10_hp_gvg"); }
+  [[nodiscard]] JsonView werewolf_a_defender_final_kills_face_off() const { return at("werewolf_a_defender_final_kills_face_off"); }
+  [[nodiscard]] JsonView werewolf_final_kills_ranged_gvg() const { return at("werewolf_final_kills_ranged_gvg"); }
+  [[nodiscard]] JsonView shaman_iron_armor_gifted_december_gvg() const { return at("shaman_iron_armor_gifted_december_gvg"); }
+  [[nodiscard]] JsonView shaman_c_final_kills_below_10_hp_gvg() const { return at("shaman_c_final_kills_below_10_hp_gvg"); }
+  [[nodiscard]] JsonView shaman_c_final_kills_gvg() const { return at("shaman_c_final_kills_gvg"); }
+  [[nodiscard]] JsonView shaman_c_final_kills_melee_gvg() const { return at("shaman_c_final_kills_melee_gvg"); }
+  [[nodiscard]] JsonView shaman_energy_syphoned_gvg() const { return at("shaman_energy_syphoned_gvg"); }
+  [[nodiscard]] JsonView pirate_kills_melee_behind_gvg() const { return at("pirate_kills_melee_behind_gvg"); }
+  [[nodiscard]] JsonView automaton_diamond_ore_broken_gvg() const { return at("automaton_diamond_ore_broken_gvg"); }
+  [[nodiscard]] JsonView automaton_losses_gvg() const { return at("automaton_losses_gvg"); }
+  [[nodiscard]] JsonView automaton_sword_crafted_gvg() const { return at("automaton_sword_crafted_gvg"); }
+  [[nodiscard]] JsonView automaton_wither_kills_gvg() const { return at("automaton_wither_kills_gvg"); }
+  [[nodiscard]] JsonView spider_a_final_kills_melee_behind_gvg() const { return at("spider_a_final_kills_melee_behind_gvg"); }
+  [[nodiscard]] JsonView creeper_b_kills_gvg() const { return at("creeper_b_kills_gvg"); }
+  [[nodiscard]] JsonView creeper_b_kills_melee_gvg() const { return at("creeper_b_kills_melee_gvg"); }
+  [[nodiscard]] JsonView creeper_b_total_kills_gvg() const { return at("creeper_b_total_kills_gvg"); }
+  [[nodiscard]] JsonView creeper_final_kills_below_10_hp_gvg() const { return at("creeper_final_kills_below_10_hp_gvg"); }
+  [[nodiscard]] JsonView phoenix_final_kills_below_10_hp_gvg() const { return at("phoenix_final_kills_below_10_hp_gvg"); }
+  [[nodiscard]] JsonView dreadlord_a_final_kills_below_10_hp_gvg() const { return at("dreadlord_a_final_kills_below_10_hp_gvg"); }
+  [[nodiscard]] JsonView cow_iron_armor_gifted_december_gvg() const { return at("cow_iron_armor_gifted_december_gvg"); }
+  [[nodiscard]] JsonView hunter_iron_armor_gifted_december_gvg() const { return at("hunter_iron_armor_gifted_december_gvg"); }
+  [[nodiscard]] JsonView hunter_iron_armor_gifted_gvg() const { return at("hunter_iron_armor_gifted_gvg"); }
+  [[nodiscard]] JsonView renegade_apples_eaten_gvg() const { return at("renegade_apples_eaten_gvg"); }
+  [[nodiscard]] JsonView renegade_final_kills_ranged_30_gvg() const { return at("renegade_final_kills_ranged_30_gvg"); }
+  [[nodiscard]] JsonView renegade_final_kills_ranged_gvg() const { return at("renegade_final_kills_ranged_gvg"); }
+  [[nodiscard]] JsonView renegade_fish_eaten_gvg() const { return at("renegade_fish_eaten_gvg"); }
+  [[nodiscard]] JsonView shark_bread_crafted_gvg() const { return at("shark_bread_crafted_gvg"); }
+  [[nodiscard]] JsonView creeper_a_final_kills_below_10_hp_gvg() const { return at("creeper_a_final_kills_below_10_hp_gvg"); }
+  [[nodiscard]] JsonView creeper_apples_eaten_gvg() const { return at("creeper_apples_eaten_gvg"); }
+  [[nodiscard]] JsonView moleman_kills_ranged_face_off() const { return at("moleman_kills_ranged_face_off"); }
+  [[nodiscard]] JsonView renegade_b_final_assists_after_final_killed() const { return at("renegade_b_final_assists_after_final_killed"); }
+  [[nodiscard]] JsonView renegade_b_final_assists_after_final_killed_standard() const { return at("renegade_b_final_assists_after_final_killed_standard"); }
+  [[nodiscard]] JsonView dragon_a_defender_final_kills() const { return at("dragon_a_defender_final_kills"); }
+  [[nodiscard]] JsonView dragon_a_defender_final_kills_standard() const { return at("dragon_a_defender_final_kills_standard"); }
+  [[nodiscard]] JsonView sheep_beds_crafted() const { return at("sheep_beds_crafted"); }
+  [[nodiscard]] JsonView sheep_beds_crafted_standard() const { return at("sheep_beds_crafted_standard"); }
+  [[nodiscard]] JsonView sheep_beds_placed() const { return at("sheep_beds_placed"); }
+  [[nodiscard]] JsonView sheep_beds_placed_standard() const { return at("sheep_beds_placed_standard"); }
+  [[nodiscard]] JsonView sheep_games_beds_placed() const { return at("sheep_games_beds_placed"); }
+  [[nodiscard]] JsonView sheep_games_beds_placed_standard() const { return at("sheep_games_beds_placed_standard"); }
+  [[nodiscard]] JsonView dragon_b_final_kills_below_10_hp() const { return at("dragon_b_final_kills_below_10_hp"); }
+  [[nodiscard]] JsonView dragon_b_final_kills_below_10_hp_standard() const { return at("dragon_b_final_kills_below_10_hp_standard"); }
+  [[nodiscard]] JsonView moleman_wither_kills_last_alive_standard() const { return at("moleman_wither_kills_last_alive_standard"); }
 };
 
 class PlayerResponsePlayerStatsGingerBread : public JsonView {
