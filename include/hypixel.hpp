@@ -64100,6 +64100,7 @@ public:
   [[nodiscard]] JsonView four_four_totallynormal_fire_deaths_bedwars() const { return at("four_four_totallynormal_fire_deaths_bedwars"); }
   [[nodiscard]] JsonView eight_two_totallynormal_fire_kills_bedwars() const { return at("eight_two_totallynormal_fire_kills_bedwars"); }
   [[nodiscard]] JsonView eight_one_ultimate_fire_tick_final_kills_bedwars() const { return at("eight_one_ultimate_fire_tick_final_kills_bedwars"); }
+  [[nodiscard]] JsonView eight_two_voidless_bed_resources_collected_bedwars() const { return at("eight_two_voidless_bed_resources_collected_bedwars"); }
 };
 
 class PlayerResponsePlayerStatsMurderMysteryLeaderboardSettings : public JsonView {
@@ -122630,6 +122631,8 @@ public:
   [[nodiscard]] JsonView hideonfloor_1() const { return at("hideonfloor_1"); }
   [[nodiscard]] JsonView wumpa_1() const { return at("wumpa_1"); }
   [[nodiscard]] JsonView queen_ant_69() const { return at("queen_ant_69"); }
+  [[nodiscard]] JsonView macaw_1() const { return at("macaw_1"); }
+  [[nodiscard]] JsonView hewver_69() const { return at("hewver_69"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryDeaths : public JsonView {
@@ -134522,6 +134525,8 @@ public:
   [[nodiscard]] JsonView ant_32() const { return at("ant_32"); }
   [[nodiscard]] JsonView queen_ant() const { return at("queen_ant"); }
   [[nodiscard]] JsonView queen_ant_69() const { return at("queen_ant_69"); }
+  [[nodiscard]] JsonView invisibug() const { return at("invisibug"); }
+  [[nodiscard]] JsonView hewver() const { return at("hewver"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -135109,6 +135114,7 @@ public:
   [[nodiscard]] JsonView floortunate() const { return at("floortunate"); }
   [[nodiscard]] JsonView fresh_footprints() const { return at("fresh_footprints"); }
   [[nodiscard]] JsonView thawing() const { return at("thawing"); }
+  [[nodiscard]] JsonView amateur_hour() const { return at("amateur_hour"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerDataExperience : public JsonView {
@@ -139366,6 +139372,15 @@ public:
   [[nodiscard]] JsonView fortunate_farmer() const { return at("fortunate_farmer"); }
   [[nodiscard]] JsonView filter_upgrade() const { return at("filter_upgrade"); }
   [[nodiscard]] JsonView animal_resistance() const { return at("animal_resistance"); }
+  [[nodiscard]] JsonView construct_fortune() const { return at("construct_fortune"); }
+  [[nodiscard]] JsonView splendor() const { return at("splendor"); }
+  [[nodiscard]] JsonView critter_fortune() const { return at("critter_fortune"); }
+  [[nodiscard]] JsonView humanoid_ruler_new() const { return at("humanoid_ruler_new"); }
+  [[nodiscard]] JsonView catacombs_explorer() const { return at("catacombs_explorer"); }
+  [[nodiscard]] JsonView greenhouse_speed() const { return at("greenhouse_speed"); }
+  [[nodiscard]] JsonView compost_speed() const { return at("compost_speed"); }
+  [[nodiscard]] JsonView mite_spawner() const { return at("mite_spawner"); }
+  [[nodiscard]] JsonView crimson_essence() const { return at("crimson_essence"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
@@ -143391,6 +143406,7 @@ public:
   [[nodiscard]] JsonView fuel_cap() const { return at("fuel_cap"); }
   [[nodiscard]] JsonView organic_matter_cap() const { return at("organic_matter_cap"); }
   [[nodiscard]] JsonView cost_reduction() const { return at("cost_reduction"); }
+  [[nodiscard]] JsonView compost_speed_attribute() const { return at("compost_speed_attribute"); }
 };
 
 class SkyblockGardenResponseGardenComposterData : public JsonView {
