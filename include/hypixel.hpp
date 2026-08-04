@@ -5001,6 +5001,7 @@ class AchievementsResponseAchievementsSkyblockOneTimeSPLUSSQUAD;
 class AchievementsResponseAchievementsSkyblockOneTimeTHEFLASH;
 class AchievementsResponseAchievementsSkyblockOneTimeSTUBBORNGIVER;
 class AchievementsResponseAchievementsSkyblockOneTimePRECIOUSMINERALS;
+class AchievementsResponseAchievementsSkyblockOneTimeCLEANINGHOUSE;
 class AchievementsResponseAchievementsSkyblockOneTimeIOWNTHISPLACE;
 class AchievementsResponseAchievementsSkyblockOneTimeFORTUNATE;
 class AchievementsResponseAchievementsSkyblockOneTimeHASTALAVISTA;
@@ -5014,6 +5015,7 @@ class AchievementsResponseAchievementsSkyblockOneTimeEVERYLITTLEBITHELPS;
 class AchievementsResponseAchievementsSkyblockOneTimeIMFASTASHECKBOY;
 class AchievementsResponseAchievementsSkyblockOneTimeCAUGHTTHEGRINCH;
 class AchievementsResponseAchievementsSkyblockOneTimeSNAKECHARMER;
+class AchievementsResponseAchievementsSkyblockOneTimeWHATTHEFLIP;
 class AchievementsResponseAchievementsSkyblockOneTimeROUGHDEAL;
 class AchievementsResponseAchievementsSkyblockOneTimeSUPERFUEL;
 class AchievementsResponseAchievementsSkyblockOneTimeNIGHTMARE;
@@ -5055,6 +5057,7 @@ class AchievementsResponseAchievementsSkyblockOneTimeGENIUS;
 class AchievementsResponseAchievementsSkyblockOneTimePRODUCTIONEXPANDED;
 class AchievementsResponseAchievementsSkyblockOneTimeNEXTGENERATION;
 class AchievementsResponseAchievementsSkyblockOneTimeALWAYSSUNNYINSB;
+class AchievementsResponseAchievementsSkyblockOneTimeTHEMIRACLEINASUNBEAM;
 class AchievementsResponseAchievementsSkyblockOneTimeRESPONSIBLEPETOWNER;
 class AchievementsResponseAchievementsSkyblockOneTimeROYALMEETING;
 class AchievementsResponseAchievementsSkyblockOneTimeWATCHFULPRESENCE;
@@ -7808,13 +7811,16 @@ class SkyblockCollectionsResponseCollectionsCOMBATItems;
 class SkyblockCollectionsResponseCollectionsCOMBAT;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsSEALUMIES;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG2;
+class SkyblockCollectionsResponseCollectionsFORAGINGItemsRUBYVEILSHROOM;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG1;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsVINESAP;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG3;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG22;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLUSHLILAC;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsMANGROVELOG;
+class SkyblockCollectionsResponseCollectionsFORAGINGItemsHELIXLOG;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG;
+class SkyblockCollectionsResponseCollectionsFORAGINGItemsHONEYCOMB;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsFIGLOG;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsTENDERWOOD;
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG21;
@@ -105373,6 +105379,16 @@ public:
   [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
+class AchievementsResponseAchievementsSkyblockOneTimeCLEANINGHOUSE : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView secret() const { return at("secret"); }
+};
+
 class AchievementsResponseAchievementsSkyblockOneTimeIOWNTHISPLACE : public JsonView {
 public:
   using JsonView::JsonView;
@@ -105515,6 +105531,16 @@ public:
   [[nodiscard]] JsonView description() const { return at("description"); }
   [[nodiscard]] JsonView gamePercentUnlocked() const { return at("gamePercentUnlocked"); }
   [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
+};
+
+class AchievementsResponseAchievementsSkyblockOneTimeWHATTHEFLIP : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView secret() const { return at("secret"); }
 };
 
 class AchievementsResponseAchievementsSkyblockOneTimeROUGHDEAL : public JsonView {
@@ -105975,6 +106001,16 @@ public:
   [[nodiscard]] JsonView description() const { return at("description"); }
   [[nodiscard]] JsonView gamePercentUnlocked() const { return at("gamePercentUnlocked"); }
   [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
+};
+
+class AchievementsResponseAchievementsSkyblockOneTimeTHEMIRACLEINASUNBEAM : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView secret() const { return at("secret"); }
 };
 
 class AchievementsResponseAchievementsSkyblockOneTimeRESPONSIBLEPETOWNER : public JsonView {
@@ -107208,6 +107244,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeTHEFLASH THE_FLASH() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeTHEFLASH>("THE_FLASH"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeSTUBBORNGIVER STUBBORN_GIVER() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeSTUBBORNGIVER>("STUBBORN_GIVER"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimePRECIOUSMINERALS PRECIOUS_MINERALS() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimePRECIOUSMINERALS>("PRECIOUS_MINERALS"); }
+  [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeCLEANINGHOUSE CLEANING_HOUSE() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeCLEANINGHOUSE>("CLEANING_HOUSE"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeIOWNTHISPLACE I_OWN_THIS_PLACE() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeIOWNTHISPLACE>("I_OWN_THIS_PLACE"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeFORTUNATE FORTUNATE() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeFORTUNATE>("FORTUNATE"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeHASTALAVISTA HASTA_LA_VISTA() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeHASTALAVISTA>("HASTA_LA_VISTA"); }
@@ -107221,6 +107258,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeIMFASTASHECKBOY IM_FAST_AS_HECK_BOY() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeIMFASTASHECKBOY>("IM_FAST_AS_HECK_BOY"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeCAUGHTTHEGRINCH CAUGHT_THE_GRINCH() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeCAUGHTTHEGRINCH>("CAUGHT_THE_GRINCH"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeSNAKECHARMER SNAKE_CHARMER() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeSNAKECHARMER>("SNAKE_CHARMER"); }
+  [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeWHATTHEFLIP WHAT_THE_FLIP() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeWHATTHEFLIP>("WHAT_THE_FLIP"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeROUGHDEAL ROUGH_DEAL() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeROUGHDEAL>("ROUGH_DEAL"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeSUPERFUEL SUPER_FUEL() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeSUPERFUEL>("SUPER_FUEL"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeNIGHTMARE NIGHTMARE() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeNIGHTMARE>("NIGHTMARE"); }
@@ -107263,6 +107301,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimePRODUCTIONEXPANDED PRODUCTION_EXPANDED() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimePRODUCTIONEXPANDED>("PRODUCTION_EXPANDED"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeNEXTGENERATION NEXT_GENERATION() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeNEXTGENERATION>("NEXT_GENERATION"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeALWAYSSUNNYINSB ALWAYS_SUNNY_IN_SB() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeALWAYSSUNNYINSB>("ALWAYS_SUNNY_IN_SB"); }
+  [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeTHEMIRACLEINASUNBEAM THE_MIRACLE_IN_A_SUNBEAM() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeTHEMIRACLEINASUNBEAM>("THE_MIRACLE_IN_A_SUNBEAM"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeRESPONSIBLEPETOWNER RESPONSIBLE_PET_OWNER() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeRESPONSIBLEPETOWNER>("RESPONSIBLE_PET_OWNER"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeROYALMEETING ROYAL_MEETING() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeROYALMEETING>("ROYAL_MEETING"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeWATCHFULPRESENCE WATCHFUL_PRESENCE() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeWATCHFULPRESENCE>("WATCHFUL_PRESENCE"); }
@@ -143594,6 +143633,15 @@ public:
   [[nodiscard]] JsonView tiers() const { return at("tiers"); }
 };
 
+class SkyblockCollectionsResponseCollectionsFORAGINGItemsRUBYVEILSHROOM : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView maxTiers() const { return at("maxTiers"); }
+  [[nodiscard]] JsonView tiers() const { return at("tiers"); }
+};
+
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG1 : public JsonView {
 public:
   using JsonView::JsonView;
@@ -143648,7 +143696,25 @@ public:
   [[nodiscard]] JsonView tiers() const { return at("tiers"); }
 };
 
+class SkyblockCollectionsResponseCollectionsFORAGINGItemsHELIXLOG : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView maxTiers() const { return at("maxTiers"); }
+  [[nodiscard]] JsonView tiers() const { return at("tiers"); }
+};
+
 class SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView maxTiers() const { return at("maxTiers"); }
+  [[nodiscard]] JsonView tiers() const { return at("tiers"); }
+};
+
+class SkyblockCollectionsResponseCollectionsFORAGINGItemsHONEYCOMB : public JsonView {
 public:
   using JsonView::JsonView;
 
@@ -143690,13 +143756,16 @@ public:
 
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsSEALUMIES SEA_LUMIES() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsSEALUMIES>("SEA_LUMIES"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG2 LOG_2() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG2>("LOG_2"); }
+  [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsRUBYVEILSHROOM RUBY_VEILSHROOM() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsRUBYVEILSHROOM>("RUBY_VEILSHROOM"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG1 LOG_1() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG1>("LOG:1"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsVINESAP VINESAP() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsVINESAP>("VINESAP"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG3 LOG_3() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG3>("LOG:3"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG22 LOG_2_2() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG22>("LOG:2"); } // JSON key: LOG:2
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsLUSHLILAC LUSHLILAC() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsLUSHLILAC>("LUSHLILAC"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsMANGROVELOG MANGROVE_LOG() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsMANGROVELOG>("MANGROVE_LOG"); }
+  [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsHELIXLOG HELIX_LOG() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsHELIXLOG>("HELIX_LOG"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG LOG() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG>("LOG"); }
+  [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsHONEYCOMB HONEYCOMB() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsHONEYCOMB>("HONEYCOMB"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsFIGLOG FIG_LOG() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsFIGLOG>("FIG_LOG"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsTENDERWOOD TENDER_WOOD() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsTENDERWOOD>("TENDER_WOOD"); }
   [[nodiscard]] SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG21 LOG_2_1() const { return object_at<SkyblockCollectionsResponseCollectionsFORAGINGItemsLOG21>("LOG_2:1"); }
