@@ -7588,6 +7588,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT4;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment13;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment14;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts1;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts2;
@@ -134578,6 +134579,7 @@ public:
   [[nodiscard]] JsonView sneaky_tiki_71() const { return at("sneaky_tiki_71"); }
   [[nodiscard]] JsonView honeymite() const { return at("honeymite"); }
   [[nodiscard]] JsonView murkbat() const { return at("murkbat"); }
+  [[nodiscard]] JsonView shrieky_tiki_71() const { return at("shrieky_tiki_71"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -141203,6 +141205,13 @@ public:
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment14 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment : public JsonView {
 public:
   using JsonView::JsonView;
@@ -141220,6 +141229,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11 _11() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11>("11"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12 _12() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12>("12"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment13 _13() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment13>("13"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment14 _14() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment14>("14"); }
 
   [[nodiscard]] JsonView equipped_set() const { return at("equipped_set"); }
 };
