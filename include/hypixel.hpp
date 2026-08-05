@@ -2383,6 +2383,7 @@ class PlayerResponsePlayerStatsDuelsBlitzDuelLayoutTim5;
 class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger;
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1;
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutAutomatonNew;
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutWitch1;
 class PlayerResponsePlayerStatsDuels;
 class PlayerResponsePlayerStatsBuildBattleLeaderboardSettings;
 class PlayerResponsePlayerStatsBuildBattleLastWon;
@@ -19246,6 +19247,10 @@ public:
   [[nodiscard]] JsonView tourney_blitz_duo_1_taunt_kills_fisherman() const { return at("tourney_blitz_duo_1_taunt_kills_fisherman"); }
   [[nodiscard]] JsonView tourney_blitz_duo_2_taunt_kills_fisherman() const { return at("tourney_blitz_duo_2_taunt_kills_fisherman"); }
   [[nodiscard]] JsonView tourney_blitz_duo_2_taunt_kills_golem() const { return at("tourney_blitz_duo_2_taunt_kills_golem"); }
+  [[nodiscard]] JsonView kit_item_rename_Troll_monster_egg() const { return at("kit_item_rename_Troll_monster_egg"); }
+  [[nodiscard]] JsonView kit_item_rename_Florist_red_rose() const { return at("kit_item_rename_Florist_red_rose"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_wins_teams_troll() const { return at("tourney_blitz_duo_1_wins_teams_troll"); }
+  [[nodiscard]] JsonView tourney_blitz_duo_1_arrows_fired_troll() const { return at("tourney_blitz_duo_1_arrows_fired_troll"); }
 };
 
 class PlayerResponsePlayerStatsMCGOMcgo : public JsonView {
@@ -20438,12 +20443,17 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
+  [[nodiscard]] JsonView _11() const { return at("11"); }
   [[nodiscard]] JsonView _12() const { return at("12"); }
   [[nodiscard]] JsonView _13() const { return at("13"); }
   [[nodiscard]] JsonView _14() const { return at("14"); }
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _19() const { return at("19"); }
+  [[nodiscard]] JsonView _20() const { return at("20"); }
+  [[nodiscard]] JsonView _21() const { return at("21"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
@@ -20452,6 +20462,7 @@ public:
   [[nodiscard]] JsonView _30() const { return at("30"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
+  [[nodiscard]] JsonView _34() const { return at("34"); }
   [[nodiscard]] JsonView _35() const { return at("35"); }
 };
 
@@ -33625,6 +33636,13 @@ public:
   [[nodiscard]] JsonView dragon_b_final_kills_below_10_hp() const { return at("dragon_b_final_kills_below_10_hp"); }
   [[nodiscard]] JsonView dragon_b_final_kills_below_10_hp_standard() const { return at("dragon_b_final_kills_below_10_hp_standard"); }
   [[nodiscard]] JsonView moleman_wither_kills_last_alive_standard() const { return at("moleman_wither_kills_last_alive_standard"); }
+  [[nodiscard]] JsonView spider_b_final_assists_gvg() const { return at("spider_b_final_assists_gvg"); }
+  [[nodiscard]] JsonView moleman_c_final_kills_melee_behind_standard() const { return at("moleman_c_final_kills_melee_behind_standard"); }
+  [[nodiscard]] JsonView snowman_b_total_final_kills_face_off() const { return at("snowman_b_total_final_kills_face_off"); }
+  [[nodiscard]] JsonView snowman_b_final_assists_melee_face_off() const { return at("snowman_b_final_assists_melee_face_off"); }
+  [[nodiscard]] JsonView snowman_b_final_assists_face_off() const { return at("snowman_b_final_assists_face_off"); }
+  [[nodiscard]] JsonView shaman_a_final_kills_below_10_hp_gvg() const { return at("shaman_a_final_kills_below_10_hp_gvg"); }
+  [[nodiscard]] JsonView shaman_fish_eaten_gvg() const { return at("shaman_fish_eaten_gvg"); }
 };
 
 class PlayerResponsePlayerStatsGingerBread : public JsonView {
@@ -57403,6 +57421,7 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGREENHOODVoidSlash : public JsonView {
@@ -69564,6 +69583,12 @@ public:
 
 };
 
+class PlayerResponsePlayerStatsDuelsSwDuelLayoutWitch1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+};
+
 class PlayerResponsePlayerStatsDuels : public JsonView {
 public:
   using JsonView::JsonView;
@@ -69946,6 +69971,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger layout_sw_duel_kit_mythical_fishmonger() const { return object_at<PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger>("layout_sw_duel_kit_mythical_fishmonger"); }
   [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1 sw_duel_layout_knight_1() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1>("sw_duel_layout_knight_1"); }
   [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutAutomatonNew mw_duel_layout_automaton_new() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutAutomatonNew>("mw_duel_layout_automaton_new"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutWitch1 sw_duel_layout_witch_1() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutWitch1>("sw_duel_layout_witch_1"); }
 
   [[nodiscard]] JsonView duels_recently_played() const { return at("duels_recently_played"); }
   [[nodiscard]] JsonView sw_duels_kit() const { return at("sw_duels_kit"); }
