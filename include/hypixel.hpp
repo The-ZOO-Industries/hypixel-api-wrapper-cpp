@@ -139011,6 +139011,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView spent() const { return at("spent"); }
+  [[nodiscard]] JsonView spent_non_refundable() const { return at("spent_non_refundable"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidForagingCoreWhispersForest2 : public JsonView {
@@ -139018,6 +139019,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView spent() const { return at("spent"); }
+  [[nodiscard]] JsonView spent_non_refundable() const { return at("spent_non_refundable"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidForagingCoreWhispersForest3 : public JsonView {
@@ -139477,6 +139479,8 @@ public:
   [[nodiscard]] JsonView witchs_fortune() const { return at("witchs_fortune"); }
   [[nodiscard]] JsonView pickaxe_cooldown() const { return at("pickaxe_cooldown"); }
   [[nodiscard]] JsonView ticket_discount() const { return at("ticket_discount"); }
+  [[nodiscard]] JsonView floor_fortune() const { return at("floor_fortune"); }
+  [[nodiscard]] JsonView animal_fortune() const { return at("animal_fortune"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
