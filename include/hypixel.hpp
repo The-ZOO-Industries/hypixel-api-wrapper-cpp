@@ -123732,6 +123732,7 @@ public:
   [[nodiscard]] JsonView water_snake_35() const { return at("water_snake_35"); }
   [[nodiscard]] JsonView cheeky_tiki_71() const { return at("cheeky_tiki_71"); }
   [[nodiscard]] JsonView mantis_shrimp_1() const { return at("mantis_shrimp_1"); }
+  [[nodiscard]] JsonView strongarm_1() const { return at("strongarm_1"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133229,6 +133230,7 @@ public:
   [[nodiscard]] JsonView water_snake() const { return at("water_snake"); }
   [[nodiscard]] JsonView cheeky_tiki() const { return at("cheeky_tiki"); }
   [[nodiscard]] JsonView mantis_shrimp() const { return at("mantis_shrimp"); }
+  [[nodiscard]] JsonView strongarm() const { return at("strongarm"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -134585,6 +134587,8 @@ public:
   [[nodiscard]] JsonView cod() const { return at("cod"); }
   [[nodiscard]] JsonView verdant() const { return at("verdant"); }
   [[nodiscard]] JsonView salmon() const { return at("salmon"); }
+  [[nodiscard]] JsonView hideonleaf() const { return at("hideonleaf"); }
+  [[nodiscard]] JsonView coralot() const { return at("coralot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -138305,6 +138309,10 @@ public:
   [[nodiscard]] JsonView toggle_forest_fisher() const { return at("toggle_forest_fisher"); }
   [[nodiscard]] JsonView free_trial() const { return at("free_trial"); }
   [[nodiscard]] JsonView toggle_free_trial() const { return at("toggle_free_trial"); }
+  [[nodiscard]] JsonView timber() const { return at("timber"); }
+  [[nodiscard]] JsonView toggle_timber() const { return at("toggle_timber"); }
+  [[nodiscard]] JsonView two_for_one() const { return at("two_for_one"); }
+  [[nodiscard]] JsonView toggle_two_for_one() const { return at("toggle_two_for_one"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging2 : public JsonView {
