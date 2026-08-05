@@ -122670,6 +122670,7 @@ public:
   [[nodiscard]] JsonView goldolot_13() const { return at("goldolot_13"); }
   [[nodiscard]] JsonView honeymite_52() const { return at("honeymite_52"); }
   [[nodiscard]] JsonView murkbat_58() const { return at("murkbat_58"); }
+  [[nodiscard]] JsonView shellwise_14() const { return at("shellwise_14"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryDeaths : public JsonView {
@@ -134580,6 +134581,10 @@ public:
   [[nodiscard]] JsonView honeymite() const { return at("honeymite"); }
   [[nodiscard]] JsonView murkbat() const { return at("murkbat"); }
   [[nodiscard]] JsonView shrieky_tiki_71() const { return at("shrieky_tiki_71"); }
+  [[nodiscard]] JsonView azure() const { return at("azure"); }
+  [[nodiscard]] JsonView cod() const { return at("cod"); }
+  [[nodiscard]] JsonView verdant() const { return at("verdant"); }
+  [[nodiscard]] JsonView salmon() const { return at("salmon"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -139447,6 +139452,12 @@ public:
   [[nodiscard]] JsonView slayer_discount() const { return at("slayer_discount"); }
   [[nodiscard]] JsonView rekindle() const { return at("rekindle"); }
   [[nodiscard]] JsonView helix_collector() const { return at("helix_collector"); }
+  [[nodiscard]] JsonView honey_serendipity() const { return at("honey_serendipity"); }
+  [[nodiscard]] JsonView egg_finder() const { return at("egg_finder"); }
+  [[nodiscard]] JsonView treasure_fisher() const { return at("treasure_fisher"); }
+  [[nodiscard]] JsonView cocoon_chance() const { return at("cocoon_chance"); }
+  [[nodiscard]] JsonView glossy_fortune() const { return at("glossy_fortune"); }
+  [[nodiscard]] JsonView witchs_fortune() const { return at("witchs_fortune"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
