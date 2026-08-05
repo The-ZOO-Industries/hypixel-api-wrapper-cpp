@@ -134533,6 +134533,9 @@ public:
   [[nodiscard]] JsonView hewver() const { return at("hewver"); }
   [[nodiscard]] JsonView honeyhog() const { return at("honeyhog"); }
   [[nodiscard]] JsonView goldolot() const { return at("goldolot"); }
+  [[nodiscard]] JsonView cheeky_tiki_71() const { return at("cheeky_tiki_71"); }
+  [[nodiscard]] JsonView flavor_packed_fish() const { return at("flavor_packed_fish"); }
+  [[nodiscard]] JsonView sneaky_tiki_71() const { return at("sneaky_tiki_71"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -138313,6 +138316,8 @@ public:
   [[nodiscard]] JsonView toggle_starlyn_supreme() const { return at("toggle_starlyn_supreme"); }
   [[nodiscard]] JsonView forest_fisher() const { return at("forest_fisher"); }
   [[nodiscard]] JsonView toggle_forest_fisher() const { return at("toggle_forest_fisher"); }
+  [[nodiscard]] JsonView maniac_slicer() const { return at("maniac_slicer"); }
+  [[nodiscard]] JsonView toggle_maniac_slicer() const { return at("toggle_maniac_slicer"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging3 : public JsonView {
@@ -139388,6 +139393,7 @@ public:
   [[nodiscard]] JsonView compost_speed() const { return at("compost_speed"); }
   [[nodiscard]] JsonView mite_spawner() const { return at("mite_spawner"); }
   [[nodiscard]] JsonView crimson_essence() const { return at("crimson_essence"); }
+  [[nodiscard]] JsonView slayer_discount() const { return at("slayer_discount"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
