@@ -138374,6 +138374,13 @@ public:
   [[nodiscard]] JsonView toggle_forest_fisher() const { return at("toggle_forest_fisher"); }
   [[nodiscard]] JsonView maniac_slicer() const { return at("maniac_slicer"); }
   [[nodiscard]] JsonView toggle_maniac_slicer() const { return at("toggle_maniac_slicer"); }
+  [[nodiscard]] JsonView beekeeper() const { return at("beekeeper"); }
+  [[nodiscard]] JsonView timber() const { return at("timber"); }
+  [[nodiscard]] JsonView toggle_beekeeper() const { return at("toggle_beekeeper"); }
+  [[nodiscard]] JsonView toggle_timber() const { return at("toggle_timber"); }
+  [[nodiscard]] JsonView toggle_two_for_one() const { return at("toggle_two_for_one"); }
+  [[nodiscard]] JsonView two_for_one() const { return at("two_for_one"); }
+  [[nodiscard]] JsonView half_empty() const { return at("half_empty"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging3 : public JsonView {
@@ -139113,6 +139120,8 @@ public:
   [[nodiscard]] JsonView forests_whispers_spent_2() const { return at("forests_whispers_spent_2"); }
   [[nodiscard]] JsonView forests_whispers_spent_non_refundable() const { return at("forests_whispers_spent_non_refundable"); }
   [[nodiscard]] JsonView forests_whispers_spent_non_refundable_2() const { return at("forests_whispers_spent_non_refundable_2"); }
+  [[nodiscard]] JsonView beekeeper_effect() const { return at("beekeeper_effect"); }
+  [[nodiscard]] JsonView beekeeper_effect_last_changed() const { return at("beekeeper_effect_last_changed"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidShardsTraps : public JsonView {
@@ -139458,6 +139467,8 @@ public:
   [[nodiscard]] JsonView cocoon_chance() const { return at("cocoon_chance"); }
   [[nodiscard]] JsonView glossy_fortune() const { return at("glossy_fortune"); }
   [[nodiscard]] JsonView witchs_fortune() const { return at("witchs_fortune"); }
+  [[nodiscard]] JsonView pickaxe_cooldown() const { return at("pickaxe_cooldown"); }
+  [[nodiscard]] JsonView ticket_discount() const { return at("ticket_discount"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
