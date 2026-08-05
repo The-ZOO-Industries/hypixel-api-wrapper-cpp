@@ -122633,6 +122633,8 @@ public:
   [[nodiscard]] JsonView queen_ant_69() const { return at("queen_ant_69"); }
   [[nodiscard]] JsonView macaw_1() const { return at("macaw_1"); }
   [[nodiscard]] JsonView hewver_69() const { return at("hewver_69"); }
+  [[nodiscard]] JsonView honeyhog_32() const { return at("honeyhog_32"); }
+  [[nodiscard]] JsonView goldolot_13() const { return at("goldolot_13"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryDeaths : public JsonView {
@@ -123690,6 +123692,7 @@ public:
   [[nodiscard]] JsonView doomspiral_1() const { return at("doomspiral_1"); }
   [[nodiscard]] JsonView silkbreeze_105() const { return at("silkbreeze_105"); }
   [[nodiscard]] JsonView wumpa_1() const { return at("wumpa_1"); }
+  [[nodiscard]] JsonView polaris_1() const { return at("polaris_1"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133183,6 +133186,7 @@ public:
   [[nodiscard]] JsonView doomspiral() const { return at("doomspiral"); }
   [[nodiscard]] JsonView silkbreeze() const { return at("silkbreeze"); }
   [[nodiscard]] JsonView wumpa() const { return at("wumpa"); }
+  [[nodiscard]] JsonView polaris() const { return at("polaris"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -134527,6 +134531,8 @@ public:
   [[nodiscard]] JsonView queen_ant_69() const { return at("queen_ant_69"); }
   [[nodiscard]] JsonView invisibug() const { return at("invisibug"); }
   [[nodiscard]] JsonView hewver() const { return at("hewver"); }
+  [[nodiscard]] JsonView honeyhog() const { return at("honeyhog"); }
+  [[nodiscard]] JsonView goldolot() const { return at("goldolot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -135115,6 +135121,7 @@ public:
   [[nodiscard]] JsonView fresh_footprints() const { return at("fresh_footprints"); }
   [[nodiscard]] JsonView thawing() const { return at("thawing"); }
   [[nodiscard]] JsonView amateur_hour() const { return at("amateur_hour"); }
+  [[nodiscard]] JsonView hunting_hotspot() const { return at("hunting_hotspot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerDataExperience : public JsonView {
