@@ -48040,6 +48040,9 @@ public:
   [[nodiscard]] JsonView challenge_wins_0_kit_supporting_team_enchanter() const { return at("challenge_wins_0_kit_supporting_team_enchanter"); }
   [[nodiscard]] JsonView challenge_wins_2_kit_advanced_solo_engineer() const { return at("challenge_wins_2_kit_advanced_solo_engineer"); }
   [[nodiscard]] JsonView challenge_wins_3_kit_advanced_solo_engineer() const { return at("challenge_wins_3_kit_advanced_solo_engineer"); }
+  [[nodiscard]] JsonView challenge_wins_8_kit_attacking_team_engineer() const { return at("challenge_wins_8_kit_attacking_team_engineer"); }
+  [[nodiscard]] JsonView challenge_wins_ultimate_warrior_kit_attacking_team_engineer() const { return at("challenge_wins_ultimate_warrior_kit_attacking_team_engineer"); }
+  [[nodiscard]] JsonView challenge_wins_no_chest_kit_attacking_team_engineer() const { return at("challenge_wins_no_chest_kit_attacking_team_engineer"); }
 };
 
 class PlayerResponsePlayerStatsTrueCombat : public JsonView {
@@ -122671,6 +122674,7 @@ public:
   [[nodiscard]] JsonView honeymite_52() const { return at("honeymite_52"); }
   [[nodiscard]] JsonView murkbat_58() const { return at("murkbat_58"); }
   [[nodiscard]] JsonView shellwise_14() const { return at("shellwise_14"); }
+  [[nodiscard]] JsonView shellwise_12() const { return at("shellwise_12"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryDeaths : public JsonView {
