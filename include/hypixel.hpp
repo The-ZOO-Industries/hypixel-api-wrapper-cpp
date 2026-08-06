@@ -139523,6 +139523,8 @@ public:
   [[nodiscard]] JsonView animal_fortune() const { return at("animal_fortune"); }
   [[nodiscard]] JsonView outstanding_fisher() const { return at("outstanding_fisher"); }
   [[nodiscard]] JsonView royal_riches() const { return at("royal_riches"); }
+  [[nodiscard]] JsonView refined_luck() const { return at("refined_luck"); }
+  [[nodiscard]] JsonView ghastly_distraction() const { return at("ghastly_distraction"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
