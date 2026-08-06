@@ -50364,6 +50364,7 @@ public:
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKMelee : public JsonView {
@@ -50390,6 +50391,8 @@ public:
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
+  [[nodiscard]] JsonView killsteams() const { return at("killsteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKMonsterCharge : public JsonView {
@@ -50415,6 +50418,8 @@ public:
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView killsteams() const { return at("killsteams"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKBoulder : public JsonView {
@@ -50440,6 +50445,8 @@ public:
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView killsteams() const { return at("killsteams"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKMonsterMash : public JsonView {
@@ -50463,6 +50470,7 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKLaserCannon : public JsonView {
@@ -50632,6 +50640,7 @@ public:
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView smashedteams() const { return at("smashedteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKRocketPunch : public JsonView {
@@ -51075,6 +51084,13 @@ public:
   [[nodiscard]] JsonView friend_losses_normal() const { return at("friend_losses_normal"); }
   [[nodiscard]] JsonView one_v_one_losses() const { return at("one_v_one_losses"); }
   [[nodiscard]] JsonView one_v_one_losses_normal() const { return at("one_v_one_losses_normal"); }
+  [[nodiscard]] JsonView deathsteams() const { return at("deathsteams"); }
+  [[nodiscard]] JsonView winsteams() const { return at("winsteams"); }
+  [[nodiscard]] JsonView smashedteams() const { return at("smashedteams"); }
+  [[nodiscard]] JsonView gamesteams() const { return at("gamesteams"); }
+  [[nodiscard]] JsonView win_streakteams() const { return at("win_streakteams"); }
+  [[nodiscard]] JsonView killsteams() const { return at("killsteams"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERSwingPin : public JsonView {
@@ -51099,6 +51115,7 @@ public:
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERMelee : public JsonView {
@@ -51122,6 +51139,7 @@ public:
   [[nodiscard]] JsonView smasher_normal() const { return at("smasher_normal"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERCakeStorm : public JsonView {
@@ -51147,6 +51165,7 @@ public:
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERForceLightning : public JsonView {
@@ -51185,6 +51204,8 @@ public:
   [[nodiscard]] JsonView smasher_3v3() const { return at("smasher_3v3"); }
   [[nodiscard]] JsonView kills_3v3() const { return at("kills_3v3"); }
   [[nodiscard]] JsonView damage_dealt_3v3() const { return at("damage_dealt_3v3"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
+  [[nodiscard]] JsonView killsteams() const { return at("killsteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERLaserCannon : public JsonView {
@@ -51198,6 +51219,7 @@ public:
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView smashedteams() const { return at("smashedteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsCAKEMONSTERBatarang : public JsonView {
@@ -51789,6 +51811,13 @@ public:
   [[nodiscard]] JsonView games_3v3() const { return at("games_3v3"); }
   [[nodiscard]] JsonView win_streak_3v3() const { return at("win_streak_3v3"); }
   [[nodiscard]] JsonView wins_3v3() const { return at("wins_3v3"); }
+  [[nodiscard]] JsonView killsteams() const { return at("killsteams"); }
+  [[nodiscard]] JsonView gamesteams() const { return at("gamesteams"); }
+  [[nodiscard]] JsonView smashedteams() const { return at("smashedteams"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
+  [[nodiscard]] JsonView winsteams() const { return at("winsteams"); }
+  [[nodiscard]] JsonView win_streakteams() const { return at("win_streakteams"); }
+  [[nodiscard]] JsonView deathsteams() const { return at("deathsteams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsMARAUDERMelee : public JsonView {
@@ -59659,6 +59688,12 @@ public:
   [[nodiscard]] JsonView votes_Solaris_Templum() const { return at("votes_Solaris Templum"); }
   [[nodiscard]] JsonView wins_3v3() const { return at("wins_3v3"); }
   [[nodiscard]] JsonView votes_Laboratory() const { return at("votes_Laboratory"); }
+  [[nodiscard]] JsonView smashedteams() const { return at("smashedteams"); }
+  [[nodiscard]] JsonView killsteams() const { return at("killsteams"); }
+  [[nodiscard]] JsonView gamesteams() const { return at("gamesteams"); }
+  [[nodiscard]] JsonView winsteams() const { return at("winsteams"); }
+  [[nodiscard]] JsonView damage_dealtteams() const { return at("damage_dealtteams"); }
+  [[nodiscard]] JsonView deathsteams() const { return at("deathsteams"); }
 };
 
 class PlayerResponsePlayerStatsSpeedUHC : public JsonView {
@@ -134593,6 +134628,7 @@ public:
   [[nodiscard]] JsonView salmon() const { return at("salmon"); }
   [[nodiscard]] JsonView hideonleaf() const { return at("hideonleaf"); }
   [[nodiscard]] JsonView coralot() const { return at("coralot"); }
+  [[nodiscard]] JsonView mossybit() const { return at("mossybit"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -139485,6 +139521,8 @@ public:
   [[nodiscard]] JsonView ticket_discount() const { return at("ticket_discount"); }
   [[nodiscard]] JsonView floor_fortune() const { return at("floor_fortune"); }
   [[nodiscard]] JsonView animal_fortune() const { return at("animal_fortune"); }
+  [[nodiscard]] JsonView outstanding_fisher() const { return at("outstanding_fisher"); }
+  [[nodiscard]] JsonView royal_riches() const { return at("royal_riches"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
