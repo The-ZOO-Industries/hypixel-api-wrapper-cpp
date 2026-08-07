@@ -123778,6 +123778,10 @@ public:
   [[nodiscard]] JsonView cheeky_tiki_71() const { return at("cheeky_tiki_71"); }
   [[nodiscard]] JsonView mantis_shrimp_1() const { return at("mantis_shrimp_1"); }
   [[nodiscard]] JsonView strongarm_1() const { return at("strongarm_1"); }
+  [[nodiscard]] JsonView master_crypt_undead_dctr_55() const { return at("master_crypt_undead_dctr_55"); }
+  [[nodiscard]] JsonView master_crypt_undead_jayavarmen_55() const { return at("master_crypt_undead_jayavarmen_55"); }
+  [[nodiscard]] JsonView master_crypt_undead_sylent_55() const { return at("master_crypt_undead_sylent_55"); }
+  [[nodiscard]] JsonView frozen_steve_7() const { return at("frozen_steve_7"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133276,6 +133280,7 @@ public:
   [[nodiscard]] JsonView cheeky_tiki() const { return at("cheeky_tiki"); }
   [[nodiscard]] JsonView mantis_shrimp() const { return at("mantis_shrimp"); }
   [[nodiscard]] JsonView strongarm() const { return at("strongarm"); }
+  [[nodiscard]] JsonView frozen_steve() const { return at("frozen_steve"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
