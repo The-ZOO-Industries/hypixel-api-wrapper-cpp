@@ -139148,6 +139148,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView spent() const { return at("spent"); }
+  [[nodiscard]] JsonView spent_non_refundable() const { return at("spent_non_refundable"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidForagingCoreWhispersDesert2 : public JsonView {
@@ -139155,6 +139156,7 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView spent() const { return at("spent"); }
+  [[nodiscard]] JsonView spent_non_refundable() const { return at("spent_non_refundable"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidForagingCoreWhispersDesert3 : public JsonView {
