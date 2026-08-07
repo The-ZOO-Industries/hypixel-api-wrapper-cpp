@@ -138448,6 +138448,41 @@ public:
 
   [[nodiscard]] JsonView center_of_the_forest() const { return at("center_of_the_forest"); }
   [[nodiscard]] JsonView toggle_center_of_the_forest() const { return at("toggle_center_of_the_forest"); }
+  [[nodiscard]] JsonView _250_gifts() const { return at("250_gifts"); }
+  [[nodiscard]] JsonView foraging_fortune() const { return at("foraging_fortune"); }
+  [[nodiscard]] JsonView hunters_luck() const { return at("hunters_luck"); }
+  [[nodiscard]] JsonView luck_of_the_forest() const { return at("luck_of_the_forest"); }
+  [[nodiscard]] JsonView sweep() const { return at("sweep"); }
+  [[nodiscard]] JsonView toggle_250_gifts() const { return at("toggle_250_gifts"); }
+  [[nodiscard]] JsonView toggle_foraging_fortune() const { return at("toggle_foraging_fortune"); }
+  [[nodiscard]] JsonView toggle_hunters_luck() const { return at("toggle_hunters_luck"); }
+  [[nodiscard]] JsonView toggle_luck_of_the_forest() const { return at("toggle_luck_of_the_forest"); }
+  [[nodiscard]] JsonView toggle_sweep() const { return at("toggle_sweep"); }
+  [[nodiscard]] JsonView efficient_forager() const { return at("efficient_forager"); }
+  [[nodiscard]] JsonView essence_fortune() const { return at("essence_fortune"); }
+  [[nodiscard]] JsonView foraging_madness() const { return at("foraging_madness"); }
+  [[nodiscard]] JsonView forest_speed() const { return at("forest_speed"); }
+  [[nodiscard]] JsonView forest_strength() const { return at("forest_strength"); }
+  [[nodiscard]] JsonView half_full() const { return at("half_full"); }
+  [[nodiscard]] JsonView iron_lungs() const { return at("iron_lungs"); }
+  [[nodiscard]] JsonView speed_boost() const { return at("speed_boost"); }
+  [[nodiscard]] JsonView starlyn_supreme() const { return at("starlyn_supreme"); }
+  [[nodiscard]] JsonView timber() const { return at("timber"); }
+  [[nodiscard]] JsonView toggle_efficient_forager() const { return at("toggle_efficient_forager"); }
+  [[nodiscard]] JsonView toggle_essence_fortune() const { return at("toggle_essence_fortune"); }
+  [[nodiscard]] JsonView toggle_foraging_madness() const { return at("toggle_foraging_madness"); }
+  [[nodiscard]] JsonView toggle_forest_speed() const { return at("toggle_forest_speed"); }
+  [[nodiscard]] JsonView toggle_forest_strength() const { return at("toggle_forest_strength"); }
+  [[nodiscard]] JsonView toggle_half_empty() const { return at("toggle_half_empty"); }
+  [[nodiscard]] JsonView toggle_half_full() const { return at("toggle_half_full"); }
+  [[nodiscard]] JsonView toggle_iron_lungs() const { return at("toggle_iron_lungs"); }
+  [[nodiscard]] JsonView toggle_speed_boost() const { return at("toggle_speed_boost"); }
+  [[nodiscard]] JsonView toggle_starlyn_supreme() const { return at("toggle_starlyn_supreme"); }
+  [[nodiscard]] JsonView toggle_timber() const { return at("toggle_timber"); }
+  [[nodiscard]] JsonView toggle_tree_whisperer() const { return at("toggle_tree_whisperer"); }
+  [[nodiscard]] JsonView toggle_two_for_one() const { return at("toggle_two_for_one"); }
+  [[nodiscard]] JsonView tree_whisperer() const { return at("tree_whisperer"); }
+  [[nodiscard]] JsonView two_for_one() const { return at("two_for_one"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging4 : public JsonView {
