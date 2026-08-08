@@ -138370,6 +138370,8 @@ public:
   [[nodiscard]] JsonView toggle_timber() const { return at("toggle_timber"); }
   [[nodiscard]] JsonView two_for_one() const { return at("two_for_one"); }
   [[nodiscard]] JsonView toggle_two_for_one() const { return at("toggle_two_for_one"); }
+  [[nodiscard]] JsonView beekeeper() const { return at("beekeeper"); }
+  [[nodiscard]] JsonView toggle_beekeeper() const { return at("toggle_beekeeper"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging2 : public JsonView {
