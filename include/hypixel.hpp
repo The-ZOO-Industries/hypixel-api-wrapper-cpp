@@ -123782,6 +123782,7 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_jayavarmen_55() const { return at("master_crypt_undead_jayavarmen_55"); }
   [[nodiscard]] JsonView master_crypt_undead_sylent_55() const { return at("master_crypt_undead_sylent_55"); }
   [[nodiscard]] JsonView frozen_steve_7() const { return at("frozen_steve_7"); }
+  [[nodiscard]] JsonView scrappy_1() const { return at("scrappy_1"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133281,6 +133282,7 @@ public:
   [[nodiscard]] JsonView mantis_shrimp() const { return at("mantis_shrimp"); }
   [[nodiscard]] JsonView strongarm() const { return at("strongarm"); }
   [[nodiscard]] JsonView frozen_steve() const { return at("frozen_steve"); }
+  [[nodiscard]] JsonView scrappy() const { return at("scrappy"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
