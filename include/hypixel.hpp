@@ -7355,6 +7355,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining4;
+class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging3;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHinaTasksTaskProgress;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHinaTasks;
@@ -138496,6 +138497,12 @@ public:
   [[nodiscard]] JsonView ricochet() const { return at("ricochet"); }
   [[nodiscard]] JsonView toggle_lottery() const { return at("toggle_lottery"); }
   [[nodiscard]] JsonView toggle_ricochet() const { return at("toggle_ricochet"); }
+  [[nodiscard]] JsonView forest_fisher() const { return at("forest_fisher"); }
+  [[nodiscard]] JsonView homing_axe() const { return at("homing_axe"); }
+  [[nodiscard]] JsonView strength_boost() const { return at("strength_boost"); }
+  [[nodiscard]] JsonView toggle_forest_fisher() const { return at("toggle_forest_fisher"); }
+  [[nodiscard]] JsonView toggle_homing_axe() const { return at("toggle_homing_axe"); }
+  [[nodiscard]] JsonView toggle_strength_boost() const { return at("toggle_strength_boost"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging4 : public JsonView {
@@ -138897,6 +138904,13 @@ public:
   [[nodiscard]] JsonView custom_name() const { return at("custom_name"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging3 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView custom_name() const { return at("custom_name"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree : public JsonView {
 public:
   using JsonView::JsonView;
@@ -138913,6 +138927,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2 foraging_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging2>("foraging_2"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3 mining_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining3>("mining_3"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining4 mining_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining4>("mining_4"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging3 foraging_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging3>("foraging_3"); }
 
   [[nodiscard]] JsonView refund_ability_free() const { return at("refund_ability_free"); }
   [[nodiscard]] JsonView last_free_trial_day() const { return at("last_free_trial_day"); }
