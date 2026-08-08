@@ -138489,6 +138489,11 @@ public:
   [[nodiscard]] JsonView toggle_two_for_one() const { return at("toggle_two_for_one"); }
   [[nodiscard]] JsonView tree_whisperer() const { return at("tree_whisperer"); }
   [[nodiscard]] JsonView two_for_one() const { return at("two_for_one"); }
+  [[nodiscard]] JsonView half_empty() const { return at("half_empty"); }
+  [[nodiscard]] JsonView lottery() const { return at("lottery"); }
+  [[nodiscard]] JsonView ricochet() const { return at("ricochet"); }
+  [[nodiscard]] JsonView toggle_lottery() const { return at("toggle_lottery"); }
+  [[nodiscard]] JsonView toggle_ricochet() const { return at("toggle_ricochet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging4 : public JsonView {
