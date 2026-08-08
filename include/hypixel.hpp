@@ -134644,6 +134644,7 @@ public:
   [[nodiscard]] JsonView mossybit() const { return at("mossybit"); }
   [[nodiscard]] JsonView honeymite_52() const { return at("honeymite_52"); }
   [[nodiscard]] JsonView atom() const { return at("atom"); }
+  [[nodiscard]] JsonView stag_beetle_29() const { return at("stag_beetle_29"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -137972,6 +137973,7 @@ public:
   [[nodiscard]] JsonView missed_uncollected_eggs() const { return at("missed_uncollected_eggs"); }
   [[nodiscard]] JsonView egg_slot_cooldown_mark() const { return at("egg_slot_cooldown_mark"); }
   [[nodiscard]] JsonView egg_slot_cooldown_sum() const { return at("egg_slot_cooldown_sum"); }
+  [[nodiscard]] JsonView egg_finder_last_found() const { return at("egg_finder_last_found"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEaster : public JsonView {
