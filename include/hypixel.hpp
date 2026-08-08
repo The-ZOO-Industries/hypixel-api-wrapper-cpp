@@ -143485,6 +143485,7 @@ public:
   [[nodiscard]] JsonView requirement() const { return at("requirement"); }
   [[nodiscard]] JsonView status() const { return at("status"); }
   [[nodiscard]] JsonView position() const { return at("position"); }
+  [[nodiscard]] JsonView bonus_rewards() const { return at("bonus_rewards"); }
 };
 
 class SkyblockGardenResponseGardenActiveCommissionsMayorCole : public JsonView {
