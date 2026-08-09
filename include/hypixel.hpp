@@ -134646,6 +134646,7 @@ public:
   [[nodiscard]] JsonView honeymite_52() const { return at("honeymite_52"); }
   [[nodiscard]] JsonView atom() const { return at("atom"); }
   [[nodiscard]] JsonView stag_beetle_29() const { return at("stag_beetle_29"); }
+  [[nodiscard]] JsonView woodlouse_1() const { return at("woodlouse_1"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
