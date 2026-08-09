@@ -138727,6 +138727,8 @@ public:
   [[nodiscard]] JsonView toggle_mining_master() const { return at("toggle_mining_master"); }
   [[nodiscard]] JsonView gifts_from_the_departed() const { return at("gifts_from_the_departed"); }
   [[nodiscard]] JsonView toggle_gifts_from_the_departed() const { return at("toggle_gifts_from_the_departed"); }
+  [[nodiscard]] JsonView precision_mining() const { return at("precision_mining"); }
+  [[nodiscard]] JsonView toggle_precision_mining() const { return at("toggle_precision_mining"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining4 : public JsonView {
