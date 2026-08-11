@@ -6281,6 +6281,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneC
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastChefTed;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastBakerScott;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMiria;
+class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataArchie;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactData;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneOperatorChip;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneGames;
@@ -120403,6 +120404,14 @@ public:
   [[nodiscard]] JsonView dnd_enabled() const { return at("dnd_enabled"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataArchie : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView talked_to() const { return at("talked_to"); }
+  [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactData : public JsonView {
 public:
   using JsonView::JsonView;
@@ -120492,6 +120501,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastChefTed feast_chef_ted() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastChefTed>("feast_chef_ted"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastBakerScott feast_baker_scott() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastBakerScott>("feast_baker_scott"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMiria miria() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMiria>("miria"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataArchie archie() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataArchie>("archie"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneOperatorChip : public JsonView {
