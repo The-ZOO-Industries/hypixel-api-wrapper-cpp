@@ -138521,6 +138521,12 @@ public:
   [[nodiscard]] JsonView toggle_forest_fisher() const { return at("toggle_forest_fisher"); }
   [[nodiscard]] JsonView toggle_homing_axe() const { return at("toggle_homing_axe"); }
   [[nodiscard]] JsonView toggle_strength_boost() const { return at("toggle_strength_boost"); }
+  [[nodiscard]] JsonView daily_wishes() const { return at("daily_wishes"); }
+  [[nodiscard]] JsonView early_bird() const { return at("early_bird"); }
+  [[nodiscard]] JsonView free_trial() const { return at("free_trial"); }
+  [[nodiscard]] JsonView toggle_daily_wishes() const { return at("toggle_daily_wishes"); }
+  [[nodiscard]] JsonView toggle_early_bird() const { return at("toggle_early_bird"); }
+  [[nodiscard]] JsonView toggle_free_trial() const { return at("toggle_free_trial"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging4 : public JsonView {
