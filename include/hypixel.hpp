@@ -139209,6 +139209,7 @@ public:
   [[nodiscard]] JsonView hive_7() const { return at("hive_7"); }
   [[nodiscard]] JsonView hive_8() const { return at("hive_8"); }
   [[nodiscard]] JsonView hive_9() const { return at("hive_9"); }
+  [[nodiscard]] JsonView hive_3() const { return at("hive_3"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHoneySmearedTrees : public JsonView {
