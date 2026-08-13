@@ -7240,6 +7240,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceWITHER;
 class SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceUNDEAD;
 class SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceDIAMOND;
 class SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceGOLD;
+class SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceSAFARI;
 class SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssence;
 class SkyblockProfileV2ResponseProfileMembersUuidCurrencies;
 class SkyblockProfileV2ResponseProfileMembersUuidPetsDataAutopet;
@@ -7374,6 +7375,9 @@ class SkyblockProfileV2ResponseProfileMembersUuidForagingHuntingToolkitINUSEFISH
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHuntingToolkitINUSEPOCKETBLACKHOLE;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHuntingToolkitINUSE;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHuntingToolkit;
+class SkyblockProfileV2ResponseProfileMembersUuidForagingHoneyRefillTimes;
+class SkyblockProfileV2ResponseProfileMembersUuidForagingHoneySmearedTrees;
+class SkyblockProfileV2ResponseProfileMembersUuidForagingHoney;
 class SkyblockProfileV2ResponseProfileMembersUuidForaging;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingCoreWhispersForest1;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingCoreWhispersForest2;
@@ -7617,6 +7621,10 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts18;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts19;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadout;
+class SkyblockProfileV2ResponseProfileMembersUuidSafariMilestoneClaimedTiers;
+class SkyblockProfileV2ResponseProfileMembersUuidSafariTickets;
+class SkyblockProfileV2ResponseProfileMembersUuidSafariBiomeCaptures;
+class SkyblockProfileV2ResponseProfileMembersUuidSafari;
 class SkyblockProfileV2ResponseProfileMembersUuid;
 class SkyblockProfileV2ResponseProfileMembers;
 class SkyblockProfileV2ResponseProfileBanking;
@@ -135277,6 +135285,7 @@ public:
   [[nodiscard]] JsonView SKILL_MINING() const { return at("SKILL_MINING"); }
   [[nodiscard]] JsonView SKILL_DUNGEONEERING() const { return at("SKILL_DUNGEONEERING"); }
   [[nodiscard]] JsonView SKILL_HUNTING() const { return at("SKILL_HUNTING"); }
+  [[nodiscard]] JsonView SKILL_FORAGING_extra_level_cap() const { return at("SKILL_FORAGING_extra_level_cap"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerDataGardenChips : public JsonView {
@@ -135317,6 +135326,8 @@ public:
   [[nodiscard]] JsonView achievement_spawned_island_types() const { return at("achievement_spawned_island_types"); }
   [[nodiscard]] JsonView paused_effects() const { return at("paused_effects"); }
   [[nodiscard]] JsonView reaper_peppers_eaten() const { return at("reaper_peppers_eaten"); }
+  [[nodiscard]] JsonView isopod_husks_eaten() const { return at("isopod_husks_eaten"); }
+  [[nodiscard]] JsonView bee_saliva_eaten() const { return at("bee_saliva_eaten"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryInvArmor : public JsonView {
@@ -136614,6 +136625,13 @@ public:
   [[nodiscard]] JsonView current() const { return at("current"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceSAFARI : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView current() const { return at("current"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssence : public JsonView {
 public:
   using JsonView::JsonView;
@@ -136626,6 +136644,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceUNDEAD UNDEAD() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceUNDEAD>("UNDEAD"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceDIAMOND DIAMOND() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceDIAMOND>("DIAMOND"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceGOLD GOLD() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceGOLD>("GOLD"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceSAFARI SAFARI() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidCurrenciesEssenceSAFARI>("SAFARI"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidCurrencies : public JsonView {
@@ -139168,6 +139187,54 @@ public:
   [[nodiscard]] JsonView IS_UNLOCKED() const { return at("IS_UNLOCKED"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidForagingHoneyRefillTimes : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView hive_13() const { return at("hive_13"); }
+  [[nodiscard]] JsonView hive_14() const { return at("hive_14"); }
+  [[nodiscard]] JsonView hive_1() const { return at("hive_1"); }
+  [[nodiscard]] JsonView hive_10() const { return at("hive_10"); }
+  [[nodiscard]] JsonView hive_11() const { return at("hive_11"); }
+  [[nodiscard]] JsonView hive_12() const { return at("hive_12"); }
+  [[nodiscard]] JsonView hive_15() const { return at("hive_15"); }
+  [[nodiscard]] JsonView hive_16() const { return at("hive_16"); }
+  [[nodiscard]] JsonView hive_17() const { return at("hive_17"); }
+  [[nodiscard]] JsonView hive_18() const { return at("hive_18"); }
+  [[nodiscard]] JsonView hive_19() const { return at("hive_19"); }
+  [[nodiscard]] JsonView hive_2() const { return at("hive_2"); }
+  [[nodiscard]] JsonView hive_4() const { return at("hive_4"); }
+  [[nodiscard]] JsonView hive_5() const { return at("hive_5"); }
+  [[nodiscard]] JsonView hive_6() const { return at("hive_6"); }
+  [[nodiscard]] JsonView hive_7() const { return at("hive_7"); }
+  [[nodiscard]] JsonView hive_8() const { return at("hive_8"); }
+  [[nodiscard]] JsonView hive_9() const { return at("hive_9"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidForagingHoneySmearedTrees : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView fig_2() const { return at("fig_2"); }
+  [[nodiscard]] JsonView fig_3() const { return at("fig_3"); }
+  [[nodiscard]] JsonView mangrove_3() const { return at("mangrove_3"); }
+  [[nodiscard]] JsonView fig_1() const { return at("fig_1"); }
+  [[nodiscard]] JsonView mangrove_1() const { return at("mangrove_1"); }
+  [[nodiscard]] JsonView mangrove_2() const { return at("mangrove_2"); }
+  [[nodiscard]] JsonView helix_1() const { return at("helix_1"); }
+  [[nodiscard]] JsonView helix_3() const { return at("helix_3"); }
+  [[nodiscard]] JsonView helix_mega() const { return at("helix_mega"); }
+  [[nodiscard]] JsonView helix_2() const { return at("helix_2"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidForagingHoney : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidForagingHoneyRefillTimes refill_times() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidForagingHoneyRefillTimes>("refill_times"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidForagingHoneySmearedTrees smeared_trees() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidForagingHoneySmearedTrees>("smeared_trees"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidForaging : public JsonView {
 public:
   using JsonView::JsonView;
@@ -139177,6 +139244,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidForagingSongs songs() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidForagingSongs>("songs"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidForagingStarlyn starlyn() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidForagingStarlyn>("starlyn"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidForagingHuntingToolkit hunting_toolkit() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidForagingHuntingToolkit>("hunting_toolkit"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidForagingHoney honey() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidForagingHoney>("honey"); }
 
   [[nodiscard]] JsonView fish_family() const { return at("fish_family"); }
 };
@@ -141796,6 +141864,49 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts loadouts() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts>("loadouts"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidSafariMilestoneClaimedTiers : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView haunted() const { return at("haunted"); }
+  [[nodiscard]] JsonView forest() const { return at("forest"); }
+  [[nodiscard]] JsonView cavern() const { return at("cavern"); }
+  [[nodiscard]] JsonView icy() const { return at("icy"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidSafariTickets : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView economy() const { return at("economy"); }
+  [[nodiscard]] JsonView basic() const { return at("basic"); }
+  [[nodiscard]] JsonView first_class() const { return at("first_class"); }
+  [[nodiscard]] JsonView premium() const { return at("premium"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidSafariBiomeCaptures : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView haunted() const { return at("haunted"); }
+  [[nodiscard]] JsonView forest() const { return at("forest"); }
+  [[nodiscard]] JsonView cavern() const { return at("cavern"); }
+  [[nodiscard]] JsonView icy() const { return at("icy"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidSafari : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSafariMilestoneClaimedTiers milestone_claimed_tiers() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSafariMilestoneClaimedTiers>("milestone_claimed_tiers"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSafariTickets tickets() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSafariTickets>("tickets"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSafariBiomeCaptures biome_captures() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSafariBiomeCaptures>("biome_captures"); }
+
+  [[nodiscard]] JsonView discovered_critters() const { return at("discovered_critters"); }
+  [[nodiscard]] JsonView discovered_sparkling_critters() const { return at("discovered_sparkling_critters"); }
+  [[nodiscard]] JsonView total_captured_sparkling_critters() const { return at("total_captured_sparkling_critters"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuid : public JsonView {
 public:
   using JsonView::JsonView;
@@ -141836,6 +141947,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidTemples temples() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidTemples>("temples"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidAttributes attributes() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidAttributes>("attributes"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadout loadout() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadout>("loadout"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSafari safari() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSafari>("safari"); }
 
   [[nodiscard]] JsonView first_join_hub() const { return at("first_join_hub"); }
   [[nodiscard]] JsonView player_id() const { return at("player_id"); }
