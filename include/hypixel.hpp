@@ -120878,6 +120878,7 @@ public:
   [[nodiscard]] JsonView crimson_isle_fetch_kada_lead_s() const { return at("crimson_isle_fetch_kada_lead_s"); }
   [[nodiscard]] JsonView crimson_isle_slugfish_s() const { return at("crimson_isle_slugfish_s"); }
   [[nodiscard]] JsonView crimson_isle_fetch_gazing_pearl_s() const { return at("crimson_isle_fetch_gazing_pearl_s"); }
+  [[nodiscard]] JsonView crimson_isle_fetch_corrupted_fragment_s() const { return at("crimson_isle_fetch_corrupted_fragment_s"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataQuestsAlchemistQuest : public JsonView {
