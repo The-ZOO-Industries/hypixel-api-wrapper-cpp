@@ -138590,6 +138590,19 @@ public:
   [[nodiscard]] JsonView luck_of_the_forest() const { return at("luck_of_the_forest"); }
   [[nodiscard]] JsonView toggle_lottery() const { return at("toggle_lottery"); }
   [[nodiscard]] JsonView toggle_luck_of_the_forest() const { return at("toggle_luck_of_the_forest"); }
+  [[nodiscard]] JsonView beekeeper() const { return at("beekeeper"); }
+  [[nodiscard]] JsonView daily_wishes() const { return at("daily_wishes"); }
+  [[nodiscard]] JsonView early_bird() const { return at("early_bird"); }
+  [[nodiscard]] JsonView forest_strength() const { return at("forest_strength"); }
+  [[nodiscard]] JsonView free_trial() const { return at("free_trial"); }
+  [[nodiscard]] JsonView half_full() const { return at("half_full"); }
+  [[nodiscard]] JsonView toggle_beekeeper() const { return at("toggle_beekeeper"); }
+  [[nodiscard]] JsonView toggle_daily_wishes() const { return at("toggle_daily_wishes"); }
+  [[nodiscard]] JsonView toggle_early_bird() const { return at("toggle_early_bird"); }
+  [[nodiscard]] JsonView toggle_forest_strength() const { return at("toggle_forest_strength"); }
+  [[nodiscard]] JsonView toggle_free_trial() const { return at("toggle_free_trial"); }
+  [[nodiscard]] JsonView toggle_half_empty() const { return at("toggle_half_empty"); }
+  [[nodiscard]] JsonView toggle_half_full() const { return at("toggle_half_full"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging5 : public JsonView {
