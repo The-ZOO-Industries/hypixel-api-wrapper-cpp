@@ -54181,6 +54181,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
+  [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsGOKUShieldBash : public JsonView {
