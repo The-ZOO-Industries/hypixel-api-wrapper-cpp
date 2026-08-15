@@ -138789,6 +138789,12 @@ public:
   [[nodiscard]] JsonView toggle_gifts_from_the_departed() const { return at("toggle_gifts_from_the_departed"); }
   [[nodiscard]] JsonView precision_mining() const { return at("precision_mining"); }
   [[nodiscard]] JsonView toggle_precision_mining() const { return at("toggle_precision_mining"); }
+  [[nodiscard]] JsonView front_loaded() const { return at("front_loaded"); }
+  [[nodiscard]] JsonView metal_head() const { return at("metal_head"); }
+  [[nodiscard]] JsonView toggle_front_loaded() const { return at("toggle_front_loaded"); }
+  [[nodiscard]] JsonView toggle_metal_head() const { return at("toggle_metal_head"); }
+  [[nodiscard]] JsonView toggle_warm_heart() const { return at("toggle_warm_heart"); }
+  [[nodiscard]] JsonView warm_heart() const { return at("warm_heart"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining4 : public JsonView {
