@@ -138795,6 +138795,8 @@ public:
   [[nodiscard]] JsonView toggle_metal_head() const { return at("toggle_metal_head"); }
   [[nodiscard]] JsonView toggle_warm_heart() const { return at("toggle_warm_heart"); }
   [[nodiscard]] JsonView warm_heart() const { return at("warm_heart"); }
+  [[nodiscard]] JsonView crystalline() const { return at("crystalline"); }
+  [[nodiscard]] JsonView toggle_crystalline() const { return at("toggle_crystalline"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining4 : public JsonView {
