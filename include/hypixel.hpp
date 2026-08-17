@@ -123813,6 +123813,9 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_sylent_55() const { return at("master_crypt_undead_sylent_55"); }
   [[nodiscard]] JsonView frozen_steve_7() const { return at("frozen_steve_7"); }
   [[nodiscard]] JsonView scrappy_1() const { return at("scrappy_1"); }
+  [[nodiscard]] JsonView night_respawning_skeleton_6() const { return at("night_respawning_skeleton_6"); }
+  [[nodiscard]] JsonView zombie_11() const { return at("zombie_11"); }
+  [[nodiscard]] JsonView duelist_kaus_7() const { return at("duelist_kaus_7"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -132781,6 +132784,7 @@ public:
   [[nodiscard]] JsonView HELIX_LOG() const { return at("HELIX_LOG"); }
   [[nodiscard]] JsonView HONEYCOMB() const { return at("HONEYCOMB"); }
   [[nodiscard]] JsonView RUBY_VEILSHROOM() const { return at("RUBY_VEILSHROOM"); }
+  [[nodiscard]] JsonView TIGHTLY_TIED_HAY_BALE() const { return at("TIGHTLY_TIED_HAY_BALE"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
@@ -133313,6 +133317,7 @@ public:
   [[nodiscard]] JsonView strongarm() const { return at("strongarm"); }
   [[nodiscard]] JsonView frozen_steve() const { return at("frozen_steve"); }
   [[nodiscard]] JsonView scrappy() const { return at("scrappy"); }
+  [[nodiscard]] JsonView duelist_kaus() const { return at("duelist_kaus"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
