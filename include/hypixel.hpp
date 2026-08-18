@@ -134683,6 +134683,7 @@ public:
   [[nodiscard]] JsonView woodlouse_1() const { return at("woodlouse_1"); }
   [[nodiscard]] JsonView lumisquid() const { return at("lumisquid"); }
   [[nodiscard]] JsonView mochibear() const { return at("mochibear"); }
+  [[nodiscard]] JsonView bambuleaf() const { return at("bambuleaf"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
