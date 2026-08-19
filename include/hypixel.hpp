@@ -138505,6 +138505,8 @@ public:
   [[nodiscard]] JsonView toggle_two_for_one() const { return at("toggle_two_for_one"); }
   [[nodiscard]] JsonView two_for_one() const { return at("two_for_one"); }
   [[nodiscard]] JsonView half_empty() const { return at("half_empty"); }
+  [[nodiscard]] JsonView precision_cutting() const { return at("precision_cutting"); }
+  [[nodiscard]] JsonView toggle_precision_cutting() const { return at("toggle_precision_cutting"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging3 : public JsonView {
