@@ -7169,6 +7169,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanti
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival5;
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival1;
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival6;
+class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival7;
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollected;
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsRiftWestVerminVacuumed;
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsRiftShenItemBought;
@@ -135067,6 +135068,15 @@ public:
   [[nodiscard]] JsonView purple_candy() const { return at("purple_candy"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival7 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView total() const { return at("total"); }
+  [[nodiscard]] JsonView green_candy() const { return at("green_candy"); }
+  [[nodiscard]] JsonView purple_candy() const { return at("purple_candy"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollected : public JsonView {
 public:
   using JsonView::JsonView;
@@ -135078,6 +135088,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival5 unanticipated_spooky_festival_5() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival5>("unanticipated_spooky_festival_5"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival1 unanticipated_spooky_festival_1() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival1>("unanticipated_spooky_festival_1"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival6 unanticipated_spooky_festival_6() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival6>("unanticipated_spooky_festival_6"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival7 unanticipated_spooky_festival_7() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsCandyCollectedUnanticipatedSpookyFestival7>("unanticipated_spooky_festival_7"); }
 
   [[nodiscard]] JsonView total() const { return at("total"); }
   [[nodiscard]] JsonView green_candy() const { return at("green_candy"); }
