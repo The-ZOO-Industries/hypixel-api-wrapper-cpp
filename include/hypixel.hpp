@@ -138832,6 +138832,8 @@ public:
   [[nodiscard]] JsonView warm_heart() const { return at("warm_heart"); }
   [[nodiscard]] JsonView crystalline() const { return at("crystalline"); }
   [[nodiscard]] JsonView toggle_crystalline() const { return at("toggle_crystalline"); }
+  [[nodiscard]] JsonView titanium_insanium() const { return at("titanium_insanium"); }
+  [[nodiscard]] JsonView toggle_titanium_insanium() const { return at("toggle_titanium_insanium"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining4 : public JsonView {
