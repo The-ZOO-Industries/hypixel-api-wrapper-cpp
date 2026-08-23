@@ -7595,6 +7595,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment11;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT1;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT2;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT4;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT3;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment13EQUIPMENTSLOT1;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment13EQUIPMENTSLOT2;
@@ -141602,6 +141603,14 @@ public:
   [[nodiscard]] JsonView data() const { return at("data"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT3 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12 : public JsonView {
 public:
   using JsonView::JsonView;
@@ -141609,6 +141618,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT1 EQUIPMENT_SLOT_1() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT1>("EQUIPMENT_SLOT_1"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT2 EQUIPMENT_SLOT_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT2>("EQUIPMENT_SLOT_2"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT4 EQUIPMENT_SLOT_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT4>("EQUIPMENT_SLOT_4"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT3 EQUIPMENT_SLOT_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment12EQUIPMENTSLOT3>("EQUIPMENT_SLOT_3"); }
 
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
