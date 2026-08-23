@@ -20461,6 +20461,7 @@ public:
   [[nodiscard]] JsonView _3() const { return at("3"); }
   [[nodiscard]] JsonView _4() const { return at("4"); }
   [[nodiscard]] JsonView _5() const { return at("5"); }
+  [[nodiscard]] JsonView _6() const { return at("6"); }
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
@@ -20472,15 +20473,20 @@ public:
   [[nodiscard]] JsonView _15() const { return at("15"); }
   [[nodiscard]] JsonView _16() const { return at("16"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
+  [[nodiscard]] JsonView _18() const { return at("18"); }
   [[nodiscard]] JsonView _19() const { return at("19"); }
   [[nodiscard]] JsonView _20() const { return at("20"); }
   [[nodiscard]] JsonView _21() const { return at("21"); }
+  [[nodiscard]] JsonView _22() const { return at("22"); }
   [[nodiscard]] JsonView _23() const { return at("23"); }
   [[nodiscard]] JsonView _24() const { return at("24"); }
   [[nodiscard]] JsonView _25() const { return at("25"); }
   [[nodiscard]] JsonView _26() const { return at("26"); }
+  [[nodiscard]] JsonView _27() const { return at("27"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
+  [[nodiscard]] JsonView _29() const { return at("29"); }
   [[nodiscard]] JsonView _30() const { return at("30"); }
+  [[nodiscard]] JsonView _31() const { return at("31"); }
   [[nodiscard]] JsonView _32() const { return at("32"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
   [[nodiscard]] JsonView _34() const { return at("34"); }
