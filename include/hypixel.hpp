@@ -48069,6 +48069,7 @@ public:
   [[nodiscard]] JsonView challenge_wins_8_kit_attacking_team_engineer() const { return at("challenge_wins_8_kit_attacking_team_engineer"); }
   [[nodiscard]] JsonView challenge_wins_ultimate_warrior_kit_attacking_team_engineer() const { return at("challenge_wins_ultimate_warrior_kit_attacking_team_engineer"); }
   [[nodiscard]] JsonView challenge_wins_no_chest_kit_attacking_team_engineer() const { return at("challenge_wins_no_chest_kit_attacking_team_engineer"); }
+  [[nodiscard]] JsonView challenge_wins_5_kit_basic_solo_troll() const { return at("challenge_wins_5_kit_basic_solo_troll"); }
 };
 
 class PlayerResponsePlayerStatsTrueCombat : public JsonView {
