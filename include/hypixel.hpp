@@ -123837,6 +123837,7 @@ public:
   [[nodiscard]] JsonView duelist_kaus_7() const { return at("duelist_kaus_7"); }
   [[nodiscard]] JsonView brineling_58() const { return at("brineling_58"); }
   [[nodiscard]] JsonView shrieky_tiki_71() const { return at("shrieky_tiki_71"); }
+  [[nodiscard]] JsonView billygoat_1() const { return at("billygoat_1"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133341,6 +133342,7 @@ public:
   [[nodiscard]] JsonView duelist_kaus() const { return at("duelist_kaus"); }
   [[nodiscard]] JsonView brineling() const { return at("brineling"); }
   [[nodiscard]] JsonView shrieky_tiki() const { return at("shrieky_tiki"); }
+  [[nodiscard]] JsonView billygoat() const { return at("billygoat"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
