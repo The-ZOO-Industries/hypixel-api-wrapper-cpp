@@ -123838,6 +123838,7 @@ public:
   [[nodiscard]] JsonView brineling_58() const { return at("brineling_58"); }
   [[nodiscard]] JsonView shrieky_tiki_71() const { return at("shrieky_tiki_71"); }
   [[nodiscard]] JsonView billygoat_1() const { return at("billygoat_1"); }
+  [[nodiscard]] JsonView stag_beetle_29() const { return at("stag_beetle_29"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133343,6 +133344,7 @@ public:
   [[nodiscard]] JsonView brineling() const { return at("brineling"); }
   [[nodiscard]] JsonView shrieky_tiki() const { return at("shrieky_tiki"); }
   [[nodiscard]] JsonView billygoat() const { return at("billygoat"); }
+  [[nodiscard]] JsonView stag_beetle() const { return at("stag_beetle"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -138664,6 +138666,10 @@ public:
   [[nodiscard]] JsonView toggle_forest_speed() const { return at("toggle_forest_speed"); }
   [[nodiscard]] JsonView homing_axe() const { return at("homing_axe"); }
   [[nodiscard]] JsonView toggle_homing_axe() const { return at("toggle_homing_axe"); }
+  [[nodiscard]] JsonView collector() const { return at("collector"); }
+  [[nodiscard]] JsonView toggle_collector() const { return at("toggle_collector"); }
+  [[nodiscard]] JsonView galateas_might() const { return at("galateas_might"); }
+  [[nodiscard]] JsonView toggle_galateas_might() const { return at("toggle_galateas_might"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging5 : public JsonView {
