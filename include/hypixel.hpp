@@ -138671,6 +138671,8 @@ public:
   [[nodiscard]] JsonView toggle_collector() const { return at("toggle_collector"); }
   [[nodiscard]] JsonView galateas_might() const { return at("galateas_might"); }
   [[nodiscard]] JsonView toggle_galateas_might() const { return at("toggle_galateas_might"); }
+  [[nodiscard]] JsonView essence_fortune() const { return at("essence_fortune"); }
+  [[nodiscard]] JsonView toggle_essence_fortune() const { return at("toggle_essence_fortune"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesForaging5 : public JsonView {
