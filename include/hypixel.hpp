@@ -7317,6 +7317,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower;
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterEmployees;
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterShop;
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterRabbitHitmen;
+class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterChocobits;
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEaster;
 class SkyblockProfileV2ResponseProfileMembersUuidEvents;
 class SkyblockProfileV2ResponseProfileMembersUuidWinterPlayerData;
@@ -136436,6 +136437,11 @@ public:
   [[nodiscard]] JsonView RUNE_AXE_FADING_BLUE_1() const { return at("RUNE_AXE_FADING_BLUE_1"); }
   [[nodiscard]] JsonView ENCHANTED_HONEYCOMB_BLOCK() const { return at("ENCHANTED_HONEYCOMB_BLOCK"); }
   [[nodiscard]] JsonView VEILSHROOM_BUNCH() const { return at("VEILSHROOM_BUNCH"); }
+  [[nodiscard]] JsonView HEMOGLASS() const { return at("HEMOGLASS"); }
+  [[nodiscard]] JsonView HEMOVIBE() const { return at("HEMOVIBE"); }
+  [[nodiscard]] JsonView ARACHNE_FRAGMENT() const { return at("ARACHNE_FRAGMENT"); }
+  [[nodiscard]] JsonView ARACHNE_KEEPER_FRAGMENT() const { return at("ARACHNE_KEEPER_FRAGMENT"); }
+  [[nodiscard]] JsonView SOUL_STRING() const { return at("SOUL_STRING"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
@@ -138033,6 +138039,7 @@ public:
   [[nodiscard]] JsonView hopscotch() const { return at("hopscotch"); }
   [[nodiscard]] JsonView faction_level() const { return at("faction_level"); }
   [[nodiscard]] JsonView selected_faction() const { return at("selected_faction"); }
+  [[nodiscard]] JsonView splash() const { return at("splash"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
@@ -138080,6 +138087,14 @@ public:
   [[nodiscard]] JsonView egg_finder_last_found() const { return at("egg_finder_last_found"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterChocobits : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView owned() const { return at("owned"); }
+  [[nodiscard]] JsonView total_found() const { return at("total_found"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEaster : public JsonView {
 public:
   using JsonView::JsonView;
@@ -138089,6 +138104,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidEventsEasterEmployees employees() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidEventsEasterEmployees>("employees"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidEventsEasterShop shop() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidEventsEasterShop>("shop"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidEventsEasterRabbitHitmen rabbit_hitmen() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidEventsEasterRabbitHitmen>("rabbit_hitmen"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidEventsEasterChocobits chocobits() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidEventsEasterChocobits>("chocobits"); }
 
   [[nodiscard]] JsonView chocolate() const { return at("chocolate"); }
   [[nodiscard]] JsonView total_chocolate() const { return at("total_chocolate"); }
@@ -139900,6 +139916,7 @@ public:
   [[nodiscard]] JsonView royal_riches() const { return at("royal_riches"); }
   [[nodiscard]] JsonView refined_luck() const { return at("refined_luck"); }
   [[nodiscard]] JsonView ghastly_distraction() const { return at("ghastly_distraction"); }
+  [[nodiscard]] JsonView rabbit_youth() const { return at("rabbit_youth"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
