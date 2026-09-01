@@ -138031,6 +138031,8 @@ public:
   [[nodiscard]] JsonView toad() const { return at("toad"); }
   [[nodiscard]] JsonView ribbit() const { return at("ribbit"); }
   [[nodiscard]] JsonView hopscotch() const { return at("hopscotch"); }
+  [[nodiscard]] JsonView faction_level() const { return at("faction_level"); }
+  [[nodiscard]] JsonView selected_faction() const { return at("selected_faction"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
