@@ -136444,6 +136444,7 @@ public:
   [[nodiscard]] JsonView ARACHNE_FRAGMENT() const { return at("ARACHNE_FRAGMENT"); }
   [[nodiscard]] JsonView ARACHNE_KEEPER_FRAGMENT() const { return at("ARACHNE_KEEPER_FRAGMENT"); }
   [[nodiscard]] JsonView SOUL_STRING() const { return at("SOUL_STRING"); }
+  [[nodiscard]] JsonView HEMOBOMB() const { return at("HEMOBOMB"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
