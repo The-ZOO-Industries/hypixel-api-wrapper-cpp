@@ -138044,6 +138044,7 @@ public:
   [[nodiscard]] JsonView faction_level() const { return at("faction_level"); }
   [[nodiscard]] JsonView selected_faction() const { return at("selected_faction"); }
   [[nodiscard]] JsonView splash() const { return at("splash"); }
+  [[nodiscard]] JsonView skyrise() const { return at("skyrise"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
