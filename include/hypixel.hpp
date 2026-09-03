@@ -138054,6 +138054,14 @@ public:
   [[nodiscard]] JsonView granite() const { return at("granite"); }
   [[nodiscard]] JsonView cobble() const { return at("cobble"); }
   [[nodiscard]] JsonView graffiti() const { return at("graffiti"); }
+  [[nodiscard]] JsonView tunnel() const { return at("tunnel"); }
+  [[nodiscard]] JsonView traffic() const { return at("traffic"); }
+  [[nodiscard]] JsonView hazel() const { return at("hazel"); }
+  [[nodiscard]] JsonView root() const { return at("root"); }
+  [[nodiscard]] JsonView icefur() const { return at("icefur"); }
+  [[nodiscard]] JsonView timber() const { return at("timber"); }
+  [[nodiscard]] JsonView eagle() const { return at("eagle"); }
+  [[nodiscard]] JsonView mistral() const { return at("mistral"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
