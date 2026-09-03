@@ -138066,6 +138066,12 @@ public:
   [[nodiscard]] JsonView speedy() const { return at("speedy"); }
   [[nodiscard]] JsonView lavender() const { return at("lavender"); }
   [[nodiscard]] JsonView twigy() const { return at("twigy"); }
+  [[nodiscard]] JsonView canyon() const { return at("canyon"); }
+  [[nodiscard]] JsonView valley() const { return at("valley"); }
+  [[nodiscard]] JsonView marigold() const { return at("marigold"); }
+  [[nodiscard]] JsonView taxi() const { return at("taxi"); }
+  [[nodiscard]] JsonView walker() const { return at("walker"); }
+  [[nodiscard]] JsonView peon() const { return at("peon"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
