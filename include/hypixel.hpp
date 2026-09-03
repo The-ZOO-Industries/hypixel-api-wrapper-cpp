@@ -138045,6 +138045,15 @@ public:
   [[nodiscard]] JsonView selected_faction() const { return at("selected_faction"); }
   [[nodiscard]] JsonView splash() const { return at("splash"); }
   [[nodiscard]] JsonView skyrise() const { return at("skyrise"); }
+  [[nodiscard]] JsonView scree() const { return at("scree"); }
+  [[nodiscard]] JsonView haybale() const { return at("haybale"); }
+  [[nodiscard]] JsonView nectar() const { return at("nectar"); }
+  [[nodiscard]] JsonView clover() const { return at("clover"); }
+  [[nodiscard]] JsonView iris() const { return at("iris"); }
+  [[nodiscard]] JsonView subway() const { return at("subway"); }
+  [[nodiscard]] JsonView granite() const { return at("granite"); }
+  [[nodiscard]] JsonView cobble() const { return at("cobble"); }
+  [[nodiscard]] JsonView graffiti() const { return at("graffiti"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
