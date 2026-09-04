@@ -7611,6 +7611,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment14EQUIPMENTSLOT
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment14;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts1;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts2;
@@ -141839,6 +141840,13 @@ public:
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment : public JsonView {
 public:
   using JsonView::JsonView;
@@ -141859,6 +141867,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment14 _14() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment14>("14"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15 _15() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15>("15"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16 _16() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16>("16"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17 _17() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17>("17"); }
 
   [[nodiscard]] JsonView equipped_set() const { return at("equipped_set"); }
 };
