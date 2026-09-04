@@ -138072,6 +138072,10 @@ public:
   [[nodiscard]] JsonView taxi() const { return at("taxi"); }
   [[nodiscard]] JsonView walker() const { return at("walker"); }
   [[nodiscard]] JsonView peon() const { return at("peon"); }
+  [[nodiscard]] JsonView sandy() const { return at("sandy"); }
+  [[nodiscard]] JsonView seabun() const { return at("seabun"); }
+  [[nodiscard]] JsonView starfish() const { return at("starfish"); }
+  [[nodiscard]] JsonView chasm() const { return at("chasm"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
