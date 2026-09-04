@@ -138101,6 +138101,7 @@ public:
   [[nodiscard]] JsonView silo() const { return at("silo"); }
   [[nodiscard]] JsonView horizon() const { return at("horizon"); }
   [[nodiscard]] JsonView mayor() const { return at("mayor"); }
+  [[nodiscard]] JsonView juniper() const { return at("juniper"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
