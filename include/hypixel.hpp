@@ -121493,6 +121493,8 @@ public:
   [[nodiscard]] JsonView powder_spent_titanium_4() const { return at("powder_spent_titanium_4"); }
   [[nodiscard]] JsonView powder_spent_gemstone_5() const { return at("powder_spent_gemstone_5"); }
   [[nodiscard]] JsonView powder_spent_mithril_5() const { return at("powder_spent_mithril_5"); }
+  [[nodiscard]] JsonView powder_spent_non_refundable_gemstone() const { return at("powder_spent_non_refundable_gemstone"); }
+  [[nodiscard]] JsonView powder_spent_non_refundable_gemstone_2() const { return at("powder_spent_non_refundable_gemstone_2"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryKills : public JsonView {
