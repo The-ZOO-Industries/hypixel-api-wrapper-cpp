@@ -138076,6 +138076,30 @@ public:
   [[nodiscard]] JsonView seabun() const { return at("seabun"); }
   [[nodiscard]] JsonView starfish() const { return at("starfish"); }
   [[nodiscard]] JsonView chasm() const { return at("chasm"); }
+  [[nodiscard]] JsonView aster() const { return at("aster"); }
+  [[nodiscard]] JsonView avalanche() const { return at("avalanche"); }
+  [[nodiscard]] JsonView moss() const { return at("moss"); }
+  [[nodiscard]] JsonView palm() const { return at("palm"); }
+  [[nodiscard]] JsonView neon() const { return at("neon"); }
+  [[nodiscard]] JsonView shortcut() const { return at("shortcut"); }
+  [[nodiscard]] JsonView daisy() const { return at("daisy"); }
+  [[nodiscard]] JsonView glacier() const { return at("glacier"); }
+  [[nodiscard]] JsonView seashell() const { return at("seashell"); }
+  [[nodiscard]] JsonView tan() const { return at("tan"); }
+  [[nodiscard]] JsonView coconut() const { return at("coconut"); }
+  [[nodiscard]] JsonView dune() const { return at("dune"); }
+  [[nodiscard]] JsonView oasis() const { return at("oasis"); }
+  [[nodiscard]] JsonView surf() const { return at("surf"); }
+  [[nodiscard]] JsonView anchor() const { return at("anchor"); }
+  [[nodiscard]] JsonView lagoon() const { return at("lagoon"); }
+  [[nodiscard]] JsonView mocktail() const { return at("mocktail"); }
+  [[nodiscard]] JsonView sunset() const { return at("sunset"); }
+  [[nodiscard]] JsonView tundra() const { return at("tundra"); }
+  [[nodiscard]] JsonView crag() const { return at("crag"); }
+  [[nodiscard]] JsonView minister() const { return at("minister"); }
+  [[nodiscard]] JsonView silo() const { return at("silo"); }
+  [[nodiscard]] JsonView horizon() const { return at("horizon"); }
+  [[nodiscard]] JsonView mayor() const { return at("mayor"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
