@@ -7634,6 +7634,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts18;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts19;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts20;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts21;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts22;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadout;
 class SkyblockProfileV2ResponseProfileMembersUuidSafariMilestoneClaimedTiers;
@@ -142176,6 +142177,19 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts22 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts : public JsonView {
@@ -142203,6 +142217,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts19 _19() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts19>("19"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts20 _20() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts20>("20"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts21 _21() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts21>("21"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts22 _22() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts22>("22"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadout : public JsonView {
