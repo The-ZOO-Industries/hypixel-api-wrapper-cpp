@@ -138106,6 +138106,7 @@ public:
   [[nodiscard]] JsonView mayor() const { return at("mayor"); }
   [[nodiscard]] JsonView juniper() const { return at("juniper"); }
   [[nodiscard]] JsonView rosebud() const { return at("rosebud"); }
+  [[nodiscard]] JsonView summit() const { return at("summit"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidEventsEasterTimeTower : public JsonView {
