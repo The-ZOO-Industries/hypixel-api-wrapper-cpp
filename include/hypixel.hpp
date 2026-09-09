@@ -7363,6 +7363,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining4;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging3;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging4;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining5;
+class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging5;
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHinaTasksTaskProgress;
 class SkyblockProfileV2ResponseProfileMembersUuidForagingHinaTasks;
@@ -138779,6 +138780,20 @@ public:
 
   [[nodiscard]] JsonView center_of_the_forest() const { return at("center_of_the_forest"); }
   [[nodiscard]] JsonView toggle_center_of_the_forest() const { return at("toggle_center_of_the_forest"); }
+  [[nodiscard]] JsonView _250_gifts() const { return at("250_gifts"); }
+  [[nodiscard]] JsonView daily_wishes() const { return at("daily_wishes"); }
+  [[nodiscard]] JsonView early_bird() const { return at("early_bird"); }
+  [[nodiscard]] JsonView foraging_fortune() const { return at("foraging_fortune"); }
+  [[nodiscard]] JsonView free_trial() const { return at("free_trial"); }
+  [[nodiscard]] JsonView hunters_luck() const { return at("hunters_luck"); }
+  [[nodiscard]] JsonView sweep() const { return at("sweep"); }
+  [[nodiscard]] JsonView toggle_250_gifts() const { return at("toggle_250_gifts"); }
+  [[nodiscard]] JsonView toggle_daily_wishes() const { return at("toggle_daily_wishes"); }
+  [[nodiscard]] JsonView toggle_early_bird() const { return at("toggle_early_bird"); }
+  [[nodiscard]] JsonView toggle_foraging_fortune() const { return at("toggle_foraging_fortune"); }
+  [[nodiscard]] JsonView toggle_free_trial() const { return at("toggle_free_trial"); }
+  [[nodiscard]] JsonView toggle_hunters_luck() const { return at("toggle_hunters_luck"); }
+  [[nodiscard]] JsonView toggle_sweep() const { return at("toggle_sweep"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining2 : public JsonView {
@@ -139207,6 +139222,13 @@ public:
   [[nodiscard]] JsonView custom_name() const { return at("custom_name"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging5 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView custom_name() const { return at("custom_name"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTree : public JsonView {
 public:
   using JsonView::JsonView;
@@ -139226,6 +139248,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging3 foraging_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging3>("foraging_3"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging4 foraging_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging4>("foraging_4"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining5 mining_5() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeMining5>("mining_5"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging5 foraging_5() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidSkillTreeForaging5>("foraging_5"); }
 
   [[nodiscard]] JsonView refund_ability_free() const { return at("refund_ability_free"); }
   [[nodiscard]] JsonView last_free_trial_day() const { return at("last_free_trial_day"); }
