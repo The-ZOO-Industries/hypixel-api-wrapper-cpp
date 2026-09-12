@@ -74715,6 +74715,7 @@ public:
   [[nodiscard]] JsonView fish() const { return at("fish"); }
   [[nodiscard]] JsonView treasure() const { return at("treasure"); }
   [[nodiscard]] JsonView orb() const { return at("orb"); }
+  [[nodiscard]] JsonView plant() const { return at("plant"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerLava : public JsonView {
