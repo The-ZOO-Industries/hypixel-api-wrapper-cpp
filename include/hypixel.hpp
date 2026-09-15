@@ -4497,6 +4497,7 @@ class AchievementsResponseAchievementsGeneralOneTimeFISHINGHOBBYIST;
 class AchievementsResponseAchievementsGeneralOneTimeFIRSTCHAT;
 class AchievementsResponseAchievementsGeneralOneTimeOLDFARMERSALMANAC;
 class AchievementsResponseAchievementsGeneralOneTimeACHIEVEMENTNPC;
+class AchievementsResponseAchievementsGeneralOneTimeDISCORDAPPROVED;
 class AchievementsResponseAchievementsGeneralOneTimeLABYRINTHINECOLLECTOR;
 class AchievementsResponseAchievementsGeneralOneTimeCRASHLANDED;
 class AchievementsResponseAchievementsGeneralOneTimeLOBBYEXPLORER;
@@ -99781,6 +99782,15 @@ public:
   [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
+class AchievementsResponseAchievementsGeneralOneTimeDISCORDAPPROVED : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+};
+
 class AchievementsResponseAchievementsGeneralOneTimeLABYRINTHINECOLLECTOR : public JsonView {
 public:
   using JsonView::JsonView;
@@ -99940,6 +99950,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsGeneralOneTimeFIRSTCHAT FIRST_CHAT() const { return object_at<AchievementsResponseAchievementsGeneralOneTimeFIRSTCHAT>("FIRST_CHAT"); }
   [[nodiscard]] AchievementsResponseAchievementsGeneralOneTimeOLDFARMERSALMANAC OLD_FARMERS_ALMANAC() const { return object_at<AchievementsResponseAchievementsGeneralOneTimeOLDFARMERSALMANAC>("OLD_FARMERS_ALMANAC"); }
   [[nodiscard]] AchievementsResponseAchievementsGeneralOneTimeACHIEVEMENTNPC ACHIEVEMENT_NPC() const { return object_at<AchievementsResponseAchievementsGeneralOneTimeACHIEVEMENTNPC>("ACHIEVEMENT_NPC"); }
+  [[nodiscard]] AchievementsResponseAchievementsGeneralOneTimeDISCORDAPPROVED DISCORD_APPROVED() const { return object_at<AchievementsResponseAchievementsGeneralOneTimeDISCORDAPPROVED>("DISCORD_APPROVED"); }
   [[nodiscard]] AchievementsResponseAchievementsGeneralOneTimeLABYRINTHINECOLLECTOR LABYRINTHINE_COLLECTOR() const { return object_at<AchievementsResponseAchievementsGeneralOneTimeLABYRINTHINECOLLECTOR>("LABYRINTHINE_COLLECTOR"); }
   [[nodiscard]] AchievementsResponseAchievementsGeneralOneTimeCRASHLANDED CRASH_LANDED() const { return object_at<AchievementsResponseAchievementsGeneralOneTimeCRASHLANDED>("CRASH_LANDED"); }
   [[nodiscard]] AchievementsResponseAchievementsGeneralOneTimeLOBBYEXPLORER LOBBY_EXPLORER() const { return object_at<AchievementsResponseAchievementsGeneralOneTimeLOBBYEXPLORER>("LOBBY_EXPLORER"); }
@@ -138799,6 +138810,27 @@ public:
   [[nodiscard]] JsonView toggle_free_trial() const { return at("toggle_free_trial"); }
   [[nodiscard]] JsonView toggle_hunters_luck() const { return at("toggle_hunters_luck"); }
   [[nodiscard]] JsonView toggle_sweep() const { return at("toggle_sweep"); }
+  [[nodiscard]] JsonView beekeeper() const { return at("beekeeper"); }
+  [[nodiscard]] JsonView efficient_forager() const { return at("efficient_forager"); }
+  [[nodiscard]] JsonView essence_fortune() const { return at("essence_fortune"); }
+  [[nodiscard]] JsonView forest_speed() const { return at("forest_speed"); }
+  [[nodiscard]] JsonView forest_strength() const { return at("forest_strength"); }
+  [[nodiscard]] JsonView half_full() const { return at("half_full"); }
+  [[nodiscard]] JsonView luck_of_the_forest() const { return at("luck_of_the_forest"); }
+  [[nodiscard]] JsonView ricochet() const { return at("ricochet"); }
+  [[nodiscard]] JsonView timber() const { return at("timber"); }
+  [[nodiscard]] JsonView toggle_beekeeper() const { return at("toggle_beekeeper"); }
+  [[nodiscard]] JsonView toggle_efficient_forager() const { return at("toggle_efficient_forager"); }
+  [[nodiscard]] JsonView toggle_essence_fortune() const { return at("toggle_essence_fortune"); }
+  [[nodiscard]] JsonView toggle_forest_speed() const { return at("toggle_forest_speed"); }
+  [[nodiscard]] JsonView toggle_forest_strength() const { return at("toggle_forest_strength"); }
+  [[nodiscard]] JsonView toggle_half_empty() const { return at("toggle_half_empty"); }
+  [[nodiscard]] JsonView toggle_half_full() const { return at("toggle_half_full"); }
+  [[nodiscard]] JsonView toggle_luck_of_the_forest() const { return at("toggle_luck_of_the_forest"); }
+  [[nodiscard]] JsonView toggle_ricochet() const { return at("toggle_ricochet"); }
+  [[nodiscard]] JsonView toggle_timber() const { return at("toggle_timber"); }
+  [[nodiscard]] JsonView toggle_two_for_one() const { return at("toggle_two_for_one"); }
+  [[nodiscard]] JsonView two_for_one() const { return at("two_for_one"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining2 : public JsonView {
