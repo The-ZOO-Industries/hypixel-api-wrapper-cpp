@@ -7638,6 +7638,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts20;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts21;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts22;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts23;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts24;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadout;
 class SkyblockProfileV2ResponseProfileMembersUuidSafariMilestoneClaimedTiers;
@@ -142289,6 +142290,14 @@ public:
   [[nodiscard]] JsonView name() const { return at("name"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts24 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts : public JsonView {
 public:
   using JsonView::JsonView;
@@ -142316,6 +142325,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts21 _21() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts21>("21"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts22 _22() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts22>("22"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts23 _23() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts23>("23"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts24 _24() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts24>("24"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadout : public JsonView {
