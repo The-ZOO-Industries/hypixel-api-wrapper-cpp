@@ -121512,6 +121512,7 @@ public:
   [[nodiscard]] JsonView powder_spent_mithril_5() const { return at("powder_spent_mithril_5"); }
   [[nodiscard]] JsonView powder_spent_non_refundable_gemstone() const { return at("powder_spent_non_refundable_gemstone"); }
   [[nodiscard]] JsonView powder_spent_non_refundable_gemstone_2() const { return at("powder_spent_non_refundable_gemstone_2"); }
+  [[nodiscard]] JsonView powder_spent_glacite_5() const { return at("powder_spent_glacite_5"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryKills : public JsonView {
@@ -139151,6 +139152,20 @@ public:
   [[nodiscard]] JsonView toggle_mining_speed_boost() const { return at("toggle_mining_speed_boost"); }
   [[nodiscard]] JsonView toggle_pickobulus() const { return at("toggle_pickobulus"); }
   [[nodiscard]] JsonView toggle_precision_mining() const { return at("toggle_precision_mining"); }
+  [[nodiscard]] JsonView anomalous_desire() const { return at("anomalous_desire"); }
+  [[nodiscard]] JsonView toggle_anomalous_desire() const { return at("toggle_anomalous_desire"); }
+  [[nodiscard]] JsonView miners_blessing() const { return at("miners_blessing"); }
+  [[nodiscard]] JsonView no_stone_unturned() const { return at("no_stone_unturned"); }
+  [[nodiscard]] JsonView toggle_miners_blessing() const { return at("toggle_miners_blessing"); }
+  [[nodiscard]] JsonView toggle_no_stone_unturned() const { return at("toggle_no_stone_unturned"); }
+  [[nodiscard]] JsonView daily_grind() const { return at("daily_grind"); }
+  [[nodiscard]] JsonView daily_powder() const { return at("daily_powder"); }
+  [[nodiscard]] JsonView front_loaded() const { return at("front_loaded"); }
+  [[nodiscard]] JsonView luck_of_the_cave() const { return at("luck_of_the_cave"); }
+  [[nodiscard]] JsonView toggle_daily_grind() const { return at("toggle_daily_grind"); }
+  [[nodiscard]] JsonView toggle_daily_powder() const { return at("toggle_daily_powder"); }
+  [[nodiscard]] JsonView toggle_front_loaded() const { return at("toggle_front_loaded"); }
+  [[nodiscard]] JsonView toggle_luck_of_the_cave() const { return at("toggle_luck_of_the_cave"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodes : public JsonView {
