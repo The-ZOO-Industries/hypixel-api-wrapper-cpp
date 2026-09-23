@@ -142290,6 +142290,7 @@ public:
   [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
+  [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts20 : public JsonView {
