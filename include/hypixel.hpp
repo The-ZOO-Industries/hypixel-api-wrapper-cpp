@@ -139028,6 +139028,8 @@ public:
   [[nodiscard]] JsonView toggle_mining_speed_boost() const { return at("toggle_mining_speed_boost"); }
   [[nodiscard]] JsonView mineshaft_mayhem() const { return at("mineshaft_mayhem"); }
   [[nodiscard]] JsonView toggle_mineshaft_mayhem() const { return at("toggle_mineshaft_mayhem"); }
+  [[nodiscard]] JsonView gemstone_infusion() const { return at("gemstone_infusion"); }
+  [[nodiscard]] JsonView toggle_gemstone_infusion() const { return at("toggle_gemstone_infusion"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining4 : public JsonView {
@@ -142326,6 +142328,11 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts23 : public JsonView {
@@ -142334,6 +142341,11 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView armor_set_id() const { return at("armor_set_id"); }
+  [[nodiscard]] JsonView equipment_set_id() const { return at("equipment_set_id"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
+  [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
+  [[nodiscard]] JsonView pet() const { return at("pet"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts24 : public JsonView {
