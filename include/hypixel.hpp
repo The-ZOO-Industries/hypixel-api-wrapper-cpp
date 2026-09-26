@@ -138836,6 +138836,14 @@ public:
   [[nodiscard]] JsonView toggle_timber() const { return at("toggle_timber"); }
   [[nodiscard]] JsonView toggle_two_for_one() const { return at("toggle_two_for_one"); }
   [[nodiscard]] JsonView two_for_one() const { return at("two_for_one"); }
+  [[nodiscard]] JsonView starlyn_supreme() const { return at("starlyn_supreme"); }
+  [[nodiscard]] JsonView toggle_starlyn_supreme() const { return at("toggle_starlyn_supreme"); }
+  [[nodiscard]] JsonView strength_boost() const { return at("strength_boost"); }
+  [[nodiscard]] JsonView toggle_strength_boost() const { return at("toggle_strength_boost"); }
+  [[nodiscard]] JsonView forest_fisher() const { return at("forest_fisher"); }
+  [[nodiscard]] JsonView toggle_forest_fisher() const { return at("toggle_forest_fisher"); }
+  [[nodiscard]] JsonView homing_axe() const { return at("homing_axe"); }
+  [[nodiscard]] JsonView toggle_homing_axe() const { return at("toggle_homing_axe"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining2 : public JsonView {
