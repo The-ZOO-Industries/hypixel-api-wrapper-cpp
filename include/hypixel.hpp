@@ -142403,6 +142403,7 @@ public:
 
   [[nodiscard]] JsonView id() const { return at("id"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts : public JsonView {
