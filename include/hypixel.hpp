@@ -50533,6 +50533,7 @@ public:
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_normal() const { return at("kills_normal"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKEggBazooka : public JsonView {
@@ -51005,6 +51006,8 @@ public:
   [[nodiscard]] JsonView smashed_2v2() const { return at("smashed_2v2"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsTHEBULKSupersonicBark : public JsonView {
@@ -52008,6 +52011,8 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView smashed_normal() const { return at("smashed_normal"); }
   [[nodiscard]] JsonView smashed_3v3() const { return at("smashed_3v3"); }
+  [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills() const { return at("kills"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsMARAUDERReinforcements : public JsonView {
@@ -53299,6 +53304,7 @@ public:
   [[nodiscard]] JsonView smashed_teams() const { return at("smashed_teams"); }
   [[nodiscard]] JsonView kills() const { return at("kills"); }
   [[nodiscard]] JsonView kills_2v2() const { return at("kills_2v2"); }
+  [[nodiscard]] JsonView kills_teams() const { return at("kills_teams"); }
 };
 
 class PlayerResponsePlayerStatsSuperSmashClassStatsFROSTYFreezingBreath : public JsonView {
@@ -73002,6 +73008,9 @@ public:
   [[nodiscard]] JsonView Pit_kotl_time_2026_summer() const { return at("Pit_kotl_time_2026_summer"); }
   [[nodiscard]] JsonView Pit_kotl_gold_2026_summer() const { return at("Pit_kotl_gold_2026_summer"); }
   [[nodiscard]] JsonView Pit_cake_eaten_2026_summer() const { return at("Pit_cake_eaten_2026_summer"); }
+  [[nodiscard]] JsonView Pit_rage_pit_damage_2026_fall() const { return at("Pit_rage_pit_damage_2026_fall"); }
+  [[nodiscard]] JsonView Pit_tdm_blue_kills_2026_fall() const { return at("Pit_tdm_blue_kills_2026_fall"); }
+  [[nodiscard]] JsonView Pit_blockhead_blocks_2026_fall() const { return at("Pit_blockhead_blocks_2026_fall"); }
 };
 
 class PlayerResponsePlayerStatsPitProfileInvContents : public JsonView {
@@ -123897,6 +123906,8 @@ public:
   [[nodiscard]] JsonView billygoat_1() const { return at("billygoat_1"); }
   [[nodiscard]] JsonView stag_beetle_29() const { return at("stag_beetle_29"); }
   [[nodiscard]] JsonView jockey_skeleton_42() const { return at("jockey_skeleton_42"); }
+  [[nodiscard]] JsonView crypt_undead_codename_b_40() const { return at("crypt_undead_codename_b_40"); }
+  [[nodiscard]] JsonView sneaky_tiki_71() const { return at("sneaky_tiki_71"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133403,6 +133414,8 @@ public:
   [[nodiscard]] JsonView shrieky_tiki() const { return at("shrieky_tiki"); }
   [[nodiscard]] JsonView billygoat() const { return at("billygoat"); }
   [[nodiscard]] JsonView stag_beetle() const { return at("stag_beetle"); }
+  [[nodiscard]] JsonView crypt_undead_codename_b() const { return at("crypt_undead_codename_b"); }
+  [[nodiscard]] JsonView sneaky_tiki() const { return at("sneaky_tiki"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
