@@ -3689,6 +3689,8 @@ class PlayerResponsePlayerSeasonalHalloween2025Tbr;
 class PlayerResponsePlayerSeasonalHalloween2025Cauldron;
 class PlayerResponsePlayerSeasonalHalloween2025PumpkinSmash;
 class PlayerResponsePlayerSeasonalHalloween2025;
+class PlayerResponsePlayerSeasonalHalloween2026Levelling;
+class PlayerResponsePlayerSeasonalHalloween2026;
 class PlayerResponsePlayerSeasonalHalloween;
 class PlayerResponsePlayerSeasonalEventShopSorting;
 class PlayerResponsePlayerSeasonalBingo;
@@ -4578,6 +4580,7 @@ class AchievementsResponseAchievementsHalloween2017OneTimeVAMPIRESBEGONE;
 class AchievementsResponseAchievementsHalloween2017OneTimeTBRCRYPTICCASTLE;
 class AchievementsResponseAchievementsHalloween2017OneTimeBEWITCHING;
 class AchievementsResponseAchievementsHalloween2017OneTimeWITHERINGHEIGHTS;
+class AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2026;
 class AchievementsResponseAchievementsHalloween2017OneTimePUMPKINPOWER;
 class AchievementsResponseAchievementsHalloween2017OneTimePUMPKINDANCER;
 class AchievementsResponseAchievementsHalloween2017OneTimeRISINGDEAD;
@@ -4595,7 +4598,7 @@ class AchievementsResponseAchievementsHalloween2017OneTimeSWEETTREAT;
 class AchievementsResponseAchievementsHalloween2017OneTimeNOTSOSCARY;
 class AchievementsResponseAchievementsHalloween2017OneTimeTHATTIMEOFYEAR;
 class AchievementsResponseAchievementsHalloween2017OneTimeSMOKINGVEIL;
-class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2025;
+class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2026;
 class AchievementsResponseAchievementsHalloween2017OneTimeFIREFROMHELL;
 class AchievementsResponseAchievementsHalloween2017OneTimeTRICKED;
 class AchievementsResponseAchievementsHalloween2017OneTimeCORPSESTILLRUNS;
@@ -4612,7 +4615,6 @@ class AchievementsResponseAchievementsHalloween2017OneTimeTHECRAWLINGDEAD;
 class AchievementsResponseAchievementsHalloween2017OneTimeSPOOKYVICTORY;
 class AchievementsResponseAchievementsHalloween2017OneTimeCLASSYWITHER;
 class AchievementsResponseAchievementsHalloween2017OneTimeGOODTRY;
-class AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2025;
 class AchievementsResponseAchievementsHalloween2017OneTimeHAUNTEDMAPS;
 class AchievementsResponseAchievementsHalloween2017OneTimeTBRRIVERSIDEREVENGE;
 class AchievementsResponseAchievementsHalloween2017OneTimeHITHERE;
@@ -4641,6 +4643,7 @@ class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2022;
 class AchievementsResponseAchievementsHalloween2017OneTimeTBRSHARKNADOJAUNT;
 class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2021;
 class AchievementsResponseAchievementsHalloween2017OneTimeSPOOKYCHEST;
+class AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2025;
 class AchievementsResponseAchievementsHalloween2017OneTimeTBRSEASIDEDRIVEFAST;
 class AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2024;
 class AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2023;
@@ -4661,6 +4664,7 @@ class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2024;
 class AchievementsResponseAchievementsHalloween2017OneTimeTBRPUMPKINJUMP;
 class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2023;
 class AchievementsResponseAchievementsHalloween2017OneTimeNECROTHERAPY;
+class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2025;
 class AchievementsResponseAchievementsHalloween2017OneTime;
 class AchievementsResponseAchievementsHalloween2017TieredPUMPKINATOR;
 class AchievementsResponseAchievementsHalloween2017TieredPUMPKINSMASHER;
@@ -89695,6 +89699,20 @@ public:
   [[nodiscard]] JsonView skyBlockAlchemistIntro() const { return at("skyBlockAlchemistIntro"); }
 };
 
+class PlayerResponsePlayerSeasonalHalloween2026Levelling : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView experience() const { return at("experience"); }
+};
+
+class PlayerResponsePlayerSeasonalHalloween2026 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Levelling levelling() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Levelling>("levelling"); }
+};
+
 class PlayerResponsePlayerSeasonalHalloween : public JsonView {
 public:
   using JsonView::JsonView;
@@ -89703,6 +89721,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2023 _2023() const { return object_at<PlayerResponsePlayerSeasonalHalloween2023>("2023"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2024 _2024() const { return object_at<PlayerResponsePlayerSeasonalHalloween2024>("2024"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2025 _2025() const { return object_at<PlayerResponsePlayerSeasonalHalloween2025>("2025"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026 _2026() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026>("2026"); }
 };
 
 class PlayerResponsePlayerSeasonalEventShopSorting : public JsonView {
@@ -100710,6 +100729,15 @@ public:
   [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
+class AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2026 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+};
+
 class AchievementsResponseAchievementsHalloween2017OneTimePUMPKINPOWER : public JsonView {
 public:
   using JsonView::JsonView;
@@ -100881,14 +100909,13 @@ public:
   [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
-class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2025 : public JsonView {
+class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2026 : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView points() const { return at("points"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
   [[nodiscard]] JsonView description() const { return at("description"); }
-  [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
 class AchievementsResponseAchievementsHalloween2017OneTimeFIREFROMHELL : public JsonView {
@@ -101042,16 +101069,6 @@ public:
 };
 
 class AchievementsResponseAchievementsHalloween2017OneTimeGOODTRY : public JsonView {
-public:
-  using JsonView::JsonView;
-
-  [[nodiscard]] JsonView points() const { return at("points"); }
-  [[nodiscard]] JsonView name() const { return at("name"); }
-  [[nodiscard]] JsonView description() const { return at("description"); }
-  [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
-};
-
-class AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2025 : public JsonView {
 public:
   using JsonView::JsonView;
 
@@ -101341,6 +101358,16 @@ public:
   [[nodiscard]] JsonView legacy() const { return at("legacy"); }
 };
 
+class AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2025 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView legacy() const { return at("legacy"); }
+};
+
 class AchievementsResponseAchievementsHalloween2017OneTimeTBRSEASIDEDRIVEFAST : public JsonView {
 public:
   using JsonView::JsonView;
@@ -101541,6 +101568,16 @@ public:
   [[nodiscard]] JsonView legacy() const { return at("legacy"); }
 };
 
+class AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2025 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView legacy() const { return at("legacy"); }
+};
+
 class AchievementsResponseAchievementsHalloween2017OneTime : public JsonView {
 public:
   using JsonView::JsonView;
@@ -101557,6 +101594,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeTBRCRYPTICCASTLE TBR_CRYPTIC_CASTLE() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeTBRCRYPTICCASTLE>("TBR_CRYPTIC_CASTLE"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeBEWITCHING BEWITCHING() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeBEWITCHING>("BEWITCHING"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeWITHERINGHEIGHTS WITHERING_HEIGHTS() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeWITHERINGHEIGHTS>("WITHERING_HEIGHTS"); }
+  [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2026 ALL_BASKETS_2026() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2026>("ALL_BASKETS_2026"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimePUMPKINPOWER PUMPKIN_POWER() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimePUMPKINPOWER>("PUMPKIN_POWER"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimePUMPKINDANCER PUMPKIN_DANCER() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimePUMPKINDANCER>("PUMPKIN_DANCER"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeRISINGDEAD RISING_DEAD() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeRISINGDEAD>("RISING_DEAD"); }
@@ -101574,7 +101612,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeNOTSOSCARY NOT_SO_SCARY() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeNOTSOSCARY>("NOT_SO_SCARY"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeTHATTIMEOFYEAR THAT_TIME_OF_YEAR() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeTHATTIMEOFYEAR>("THAT_TIME_OF_YEAR"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeSMOKINGVEIL SMOKING_VEIL() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeSMOKINGVEIL>("SMOKING_VEIL"); }
-  [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2025 FIVE_BASKETS_2025() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2025>("FIVE_BASKETS_2025"); }
+  [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2026 FIVE_BASKETS_2026() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2026>("FIVE_BASKETS_2026"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeFIREFROMHELL FIRE_FROM_HELL() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeFIREFROMHELL>("FIRE_FROM_HELL"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeTRICKED TRICKED() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeTRICKED>("TRICKED"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeCORPSESTILLRUNS CORPSE_STILL_RUNS() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeCORPSESTILLRUNS>("CORPSE_STILL_RUNS"); }
@@ -101591,7 +101629,6 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeSPOOKYVICTORY SPOOKY_VICTORY() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeSPOOKYVICTORY>("SPOOKY_VICTORY"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeCLASSYWITHER CLASSY_WITHER() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeCLASSYWITHER>("CLASSY_WITHER"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeGOODTRY GOOD_TRY() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeGOODTRY>("GOOD_TRY"); }
-  [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2025 ALL_BASKETS_2025() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2025>("ALL_BASKETS_2025"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeHAUNTEDMAPS HAUNTED_MAPS() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeHAUNTEDMAPS>("HAUNTED_MAPS"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeTBRRIVERSIDEREVENGE TBR_RIVERSIDE_REVENGE() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeTBRRIVERSIDEREVENGE>("TBR_RIVERSIDE_REVENGE"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeHITHERE HI_THERE() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeHITHERE>("HI_THERE"); }
@@ -101620,6 +101657,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeTBRSHARKNADOJAUNT TBR_SHARKNADO_JAUNT() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeTBRSHARKNADOJAUNT>("TBR_SHARKNADO_JAUNT"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2021 FIVE_BASKETS_2021() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2021>("FIVE_BASKETS_2021"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeSPOOKYCHEST SPOOKY_CHEST() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeSPOOKYCHEST>("SPOOKY_CHEST"); }
+  [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2025 ALL_BASKETS_2025() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2025>("ALL_BASKETS_2025"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeTBRSEASIDEDRIVEFAST TBR_SEASIDE_DRIVE_FAST() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeTBRSEASIDEDRIVEFAST>("TBR_SEASIDE_DRIVE_FAST"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2024 ALL_BASKETS_2024() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2024>("ALL_BASKETS_2024"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2023 ALL_BASKETS_2023() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeALLBASKETS2023>("ALL_BASKETS_2023"); }
@@ -101640,6 +101678,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeTBRPUMPKINJUMP TBR_PUMPKIN_JUMP() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeTBRPUMPKINJUMP>("TBR_PUMPKIN_JUMP"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2023 FIVE_BASKETS_2023() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2023>("FIVE_BASKETS_2023"); }
   [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeNECROTHERAPY NECROTHERAPY() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeNECROTHERAPY>("NECROTHERAPY"); }
+  [[nodiscard]] AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2025 FIVE_BASKETS_2025() const { return object_at<AchievementsResponseAchievementsHalloween2017OneTimeFIVEBASKETS2025>("FIVE_BASKETS_2025"); }
 };
 
 class AchievementsResponseAchievementsHalloween2017TieredPUMPKINATOR : public JsonView {
