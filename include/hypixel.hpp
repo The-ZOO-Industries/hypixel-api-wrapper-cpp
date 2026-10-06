@@ -124038,6 +124038,7 @@ public:
 
   [[nodiscard]] JsonView max_kills_visible() const { return at("max_kills_visible"); }
   [[nodiscard]] JsonView milestones_notifications() const { return at("milestones_notifications"); }
+  [[nodiscard]] JsonView claimed_beastslayers_codex() const { return at("claimed_beastslayers_codex"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiary : public JsonView {
@@ -136621,6 +136622,18 @@ public:
   [[nodiscard]] JsonView SHARK_BAIT() const { return at("SHARK_BAIT"); }
   [[nodiscard]] JsonView WHALE_BAIT() const { return at("WHALE_BAIT"); }
   [[nodiscard]] JsonView SHINY_SHARD() const { return at("SHINY_SHARD"); }
+  [[nodiscard]] JsonView BLESSED_BAIT() const { return at("BLESSED_BAIT"); }
+  [[nodiscard]] JsonView CARROT_BAIT() const { return at("CARROT_BAIT"); }
+  [[nodiscard]] JsonView FISH_BAIT() const { return at("FISH_BAIT"); }
+  [[nodiscard]] JsonView GOLDEN_BAIT() const { return at("GOLDEN_BAIT"); }
+  [[nodiscard]] JsonView OBFUSCATED_FISH_1_GOLD() const { return at("OBFUSCATED_FISH_1_GOLD"); }
+  [[nodiscard]] JsonView SPOOKY_BAIT() const { return at("SPOOKY_BAIT"); }
+  [[nodiscard]] JsonView TREASURE_BAIT() const { return at("TREASURE_BAIT"); }
+  [[nodiscard]] JsonView WOODEN_BAIT() const { return at("WOODEN_BAIT"); }
+  [[nodiscard]] JsonView WORM_BAIT() const { return at("WORM_BAIT"); }
+  [[nodiscard]] JsonView GLOWY_CHUM_BAIT() const { return at("GLOWY_CHUM_BAIT"); }
+  [[nodiscard]] JsonView HOTSPOT_BAIT() const { return at("HOTSPOT_BAIT"); }
+  [[nodiscard]] JsonView SPIKED_BAIT() const { return at("SPIKED_BAIT"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
@@ -140277,6 +140290,7 @@ public:
   [[nodiscard]] JsonView ghastly_distraction() const { return at("ghastly_distraction"); }
   [[nodiscard]] JsonView rabbit_youth() const { return at("rabbit_youth"); }
   [[nodiscard]] JsonView flora() const { return at("flora"); }
+  [[nodiscard]] JsonView catacombs_cap() const { return at("catacombs_cap"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
