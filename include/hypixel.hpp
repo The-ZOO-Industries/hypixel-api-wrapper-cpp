@@ -666,6 +666,9 @@ class PlayerResponsePlayerQuestsArcadeWeeklyPlay;
 class PlayerResponsePlayerQuestsArcadeWeeklyArtistActiveObjectives;
 class PlayerResponsePlayerQuestsArcadeWeeklyArtistActive;
 class PlayerResponsePlayerQuestsArcadeWeeklyArtist;
+class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026ActiveObjectives;
+class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026Active;
+class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026;
 class PlayerResponsePlayerQuests;
 class PlayerResponsePlayerSettingsCompass;
 class PlayerResponsePlayerSettings;
@@ -13526,6 +13529,28 @@ public:
   [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyArtistActive active() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyArtistActive>("active"); }
 };
 
+class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026ActiveObjectives : public JsonView {
+public:
+  using JsonView::JsonView;
+
+};
+
+class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026Active : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026ActiveObjectives objectives() const { return object_at<PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026ActiveObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView started() const { return at("started"); }
+};
+
+class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026Active active() const { return object_at<PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026Active>("active"); }
+};
+
 class PlayerResponsePlayerQuests : public JsonView {
 public:
   using JsonView::JsonView;
@@ -13737,6 +13762,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerQuestsArcadeDailyPlay arcade_daily_play() const { return object_at<PlayerResponsePlayerQuestsArcadeDailyPlay>("arcade_daily_play"); }
   [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyPlay arcade_weekly_play() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyPlay>("arcade_weekly_play"); }
   [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyArtist arcade_weekly_artist() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyArtist>("arcade_weekly_artist"); }
+  [[nodiscard]] PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026 mm_special_weekly_killer_instinct_2026() const { return object_at<PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026>("mm_special_weekly_killer_instinct_2026"); }
 };
 
 class PlayerResponsePlayerSettingsCompass : public JsonView {
@@ -75175,6 +75201,7 @@ public:
   [[nodiscard]] JsonView become_rabbit() const { return at("become_rabbit"); }
   [[nodiscard]] JsonView easter_guide_2026() const { return at("easter_guide_2026"); }
   [[nodiscard]] JsonView summer_guide_2026() const { return at("summer_guide_2026"); }
+  [[nodiscard]] JsonView halloween_guide_2026() const { return at("halloween_guide_2026"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyDiscoveredZones : public JsonView {
