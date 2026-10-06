@@ -669,6 +669,9 @@ class PlayerResponsePlayerQuestsArcadeWeeklyArtist;
 class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026ActiveObjectives;
 class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026Active;
 class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026;
+class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026ActiveObjectives;
+class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026Active;
+class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026;
 class PlayerResponsePlayerQuests;
 class PlayerResponsePlayerSettingsCompass;
 class PlayerResponsePlayerSettings;
@@ -3693,6 +3696,7 @@ class PlayerResponsePlayerSeasonalHalloween2025Cauldron;
 class PlayerResponsePlayerSeasonalHalloween2025PumpkinSmash;
 class PlayerResponsePlayerSeasonalHalloween2025;
 class PlayerResponsePlayerSeasonalHalloween2026Levelling;
+class PlayerResponsePlayerSeasonalHalloween2026Candyhunt;
 class PlayerResponsePlayerSeasonalHalloween2026;
 class PlayerResponsePlayerSeasonalHalloween;
 class PlayerResponsePlayerSeasonalEventShopSorting;
@@ -6292,6 +6296,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneC
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastBakerScott;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMiria;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataArchie;
+class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMeteorologist;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactData;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneOperatorChip;
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneGames;
@@ -13551,6 +13556,28 @@ public:
   [[nodiscard]] PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026Active active() const { return object_at<PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026Active>("active"); }
 };
 
+class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026ActiveObjectives : public JsonView {
+public:
+  using JsonView::JsonView;
+
+};
+
+class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026Active : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026ActiveObjectives objectives() const { return object_at<PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026ActiveObjectives>("objectives"); }
+
+  [[nodiscard]] JsonView started() const { return at("started"); }
+};
+
+class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026Active active() const { return object_at<PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026Active>("active"); }
+};
+
 class PlayerResponsePlayerQuests : public JsonView {
 public:
   using JsonView::JsonView;
@@ -13763,6 +13790,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyPlay arcade_weekly_play() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyPlay>("arcade_weekly_play"); }
   [[nodiscard]] PlayerResponsePlayerQuestsArcadeWeeklyArtist arcade_weekly_artist() const { return object_at<PlayerResponsePlayerQuestsArcadeWeeklyArtist>("arcade_weekly_artist"); }
   [[nodiscard]] PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026 mm_special_weekly_killer_instinct_2026() const { return object_at<PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026>("mm_special_weekly_killer_instinct_2026"); }
+  [[nodiscard]] PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026 skywars_halloween_harvest_2026() const { return object_at<PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026>("skywars_halloween_harvest_2026"); }
 };
 
 class PlayerResponsePlayerSettingsCompass : public JsonView {
@@ -82953,6 +82981,7 @@ public:
   [[nodiscard]] JsonView WALLS3__protector_challenge() const { return at("WALLS3__protector_challenge"); }
   [[nodiscard]] JsonView WALLS3__comeback_challenge() const { return at("WALLS3__comeback_challenge"); }
   [[nodiscard]] JsonView WALLS3__wither_challenge() const { return at("WALLS3__wither_challenge"); }
+  [[nodiscard]] JsonView ARCADE__blocking_dead_challenge() const { return at("ARCADE__blocking_dead_challenge"); }
 };
 
 class PlayerResponsePlayerChallenges : public JsonView {
@@ -89733,11 +89762,20 @@ public:
   [[nodiscard]] JsonView experience() const { return at("experience"); }
 };
 
+class PlayerResponsePlayerSeasonalHalloween2026Candyhunt : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView baskets() const { return at("baskets"); }
+  [[nodiscard]] JsonView reward() const { return at("reward"); }
+};
+
 class PlayerResponsePlayerSeasonalHalloween2026 : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Levelling levelling() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Levelling>("levelling"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Candyhunt candyhunt() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Candyhunt>("candyhunt"); }
 };
 
 class PlayerResponsePlayerSeasonalHalloween : public JsonView {
@@ -120570,6 +120608,16 @@ public:
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMeteorologist : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView talked_to() const { return at("talked_to"); }
+  [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
+  [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
+  [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactData : public JsonView {
 public:
   using JsonView::JsonView;
@@ -120660,6 +120708,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastBakerScott feast_baker_scott() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataFeastBakerScott>("feast_baker_scott"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMiria miria() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMiria>("miria"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataArchie archie() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataArchie>("archie"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMeteorologist meteorologist() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactDataMeteorologist>("meteorologist"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneOperatorChip : public JsonView {
@@ -135452,6 +135501,7 @@ public:
   [[nodiscard]] JsonView critter_master() const { return at("critter_master"); }
   [[nodiscard]] JsonView sparkling_specialist() const { return at("sparkling_specialist"); }
   [[nodiscard]] JsonView head_start() const { return at("head_start"); }
+  [[nodiscard]] JsonView eagles_advantage() const { return at("eagles_advantage"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerDataExperience : public JsonView {
@@ -136566,6 +136616,11 @@ public:
   [[nodiscard]] JsonView SOUL_STRING() const { return at("SOUL_STRING"); }
   [[nodiscard]] JsonView HEMOBOMB() const { return at("HEMOBOMB"); }
   [[nodiscard]] JsonView CRUNCHY_BUG() const { return at("CRUNCHY_BUG"); }
+  [[nodiscard]] JsonView DARK_BAIT() const { return at("DARK_BAIT"); }
+  [[nodiscard]] JsonView HOT_BAIT() const { return at("HOT_BAIT"); }
+  [[nodiscard]] JsonView SHARK_BAIT() const { return at("SHARK_BAIT"); }
+  [[nodiscard]] JsonView WHALE_BAIT() const { return at("WHALE_BAIT"); }
+  [[nodiscard]] JsonView SHINY_SHARD() const { return at("SHINY_SHARD"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
@@ -140221,6 +140276,7 @@ public:
   [[nodiscard]] JsonView refined_luck() const { return at("refined_luck"); }
   [[nodiscard]] JsonView ghastly_distraction() const { return at("ghastly_distraction"); }
   [[nodiscard]] JsonView rabbit_youth() const { return at("rabbit_youth"); }
+  [[nodiscard]] JsonView flora() const { return at("flora"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
