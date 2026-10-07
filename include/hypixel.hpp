@@ -136634,6 +136634,8 @@ public:
   [[nodiscard]] JsonView GLOWY_CHUM_BAIT() const { return at("GLOWY_CHUM_BAIT"); }
   [[nodiscard]] JsonView HOTSPOT_BAIT() const { return at("HOTSPOT_BAIT"); }
   [[nodiscard]] JsonView SPIKED_BAIT() const { return at("SPIKED_BAIT"); }
+  [[nodiscard]] JsonView ICE_BAIT() const { return at("ICE_BAIT"); }
+  [[nodiscard]] JsonView LIGHT_BAIT() const { return at("LIGHT_BAIT"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
