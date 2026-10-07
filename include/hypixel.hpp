@@ -2525,6 +2525,8 @@ class PlayerResponsePlayerStatsMainLobbyFishingStats2026Easter;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerWater;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerLava;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026Summer;
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenWater;
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026Halloween;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026;
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanentWater;
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanentIndividualFish;
@@ -74810,12 +74812,30 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerLava lava() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerLava>("lava"); }
 };
 
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenWater : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView fish() const { return at("fish"); }
+  [[nodiscard]] JsonView junk() const { return at("junk"); }
+  [[nodiscard]] JsonView orb() const { return at("orb"); }
+  [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+};
+
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026Halloween : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenWater water() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenWater>("water"); }
+};
+
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026 : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026Easter easter() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026Easter>("easter"); }
   [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026Summer summer() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026Summer>("summer"); }
+  [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026Halloween halloween() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026Halloween>("halloween"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanentWater : public JsonView {
