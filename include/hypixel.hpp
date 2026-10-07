@@ -120616,6 +120616,7 @@ public:
   [[nodiscard]] JsonView completed_quest() const { return at("completed_quest"); }
   [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
+  [[nodiscard]] JsonView last_call() const { return at("last_call"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactData : public JsonView {
@@ -134899,6 +134900,9 @@ public:
   [[nodiscard]] JsonView mochibear() const { return at("mochibear"); }
   [[nodiscard]] JsonView bambuleaf() const { return at("bambuleaf"); }
   [[nodiscard]] JsonView phanflare_10() const { return at("phanflare_10"); }
+  [[nodiscard]] JsonView atoned_champion() const { return at("atoned_champion"); }
+  [[nodiscard]] JsonView revenant_horror() const { return at("revenant_horror"); }
+  [[nodiscard]] JsonView atoned_revenant() const { return at("atoned_revenant"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -136636,6 +136640,10 @@ public:
   [[nodiscard]] JsonView SPIKED_BAIT() const { return at("SPIKED_BAIT"); }
   [[nodiscard]] JsonView ICE_BAIT() const { return at("ICE_BAIT"); }
   [[nodiscard]] JsonView LIGHT_BAIT() const { return at("LIGHT_BAIT"); }
+  [[nodiscard]] JsonView FROZEN_BAIT() const { return at("FROZEN_BAIT"); }
+  [[nodiscard]] JsonView OBFUSCATED_FISH_2_GOLD() const { return at("OBFUSCATED_FISH_2_GOLD"); }
+  [[nodiscard]] JsonView CORRUPTED_BAIT() const { return at("CORRUPTED_BAIT"); }
+  [[nodiscard]] JsonView OBFUSCATED_FISH_1_DIAMOND() const { return at("OBFUSCATED_FISH_1_DIAMOND"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
@@ -140293,6 +140301,7 @@ public:
   [[nodiscard]] JsonView rabbit_youth() const { return at("rabbit_youth"); }
   [[nodiscard]] JsonView flora() const { return at("flora"); }
   [[nodiscard]] JsonView catacombs_cap() const { return at("catacombs_cap"); }
+  [[nodiscard]] JsonView fiesta_fortune() const { return at("fiesta_fortune"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidAttributes : public JsonView {
