@@ -100821,6 +100821,7 @@ public:
   [[nodiscard]] JsonView points() const { return at("points"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
   [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
 class AchievementsResponseAchievementsHalloween2017OneTimePUMPKINPOWER : public JsonView {
@@ -101001,6 +101002,7 @@ public:
   [[nodiscard]] JsonView points() const { return at("points"); }
   [[nodiscard]] JsonView name() const { return at("name"); }
   [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
 class AchievementsResponseAchievementsHalloween2017OneTimeFIREFROMHELL : public JsonView {
@@ -124044,6 +124046,7 @@ public:
   [[nodiscard]] JsonView jockey_skeleton_42() const { return at("jockey_skeleton_42"); }
   [[nodiscard]] JsonView crypt_undead_codename_b_40() const { return at("crypt_undead_codename_b_40"); }
   [[nodiscard]] JsonView sneaky_tiki_71() const { return at("sneaky_tiki_71"); }
+  [[nodiscard]] JsonView riftstalker_bloodfiend_5() const { return at("riftstalker_bloodfiend_5"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133553,6 +133556,7 @@ public:
   [[nodiscard]] JsonView stag_beetle() const { return at("stag_beetle"); }
   [[nodiscard]] JsonView crypt_undead_codename_b() const { return at("crypt_undead_codename_b"); }
   [[nodiscard]] JsonView sneaky_tiki() const { return at("sneaky_tiki"); }
+  [[nodiscard]] JsonView riftstalker_bloodfiend() const { return at("riftstalker_bloodfiend"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
@@ -134923,6 +134927,12 @@ public:
   [[nodiscard]] JsonView atoned_champion() const { return at("atoned_champion"); }
   [[nodiscard]] JsonView revenant_horror() const { return at("revenant_horror"); }
   [[nodiscard]] JsonView atoned_revenant() const { return at("atoned_revenant"); }
+  [[nodiscard]] JsonView kindleheart_demon() const { return at("kindleheart_demon"); }
+  [[nodiscard]] JsonView primordial_viscount() const { return at("primordial_viscount"); }
+  [[nodiscard]] JsonView voidling_radical() const { return at("voidling_radical"); }
+  [[nodiscard]] JsonView voidcrazed_maniac() const { return at("voidcrazed_maniac"); }
+  [[nodiscard]] JsonView mutant_tarantula() const { return at("mutant_tarantula"); }
+  [[nodiscard]] JsonView tarantula_beast() const { return at("tarantula_beast"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
