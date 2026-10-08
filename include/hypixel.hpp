@@ -134933,6 +134933,8 @@ public:
   [[nodiscard]] JsonView voidcrazed_maniac() const { return at("voidcrazed_maniac"); }
   [[nodiscard]] JsonView mutant_tarantula() const { return at("mutant_tarantula"); }
   [[nodiscard]] JsonView tarantula_beast() const { return at("tarantula_beast"); }
+  [[nodiscard]] JsonView voidgloom_seraph() const { return at("voidgloom_seraph"); }
+  [[nodiscard]] JsonView voidling_devotee() const { return at("voidling_devotee"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -136674,6 +136676,7 @@ public:
   [[nodiscard]] JsonView OBFUSCATED_FISH_2_GOLD() const { return at("OBFUSCATED_FISH_2_GOLD"); }
   [[nodiscard]] JsonView CORRUPTED_BAIT() const { return at("CORRUPTED_BAIT"); }
   [[nodiscard]] JsonView OBFUSCATED_FISH_1_DIAMOND() const { return at("OBFUSCATED_FISH_1_DIAMOND"); }
+  [[nodiscard]] JsonView MINNOW_BAIT() const { return at("MINNOW_BAIT"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
