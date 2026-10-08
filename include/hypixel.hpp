@@ -13562,6 +13562,8 @@ class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026ActiveObjectives : pu
 public:
   using JsonView::JsonView;
 
+  [[nodiscard]] JsonView skywars_halloween_kills() const { return at("skywars_halloween_kills"); }
+  [[nodiscard]] JsonView skywars_halloween_mega_wins() const { return at("skywars_halloween_mega_wins"); }
 };
 
 class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026Active : public JsonView {
@@ -144393,6 +144395,7 @@ public:
   [[nodiscard]] JsonView requirement() const { return at("requirement"); }
   [[nodiscard]] JsonView status() const { return at("status"); }
   [[nodiscard]] JsonView position() const { return at("position"); }
+  [[nodiscard]] JsonView bonus_rewards() const { return at("bonus_rewards"); }
 };
 
 class SkyblockGardenResponseGardenActiveCommissionsMayorFinnegan : public JsonView {
