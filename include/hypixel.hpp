@@ -134951,6 +134951,7 @@ public:
   [[nodiscard]] JsonView voidling_devotee() const { return at("voidling_devotee"); }
   [[nodiscard]] JsonView riftstalker_bloodfiend() const { return at("riftstalker_bloodfiend"); }
   [[nodiscard]] JsonView inferno_demonlord() const { return at("inferno_demonlord"); }
+  [[nodiscard]] JsonView revenant_champion() const { return at("revenant_champion"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -142298,6 +142299,7 @@ public:
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts2 : public JsonView {
