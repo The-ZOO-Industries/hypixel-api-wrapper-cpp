@@ -139261,6 +139261,8 @@ public:
   [[nodiscard]] JsonView toggle_mineshaft_mayhem() const { return at("toggle_mineshaft_mayhem"); }
   [[nodiscard]] JsonView gemstone_infusion() const { return at("gemstone_infusion"); }
   [[nodiscard]] JsonView toggle_gemstone_infusion() const { return at("toggle_gemstone_infusion"); }
+  [[nodiscard]] JsonView sheer_force() const { return at("sheer_force"); }
+  [[nodiscard]] JsonView toggle_sheer_force() const { return at("toggle_sheer_force"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining4 : public JsonView {
@@ -142340,6 +142342,7 @@ public:
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts5 : public JsonView {
@@ -142417,6 +142420,7 @@ public:
   [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts10 : public JsonView {
