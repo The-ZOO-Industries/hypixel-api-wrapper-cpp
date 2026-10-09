@@ -1921,6 +1921,7 @@ class PlayerResponsePlayerStatsBedwarsSlumberMinion;
 class PlayerResponsePlayerStatsBedwarsSlumberSandman;
 class PlayerResponsePlayerStatsBedwarsSlumber;
 class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards2025;
+class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards2026;
 class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards;
 class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestone;
 class PlayerResponsePlayerStatsBedwarsHalloween;
@@ -61991,11 +61992,20 @@ public:
   [[nodiscard]] JsonView V() const { return at("V"); }
 };
 
+class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards2026 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView I() const { return at("I"); }
+  [[nodiscard]] JsonView II() const { return at("II"); }
+};
+
 class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards2025 _2025() const { return object_at<PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards2025>("2025"); }
+  [[nodiscard]] PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards2026 _2026() const { return object_at<PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards2026>("2026"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestone : public JsonView {
@@ -62005,6 +62015,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards rewards() const { return object_at<PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards>("rewards"); }
 
   [[nodiscard]] JsonView _2025() const { return at("2025"); }
+  [[nodiscard]] JsonView _2026() const { return at("2026"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsHalloween : public JsonView {
@@ -134939,6 +134950,7 @@ public:
   [[nodiscard]] JsonView voidgloom_seraph() const { return at("voidgloom_seraph"); }
   [[nodiscard]] JsonView voidling_devotee() const { return at("voidling_devotee"); }
   [[nodiscard]] JsonView riftstalker_bloodfiend() const { return at("riftstalker_bloodfiend"); }
+  [[nodiscard]] JsonView inferno_demonlord() const { return at("inferno_demonlord"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -142343,6 +142355,7 @@ public:
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts6 : public JsonView {
