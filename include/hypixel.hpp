@@ -136693,6 +136693,7 @@ public:
   [[nodiscard]] JsonView CORRUPTED_BAIT() const { return at("CORRUPTED_BAIT"); }
   [[nodiscard]] JsonView OBFUSCATED_FISH_1_DIAMOND() const { return at("OBFUSCATED_FISH_1_DIAMOND"); }
   [[nodiscard]] JsonView MINNOW_BAIT() const { return at("MINNOW_BAIT"); }
+  [[nodiscard]] JsonView OBFUSCATED_FISH_2_DIAMOND() const { return at("OBFUSCATED_FISH_2_DIAMOND"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
