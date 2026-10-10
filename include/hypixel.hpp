@@ -134957,6 +134957,7 @@ public:
   [[nodiscard]] JsonView tarantula_broodfather() const { return at("tarantula_broodfather"); }
   [[nodiscard]] JsonView sven_packmaster() const { return at("sven_packmaster"); }
   [[nodiscard]] JsonView primordial_jockey() const { return at("primordial_jockey"); }
+  [[nodiscard]] JsonView tarantula_vermin() const { return at("tarantula_vermin"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
