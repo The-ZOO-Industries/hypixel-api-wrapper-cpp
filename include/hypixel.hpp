@@ -33753,6 +33753,7 @@ public:
   [[nodiscard]] JsonView snowman_b_final_assists_face_off() const { return at("snowman_b_final_assists_face_off"); }
   [[nodiscard]] JsonView shaman_a_final_kills_below_10_hp_gvg() const { return at("shaman_a_final_kills_below_10_hp_gvg"); }
   [[nodiscard]] JsonView shaman_fish_eaten_gvg() const { return at("shaman_fish_eaten_gvg"); }
+  [[nodiscard]] JsonView pigman_finals_with_strength_face_off() const { return at("pigman_finals_with_strength_face_off"); }
 };
 
 class PlayerResponsePlayerStatsGingerBread : public JsonView {
@@ -64928,6 +64929,7 @@ public:
   [[nodiscard]] JsonView _7() const { return at("7"); }
   [[nodiscard]] JsonView _8() const { return at("8"); }
   [[nodiscard]] JsonView _9() const { return at("9"); }
+  [[nodiscard]] JsonView _10() const { return at("10"); }
   [[nodiscard]] JsonView _17() const { return at("17"); }
   [[nodiscard]] JsonView _28() const { return at("28"); }
   [[nodiscard]] JsonView _33() const { return at("33"); }
@@ -134953,6 +134955,8 @@ public:
   [[nodiscard]] JsonView inferno_demonlord() const { return at("inferno_demonlord"); }
   [[nodiscard]] JsonView revenant_champion() const { return at("revenant_champion"); }
   [[nodiscard]] JsonView tarantula_broodfather() const { return at("tarantula_broodfather"); }
+  [[nodiscard]] JsonView sven_packmaster() const { return at("sven_packmaster"); }
+  [[nodiscard]] JsonView primordial_jockey() const { return at("primordial_jockey"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -142380,6 +142384,7 @@ public:
   [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts7 : public JsonView {
@@ -142503,6 +142508,7 @@ public:
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts15 : public JsonView {
