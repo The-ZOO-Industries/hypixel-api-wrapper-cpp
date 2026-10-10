@@ -134952,6 +134952,7 @@ public:
   [[nodiscard]] JsonView riftstalker_bloodfiend() const { return at("riftstalker_bloodfiend"); }
   [[nodiscard]] JsonView inferno_demonlord() const { return at("inferno_demonlord"); }
   [[nodiscard]] JsonView revenant_champion() const { return at("revenant_champion"); }
+  [[nodiscard]] JsonView tarantula_broodfather() const { return at("tarantula_broodfather"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -142315,6 +142316,7 @@ public:
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts3 : public JsonView {
@@ -142330,6 +142332,7 @@ public:
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts4 : public JsonView {
