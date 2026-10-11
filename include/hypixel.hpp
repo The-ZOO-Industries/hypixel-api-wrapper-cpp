@@ -120654,6 +120654,7 @@ public:
   [[nodiscard]] JsonView incoming_calls_count() const { return at("incoming_calls_count"); }
   [[nodiscard]] JsonView last_call_incoming() const { return at("last_call_incoming"); }
   [[nodiscard]] JsonView last_call() const { return at("last_call"); }
+  [[nodiscard]] JsonView dnd_enabled() const { return at("dnd_enabled"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidNetherIslandPlayerDataAbiphoneContactData : public JsonView {
@@ -124063,6 +124064,7 @@ public:
   [[nodiscard]] JsonView sneaky_tiki_71() const { return at("sneaky_tiki_71"); }
   [[nodiscard]] JsonView riftstalker_bloodfiend_5() const { return at("riftstalker_bloodfiend_5"); }
   [[nodiscard]] JsonView riftstalker_bloodfiend_2() const { return at("riftstalker_bloodfiend_2"); }
+  [[nodiscard]] JsonView revenant_horror_5() const { return at("revenant_horror_5"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133573,6 +133575,7 @@ public:
   [[nodiscard]] JsonView crypt_undead_codename_b() const { return at("crypt_undead_codename_b"); }
   [[nodiscard]] JsonView sneaky_tiki() const { return at("sneaky_tiki"); }
   [[nodiscard]] JsonView riftstalker_bloodfiend() const { return at("riftstalker_bloodfiend"); }
+  [[nodiscard]] JsonView revenant_horror() const { return at("revenant_horror"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
