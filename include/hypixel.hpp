@@ -3700,6 +3700,8 @@ class PlayerResponsePlayerSeasonalHalloween2025PumpkinSmash;
 class PlayerResponsePlayerSeasonalHalloween2025;
 class PlayerResponsePlayerSeasonalHalloween2026Levelling;
 class PlayerResponsePlayerSeasonalHalloween2026Candyhunt;
+class PlayerResponsePlayerSeasonalHalloween2026TbrCrypticCastle;
+class PlayerResponsePlayerSeasonalHalloween2026Tbr;
 class PlayerResponsePlayerSeasonalHalloween2026;
 class PlayerResponsePlayerSeasonalHalloween;
 class PlayerResponsePlayerSeasonalEventShopSorting;
@@ -7634,6 +7636,7 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15EQUIPMENTSLOT
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts1;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts2;
@@ -61999,6 +62002,8 @@ public:
 
   [[nodiscard]] JsonView I() const { return at("I"); }
   [[nodiscard]] JsonView II() const { return at("II"); }
+  [[nodiscard]] JsonView III() const { return at("III"); }
+  [[nodiscard]] JsonView IV() const { return at("IV"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards : public JsonView {
@@ -89805,12 +89810,29 @@ public:
   [[nodiscard]] JsonView reward() const { return at("reward"); }
 };
 
+class PlayerResponsePlayerSeasonalHalloween2026TbrCrypticCastle : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView attempts() const { return at("attempts"); }
+  [[nodiscard]] JsonView completions() const { return at("completions"); }
+  [[nodiscard]] JsonView best_time() const { return at("best_time"); }
+};
+
+class PlayerResponsePlayerSeasonalHalloween2026Tbr : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026TbrCrypticCastle cryptic_castle() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026TbrCrypticCastle>("cryptic_castle"); }
+};
+
 class PlayerResponsePlayerSeasonalHalloween2026 : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Levelling levelling() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Levelling>("levelling"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Candyhunt candyhunt() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Candyhunt>("candyhunt"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Tbr tbr() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Tbr>("tbr"); }
 };
 
 class PlayerResponsePlayerSeasonalHalloween : public JsonView {
@@ -142270,6 +142292,13 @@ public:
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView id() const { return at("id"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment : public JsonView {
 public:
   using JsonView::JsonView;
@@ -142291,6 +142320,7 @@ public:
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15 _15() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15>("15"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16 _16() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16>("16"); }
   [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17 _17() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17>("17"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18 _18() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18>("18"); }
 
   [[nodiscard]] JsonView equipped_set() const { return at("equipped_set"); }
 };
