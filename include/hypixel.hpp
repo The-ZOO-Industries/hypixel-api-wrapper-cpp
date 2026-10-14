@@ -89833,6 +89833,8 @@ public:
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Levelling levelling() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Levelling>("levelling"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Candyhunt candyhunt() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Candyhunt>("candyhunt"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Tbr tbr() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Tbr>("tbr"); }
+
+  [[nodiscard]] JsonView skyBlockAlchemistIntro() const { return at("skyBlockAlchemistIntro"); }
 };
 
 class PlayerResponsePlayerSeasonalHalloween : public JsonView {
@@ -135388,6 +135390,7 @@ public:
   [[nodiscard]] JsonView total() const { return at("total"); }
   [[nodiscard]] JsonView green_candy() const { return at("green_candy"); }
   [[nodiscard]] JsonView purple_candy() const { return at("purple_candy"); }
+  [[nodiscard]] JsonView dark_candy() const { return at("dark_candy"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsRiftWestVerminVacuumed : public JsonView {
@@ -142452,6 +142455,7 @@ public:
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts8 : public JsonView {
@@ -142530,6 +142534,7 @@ public:
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts13 : public JsonView {
@@ -142591,6 +142596,7 @@ public:
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts17 : public JsonView {
@@ -142636,6 +142642,7 @@ public:
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts20 : public JsonView {
@@ -143008,6 +143015,7 @@ public:
   [[nodiscard]] JsonView taylor() const { return at("taylor"); }
   [[nodiscard]] JsonView carrot_king_avatar() const { return at("carrot_king_avatar"); }
   [[nodiscard]] JsonView tal_ker() const { return at("tal_ker"); }
+  [[nodiscard]] JsonView tyashoi() const { return at("tyashoi"); }
 };
 
 class SkyblockGardenResponseGardenCommissionDataCompleted : public JsonView {
@@ -143153,6 +143161,7 @@ public:
   [[nodiscard]] JsonView taylor() const { return at("taylor"); }
   [[nodiscard]] JsonView carrot_king_avatar() const { return at("carrot_king_avatar"); }
   [[nodiscard]] JsonView tal_ker() const { return at("tal_ker"); }
+  [[nodiscard]] JsonView tyashoi() const { return at("tyashoi"); }
 };
 
 class SkyblockGardenResponseGardenCommissionData : public JsonView {
