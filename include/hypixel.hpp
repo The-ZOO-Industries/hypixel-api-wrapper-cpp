@@ -142628,6 +142628,7 @@ public:
   [[nodiscard]] JsonView pet() const { return at("pet"); }
   [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
   [[nodiscard]] JsonView foraging_core_selected_slot() const { return at("foraging_core_selected_slot"); }
+  [[nodiscard]] JsonView favoredBait() const { return at("favoredBait"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts19 : public JsonView {
