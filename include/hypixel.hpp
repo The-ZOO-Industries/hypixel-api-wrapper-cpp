@@ -13544,6 +13544,7 @@ class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026ActiveObjective
 public:
   using JsonView::JsonView;
 
+  [[nodiscard]] JsonView mm_target_kills() const { return at("mm_target_kills"); }
 };
 
 class PlayerResponsePlayerQuestsMmSpecialWeeklyKillerInstinct2026Active : public JsonView {
