@@ -7639,6 +7639,9 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15EQUIPMENTSLOT
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT2;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT3;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT1;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts1;
@@ -135020,6 +135023,7 @@ public:
   [[nodiscard]] JsonView primordial_jockey() const { return at("primordial_jockey"); }
   [[nodiscard]] JsonView tarantula_vermin() const { return at("tarantula_vermin"); }
   [[nodiscard]] JsonView sven_follower() const { return at("sven_follower"); }
+  [[nodiscard]] JsonView pack_enforcer() const { return at("pack_enforcer"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -142344,9 +142348,37 @@ public:
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT2 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT3 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18 : public JsonView {
 public:
   using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT2 EQUIPMENT_SLOT_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT2>("EQUIPMENT_SLOT_2"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT3 EQUIPMENT_SLOT_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT3>("EQUIPMENT_SLOT_3"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT1 EQUIPMENT_SLOT_1() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT1>("EQUIPMENT_SLOT_1"); }
 
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
