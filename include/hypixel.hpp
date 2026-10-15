@@ -3701,7 +3701,10 @@ class PlayerResponsePlayerSeasonalHalloween2025;
 class PlayerResponsePlayerSeasonalHalloween2026Levelling;
 class PlayerResponsePlayerSeasonalHalloween2026Candyhunt;
 class PlayerResponsePlayerSeasonalHalloween2026TbrCrypticCastle;
+class PlayerResponsePlayerSeasonalHalloween2026TbrForestFright;
+class PlayerResponsePlayerSeasonalHalloween2026TbrRiversideRevenge;
 class PlayerResponsePlayerSeasonalHalloween2026Tbr;
+class PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash;
 class PlayerResponsePlayerSeasonalHalloween2026;
 class PlayerResponsePlayerSeasonalHalloween;
 class PlayerResponsePlayerSeasonalEventShopSorting;
@@ -73092,6 +73095,7 @@ public:
   [[nodiscard]] JsonView Pit_rage_pit_damage_2026_fall() const { return at("Pit_rage_pit_damage_2026_fall"); }
   [[nodiscard]] JsonView Pit_tdm_blue_kills_2026_fall() const { return at("Pit_tdm_blue_kills_2026_fall"); }
   [[nodiscard]] JsonView Pit_blockhead_blocks_2026_fall() const { return at("Pit_blockhead_blocks_2026_fall"); }
+  [[nodiscard]] JsonView Pit_raffle_tickets_2026_fall() const { return at("Pit_raffle_tickets_2026_fall"); }
 };
 
 class PlayerResponsePlayerStatsPitProfileInvContents : public JsonView {
@@ -89820,11 +89824,36 @@ public:
   [[nodiscard]] JsonView best_time() const { return at("best_time"); }
 };
 
+class PlayerResponsePlayerSeasonalHalloween2026TbrForestFright : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView attempts() const { return at("attempts"); }
+  [[nodiscard]] JsonView best_time() const { return at("best_time"); }
+  [[nodiscard]] JsonView completions() const { return at("completions"); }
+};
+
+class PlayerResponsePlayerSeasonalHalloween2026TbrRiversideRevenge : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView attempts() const { return at("attempts"); }
+};
+
 class PlayerResponsePlayerSeasonalHalloween2026Tbr : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026TbrCrypticCastle cryptic_castle() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026TbrCrypticCastle>("cryptic_castle"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026TbrForestFright forest_fright() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026TbrForestFright>("forest_fright"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026TbrRiversideRevenge riverside_revenge() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026TbrRiversideRevenge>("riverside_revenge"); }
+};
+
+class PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView best_score() const { return at("best_score"); }
 };
 
 class PlayerResponsePlayerSeasonalHalloween2026 : public JsonView {
@@ -89834,6 +89863,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Levelling levelling() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Levelling>("levelling"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Candyhunt candyhunt() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Candyhunt>("candyhunt"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Tbr tbr() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Tbr>("tbr"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash pumpkin_smash() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash>("pumpkin_smash"); }
 
   [[nodiscard]] JsonView skyBlockAlchemistIntro() const { return at("skyBlockAlchemistIntro"); }
 };
