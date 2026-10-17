@@ -124125,6 +124125,7 @@ public:
   [[nodiscard]] JsonView revenant_horror_5() const { return at("revenant_horror_5"); }
   [[nodiscard]] JsonView voidgloom_seraph_4() const { return at("voidgloom_seraph_4"); }
   [[nodiscard]] JsonView master_crypt_undead_adamwho_25() const { return at("master_crypt_undead_adamwho_25"); }
+  [[nodiscard]] JsonView tarantula_broodfather_5() const { return at("tarantula_broodfather_5"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133637,6 +133638,7 @@ public:
   [[nodiscard]] JsonView riftstalker_bloodfiend() const { return at("riftstalker_bloodfiend"); }
   [[nodiscard]] JsonView revenant_horror() const { return at("revenant_horror"); }
   [[nodiscard]] JsonView voidgloom_seraph() const { return at("voidgloom_seraph"); }
+  [[nodiscard]] JsonView tarantula_broodfather() const { return at("tarantula_broodfather"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
