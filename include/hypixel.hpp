@@ -7821,6 +7821,7 @@ class SkyblockGardenResponseGardenActiveCommissionsTalKer;
 class SkyblockGardenResponseGardenActiveCommissionsMayorDiaz;
 class SkyblockGardenResponseGardenActiveCommissionsMayorCole;
 class SkyblockGardenResponseGardenActiveCommissionsCarrotKingAvatar;
+class SkyblockGardenResponseGardenActiveCommissionsTyashoi;
 class SkyblockGardenResponseGardenActiveCommissions;
 class SkyblockGardenResponseGardenResourcesCollected;
 class SkyblockGardenResponseGardenComposterDataUpgrades;
@@ -144643,6 +144644,15 @@ public:
   [[nodiscard]] JsonView bonus_rewards() const { return at("bonus_rewards"); }
 };
 
+class SkyblockGardenResponseGardenActiveCommissionsTyashoi : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView requirement() const { return at("requirement"); }
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView position() const { return at("position"); }
+};
+
 class SkyblockGardenResponseGardenActiveCommissions : public JsonView {
 public:
   using JsonView::JsonView;
@@ -144786,6 +144796,7 @@ public:
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsMayorDiaz mayor_diaz() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsMayorDiaz>("mayor_diaz"); }
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsMayorCole mayor_cole() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsMayorCole>("mayor_cole"); }
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsCarrotKingAvatar carrot_king_avatar() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsCarrotKingAvatar>("carrot_king_avatar"); }
+  [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsTyashoi tyashoi() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsTyashoi>("tyashoi"); }
 };
 
 class SkyblockGardenResponseGardenResourcesCollected : public JsonView {
