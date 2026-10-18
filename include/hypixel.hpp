@@ -7637,6 +7637,10 @@ class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15EQUIPMENTSLOT
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15EQUIPMENTSLOT2;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15EQUIPMENTSLOT1;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment15;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT1;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT4;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT3;
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT2;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment17;
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment18EQUIPMENTSLOT2;
@@ -139151,6 +139155,13 @@ public:
   [[nodiscard]] JsonView toggle_forest_fisher() const { return at("toggle_forest_fisher"); }
   [[nodiscard]] JsonView homing_axe() const { return at("homing_axe"); }
   [[nodiscard]] JsonView toggle_homing_axe() const { return at("toggle_homing_axe"); }
+  [[nodiscard]] JsonView foraging_madness() const { return at("foraging_madness"); }
+  [[nodiscard]] JsonView half_empty() const { return at("half_empty"); }
+  [[nodiscard]] JsonView iron_lungs() const { return at("iron_lungs"); }
+  [[nodiscard]] JsonView lottery() const { return at("lottery"); }
+  [[nodiscard]] JsonView toggle_foraging_madness() const { return at("toggle_foraging_madness"); }
+  [[nodiscard]] JsonView toggle_iron_lungs() const { return at("toggle_iron_lungs"); }
+  [[nodiscard]] JsonView toggle_lottery() const { return at("toggle_lottery"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining2 : public JsonView {
@@ -142343,9 +142354,46 @@ public:
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
 
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT1 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT4 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT3 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
+class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT2 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView type() const { return at("type"); }
+  [[nodiscard]] JsonView data() const { return at("data"); }
+};
+
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16 : public JsonView {
 public:
   using JsonView::JsonView;
+
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT1 EQUIPMENT_SLOT_1() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT1>("EQUIPMENT_SLOT_1"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT4 EQUIPMENT_SLOT_4() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT4>("EQUIPMENT_SLOT_4"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT3 EQUIPMENT_SLOT_3() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT3>("EQUIPMENT_SLOT_3"); }
+  [[nodiscard]] SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT2 EQUIPMENT_SLOT_2() const { return object_at<SkyblockProfileV2ResponseProfileMembersUuidLoadoutEquipment16EQUIPMENTSLOT2>("EQUIPMENT_SLOT_2"); }
 
   [[nodiscard]] JsonView id() const { return at("id"); }
 };
