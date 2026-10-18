@@ -124140,6 +124140,7 @@ public:
   [[nodiscard]] JsonView master_crypt_undead_adamwho_25() const { return at("master_crypt_undead_adamwho_25"); }
   [[nodiscard]] JsonView tarantula_broodfather_5() const { return at("tarantula_broodfather_5"); }
   [[nodiscard]] JsonView inferno_demonlord_4() const { return at("inferno_demonlord_4"); }
+  [[nodiscard]] JsonView burningsoul_demon_4() const { return at("burningsoul_demon_4"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -135041,6 +135042,7 @@ public:
   [[nodiscard]] JsonView tarantula_vermin() const { return at("tarantula_vermin"); }
   [[nodiscard]] JsonView sven_follower() const { return at("sven_follower"); }
   [[nodiscard]] JsonView pack_enforcer() const { return at("pack_enforcer"); }
+  [[nodiscard]] JsonView sven_alpha() const { return at("sven_alpha"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -144217,6 +144219,7 @@ public:
   [[nodiscard]] JsonView requirement() const { return at("requirement"); }
   [[nodiscard]] JsonView status() const { return at("status"); }
   [[nodiscard]] JsonView position() const { return at("position"); }
+  [[nodiscard]] JsonView bonus_rewards() const { return at("bonus_rewards"); }
 };
 
 class SkyblockGardenResponseGardenActiveCommissionsBeth : public JsonView {
