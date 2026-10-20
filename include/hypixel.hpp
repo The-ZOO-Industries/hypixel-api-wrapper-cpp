@@ -61888,6 +61888,7 @@ public:
   [[nodiscard]] JsonView lost_bet() const { return at("lost_bet"); }
   [[nodiscard]] JsonView lost_bet_time() const { return at("lost_bet_time"); }
   [[nodiscard]] JsonView should_reward() const { return at("should_reward"); }
+  [[nodiscard]] JsonView bet_cooldown_time() const { return at("bet_cooldown_time"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsSlumberQuest : public JsonView {
@@ -133112,6 +133113,8 @@ public:
   [[nodiscard]] JsonView HONEYCOMB() const { return at("HONEYCOMB"); }
   [[nodiscard]] JsonView RUBY_VEILSHROOM() const { return at("RUBY_VEILSHROOM"); }
   [[nodiscard]] JsonView TIGHTLY_TIED_HAY_BALE() const { return at("TIGHTLY_TIED_HAY_BALE"); }
+  [[nodiscard]] JsonView HUGE_MUSHROOM_1() const { return at("HUGE_MUSHROOM_1"); }
+  [[nodiscard]] JsonView HUGE_MUSHROOM_2() const { return at("HUGE_MUSHROOM_2"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsDeaths : public JsonView {
