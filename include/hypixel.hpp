@@ -13588,6 +13588,7 @@ public:
 
   [[nodiscard]] JsonView skywars_halloween_kills() const { return at("skywars_halloween_kills"); }
   [[nodiscard]] JsonView skywars_halloween_mega_wins() const { return at("skywars_halloween_mega_wins"); }
+  [[nodiscard]] JsonView skywars_halloween_corrupted_wins() const { return at("skywars_halloween_corrupted_wins"); }
 };
 
 class PlayerResponsePlayerQuestsSkywarsHalloweenHarvest2026Active : public JsonView {
