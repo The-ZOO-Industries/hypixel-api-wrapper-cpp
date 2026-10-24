@@ -135049,6 +135049,7 @@ public:
   [[nodiscard]] JsonView pack_enforcer() const { return at("pack_enforcer"); }
   [[nodiscard]] JsonView sven_alpha() const { return at("sven_alpha"); }
   [[nodiscard]] JsonView deformed_revenant() const { return at("deformed_revenant"); }
+  [[nodiscard]] JsonView zombie_13() const { return at("zombie_13"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
