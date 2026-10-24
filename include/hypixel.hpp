@@ -62026,6 +62026,7 @@ public:
   [[nodiscard]] JsonView II() const { return at("II"); }
   [[nodiscard]] JsonView III() const { return at("III"); }
   [[nodiscard]] JsonView IV() const { return at("IV"); }
+  [[nodiscard]] JsonView V() const { return at("V"); }
 };
 
 class PlayerResponsePlayerStatsBedwarsHalloweenPumpkinMilestoneRewards : public JsonView {
@@ -89856,6 +89857,8 @@ public:
   using JsonView::JsonView;
 
   [[nodiscard]] JsonView attempts() const { return at("attempts"); }
+  [[nodiscard]] JsonView best_time() const { return at("best_time"); }
+  [[nodiscard]] JsonView completions() const { return at("completions"); }
 };
 
 class PlayerResponsePlayerSeasonalHalloween2026Tbr : public JsonView {
