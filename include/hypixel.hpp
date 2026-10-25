@@ -124148,6 +124148,7 @@ public:
   [[nodiscard]] JsonView burningsoul_demon_4() const { return at("burningsoul_demon_4"); }
   [[nodiscard]] JsonView riftstalker_bloodfiend_4() const { return at("riftstalker_bloodfiend_4"); }
   [[nodiscard]] JsonView sven_packmaster_4() const { return at("sven_packmaster_4"); }
+  [[nodiscard]] JsonView voidgloom_seraph_3() const { return at("voidgloom_seraph_3"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
