@@ -124147,6 +124147,7 @@ public:
   [[nodiscard]] JsonView inferno_demonlord_4() const { return at("inferno_demonlord_4"); }
   [[nodiscard]] JsonView burningsoul_demon_4() const { return at("burningsoul_demon_4"); }
   [[nodiscard]] JsonView riftstalker_bloodfiend_4() const { return at("riftstalker_bloodfiend_4"); }
+  [[nodiscard]] JsonView sven_packmaster_4() const { return at("sven_packmaster_4"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -126816,6 +126817,7 @@ public:
   [[nodiscard]] JsonView rhanora_cat_2() const { return at("rhanora_cat_2"); }
   [[nodiscard]] JsonView jine() const { return at("jine"); }
   [[nodiscard]] JsonView abiphone_dealer() const { return at("abiphone_dealer"); }
+  [[nodiscard]] JsonView scholar_alluin() const { return at("scholar_alluin"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidObjectivesChooseFaction : public JsonView {
@@ -133663,6 +133665,7 @@ public:
   [[nodiscard]] JsonView voidgloom_seraph() const { return at("voidgloom_seraph"); }
   [[nodiscard]] JsonView tarantula_broodfather() const { return at("tarantula_broodfather"); }
   [[nodiscard]] JsonView inferno_demonlord() const { return at("inferno_demonlord"); }
+  [[nodiscard]] JsonView sven_packmaster() const { return at("sven_packmaster"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
