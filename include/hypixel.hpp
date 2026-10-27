@@ -143254,6 +143254,10 @@ public:
   [[nodiscard]] JsonView carrot_king_avatar() const { return at("carrot_king_avatar"); }
   [[nodiscard]] JsonView tal_ker() const { return at("tal_ker"); }
   [[nodiscard]] JsonView tyashoi() const { return at("tyashoi"); }
+  [[nodiscard]] JsonView pesthunter_phillip() const { return at("pesthunter_phillip"); }
+  [[nodiscard]] JsonView jeff() const { return at("jeff"); }
+  [[nodiscard]] JsonView pesthunter_pamela() const { return at("pesthunter_pamela"); }
+  [[nodiscard]] JsonView sam() const { return at("sam"); }
 };
 
 class SkyblockGardenResponseGardenCommissionDataCompleted : public JsonView {
@@ -143400,6 +143404,10 @@ public:
   [[nodiscard]] JsonView carrot_king_avatar() const { return at("carrot_king_avatar"); }
   [[nodiscard]] JsonView tal_ker() const { return at("tal_ker"); }
   [[nodiscard]] JsonView tyashoi() const { return at("tyashoi"); }
+  [[nodiscard]] JsonView pesthunter_phillip() const { return at("pesthunter_phillip"); }
+  [[nodiscard]] JsonView jeff() const { return at("jeff"); }
+  [[nodiscard]] JsonView pesthunter_pamela() const { return at("pesthunter_pamela"); }
+  [[nodiscard]] JsonView sam() const { return at("sam"); }
 };
 
 class SkyblockGardenResponseGardenCommissionData : public JsonView {
@@ -145038,6 +145046,7 @@ public:
   [[nodiscard]] JsonView YIELD() const { return at("YIELD"); }
   [[nodiscard]] JsonView PLOT_LIMIT() const { return at("PLOT_LIMIT"); }
   [[nodiscard]] JsonView BETTER_ADVERTISING() const { return at("BETTER_ADVERTISING"); }
+  [[nodiscard]] JsonView MAX_OCCUPANCY() const { return at("MAX_OCCUPANCY"); }
 };
 
 class SkyblockGardenResponseGarden : public JsonView {
