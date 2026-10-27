@@ -5098,6 +5098,7 @@ class AchievementsResponseAchievementsSkyblockOneTimeNOTTHEEXIT;
 class AchievementsResponseAchievementsSkyblockOneTimeANIMALFISHING;
 class AchievementsResponseAchievementsSkyblockOneTimeNOOTHERCHOICE;
 class AchievementsResponseAchievementsSkyblockOneTimeFLAWLESS;
+class AchievementsResponseAchievementsSkyblockOneTimePESTBUSTERS;
 class AchievementsResponseAchievementsSkyblockOneTimeSERIOUSLY;
 class AchievementsResponseAchievementsSkyblockOneTimeTWOOUTOFNINE;
 class AchievementsResponseAchievementsSkyblockOneTimeAGILE;
@@ -106614,6 +106615,16 @@ public:
   [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
+class AchievementsResponseAchievementsSkyblockOneTimePESTBUSTERS : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView points() const { return at("points"); }
+  [[nodiscard]] JsonView name() const { return at("name"); }
+  [[nodiscard]] JsonView description() const { return at("description"); }
+  [[nodiscard]] JsonView secret() const { return at("secret"); }
+};
+
 class AchievementsResponseAchievementsSkyblockOneTimeSERIOUSLY : public JsonView {
 public:
   using JsonView::JsonView;
@@ -107738,6 +107749,7 @@ public:
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeANIMALFISHING ANIMAL_FISHING() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeANIMALFISHING>("ANIMAL_FISHING"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeNOOTHERCHOICE NO_OTHER_CHOICE() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeNOOTHERCHOICE>("NO_OTHER_CHOICE"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeFLAWLESS FLAWLESS() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeFLAWLESS>("FLAWLESS"); }
+  [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimePESTBUSTERS PESTBUSTERS() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimePESTBUSTERS>("PESTBUSTERS"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeSERIOUSLY SERIOUSLY() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeSERIOUSLY>("SERIOUSLY"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeTWOOUTOFNINE TWO_OUT_OF_NINE() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeTWOOUTOFNINE>("TWO_OUT_OF_NINE"); }
   [[nodiscard]] AchievementsResponseAchievementsSkyblockOneTimeAGILE AGILE() const { return object_at<AchievementsResponseAchievementsSkyblockOneTimeAGILE>("AGILE"); }
@@ -136805,6 +136817,7 @@ public:
   [[nodiscard]] JsonView MINNOW_BAIT() const { return at("MINNOW_BAIT"); }
   [[nodiscard]] JsonView OBFUSCATED_FISH_2_DIAMOND() const { return at("OBFUSCATED_FISH_2_DIAMOND"); }
   [[nodiscard]] JsonView RUNE_AXE_FADING_BLUE_2() const { return at("RUNE_AXE_FADING_BLUE_2"); }
+  [[nodiscard]] JsonView VINYL_BEETLE() const { return at("VINYL_BEETLE"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
@@ -145024,6 +145037,7 @@ public:
   [[nodiscard]] JsonView GROWTH_SPEED() const { return at("GROWTH_SPEED"); }
   [[nodiscard]] JsonView YIELD() const { return at("YIELD"); }
   [[nodiscard]] JsonView PLOT_LIMIT() const { return at("PLOT_LIMIT"); }
+  [[nodiscard]] JsonView BETTER_ADVERTISING() const { return at("BETTER_ADVERTISING"); }
 };
 
 class SkyblockGardenResponseGarden : public JsonView {
