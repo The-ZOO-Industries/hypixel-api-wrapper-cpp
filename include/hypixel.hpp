@@ -139501,6 +139501,8 @@ public:
   [[nodiscard]] JsonView toggle_pickobulus() const { return at("toggle_pickobulus"); }
   [[nodiscard]] JsonView anomalous_desire() const { return at("anomalous_desire"); }
   [[nodiscard]] JsonView toggle_anomalous_desire() const { return at("toggle_anomalous_desire"); }
+  [[nodiscard]] JsonView mineshaft_mayhem() const { return at("mineshaft_mayhem"); }
+  [[nodiscard]] JsonView toggle_mineshaft_mayhem() const { return at("toggle_mineshaft_mayhem"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining5 : public JsonView {
