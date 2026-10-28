@@ -121785,6 +121785,8 @@ public:
   [[nodiscard]] JsonView powder_spent_non_refundable_gemstone_2() const { return at("powder_spent_non_refundable_gemstone_2"); }
   [[nodiscard]] JsonView powder_spent_glacite_5() const { return at("powder_spent_glacite_5"); }
   [[nodiscard]] JsonView powder_spent_titanium_5() const { return at("powder_spent_titanium_5"); }
+  [[nodiscard]] JsonView powder_spent_non_refundable_mithril() const { return at("powder_spent_non_refundable_mithril"); }
+  [[nodiscard]] JsonView powder_spent_non_refundable_mithril_2() const { return at("powder_spent_non_refundable_mithril_2"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryKills : public JsonView {
@@ -136818,6 +136820,18 @@ public:
   [[nodiscard]] JsonView OBFUSCATED_FISH_2_DIAMOND() const { return at("OBFUSCATED_FISH_2_DIAMOND"); }
   [[nodiscard]] JsonView RUNE_AXE_FADING_BLUE_2() const { return at("RUNE_AXE_FADING_BLUE_2"); }
   [[nodiscard]] JsonView VINYL_BEETLE() const { return at("VINYL_BEETLE"); }
+  [[nodiscard]] JsonView VINYL_PRETTY_FLY() const { return at("VINYL_PRETTY_FLY"); }
+  [[nodiscard]] JsonView VINYL_DYNAMITES() const { return at("VINYL_DYNAMITES"); }
+  [[nodiscard]] JsonView VINYL_RODENT_REVOLUTION() const { return at("VINYL_RODENT_REVOLUTION"); }
+  [[nodiscard]] JsonView VINYL_CICADA_SYMPHONY() const { return at("VINYL_CICADA_SYMPHONY"); }
+  [[nodiscard]] JsonView VINYL_WINGS_OF_HARMONY() const { return at("VINYL_WINGS_OF_HARMONY"); }
+  [[nodiscard]] JsonView VINYL_EARTHWORM_ENSEMBLE() const { return at("VINYL_EARTHWORM_ENSEMBLE"); }
+  [[nodiscard]] JsonView VINYL_SLOW_AND_GROOVY() const { return at("VINYL_SLOW_AND_GROOVY"); }
+  [[nodiscard]] JsonView VINYL_BUZZIN_BEATS() const { return at("VINYL_BUZZIN_BEATS"); }
+  [[nodiscard]] JsonView VINYL_PRAY_FOR_ME() const { return at("VINYL_PRAY_FOR_ME"); }
+  [[nodiscard]] JsonView VINYL_CRICKET_CHOIR() const { return at("VINYL_CRICKET_CHOIR"); }
+  [[nodiscard]] JsonView VINYL_IMAGINE_DRAGONFLIES() const { return at("VINYL_IMAGINE_DRAGONFLIES"); }
+  [[nodiscard]] JsonView VINYL_FIREFLY() const { return at("VINYL_FIREFLY"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidInventoryBackpackContents0 : public JsonView {
