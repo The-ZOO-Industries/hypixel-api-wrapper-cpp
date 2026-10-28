@@ -143272,6 +143272,9 @@ public:
   [[nodiscard]] JsonView jeff() const { return at("jeff"); }
   [[nodiscard]] JsonView pesthunter_pamela() const { return at("pesthunter_pamela"); }
   [[nodiscard]] JsonView sam() const { return at("sam"); }
+  [[nodiscard]] JsonView ghost_of_game_agent() const { return at("ghost_of_game_agent"); }
+  [[nodiscard]] JsonView ghost_of_armorsmith() const { return at("ghost_of_armorsmith"); }
+  [[nodiscard]] JsonView ghost_of_warren() const { return at("ghost_of_warren"); }
 };
 
 class SkyblockGardenResponseGardenCommissionDataCompleted : public JsonView {
@@ -143422,6 +143425,9 @@ public:
   [[nodiscard]] JsonView jeff() const { return at("jeff"); }
   [[nodiscard]] JsonView pesthunter_pamela() const { return at("pesthunter_pamela"); }
   [[nodiscard]] JsonView sam() const { return at("sam"); }
+  [[nodiscard]] JsonView ghost_of_game_agent() const { return at("ghost_of_game_agent"); }
+  [[nodiscard]] JsonView ghost_of_armorsmith() const { return at("ghost_of_armorsmith"); }
+  [[nodiscard]] JsonView ghost_of_warren() const { return at("ghost_of_warren"); }
 };
 
 class SkyblockGardenResponseGardenCommissionData : public JsonView {
