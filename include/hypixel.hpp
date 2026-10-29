@@ -7835,6 +7835,10 @@ class SkyblockGardenResponseGardenActiveCommissionsMayorDiaz;
 class SkyblockGardenResponseGardenActiveCommissionsMayorCole;
 class SkyblockGardenResponseGardenActiveCommissionsCarrotKingAvatar;
 class SkyblockGardenResponseGardenActiveCommissionsTyashoi;
+class SkyblockGardenResponseGardenActiveCommissionsJeff;
+class SkyblockGardenResponseGardenActiveCommissionsPesthunterPhillip;
+class SkyblockGardenResponseGardenActiveCommissionsSam;
+class SkyblockGardenResponseGardenActiveCommissionsPesthunterPamela;
 class SkyblockGardenResponseGardenActiveCommissions;
 class SkyblockGardenResponseGardenResourcesCollected;
 class SkyblockGardenResponseGardenComposterDataUpgrades;
@@ -144850,6 +144854,44 @@ public:
   [[nodiscard]] JsonView position() const { return at("position"); }
 };
 
+class SkyblockGardenResponseGardenActiveCommissionsJeff : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView requirement() const { return at("requirement"); }
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView position() const { return at("position"); }
+  [[nodiscard]] JsonView extra_rewards() const { return at("extra_rewards"); }
+  [[nodiscard]] JsonView bonus_rewards() const { return at("bonus_rewards"); }
+};
+
+class SkyblockGardenResponseGardenActiveCommissionsPesthunterPhillip : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView requirement() const { return at("requirement"); }
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView position() const { return at("position"); }
+};
+
+class SkyblockGardenResponseGardenActiveCommissionsSam : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView requirement() const { return at("requirement"); }
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView position() const { return at("position"); }
+};
+
+class SkyblockGardenResponseGardenActiveCommissionsPesthunterPamela : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView requirement() const { return at("requirement"); }
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView position() const { return at("position"); }
+};
+
 class SkyblockGardenResponseGardenActiveCommissions : public JsonView {
 public:
   using JsonView::JsonView;
@@ -144994,6 +145036,10 @@ public:
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsMayorCole mayor_cole() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsMayorCole>("mayor_cole"); }
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsCarrotKingAvatar carrot_king_avatar() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsCarrotKingAvatar>("carrot_king_avatar"); }
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsTyashoi tyashoi() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsTyashoi>("tyashoi"); }
+  [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsJeff jeff() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsJeff>("jeff"); }
+  [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsPesthunterPhillip pesthunter_phillip() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsPesthunterPhillip>("pesthunter_phillip"); }
+  [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsSam sam() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsSam>("sam"); }
+  [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsPesthunterPamela pesthunter_pamela() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsPesthunterPamela>("pesthunter_pamela"); }
 };
 
 class SkyblockGardenResponseGardenResourcesCollected : public JsonView {
