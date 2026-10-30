@@ -82895,6 +82895,7 @@ public:
   [[nodiscard]] JsonView TNTGAMES__bow_spleef_challenge() const { return at("TNTGAMES__bow_spleef_challenge"); }
   [[nodiscard]] JsonView WOOL_GAMES__sheep_wars_challenge() const { return at("WOOL_GAMES__sheep_wars_challenge"); }
   [[nodiscard]] JsonView BUILD_BATTLE__top_3_challenge() const { return at("BUILD_BATTLE__top_3_challenge"); }
+  [[nodiscard]] JsonView BUILD_BATTLE__guesser_challenge() const { return at("BUILD_BATTLE__guesser_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayE : public JsonView {
