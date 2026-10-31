@@ -91014,6 +91014,7 @@ public:
   [[nodiscard]] JsonView Station() const { return at("Station"); }
   [[nodiscard]] JsonView Ravenport() const { return at("Ravenport"); }
   [[nodiscard]] JsonView Raven_s_Crypt() const { return at("Raven's Crypt"); }
+  [[nodiscard]] JsonView Outer_Ruins() const { return at("Outer Ruins"); }
 };
 
 class PlayerResponsePlayerMapVotes : public JsonView {
@@ -143284,6 +143285,7 @@ public:
   [[nodiscard]] JsonView ghost_of_game_agent() const { return at("ghost_of_game_agent"); }
   [[nodiscard]] JsonView ghost_of_armorsmith() const { return at("ghost_of_armorsmith"); }
   [[nodiscard]] JsonView ghost_of_warren() const { return at("ghost_of_warren"); }
+  [[nodiscard]] JsonView ghost_of_baking_specialist() const { return at("ghost_of_baking_specialist"); }
 };
 
 class SkyblockGardenResponseGardenCommissionDataCompleted : public JsonView {
@@ -143437,6 +143439,7 @@ public:
   [[nodiscard]] JsonView ghost_of_game_agent() const { return at("ghost_of_game_agent"); }
   [[nodiscard]] JsonView ghost_of_armorsmith() const { return at("ghost_of_armorsmith"); }
   [[nodiscard]] JsonView ghost_of_warren() const { return at("ghost_of_warren"); }
+  [[nodiscard]] JsonView ghost_of_baking_specialist() const { return at("ghost_of_baking_specialist"); }
 };
 
 class SkyblockGardenResponseGardenCommissionData : public JsonView {
