@@ -7839,6 +7839,7 @@ class SkyblockGardenResponseGardenActiveCommissionsJeff;
 class SkyblockGardenResponseGardenActiveCommissionsPesthunterPhillip;
 class SkyblockGardenResponseGardenActiveCommissionsSam;
 class SkyblockGardenResponseGardenActiveCommissionsPesthunterPamela;
+class SkyblockGardenResponseGardenActiveCommissionsGhostOfGameAgent;
 class SkyblockGardenResponseGardenActiveCommissions;
 class SkyblockGardenResponseGardenResourcesCollected;
 class SkyblockGardenResponseGardenComposterDataUpgrades;
@@ -124172,6 +124173,8 @@ public:
   [[nodiscard]] JsonView sven_packmaster_4() const { return at("sven_packmaster_4"); }
   [[nodiscard]] JsonView voidgloom_seraph_3() const { return at("voidgloom_seraph_3"); }
   [[nodiscard]] JsonView kindleheart_demon_4() const { return at("kindleheart_demon_4"); }
+  [[nodiscard]] JsonView inferno_demonlord_3() const { return at("inferno_demonlord_3"); }
+  [[nodiscard]] JsonView inferno_demonlord_2() const { return at("inferno_demonlord_2"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -144899,6 +144902,15 @@ public:
   [[nodiscard]] JsonView position() const { return at("position"); }
 };
 
+class SkyblockGardenResponseGardenActiveCommissionsGhostOfGameAgent : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView requirement() const { return at("requirement"); }
+  [[nodiscard]] JsonView status() const { return at("status"); }
+  [[nodiscard]] JsonView position() const { return at("position"); }
+};
+
 class SkyblockGardenResponseGardenActiveCommissions : public JsonView {
 public:
   using JsonView::JsonView;
@@ -145047,6 +145059,7 @@ public:
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsPesthunterPhillip pesthunter_phillip() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsPesthunterPhillip>("pesthunter_phillip"); }
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsSam sam() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsSam>("sam"); }
   [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsPesthunterPamela pesthunter_pamela() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsPesthunterPamela>("pesthunter_pamela"); }
+  [[nodiscard]] SkyblockGardenResponseGardenActiveCommissionsGhostOfGameAgent ghost_of_game_agent() const { return object_at<SkyblockGardenResponseGardenActiveCommissionsGhostOfGameAgent>("ghost_of_game_agent"); }
 };
 
 class SkyblockGardenResponseGardenResourcesCollected : public JsonView {
