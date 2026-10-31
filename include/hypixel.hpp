@@ -124170,6 +124170,7 @@ public:
   [[nodiscard]] JsonView riftstalker_bloodfiend_4() const { return at("riftstalker_bloodfiend_4"); }
   [[nodiscard]] JsonView sven_packmaster_4() const { return at("sven_packmaster_4"); }
   [[nodiscard]] JsonView voidgloom_seraph_3() const { return at("voidgloom_seraph_3"); }
+  [[nodiscard]] JsonView kindleheart_demon_4() const { return at("kindleheart_demon_4"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133688,6 +133689,7 @@ public:
   [[nodiscard]] JsonView tarantula_broodfather() const { return at("tarantula_broodfather"); }
   [[nodiscard]] JsonView inferno_demonlord() const { return at("inferno_demonlord"); }
   [[nodiscard]] JsonView sven_packmaster() const { return at("sven_packmaster"); }
+  [[nodiscard]] JsonView kindleheart_demon() const { return at("kindleheart_demon"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
