@@ -3435,6 +3435,7 @@ class PlayerResponsePlayerMonthlycrates72026;
 class PlayerResponsePlayerMonthlycrates82026;
 class PlayerResponsePlayerMonthlycrates92026;
 class PlayerResponsePlayerMonthlycrates102026;
+class PlayerResponsePlayerMonthlycrates112026;
 class PlayerResponsePlayerMonthlycrates;
 class PlayerResponsePlayerDmcrates102019;
 class PlayerResponsePlayerAdventRewards2019;
@@ -85171,6 +85172,17 @@ public:
   [[nodiscard]] JsonView MVP_PLUS() const { return at("MVP_PLUS"); }
 };
 
+class PlayerResponsePlayerMonthlycrates112026 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView MVP_PLUS() const { return at("MVP_PLUS"); }
+  [[nodiscard]] JsonView MVP() const { return at("MVP"); }
+  [[nodiscard]] JsonView VIP_PLUS() const { return at("VIP_PLUS"); }
+  [[nodiscard]] JsonView VIP() const { return at("VIP"); }
+  [[nodiscard]] JsonView NORMAL() const { return at("NORMAL"); }
+};
+
 class PlayerResponsePlayerMonthlycrates : public JsonView {
 public:
   using JsonView::JsonView;
@@ -85299,6 +85311,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerMonthlycrates82026 _8_2026() const { return object_at<PlayerResponsePlayerMonthlycrates82026>("8-2026"); }
   [[nodiscard]] PlayerResponsePlayerMonthlycrates92026 _9_2026() const { return object_at<PlayerResponsePlayerMonthlycrates92026>("9-2026"); }
   [[nodiscard]] PlayerResponsePlayerMonthlycrates102026 _10_2026() const { return object_at<PlayerResponsePlayerMonthlycrates102026>("10-2026"); }
+  [[nodiscard]] PlayerResponsePlayerMonthlycrates112026 _11_2026() const { return object_at<PlayerResponsePlayerMonthlycrates112026>("11-2026"); }
 };
 
 class PlayerResponsePlayerDmcrates102019 : public JsonView {
