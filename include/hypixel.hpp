@@ -135085,6 +135085,7 @@ public:
   [[nodiscard]] JsonView deformed_revenant() const { return at("deformed_revenant"); }
   [[nodiscard]] JsonView zombie_13() const { return at("zombie_13"); }
   [[nodiscard]] JsonView flare_demon() const { return at("flare_demon"); }
+  [[nodiscard]] JsonView pest_ghostfly() const { return at("pest_ghostfly"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
