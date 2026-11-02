@@ -106645,6 +106645,8 @@ public:
   [[nodiscard]] JsonView name() const { return at("name"); }
   [[nodiscard]] JsonView description() const { return at("description"); }
   [[nodiscard]] JsonView secret() const { return at("secret"); }
+  [[nodiscard]] JsonView gamePercentUnlocked() const { return at("gamePercentUnlocked"); }
+  [[nodiscard]] JsonView globalPercentUnlocked() const { return at("globalPercentUnlocked"); }
 };
 
 class AchievementsResponseAchievementsSkyblockOneTimeSERIOUSLY : public JsonView {
@@ -124190,6 +124192,8 @@ public:
   [[nodiscard]] JsonView kindleheart_demon_4() const { return at("kindleheart_demon_4"); }
   [[nodiscard]] JsonView inferno_demonlord_3() const { return at("inferno_demonlord_3"); }
   [[nodiscard]] JsonView inferno_demonlord_2() const { return at("inferno_demonlord_2"); }
+  [[nodiscard]] JsonView riftstalker_bloodfiend_3() const { return at("riftstalker_bloodfiend_3"); }
+  [[nodiscard]] JsonView primordial_jockey_475() const { return at("primordial_jockey_475"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133709,6 +133713,7 @@ public:
   [[nodiscard]] JsonView inferno_demonlord() const { return at("inferno_demonlord"); }
   [[nodiscard]] JsonView sven_packmaster() const { return at("sven_packmaster"); }
   [[nodiscard]] JsonView kindleheart_demon() const { return at("kindleheart_demon"); }
+  [[nodiscard]] JsonView primordial_jockey() const { return at("primordial_jockey"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
