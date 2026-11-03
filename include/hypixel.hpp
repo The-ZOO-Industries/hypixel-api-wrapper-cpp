@@ -124194,6 +124194,7 @@ public:
   [[nodiscard]] JsonView inferno_demonlord_2() const { return at("inferno_demonlord_2"); }
   [[nodiscard]] JsonView riftstalker_bloodfiend_3() const { return at("riftstalker_bloodfiend_3"); }
   [[nodiscard]] JsonView primordial_jockey_475() const { return at("primordial_jockey_475"); }
+  [[nodiscard]] JsonView witch_15() const { return at("witch_15"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
