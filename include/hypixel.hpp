@@ -124195,6 +124195,8 @@ public:
   [[nodiscard]] JsonView riftstalker_bloodfiend_3() const { return at("riftstalker_bloodfiend_3"); }
   [[nodiscard]] JsonView primordial_jockey_475() const { return at("primordial_jockey_475"); }
   [[nodiscard]] JsonView witch_15() const { return at("witch_15"); }
+  [[nodiscard]] JsonView atoned_revenant_5() const { return at("atoned_revenant_5"); }
+  [[nodiscard]] JsonView atoned_champion_5() const { return at("atoned_champion_5"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133715,6 +133717,8 @@ public:
   [[nodiscard]] JsonView sven_packmaster() const { return at("sven_packmaster"); }
   [[nodiscard]] JsonView kindleheart_demon() const { return at("kindleheart_demon"); }
   [[nodiscard]] JsonView primordial_jockey() const { return at("primordial_jockey"); }
+  [[nodiscard]] JsonView atoned_revenant() const { return at("atoned_revenant"); }
+  [[nodiscard]] JsonView atoned_champion() const { return at("atoned_champion"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
