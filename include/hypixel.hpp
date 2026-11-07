@@ -3785,6 +3785,8 @@ class PlayerResponsePlayerUpcomingLanguageReleaseRomanian;
 class PlayerResponsePlayerSkin;
 class PlayerResponsePlayerUpcomingLanguageReleaseMalay;
 class PlayerResponsePlayerUpcomingLanguageReleaseThai;
+class PlayerResponsePlayerMigrationsTwitterRewardRollback2026;
+class PlayerResponsePlayerMigrations;
 class PlayerResponsePlayer;
 class PlayerResponse;
 class AchievementsResponseAchievementsArcadeOneTimeCREEPERATTACKSURVIVAL;
@@ -91171,6 +91173,24 @@ public:
   [[nodiscard]] JsonView logins() const { return at("logins"); }
 };
 
+class PlayerResponsePlayerMigrationsTwitterRewardRollback2026 : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView transactionId() const { return at("transactionId"); }
+  [[nodiscard]] JsonView timestamp() const { return at("timestamp"); }
+  [[nodiscard]] JsonView action() const { return at("action"); }
+  [[nodiscard]] JsonView boosterId() const { return at("boosterId"); }
+  [[nodiscard]] JsonView complete() const { return at("complete"); }
+};
+
+class PlayerResponsePlayerMigrations : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] PlayerResponsePlayerMigrationsTwitterRewardRollback2026 twitterRewardRollback2026() const { return object_at<PlayerResponsePlayerMigrationsTwitterRewardRollback2026>("twitterRewardRollback2026"); }
+};
+
 class PlayerResponsePlayer : public JsonView {
 public:
   using JsonView::JsonView;
@@ -91262,6 +91282,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerSkin skin() const { return object_at<PlayerResponsePlayerSkin>("skin"); }
   [[nodiscard]] PlayerResponsePlayerUpcomingLanguageReleaseMalay upcomingLanguageRelease_Malay() const { return object_at<PlayerResponsePlayerUpcomingLanguageReleaseMalay>("upcomingLanguageRelease_Malay"); }
   [[nodiscard]] PlayerResponsePlayerUpcomingLanguageReleaseThai upcomingLanguageRelease_Thai() const { return object_at<PlayerResponsePlayerUpcomingLanguageReleaseThai>("upcomingLanguageRelease_Thai"); }
+  [[nodiscard]] PlayerResponsePlayerMigrations _migrations() const { return object_at<PlayerResponsePlayerMigrations>("_migrations"); }
 
   [[nodiscard]] JsonView _id() const { return at("_id"); }
   [[nodiscard]] JsonView achievementsOneTime() const { return at("achievementsOneTime"); }
