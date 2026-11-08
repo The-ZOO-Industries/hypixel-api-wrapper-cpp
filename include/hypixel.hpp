@@ -82738,6 +82738,7 @@ public:
   [[nodiscard]] JsonView ARCADE__hide_and_seek_challenge() const { return at("ARCADE__hide_and_seek_challenge"); }
   [[nodiscard]] JsonView WOOL_GAMES__wool_wars_challenge() const { return at("WOOL_GAMES__wool_wars_challenge"); }
   [[nodiscard]] JsonView ARCADE__mini_walls_challenge() const { return at("ARCADE__mini_walls_challenge"); }
+  [[nodiscard]] JsonView ARCADE__football_challenge() const { return at("ARCADE__football_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayC : public JsonView {
