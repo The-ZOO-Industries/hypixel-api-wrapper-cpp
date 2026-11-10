@@ -82819,6 +82819,7 @@ public:
   [[nodiscard]] JsonView BUILD_BATTLE__top_3_challenge() const { return at("BUILD_BATTLE__top_3_challenge"); }
   [[nodiscard]] JsonView ARCADE__party_games_challenge() const { return at("ARCADE__party_games_challenge"); }
   [[nodiscard]] JsonView BUILD_BATTLE__guesser_challenge() const { return at("BUILD_BATTLE__guesser_challenge"); }
+  [[nodiscard]] JsonView ARCADE__hole_in_the_wall_challenge() const { return at("ARCADE__hole_in_the_wall_challenge"); }
 };
 
 class PlayerResponsePlayerChallengesDayD : public JsonView {
