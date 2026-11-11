@@ -83062,6 +83062,7 @@ public:
   [[nodiscard]] JsonView WALLS3__comeback_challenge() const { return at("WALLS3__comeback_challenge"); }
   [[nodiscard]] JsonView WALLS3__wither_challenge() const { return at("WALLS3__wither_challenge"); }
   [[nodiscard]] JsonView ARCADE__blocking_dead_challenge() const { return at("ARCADE__blocking_dead_challenge"); }
+  [[nodiscard]] JsonView ARCADE__farm_hunt_challenge() const { return at("ARCADE__farm_hunt_challenge"); }
 };
 
 class PlayerResponsePlayerChallenges : public JsonView {
