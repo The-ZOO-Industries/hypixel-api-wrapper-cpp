@@ -73128,6 +73128,8 @@ public:
   [[nodiscard]] JsonView Pit_raffle_tickets_2026_fall() const { return at("Pit_raffle_tickets_2026_fall"); }
   [[nodiscard]] JsonView Pit_kotl_gold_2026_fall() const { return at("Pit_kotl_gold_2026_fall"); }
   [[nodiscard]] JsonView Pit_kotl_time_2026_fall() const { return at("Pit_kotl_time_2026_fall"); }
+  [[nodiscard]] JsonView Pit_tdm_red_kills_2026_fall() const { return at("Pit_tdm_red_kills_2026_fall"); }
+  [[nodiscard]] JsonView Pit_cake_eaten_2026_fall() const { return at("Pit_cake_eaten_2026_fall"); }
 };
 
 class PlayerResponsePlayerStatsPitProfileInvContents : public JsonView {
