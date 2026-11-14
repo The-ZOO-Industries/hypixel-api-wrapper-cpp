@@ -124223,6 +124223,7 @@ public:
   [[nodiscard]] JsonView witch_15() const { return at("witch_15"); }
   [[nodiscard]] JsonView atoned_revenant_5() const { return at("atoned_revenant_5"); }
   [[nodiscard]] JsonView atoned_champion_5() const { return at("atoned_champion_5"); }
+  [[nodiscard]] JsonView mutant_tarantula_4() const { return at("mutant_tarantula_4"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryMilestone : public JsonView {
@@ -133745,6 +133746,7 @@ public:
   [[nodiscard]] JsonView primordial_jockey() const { return at("primordial_jockey"); }
   [[nodiscard]] JsonView atoned_revenant() const { return at("atoned_revenant"); }
   [[nodiscard]] JsonView atoned_champion() const { return at("atoned_champion"); }
+  [[nodiscard]] JsonView mutant_tarantula() const { return at("mutant_tarantula"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsKills : public JsonView {
