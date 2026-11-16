@@ -82984,6 +82984,7 @@ public:
   [[nodiscard]] JsonView BATTLEGROUND__support_challenge() const { return at("BATTLEGROUND__support_challenge"); }
   [[nodiscard]] JsonView BUILD_BATTLE__guesser_challenge() const { return at("BUILD_BATTLE__guesser_challenge"); }
   [[nodiscard]] JsonView SURVIVAL_GAMES__iron_man_challenge() const { return at("SURVIVAL_GAMES__iron_man_challenge"); }
+  [[nodiscard]] JsonView BEDWARS__defensive() const { return at("BEDWARS__defensive"); }
 };
 
 class PlayerResponsePlayerChallengesDayF : public JsonView {
@@ -139279,6 +139280,8 @@ public:
   [[nodiscard]] JsonView toggle_foraging_madness() const { return at("toggle_foraging_madness"); }
   [[nodiscard]] JsonView toggle_iron_lungs() const { return at("toggle_iron_lungs"); }
   [[nodiscard]] JsonView toggle_lottery() const { return at("toggle_lottery"); }
+  [[nodiscard]] JsonView speed_boost() const { return at("speed_boost"); }
+  [[nodiscard]] JsonView toggle_speed_boost() const { return at("toggle_speed_boost"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidSkillTreeNodesMining2 : public JsonView {
