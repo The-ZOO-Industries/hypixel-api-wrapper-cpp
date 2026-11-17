@@ -119168,6 +119168,8 @@ public:
   [[nodiscard]] JsonView selected_power() const { return at("selected_power"); }
   [[nodiscard]] JsonView bag_upgrades_purchased() const { return at("bag_upgrades_purchased"); }
   [[nodiscard]] JsonView highest_magical_power() const { return at("highest_magical_power"); }
+  [[nodiscard]] JsonView sort() const { return at("sort"); }
+  [[nodiscard]] JsonView pending_slot_refund_notification() const { return at("pending_slot_refund_notification"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLevelingCompletions : public JsonView {
@@ -135746,6 +135748,7 @@ public:
   [[nodiscard]] JsonView sparkling_specialist() const { return at("sparkling_specialist"); }
   [[nodiscard]] JsonView head_start() const { return at("head_start"); }
   [[nodiscard]] JsonView eagles_advantage() const { return at("eagles_advantage"); }
+  [[nodiscard]] JsonView fairies_refund_processed() const { return at("fairies_refund_processed"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerDataExperience : public JsonView {
