@@ -123131,6 +123131,7 @@ public:
   [[nodiscard]] JsonView murkbat_58() const { return at("murkbat_58"); }
   [[nodiscard]] JsonView shellwise_14() const { return at("shellwise_14"); }
   [[nodiscard]] JsonView shellwise_12() const { return at("shellwise_12"); }
+  [[nodiscard]] JsonView baby_bayou_sludge_25() const { return at("baby_bayou_sludge_25"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidBestiaryDeaths : public JsonView {
@@ -135143,6 +135144,8 @@ public:
   [[nodiscard]] JsonView zombie_13() const { return at("zombie_13"); }
   [[nodiscard]] JsonView flare_demon() const { return at("flare_demon"); }
   [[nodiscard]] JsonView pest_ghostfly() const { return at("pest_ghostfly"); }
+  [[nodiscard]] JsonView baby_bayou_sludge_25() const { return at("baby_bayou_sludge_25"); }
+  [[nodiscard]] JsonView baby_magma_slug_200() const { return at("baby_magma_slug_200"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
