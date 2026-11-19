@@ -3706,6 +3706,7 @@ class PlayerResponsePlayerSeasonalHalloween2026TbrForestFright;
 class PlayerResponsePlayerSeasonalHalloween2026TbrRiversideRevenge;
 class PlayerResponsePlayerSeasonalHalloween2026Tbr;
 class PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash;
+class PlayerResponsePlayerSeasonalHalloween2026UndeadArchery;
 class PlayerResponsePlayerSeasonalHalloween2026;
 class PlayerResponsePlayerSeasonalHalloween;
 class PlayerResponsePlayerSeasonalEventShopSorting;
@@ -89910,6 +89911,14 @@ public:
   [[nodiscard]] JsonView best_score() const { return at("best_score"); }
 };
 
+class PlayerResponsePlayerSeasonalHalloween2026UndeadArchery : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView _1min_best() const { return at("1min_best"); }
+  [[nodiscard]] JsonView _3min_best() const { return at("3min_best"); }
+};
+
 class PlayerResponsePlayerSeasonalHalloween2026 : public JsonView {
 public:
   using JsonView::JsonView;
@@ -89918,6 +89927,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Candyhunt candyhunt() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Candyhunt>("candyhunt"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Tbr tbr() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Tbr>("tbr"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash pumpkin_smash() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash>("pumpkin_smash"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026UndeadArchery undead_archery() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026UndeadArchery>("undead_archery"); }
 
   [[nodiscard]] JsonView skyBlockAlchemistIntro() const { return at("skyBlockAlchemistIntro"); }
 };
@@ -126899,6 +126909,7 @@ public:
   [[nodiscard]] JsonView jine() const { return at("jine"); }
   [[nodiscard]] JsonView abiphone_dealer() const { return at("abiphone_dealer"); }
   [[nodiscard]] JsonView scholar_alluin() const { return at("scholar_alluin"); }
+  [[nodiscard]] JsonView Pax() const { return at("Pax"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidObjectivesChooseFaction : public JsonView {
