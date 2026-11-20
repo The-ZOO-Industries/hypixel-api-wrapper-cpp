@@ -3707,6 +3707,7 @@ class PlayerResponsePlayerSeasonalHalloween2026TbrRiversideRevenge;
 class PlayerResponsePlayerSeasonalHalloween2026Tbr;
 class PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash;
 class PlayerResponsePlayerSeasonalHalloween2026UndeadArchery;
+class PlayerResponsePlayerSeasonalHalloween2026Cauldron;
 class PlayerResponsePlayerSeasonalHalloween2026;
 class PlayerResponsePlayerSeasonalHalloween;
 class PlayerResponsePlayerSeasonalEventShopSorting;
@@ -89919,6 +89920,13 @@ public:
   [[nodiscard]] JsonView _3min_best() const { return at("3min_best"); }
 };
 
+class PlayerResponsePlayerSeasonalHalloween2026Cauldron : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView ingredients() const { return at("ingredients"); }
+};
+
 class PlayerResponsePlayerSeasonalHalloween2026 : public JsonView {
 public:
   using JsonView::JsonView;
@@ -89928,6 +89936,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Tbr tbr() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Tbr>("tbr"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash pumpkin_smash() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026PumpkinSmash>("pumpkin_smash"); }
   [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026UndeadArchery undead_archery() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026UndeadArchery>("undead_archery"); }
+  [[nodiscard]] PlayerResponsePlayerSeasonalHalloween2026Cauldron cauldron() const { return object_at<PlayerResponsePlayerSeasonalHalloween2026Cauldron>("cauldron"); }
 
   [[nodiscard]] JsonView skyBlockAlchemistIntro() const { return at("skyBlockAlchemistIntro"); }
 };
