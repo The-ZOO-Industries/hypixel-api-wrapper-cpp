@@ -135166,6 +135166,7 @@ public:
   [[nodiscard]] JsonView pest_ghostfly() const { return at("pest_ghostfly"); }
   [[nodiscard]] JsonView baby_bayou_sludge_25() const { return at("baby_bayou_sludge_25"); }
   [[nodiscard]] JsonView baby_magma_slug_200() const { return at("baby_magma_slug_200"); }
+  [[nodiscard]] JsonView reindrake() const { return at("reindrake"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidPlayerStatsMythosBurrowsChainsComplete : public JsonView {
@@ -142990,6 +142991,7 @@ public:
   [[nodiscard]] JsonView power_stone() const { return at("power_stone"); }
   [[nodiscard]] JsonView tuning_points_slot() const { return at("tuning_points_slot"); }
   [[nodiscard]] JsonView pet() const { return at("pet"); }
+  [[nodiscard]] JsonView mining_core_selected_slot() const { return at("mining_core_selected_slot"); }
 };
 
 class SkyblockProfileV2ResponseProfileMembersUuidLoadoutLoadouts22 : public JsonView {
