@@ -2527,6 +2527,7 @@ class PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerWater;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026SummerLava;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026Summer;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenWater;
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenLava;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026Halloween;
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026;
 class PlayerResponsePlayerStatsMainLobbyFishingStatsPermanentWater;
@@ -74885,11 +74886,22 @@ public:
   [[nodiscard]] JsonView treasure() const { return at("treasure"); }
 };
 
+class PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenLava : public JsonView {
+public:
+  using JsonView::JsonView;
+
+  [[nodiscard]] JsonView fish() const { return at("fish"); }
+  [[nodiscard]] JsonView orb() const { return at("orb"); }
+  [[nodiscard]] JsonView treasure() const { return at("treasure"); }
+  [[nodiscard]] JsonView junk() const { return at("junk"); }
+};
+
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026Halloween : public JsonView {
 public:
   using JsonView::JsonView;
 
   [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenWater water() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenWater>("water"); }
+  [[nodiscard]] PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenLava lava() const { return object_at<PlayerResponsePlayerStatsMainLobbyFishingStats2026HalloweenLava>("lava"); }
 };
 
 class PlayerResponsePlayerStatsMainLobbyFishingStats2026 : public JsonView {
