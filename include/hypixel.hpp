@@ -2391,6 +2391,7 @@ class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitMythicalFishmonger;
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1;
 class PlayerResponsePlayerStatsDuelsMwDuelLayoutAutomatonNew;
 class PlayerResponsePlayerStatsDuelsSwDuelLayoutWitch1;
+class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloFrog;
 class PlayerResponsePlayerStatsDuels;
 class PlayerResponsePlayerStatsBuildBattleLeaderboardSettings;
 class PlayerResponsePlayerStatsBuildBattleLastWon;
@@ -69806,6 +69807,12 @@ public:
 
 };
 
+class PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloFrog : public JsonView {
+public:
+  using JsonView::JsonView;
+
+};
+
 class PlayerResponsePlayerStatsDuels : public JsonView {
 public:
   using JsonView::JsonView;
@@ -70189,6 +70196,7 @@ public:
   [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1 sw_duel_layout_knight_1() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutKnight1>("sw_duel_layout_knight_1"); }
   [[nodiscard]] PlayerResponsePlayerStatsDuelsMwDuelLayoutAutomatonNew mw_duel_layout_automaton_new() const { return object_at<PlayerResponsePlayerStatsDuelsMwDuelLayoutAutomatonNew>("mw_duel_layout_automaton_new"); }
   [[nodiscard]] PlayerResponsePlayerStatsDuelsSwDuelLayoutWitch1 sw_duel_layout_witch_1() const { return object_at<PlayerResponsePlayerStatsDuelsSwDuelLayoutWitch1>("sw_duel_layout_witch_1"); }
+  [[nodiscard]] PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloFrog layout_sw_duel_kit_basic_solo_frog() const { return object_at<PlayerResponsePlayerStatsDuelsLayoutSwDuelKitBasicSoloFrog>("layout_sw_duel_kit_basic_solo_frog"); }
 
   [[nodiscard]] JsonView duels_recently_played() const { return at("duels_recently_played"); }
   [[nodiscard]] JsonView sw_duels_kit() const { return at("sw_duels_kit"); }
